@@ -15,6 +15,11 @@ digraph G {
 	n_service [fillcolor="white", label="Service"];
 	n_batch [fillcolor="white", label="Batch"];
 	n_application [fillcolor="white", label="Application"];
+	n_daemon -> n_running_software [weight=10, label="  is  "];
+	n_service -> n_running_software [weight=10, label="  is  "];
+	n_batch -> n_running_software [weight=10, label="  is  "];
+	n_application -> n_running_software [weight=10, label="  is  "];
+
 	n_person [fillcolor="white", label="Person"];
 
 	n_running_software [fillcolor="white", label="Running\nSoftware"];
@@ -25,20 +30,24 @@ digraph G {
 	n_internal_entity [fillcolor="white", label="Internal\nEntity"];
 
  	n_entity [label="Entity", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"];
+	n_entity -> n_identity [weight=10, label="  map  ", dir="back"];
+
+	n_identity [label="Identity", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_identity -> n_informational_object [weight=10, label="  is  "];
+	n_identity -> n_operation [weight=10, label="  link  "];
+	n_identity -> n_attribute [weight=10, label="  has  "];
+	n_entity -> n_attribute [weight=10, label="  identify  ", dir="back"];
+
+	n_attribute [label="Attribute", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82903275"];
+	n_attribute -> n_informational_object [weight=10, label="  is  "];
 
 	n_operation [fillcolor="white", label="Operation"];
-
-	n_test[label="test", URL="https://google.com"];
 
 	n_informational_object [label="Object", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67568133/Object+Dictionary+Entry"];
 	n_data [fillcolor="white", label="Data"];
 
 	n_information_system [fillcolor="white", label="Information\nSystem"];
 
-	n_daemon -> n_running_software [weight=10, label="  is  "];
-	n_service -> n_running_software [weight=10, label="  is  "];
-	n_batch -> n_running_software [weight=10, label="  is  "];
-	n_application -> n_running_software [weight=10, label="  is  "];
 	n_internal_entity -> n_informational_object [weight=10, label="  is  "];
 	n_person -> n_user [weight=10, label="  is", dir="back  "];
 	n_user -> n_external_entity [weight=10, label="  is  "];
