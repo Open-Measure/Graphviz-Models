@@ -1,0 +1,58 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Entity (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	n_daemon [fillcolor="white", label="Daemon"];
+	n_service [fillcolor="white", label="Service"];
+	n_batch [fillcolor="white", label="Batch"];
+	n_application [fillcolor="white", label="Application"];
+	n_person [fillcolor="white", label="Person"];
+
+	n_running_software [fillcolor="white", label="Running Software"];
+	n_physical_object [fillcolor="white", label="Physical Object"];
+	n_user [label="User", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82839586/User+Dictionary+Entry"];
+
+	n_external_entity [fillcolor="white", label="External Entity"];
+	n_internal_entity [fillcolor="white", label="Internal Entity"];
+
+ 	n_entity [label="Entity", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"];
+
+	n_operation [fillcolor="white", label="Operation"];
+
+	n_informational_object [label="Object", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67568133/Object+Dictionary+Entry"];
+	n_data [fillcolor="white", label="Data"];
+
+	n_information_system [fillcolor="white", label="Information System"];
+
+	n_daemon -> n_running_software [weight=10, label="  is  "];
+	n_service -> n_running_software [weight=10, label="  is  "];
+	n_batch -> n_running_software [weight=10, label="  is  "];
+	n_application -> n_running_software [weight=10, label="  is  "];
+	n_internal_entity -> n_informational_object [weight=10, label="  is  "];
+	n_person -> n_user [weight=10, label="  is", dir="back  "];
+	n_user -> n_external_entity [weight=10, label="  is  "];
+	n_running_software -> n_internal_entity [weight=10, label="  is  "];
+	n_physical_object -> n_external_entity [weight=10, label="  is  "];
+	n_internal_entity -> n_external_entity [weight=10, label="  is not  ", dir="both"];
+	n_internal_entity -> n_entity [weight=10, label="  is  "];
+	n_external_entity -> n_entity [weight=10, label="  is  "];
+	n_entity -> n_operation [weight=10, label="  initiate  "];
+	n_operation -> n_informational_object [weight=10, label="  on  "];
+	n_external_entity -> n_information_system [weight=10, label="  outside  "];
+	n_internal_entity -> n_information_system [weight=10, label="  inside  "];
+	n_informational_object -> n_data [weight=10, label="  hold  "];
+	n_informational_object -> n_information_system [weight=10, label="  inside  "];
+
+	{rank=same; n_internal_entity; n_external_entity;}
+	{rank=same; n_running_software; n_user; n_physical_object;}
+
+}

@@ -1,0 +1,151 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve"
+	/*sep="+40,40";*/
+	newrank=true;
+	/*
+	This crashes Graphviz in Atom:
+	pack=true;
+	Note that defining packmode will automatically turn on packing as though one had set pack=true.
+	*/
+	packmode="clust";
+	/*added while testing edges that link subgraphs instead of nodes*/
+	compound=true;
+	/*
+	This crashes Graphviz in Atom:
+	packmode="array_u";
+	compound = "true";
+	*/
+	fontname="Calibri";
+	node[shape="ellipse", fillcolor="white", fontname="Calibri"];
+	edge[fontname="Calibri"];
+
+		subgraph cluster_measurement_hidden{
+			sortv=1000;
+			label = "";
+			color = "transparent";
+
+			n_observer [label="Observer"]
+
+			n_measurement [label="Measurement"];
+			n_observer -> n_measurement [weight=100; label="perform"];
+
+			n_systematic [label="{<random> Random|<systematic> Systematic}", shape="record", color="dodgerblue3", fontcolor="dodgerblue3"];
+
+			n_error [label="Error"];
+			n_measurement -> n_error [weight=100; label="has"];
+
+			/*n_operation -> n_empirical [label="is"];*/
+			n_error -> n_systematic [weight=100; label="categorized", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+
+			n_observation [label="Observation"];
+			n_observer -> n_observation [weight=100; label="make"];
+			n_error -> n_observation [weight=100; label="vary"];
+
+			n_operation [label="Operation"];
+			n_measurement -> n_operation [weight=100; label="is an"];
+
+			n_rule [label="Rule"]
+			n_operation -> n_rule [weight=10; label="bound by"];
+
+			n_empirical [label="Empirical", shape="box", color="dodgerblue3", fontcolor="dodgerblue3"];
+			/*n_operation -> n_empirical [label="is"];*/
+			n_rule -> n_empirical [weight=50; label="must be", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+
+			n_objective [label="Objective", shape="box", color="dodgerblue3", fontcolor="dodgerblue3"];
+			/*n_operation -> n_objective [label="is"];*/
+			n_rule -> n_objective [weight=10; label="must be", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+
+			n_objective -> n_observer [weight=50; label="independent of", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+
+			n_isomorphic [label="Isomoprhic\nMapping\nFunction"];
+			n_homomorphic [label="Homomorphic\nMapping\nFunction"];
+
+
+		}
+
+		subgraph cluster_symbolic_representation{
+			sortv=2000;
+			label = "Symbolic Representation";
+
+			subgraph cluster_symbolic_system{
+				sortv=2000;
+				label = "Symbolic Relational System";
+
+
+			n_symbol_or_number [label="Symbol or Number"];
+
+			n_sym_rel [label="Relation, Math Operation"];
+			n_sym_rel_type [label="{<math_equality> =, ≠|<math_order> \>, \<|<math_interval> +, -|<math_ratio> ×, ÷}", shape="record", color="dodgerblue3", fontcolor="dodgerblue3"]
+			n_meaningful [label="Meaningful", shape="box", color="dodgerblue3", fontcolor="dodgerblue3"];
+			n_sym_rel -> n_sym_rel_type [weight=100; label="such as", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+		}
+			n_rule -> n_symbol_or_number [label="assign"];
+
+
+			n_scale [label="Scale"]
+			n_symbol_or_number -> n_scale [label="has"];
+
+			n_scale_type [label="{<scale_nominal> Nominal|<scale_ordinal> Ordinal|<scale_interval> Interval|<scale_ratio> Ratio|<scale_absolute> Absolute}", shape="record", color="dodgerblue3", fontcolor="dodgerblue3"]
+			n_scale -> n_scale_type [weight=100; label="typed", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+
+			n_scale_transformations [label="Scale\nTransformations"]
+			n_scale_type -> n_scale_transformations [label="admit", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+
+			n_statistics [label="Statistics"]
+			n_scale_type -> n_statistics [label="permit", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+
+		}
+
+	subgraph cluster_real_world{
+		sortv=4000;
+		label = "The Real World";
+
+		n_real_world [label="The Real World"];
+		n_object_or_event [label="Object or Event"];
+		n_real_world -> n_object_or_event [label="contains"];
+
+		n_property [label="Property"];
+		n_object_or_event -> n_property [label="has"];
+
+		subgraph cluster_empirical_system{
+			sortv=4000;
+			label = "Empirical Relational System";
+
+		n_manifestation [label="Manifestation"];
+		n_real_rel [label="Relation"];
+		n_real_rel_type [label="{<real_id> Identity|<real_order> Order|<real_interval> Equality of Intervals or Differences|<real_ratio> Equality of Ratios}", shape="record", color="dodgerblue3", fontcolor="dodgerblue3"]
+		n_real_rel -> n_real_rel_type [label="typed", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+
+		}
+	}
+
+	n_rule -> n_manifestation [weight=10, label="determine\nclassify"]
+	n_rule -> n_isomorphic [weight=10, arrowhead="none"]
+	n_rule -> n_homomorphic [weight=10, arrowhead="none"]
+	n_property -> n_manifestation [weight=10, label="has"];
+	n_object_or_event -> n_real_rel [weight=10, label="has"];
+	n_empirical -> n_real_world [weight=10, label="based on", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"]
+	n_homomorphic -> n_manifestation [weight=10, label="", dir="none"];
+	n_isomorphic -> n_real_rel  [weight=10, label=""];
+	n_observation -> n_manifestation [weight=10, label="is a\nperception\nof"]
+	n_sym_rel -> n_isomorphic [weight=10, dir="back"];
+	n_symbol_or_number -> n_homomorphic [weight=10, dir="back"];
+	n_symbol_or_number -> n_meaningful [weight=10, label="is", arrowhead="vee", color="dodgerblue3", fontcolor="dodgerblue3"];
+	n_manifestation -> n_symbol_or_number [weight=10, label="represent\ndescribe", dir="back"];
+	n_sym_rel -> n_scale [weight=10, label="is consistent with"]
+
+	/*There is a bug:*/
+  /*n_real_rel_type:real_id -> n_sym_rel_type:math_equality [label="test"];*/
+
+
+	{ rank=same; n_objective; n_observer }
+	{ rank=same; n_error; n_observation /*; n_systematic*/ }
+	{ rank=same; n_rule; n_empirical; n_real_world }
+	/*{ rank=same; n_manifestation; n_real_rel }*/
+	{ rank=same; n_symbol_or_number; /*n_homomorphic;*/ n_manifestation }
+	{ rank=same; n_real_rel; /*n_isomorphic;*/ n_sym_rel }
+  { rank=same; n_sym_rel_type; n_real_rel_type; n_scale_type }
+
+}
