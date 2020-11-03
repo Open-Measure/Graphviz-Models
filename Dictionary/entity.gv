@@ -28,6 +28,8 @@ digraph G {
 
 	n_operation [fillcolor="white", label="Operation"];
 
+	n_test[label="test", URL="https://google.com"];
+
 	n_informational_object [label="Object", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67568133/Object+Dictionary+Entry"];
 	n_data [fillcolor="white", label="Data"];
 
