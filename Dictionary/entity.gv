@@ -19,7 +19,7 @@ digraph G {
 
 	n_running_software [fillcolor="white", label="Running Software"];
 	n_physical_object [fillcolor="white", label="Physical Object"];
-	n_user [label="User", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82839586/User+Dictionary+Entry"];
+	n_user [label="User", URL="/wiki/spaces/DIC/pages/82839586/User+Dictionary+Entry"];
 
 	n_external_entity [fillcolor="white", label="External Entity"];
 	n_internal_entity [fillcolor="white", label="Internal Entity"];
