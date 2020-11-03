@@ -59,7 +59,6 @@ digraph G {
 	n_entity -> n_operation [weight=10, label="  initiate  "];
 	n_operation -> n_informational_object [weight=10, label="  on  "];
 	n_external_entity -> n_information_system [weight=10, label="  outside  "];
-	n_internal_entity -> n_information_system [weight=10, label="  inside  "];
 	n_informational_object -> n_data [weight=10, label="  hold  "];
 	n_informational_object -> n_information_system [weight=10, label="  inside  "];
 
