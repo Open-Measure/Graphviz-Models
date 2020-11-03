@@ -17,12 +17,12 @@ digraph G {
 	n_application [fillcolor="white", label="Application"];
 	n_person [fillcolor="white", label="Person"];
 
-	n_running_software [fillcolor="white", label="Running Software"];
-	n_physical_object [fillcolor="white", label="Physical Object"];
+	n_running_software [fillcolor="white", label="Running\nSoftware"];
+	n_physical_object [fillcolor="white", label="Physical\nObject"];
 	n_user [label="User", URL="/wiki/spaces/DIC/pages/82839586/User+Dictionary+Entry"];
 
-	n_external_entity [fillcolor="white", label="External Entity"];
-	n_internal_entity [fillcolor="white", label="Internal Entity"];
+	n_external_entity [fillcolor="white", label="External\nEntity"];
+	n_internal_entity [fillcolor="white", label="Internal\nEntity"];
 
  	n_entity [label="Entity", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"];
 
@@ -31,7 +31,7 @@ digraph G {
 	n_informational_object [label="Object", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67568133/Object+Dictionary+Entry"];
 	n_data [fillcolor="white", label="Data"];
 
-	n_information_system [fillcolor="white", label="Information System"];
+	n_information_system [fillcolor="white", label="Information\nSystem"];
 
 	n_daemon -> n_running_software [weight=10, label="  is  "];
 	n_service -> n_running_software [weight=10, label="  is  "];
