@@ -1,0 +1,89 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Claimant (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	n_claimant [label="Claimant", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/848363630"];
+	n_claimant -> n_entity [weight=10, label="  claim  "];
+	n_claimant -> n_claimed_identity [weight=10, label="  assert  "];
+	n_claimant -> n_authenticator [weight=10, label="  posess  \n  & use  "];
+
+	n_entity [label="Entity", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"];
+	n_entity -> n_identity [weight=10, label="  map  ", dir="back"];
+
+	n_claimed_identity [label="Claimed Identity", fillcolor="white"];
+	n_claimed_identity -> n_authenticator [weight=10, label="  has  "];
+	#n_claimed_identity -> n_verifier [weight=10, label="  verify  ", dir="back"];
+
+	n_identity [label="Identity", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_identity -> n_credential [weight=10, label="  has  "];
+
+	n_authenticator_output -> n_verifier [weight=10, label="  verify  ", dir="back"];
+
+	n_authenticator [label="Authenticator", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/848724060"];
+	n_authenticator -> n_claimed_identity_attributes [weight=10, label="  is  "];
+	n_authenticator -> n_authenticator_output [weight=10, label="  produce  "];
+	n_authenticator -> n_authenticator_secret [weight=10, label="  hold  "];
+
+	n_authenticator_output [label="Output", fillcolor="white"];
+
+	n_authenticator_secret [label="Secret", fillcolor="white"];
+
+	n_claimed_identity_attributes [label="Attributes", fillcolor="white"];
+	n_claimed_identity_attributes -> n_unverified [weight=10, label="  is  "];
+	n_claimed_identity_attributes -> n_unvalidated [weight=10, label="  is  "];
+
+	n_credential [label="Credential", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67633343"];
+	n_credential -> n_identity_attributes [weight=10, label="  is  "];
+
+	n_identity_attributes [label="Attribute", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82903275"];
+	n_identity_attributes -> n_verified [weight=2, label="  is  "];
+	n_identity_attributes -> n_validated [weight=2, label="  is  "];
+
+	n_unvalidated [label="Unvalidated", fillcolor="white"];
+
+	n_validated [label="Validated", fillcolor="white"];
+
+	n_unverified [label="Unverified", fillcolor="white"];
+
+	n_verified [label="Verified", fillcolor="white"];
+
+	n_credential -> n_verifier [weight=2, label="  validate  ", dir="back"];
+	n_verifier [label="Verifier", fillcolor="white"];
+	n_verifier -> n_authentication_process  [weight=10, label="  execute  "];
+
+	n_authentication_process [label="Authentication Process", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/61177884"];
+	n_authentication_process -> n_confidence  [weight=10, label="  establish  "];
+
+	n_confidence [label="Confidence", fillcolor="white"];
+
+	# DOTTED LINES
+	n_claimed_identity -> n_identity [weight=10, label="" style="dotted" dir="none"];
+	n_authenticator -> n_credential [weight=10, label="" style="dotted" dir="none"];
+	n_claimed_identity_attributes -> n_identity_attributes [weight=10, label="" style="dotted" dir="none"];
+	n_unvalidated -> n_validated [weight=10, label="" style="dotted" dir="none"];
+	n_unverified -> n_verified [weight=10, label="" style="dotted" dir="none"];
+
+	# INVISIBLE LINES
+	n_validated -> n_verified [weight=10, label="" style="invis" dir="none"];
+	n_unvalidated -> n_unverified [weight=10, label="" style="invis" dir="none"];
+	n_unverified -> n_verifier [weight=10, label="" style="invis" dir="none"];
+
+
+	{rank=same; n_entity; n_claimant;}
+	{rank=same; n_identity; n_claimed_identity;}
+	{rank=same; n_credential; n_authenticator; }
+	{rank=same; n_identity_attributes; n_claimed_identity_attributes;}
+	{rank=same; n_verified; n_unverified;}
+	{rank=same; n_validated; n_unvalidated;}
+	{rank=same; n_authenticator_output; n_verifier;}
+
+}
