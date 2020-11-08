@@ -61,8 +61,8 @@ digraph G {
 	n_provisioning -> n_access [weight=10, label="  of  "];
 
 	n_identity [label="Identity", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
-	n_identity -> n_entity [weight=10, label="  of  "];
-	n_identity -> n_access  [weight=10, label="  of  "];
+	n_identity -> n_entity [weight=10, label="  map  "];
+	n_identity -> n_access  [weight=10, label="  has  "];
 
 	n_access [label="Access", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123962347"];
 	n_access -> n_entity [weight=10, label="  of  "];
