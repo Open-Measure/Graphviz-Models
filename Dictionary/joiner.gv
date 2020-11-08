@@ -1,0 +1,80 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Joiner (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	n_nonworker [label="Nonworker", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/858554692"];
+	n_nonworker -> n_joiner [weight=10, label="  become  "];
+	n_nonworker -> n_person [weight=10, label="  is  "];
+
+	n_worker [label="Worker", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/855638141"];
+	n_worker -> n_workforce [weight=10, label="  of  "];
+	n_worker -> n_person [weight=10, label="  is  "];
+
+	n_hiring [label="Hiring", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/858456203"];
+	n_hiring -> n_joiner [weight=10, label="  trigger  "];
+	n_hiring -> n_start [weight=10, label="  precede  "];
+
+	n_start [label="Start Time", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/852492338"];
+	n_start -> n_worker [weight=10, label="  trigger  "];
+
+	n_organization [label="Organization", fillcolor="white"];
+
+	n_onboarder [label="Onboarder", fillcolor="white"];
+	n_onboarder -> n_onboarding [weight=10, label="  manage  "];
+	n_onboarder -> n_iam_function [weight=10, label="  notify  "];
+
+	n_onboarding [label="Onboarding", fillcolor="white"];
+	n_onboarding -> n_worker [weight=10, label="  of  "];
+	n_onboarding -> n_workforce [weight=10, label="  in  "];
+	n_onboarding -> n_hiring [weight=10, label="  start at  "];
+	n_onboarding -> n_start [weight=10, label="  end at  "];
+
+	n_workforce [label="Workforce", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/852492409"];
+	n_workforce -> n_organization [weight=10, label="  of  "];
+
+	n_attribute [label="Attribute", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/409174161"];
+	n_attribute -> n_identity [weight=10, label="  has  ", dir="back"];
+
+	n_proofing [label="Identity\nProofing", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/858522094"];
+	n_proofing -> n_provisioning [weight=10, label="  trigger  "];
+	n_proofing -> n_attribute [weight=10, label="  collect  \n  validate  \n  verify  "];
+
+	n_joiner [label="Joiner", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/855506953"];
+	n_joiner -> n_person [weight=10, label="  is  "];
+	n_joiner -> n_worker [weight=10, label="  become  "];
+
+	n_iam_function [label="IAM\nFunction", URL=""];
+	n_iam_function -> n_proofing [weight=10, label="  execute  "];
+	n_iam_function -> n_provisioning [weight=10, label="  execute  "];
+
+	n_provisioning [label="Provisioning", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/61964289"];
+	n_provisioning -> n_identity [weight=10, label="  of  "];
+	n_provisioning -> n_access [weight=10, label="  of  "];
+
+	n_identity [label="Identity", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_identity -> n_entity [weight=10, label="  of  "];
+	n_identity -> n_access  [weight=10, label="  of  "];
+
+	n_access [label="Access", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123962347"];
+	n_access -> n_entity [weight=10, label="  of  "];
+
+	n_person [label="Person", fillcolor="white"];
+	n_person -> n_entity [weight=10, label="  is  "];
+
+	n_entity [label="Entity", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"];
+
+	{rank=same; n_onboarder; n_onboarding;}
+	{rank=same; n_joiner; n_worker; n_nonworker}
+	{rank=same; n_proofing; n_provisioning;}
+	{rank=same; n_attribute; n_identity; n_access; n_entity}
+	{rank=same; n_hiring; n_start;}
+}
