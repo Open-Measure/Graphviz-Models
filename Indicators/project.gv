@@ -17,7 +17,7 @@ digraph G {
 	n_raw_data [label="Indicator\nInformation", shape="cylinder", fillcolor="#ffffff"];
 	n_raw_data -> n_open_measure [weight=10, label="  to  "];
 
-	n_raw_note [label="Raw data\nin any format\n(XLSX, PPTX, PDF, ...)", shape="note", fillcolor="#ffffcc"];
+	n_raw_note [label="Raw data,\nidentifiable,\nin any format\n(XLSX, PPTX, PDF, ...)", shape="note", fillcolor="#ffffcc"];
 
 	n_open_measure [label="The\nOpen-Measure\nProject"];
 	n_open_measure -> n_wiki [weight=10, label="  consolidate into  "];
@@ -25,7 +25,7 @@ digraph G {
 	n_wiki [label="Wiki", shape="cylinder", fillcolor="#ffffff"];
 	n_wiki -> n_community [weight=10, label="  benefit  "];
 
-	n_wiki_note [label="Structured information\nshared and\nnicely organized", shape="note", fillcolor="#ffffcc"];
+	n_wiki_note [label="Structured information,\nanonymous,\nshared and\nnicely organized", shape="note", fillcolor="#ffffcc"];
 
 	n_community [label="IAM Community"];
 
