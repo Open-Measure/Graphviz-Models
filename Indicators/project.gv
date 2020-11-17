@@ -1,0 +1,44 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="The IAM Performance Indicators Standardization Project by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	n_iam_pro [label="IAM\nProfessionals"];
+	n_iam_pro -> n_raw_data [weight=10, label="  forward  "];
+
+	n_raw_data [label="Indicator\nInformation", shape="cylinder", fillcolor="#ffffff"];
+	n_raw_data -> n_open_measure [weight=10, label="  to  "];
+
+	n_raw_note [label="Raw data\nin any format\n(XLSX, PPTX, PDF, ...)", shape="note", fillcolor="#ffffcc"];
+
+	n_open_measure [label="The\nOpen-Measure\nProject"];
+	n_open_measure -> n_wiki [weight=10, label="  consolidate into  "];
+
+	n_wiki [label="Wiki", shape="cylinder", fillcolor="#ffffff"];
+	n_wiki -> n_community [weight=10, label="  benefit  "];
+
+	n_wiki_note [label="Structured information\nshared and\nnicely organized", shape="note", fillcolor="#ffffcc"];
+
+	n_community [label="IAM Community"];
+
+
+	# DOTTED LINES
+	n_raw_data -> n_raw_note [weight=10, label="" style="dotted" dir="none"];
+	n_wiki -> n_wiki_note [weight=10, label="" style="dotted" dir="none"];
+
+	# INVISIBLE LINES
+	# n_validated -> n_verified [weight=10, label="" style="invis" dir="none"];
+
+  # RANKS
+	{rank=same; n_raw_data; n_raw_note;}
+	{rank=same; n_wiki; n_wiki_note;}
+
+}
