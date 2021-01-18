@@ -1,0 +1,47 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Segregation of Duties (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_internal_control [label="Internal Control", fillcolor="#ffffff"];
+	n_internal_control -> n_sod [weight=10, label="  fundamental  \n  component  \n  of  ", dir="back"];
+	n_control_policy [label="Control Policy", fillcolor="#ffffff"];
+	n_control_policy -> n_sod [weight=10, label="  class  \n  of  ", dir="back"];
+
+	# Concept
+	n_sod [label="Segregation of Duties", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"];
+
+	# Key Characteristics
+	n_perpetration_concealment [label="{<perpetration>Perpetration|<concealment>Concealment}", shape="record", color="black", fontcolor="black"];
+	n_perpetration_concealment -> n_fraud_error [label="  of  "];
+	n_asset_risks [label="{<misappropriation> Misapproriation|<destruction> Destruction|<waste> Waste}", shape="record", color="black", fontcolor="black"];
+	n_asset_risks -> n_assets [label="  of  "];
+	n_assets [label="Organizational Assets"];
+	n_perpetration_concealment -> n_commission_ommission [label="  by  "];
+	n_commission_ommission [label="{<commission> Commission|<ommission> Ommission}", shape="record", color="black", fontcolor="black"];
+	n_fraud_error -> n_asset_risks [label="  leading to  "];
+	n_fraud_error [label="{<fraud> Fraud|<error> Error}", shape="record", color="black", fontcolor="black"];
+	n_sod -> n_two_or_more [label="  prescribe  "];
+	n_activity [label="Activity"];
+	n_activity -> n_single [label="  performed \n  by  "];
+	n_activity -> n_two_or_more [label="  performed  \n  by  "];
+
+	n_single -> n_perpetration_concealment [label="  may  \n  cause  "];
+	n_two_or_more -> n_perpetration_concealment [label="  may  \n  not  \n  cause  "];
+	n_single [label="Single Agent"];
+	n_two_or_more [label="Two or More Agents"];
+	n_sod -> n_perpetration_concealment [label="  prevent  \n  or  \n  detect  "];
+	# Levels
+			{ rank=same; n_two_or_more; n_single }
+				# { rank=same; n_fraud_error; n_asset_risks }
+
+}

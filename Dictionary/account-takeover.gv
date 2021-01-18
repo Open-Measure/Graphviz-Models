@@ -1,0 +1,43 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Account Takeover (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_identity_theft [label="Identity Theft", fillcolor="#ffffff"];
+	n_identity_theft -> n_account_takeover [weight=10, label="  type  \n  of  "];
+
+	# Concept
+	n_account_takeover [label="Account Takeover", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"];
+
+	# Key Characteristics
+	n_account_takeover -> n_perpetrator [label="  committed  \n  by  "];
+	n_perpetrator [label="Perpetrator", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_perpetrator -> n_control [label="  take  "];
+	n_control [label="Control"];
+	n_control -> n_identity [label="  of  "];
+	n_identity [label="Identity", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_victim [label="Victim", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"];
+	n_perpetrator -> n_victim [label="  distinct  ", dir="both"];
+	n_victim -> n_control [label="  loose  "];
+	n_victim -> n_identity [label="  owns  "];
+	n_perpetrator -> n_motivations [label="  motivated  \n  by  "];
+	n_motivations [label="{<money> Money|<reputation_harm> Reputation Harm|<identity_deception> Identity Deception|<etc> ...}", shape="record", color="black", fontcolor="black"];
+
+	# Children Concepts
+	n_account_takeover -> n_characteristics [weight=10, label=" is  \n  generally "];
+	n_characteristics [label="Illegal"];
+
+	# Levels
+	{ rank=same; n_perpetrator; n_victim }
+		{ rank=same; n_control; n_identity }
+
+}
