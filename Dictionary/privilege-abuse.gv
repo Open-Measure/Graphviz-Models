@@ -1,0 +1,43 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Privilege Abuse (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_threat [label="Threat", fillcolor="#ffffff"];
+	n_threat -> n_insider_threat [weight=10, label="  of class  ", dir="back"];
+	n_insider_threat [label="Insider Threat", fillcolor="#ffffff"];
+	n_insider_threat -> n_privilege_abuse [weight=10, label="  of class  ", dir="back"];
+
+	# Main Concept
+	n_privilege_abuse [label="Privilege Abuse", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"];
+
+	# Key Characteristics
+	n_abusive_usage -> n_motivations [label="  motivated  \n  by  "];
+	n_motivations [label="{Fun and Curiosity|Financial Gain|etc...}", shape="record", color="black", fontcolor="black"];
+	n_privilege_abuse -> n_abusive_usage [label="  consisting  \n  in  "];
+	n_abusive_usage [label="Abusive\nUsage"];
+	n_abusive_usage -> n_effective_access_permissions [label="  of  "];
+	n_effective_access_permissions [label="Effective\nAccess\nPermissions"];
+	n_abusive_usage -> n_intentional [label="  is  "];
+	n_intentional [label="Intentional"];
+	n_effective_access_permissions -> n_identity_class [label="  of  "];
+	n_identity_class [label="{Workforce Identity|Federated Identity|Customer Identity|Privileged Identity}", shape="record", color="black", fontcolor="black"];
+	n_privilege_abuse -> n_subclasses [label="  has  \n  subclasses  "];
+	n_subclasses [label="{Excessive Privilege Abuse|Legitimate Privilege Abuse}", shape="record", color="black", fontcolor="black"];
+	n_abusive_usage -> n_countermeasures [label="  may be  \n  countered  by  "];
+	n_countermeasures [label="{Vetting|Least Privilege|Audit Logs|Session Recording|Awareness Training|Honeypots|Deterrent Discipline|User Behavior Analytics (UBA)|etc. }", shape="record", color="black", fontcolor="black"];
+
+	# Levels
+	{ rank=same; n_countermeasures; n_identity_class }
+	{ rank=same; n_insider_threat; n_threat; n_privilege_abuse }
+
+}
