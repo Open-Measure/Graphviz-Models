@@ -1,0 +1,158 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="525pt" height="550pt" viewBox="0 0 525 550" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 546.2939)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-546.2939 521.1038,-546.2939 521.1038,4 -4,4"></polygon>
+<text text-anchor="middle" x="258.5519" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Authorization Externalization (Conceptual Diagram) by Open-Measure</text>
+<text text-anchor="middle" x="258.5519" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<!-- n_architectural_design -->
+<g id="node1" class="node">
+<title>n_architectural_design</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="178.548" cy="-524.2939" rx="74.0494" ry="18"></ellipse>
+<text text-anchor="middle" x="178.548" y="-520.6939" font-family="Calibri" font-size="12.00" fill="#000000">Architectural Design</text>
+</g>
+<!-- n_authorization_externalization -->
+<g id="node2" class="node">
+<title>n_authorization_externalization</title>
+<g id="a_node2"><a xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286" xlink:title="Authorization\nExternalization">
+<ellipse fill="#5599ff" stroke="#000000" cx="250.548" cy="-437.29" rx="89.1347" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="250.548" y="-442.69" font-family="Calibri" font-size="18.00" fill="#000000">Authorization</text>
+<text text-anchor="middle" x="250.548" y="-421.09" font-family="Calibri" font-size="18.00" fill="#000000">Externalization</text>
+</a>
+</g>
+</g>
+<!-- n_architectural_design&#45;&gt;n_authorization_externalization -->
+<g id="edge1" class="edge">
+<title>n_architectural_design-&gt;n_authorization_externalization</title>
+<path fill="none" stroke="#000000" d="M200.0239,-498.3426C206.9129,-490.018 214.6545,-480.6632 221.9688,-471.8246"></path>
+<polygon fill="#000000" stroke="#000000" points="197.1455,-496.331 193.4664,-506.2666 202.5384,-500.7939 197.1455,-496.331"></polygon>
+<text text-anchor="middle" x="229.0729" y="-485.6939" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_outside_implementation -->
+<g id="node4" class="node">
+<title>n_outside_implementation</title>
+<ellipse fill="#aaffaa" stroke="#000000" cx="247.548" cy="-325.4646" rx="64.6381" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="247.548" y="-329.0646" font-family="Calibri" font-size="12.00" fill="#000000"> &nbsp;Implemented &nbsp;</text>
+<text text-anchor="middle" x="247.548" y="-314.6646" font-family="Calibri" font-size="12.00" fill="#000000"> &nbsp;Outside &nbsp;</text>
+</g>
+<!-- n_authorization_externalization&#45;&gt;n_outside_implementation -->
+<g id="edge5" class="edge">
+<title>n_authorization_externalization-&gt;n_outside_implementation</title>
+<path fill="none" stroke="#000000" d="M249.5739,-400.9835C249.2371,-388.428 248.8598,-374.3622 248.5229,-361.8041"></path>
+<polygon fill="#000000" stroke="#000000" points="252.0182,-361.5786 248.2511,-351.6761 245.0207,-361.7664 252.0182,-361.5786"></polygon>
+<text text-anchor="middle" x="275.9905" y="-380.4861" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;consist &nbsp;</text>
+<text text-anchor="middle" x="275.9905" y="-363.6861" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;in &nbsp;</text>
+</g>
+<!-- n_xacml -->
+<g id="node10" class="node">
+<title>n_xacml</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="471.548" cy="-437.29" rx="45.6118" ry="18"></ellipse>
+<text text-anchor="middle" x="471.548" y="-433.69" font-family="Calibri" font-size="12.00" fill="#000000"> &nbsp;XACML &nbsp;</text>
+</g>
+<!-- n_authorization_externalization&#45;&gt;n_xacml -->
+<g id="edge10" class="edge">
+<title>n_authorization_externalization-&gt;n_xacml</title>
+<path fill="none" stroke="#000000" d="M339.8001,-437.29C365.4599,-437.29 392.7082,-437.29 415.7251,-437.29"></path>
+<polygon fill="#000000" stroke="#000000" points="415.9817,-440.7901 425.9817,-437.29 415.9817,-433.7901 415.9817,-440.7901"></polygon>
+<text text-anchor="middle" x="382.8037" y="-461.29" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;supported &nbsp;</text>
+<text text-anchor="middle" x="382.8037" y="-444.49" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;by &nbsp;</text>
+</g>
+<!-- n_best_practice -->
+<g id="node3" class="node">
+<title>n_best_practice</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="321.548" cy="-524.2939" rx="50.3809" ry="18"></ellipse>
+<text text-anchor="middle" x="321.548" y="-520.6939" font-family="Calibri" font-size="12.00" fill="#000000">Best Practice</text>
+</g>
+<!-- n_best_practice&#45;&gt;n_authorization_externalization -->
+<g id="edge2" class="edge">
+<title>n_best_practice-&gt;n_authorization_externalization</title>
+<path fill="none" stroke="#000000" d="M300.6483,-498.6833C293.7727,-490.2579 286.0122,-480.7481 278.6887,-471.7738"></path>
+<polygon fill="#000000" stroke="#000000" points="298.1458,-501.1525 307.18,-506.6873 303.5692,-496.7268 298.1458,-501.1525"></polygon>
+<text text-anchor="middle" x="316.0729" y="-485.6939" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_application -->
+<g id="node8" class="node">
+<title>n_application</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="384.548" cy="-189.3431" rx="54.1391" ry="18"></ellipse>
+<text text-anchor="middle" x="384.548" y="-185.7431" font-family="Calibri" font-size="12.00" fill="#000000"> &nbsp;Application &nbsp;</text>
+</g>
+<!-- n_outside_implementation&#45;&gt;n_application -->
+<g id="edge7" class="edge">
+<title>n_outside_implementation-&gt;n_application</title>
+<path fill="none" stroke="#000000" d="M279.4028,-302.5507C292.9549,-292.2043 308.5884,-279.4454 321.548,-266.6431 337.6555,-250.731 353.7474,-230.9028 365.6359,-215.3125"></path>
+<polygon fill="#000000" stroke="#000000" points="368.5692,-217.2351 371.7815,-207.139 362.9743,-213.0283 368.5692,-217.2351"></polygon>
+<text text-anchor="middle" x="325.3783" y="-278.8431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of &nbsp;</text>
+</g>
+<!-- n_key_drivers -->
+<g id="node5" class="node">
+<title>n_key_drivers</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="55.548" cy="-437.29" rx="55.596" ry="18"></ellipse>
+<text text-anchor="middle" x="55.548" y="-433.69" font-family="Calibri" font-size="12.00" fill="#000000"> &nbsp;Key Drivers &nbsp;</text>
+</g>
+<!-- n_key_drivers&#45;&gt;n_authorization_externalization -->
+<g id="edge4" class="edge">
+<title>n_key_drivers-&gt;n_authorization_externalization</title>
+<path fill="none" stroke="#000000" d="M121.2854,-437.29C134.1493,-437.29 147.8414,-437.29 161.3211,-437.29"></path>
+<polygon fill="#000000" stroke="#000000" points="121.1661,-433.7899 111.1662,-437.29 121.1662,-440.7899 121.1661,-433.7899"></polygon>
+<text text-anchor="middle" x="136.2883" y="-444.49" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;has &nbsp;</text>
+</g>
+<!-- n_motivations -->
+<g id="node6" class="node">
+<title>n_motivations</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="8.401,-112.5431 8.401,-266.1431 156.695,-266.1431 156.695,-112.5431 8.401,-112.5431"></polygon>
+<text text-anchor="middle" x="82.548" y="-251.3431" font-family="Calibri" font-size="12.00" fill="#000000">Reduced</text>
+<text text-anchor="middle" x="82.548" y="-236.9431" font-family="Calibri" font-size="12.00" fill="#000000">Software Development</text>
+<text text-anchor="middle" x="82.548" y="-222.5431" font-family="Calibri" font-size="12.00" fill="#000000">Cost and Complexity</text>
+<polyline fill="none" stroke="#000000" points="8.401,-214.9431 156.695,-214.9431 "></polyline>
+<text text-anchor="middle" x="82.548" y="-200.1431" font-family="Calibri" font-size="12.00" fill="#000000">Reduced</text>
+<text text-anchor="middle" x="82.548" y="-185.7431" font-family="Calibri" font-size="12.00" fill="#000000">Software Maintenance</text>
+<text text-anchor="middle" x="82.548" y="-171.3431" font-family="Calibri" font-size="12.00" fill="#000000">Cost and Complexity</text>
+<polyline fill="none" stroke="#000000" points="8.401,-163.7431 156.695,-163.7431 "></polyline>
+<text text-anchor="middle" x="82.548" y="-148.9431" font-family="Calibri" font-size="12.00" fill="#000000">Scalability of</text>
+<text text-anchor="middle" x="82.548" y="-134.5431" font-family="Calibri" font-size="12.00" fill="#000000">Authorization Management</text>
+<text text-anchor="middle" x="82.548" y="-120.1431" font-family="Calibri" font-size="12.00" fill="#000000">over n Systems</text>
+</g>
+<!-- n_key_drivers&#45;&gt;n_motivations -->
+<g id="edge3" class="edge">
+<title>n_key_drivers-&gt;n_motivations</title>
+<path fill="none" stroke="#000000" d="M57.5333,-419.0579C60.7815,-389.229 67.4338,-328.1394 73.0621,-276.4536"></path>
+<polygon fill="#000000" stroke="#000000" points="76.5696,-276.574 74.1728,-266.2538 69.6108,-275.8161 76.5696,-276.574"></polygon>
+<text text-anchor="middle" x="83.3783" y="-321.2646" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of &nbsp;</text>
+</g>
+<!-- n_motivations&#45;&gt;n_outside_implementation -->
+<!-- n_authorization_system -->
+<g id="node7" class="node">
+<title>n_authorization_system</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="245.548" cy="-189.3431" rx="66.856" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="245.548" y="-192.9431" font-family="Calibri" font-size="12.00" fill="#000000"> &nbsp;Authorization &nbsp;</text>
+<text text-anchor="middle" x="245.548" y="-178.5431" font-family="Calibri" font-size="12.00" fill="#000000"> &nbsp;System &nbsp;</text>
+</g>
+<!-- n_authorization_system&#45;&gt;n_outside_implementation -->
+<g id="edge6" class="edge">
+<title>n_authorization_system-&gt;n_outside_implementation</title>
+<path fill="none" stroke="#000000" d="M245.9324,-215.5081C246.2392,-236.3887 246.6725,-265.8797 247.0131,-289.0641"></path>
+<polygon fill="#000000" stroke="#000000" points="243.5157,-289.2715 247.1623,-299.219 250.515,-289.1686 243.5157,-289.2715"></polygon>
+<text text-anchor="middle" x="259.2156" y="-278.8431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+<!-- n_inside_implementation -->
+<g id="node9" class="node">
+<title>n_inside_implementation</title>
+<ellipse fill="#ffaaaa" stroke="#000000" cx="314.548" cy="-53.2215" rx="64.6381" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="314.548" y="-56.8215" font-family="Calibri" font-size="12.00" fill="#000000"> &nbsp;Implemented &nbsp;</text>
+<text text-anchor="middle" x="314.548" y="-42.4215" font-family="Calibri" font-size="12.00" fill="#000000"> &nbsp;Inside &nbsp;</text>
+</g>
+<!-- n_authorization_system&#45;&gt;n_inside_implementation -->
+<g id="edge8" class="edge">
+<title>n_authorization_system-&gt;n_inside_implementation</title>
+<path fill="none" stroke="#000000" d="M258.5263,-163.7396C269.3479,-142.3912 284.8731,-111.7635 296.8366,-88.1621"></path>
+<polygon fill="#000000" stroke="#000000" points="299.9937,-89.675 301.3932,-79.173 293.75,-86.51 299.9937,-89.675"></polygon>
+<text text-anchor="middle" x="318.9109" y="-91.4431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is not &nbsp;</text>
+</g>
+<!-- n_inside_implementation&#45;&gt;n_application -->
+<g id="edge9" class="edge">
+<title>n_inside_implementation-&gt;n_application</title>
+<path fill="none" stroke="#000000" d="M337.8791,-77.7136C340.293,-80.8041 342.5786,-84.0167 344.548,-87.2431 358.868,-110.7033 369.7583,-140.1756 376.5328,-161.4171"></path>
+<polygon fill="#000000" stroke="#000000" points="373.2337,-162.5963 379.5248,-171.1211 379.923,-160.5338 373.2337,-162.5963"></polygon>
+<text text-anchor="middle" x="365.3783" y="-91.4431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of &nbsp;</text>
+</g>
+</g>
+</svg>

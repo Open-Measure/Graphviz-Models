@@ -1,0 +1,45 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Authorization Externalization (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_architectural_design [label="Architectural Design", fillcolor="#ffffff"];
+	n_architectural_design -> n_authorization_externalization [weight=10, label="  is a  ", dir="back"];
+	n_best_practice [label="Best Practice", fillcolor="#ffffff"];
+	n_best_practice -> n_authorization_externalization [weight=10, label="  is a  ", dir="back"];
+
+	# Concept
+	n_authorization_externalization [label="Authorization\nExternalization", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"];
+
+	# Key Characteristics and Children Concepts
+	n_outside_implementation [label="  Implemented  \n  Outside  ", fillcolor="#aaffaa"];
+	n_key_drivers [label="  Key Drivers  "];
+	n_key_drivers -> n_motivations [label="  of  "];
+	n_motivations [label="{<n_driver_1> Reduced\nSoftware Development\nCost and Complexity|<n_driver_2> Reduced\nSoftware Maintenance\nCost and Complexity|<n_driver_3> Scalability of\nAuthorization Management\nover n Systems}", shape="record", color="black", fontcolor="black"];
+	n_key_drivers -> n_authorization_externalization [label="  has  ", dir="back"];
+	n_authorization_externalization -> n_outside_implementation [label="  consist  \n  in  "]
+	n_authorization_system -> n_outside_implementation [label="  is  "];
+	n_outside_implementation -> n_application [label="  of  "];
+	n_application [label="  Application  "];
+	n_authorization_system [label="  Authorization  \n  System  "];
+	n_authorization_system -> n_inside_implementation [label="  is not  "];
+	n_inside_implementation -> n_application [label="  of  "];
+	n_inside_implementation [label="  Implemented  \n  Inside  ", fillcolor="#ffaaaa"];
+	n_xacml [label="  XACML  "];
+	n_authorization_externalization -> n_xacml [label="  supported  \n  by  "];
+	n_motivations -> n_outside_implementation [style="invis"]
+	# Levels
+	{ rank=same; n_authorization_externalization; n_xacml; n_key_drivers };
+	{ rank=same; n_motivations; n_authorization_system; n_application };
+	{ rank=same; n_motivations; n_authorization_system; n_application };
+	# { rank=same; n_motivations; n_authorization_system };
+}
