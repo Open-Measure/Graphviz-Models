@@ -1,0 +1,33 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Role Explosion (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Superordinate Concepts
+	n_phenomenon [label="Phonemenon", fillcolor="#ffffff"];
+	n_phenomenon -> n_role_explosion [weight=10, label="  is a  ", dir="back"];
+	n_rbac [label="Role-Based\nAccess Control", fillcolor="#ffffff"];
+	n_rbac -> n_role_explosion [weight=10, label="  related to  ", dir="back"];
+
+	# Concept
+	n_role_explosion [label="Role Explosion", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/848363630"];
+
+	# Child Concepts
+	n_role_explosion -> n_uncontrolled [label="  characterized by  "];
+	n_uncontrolled [label="Uncontrolled role increase"];
+	n_uncontrolled -> n_causes [weight=10, label="  causes  "];
+	n_causes [label="{Insufficient competencies|Immature role\nengineering process|Requiring all\naccess permissions\nbe inherited from roles|Wrong expectations\nfrom RBAC}", shape="record", color="black", fontcolor="black"];
+	n_uncontrolled -> n_consequences [weight=10, label="  consequences  "];
+	n_consequences [label="{Cost and complexity|Reduced usability|Reduced auditability}", shape="record", color="black", fontcolor="black"];
+	n_uncontrolled -> n_solutions [weight=10, label="  solutions  "];
+	n_solutions [label="{Mature role\nengineering process|Training|Realistic\nRBAC expectations|ABAC|PBAC}", shape="record", color="black", fontcolor="black"];
+
+}
