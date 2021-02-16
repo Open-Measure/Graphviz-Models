@@ -27,7 +27,7 @@ digraph G {
 	n_causes [label="{Insufficient competencies|Immature role\nengineering process|Requiring all\naccess permissions\nbe inherited from roles|Wrong expectations\nfrom RBAC}", shape="record", color="black", fontcolor="black"];
 	n_uncontrolled -> n_consequences [weight=10, label="  consequences  "];
 	n_consequences [label="{Cost and complexity|Reduced usability|Reduced auditability}", shape="record", color="black", fontcolor="black"];
-	n_uncontrolled -> n_solutions [weight=10, label="  solutions  "];
-	n_solutions [label="{Mature role\nengineering process|Training|Realistic\nRBAC expectations|ABAC|PBAC}", shape="record", color="black", fontcolor="black"];
+	n_uncontrolled -> n_solutions [weight=10, label="  (non-exhaustive)  \n  solutions  "];
+	n_solutions [label="{Mature role\nengineering process|Role review\nprocess|Training|Realistic\nRBAC expectations|ABAC|PBAC|Birth rights\noptimization|Delegation of\nfine-grained access\nmanagement to\nunderlying system}", shape="record", color="black", fontcolor="black"];
 
 }

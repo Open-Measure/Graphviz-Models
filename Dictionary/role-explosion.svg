@@ -1,120 +1,132 @@
-<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="412pt" height="412pt" viewBox="0 0 412 412" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 407.7038)">
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="449pt" height="561pt" viewBox="0 0 449 561" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 557.3038)">
 <title>G</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-407.7038 407.632,-407.7038 407.632,4 -4,4"></polygon>
-<text text-anchor="middle" x="201.816" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Role Explosion (Conceptual Diagram) by Open-Measure</text>
-<text text-anchor="middle" x="201.816" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-557.3038 444.6586,-557.3038 444.6586,4 -4,4"></polygon>
+<text text-anchor="middle" x="220.3293" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Role Explosion (Conceptual Diagram) by Open-Measure</text>
+<text text-anchor="middle" x="220.3293" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
 <!-- n_phenomenon -->
 <g id="node1" class="node">
 <title>n_phenomenon</title>
-<ellipse fill="#ffffff" stroke="#000000" cx="149.8072" cy="-377.6823" rx="50.4803" ry="18"></ellipse>
-<text text-anchor="middle" x="149.8072" y="-374.0823" font-family="Calibri" font-size="12.00" fill="#000000">Phonemenon</text>
+<ellipse fill="#ffffff" stroke="#000000" cx="149.8072" cy="-527.2823" rx="50.4803" ry="18"></ellipse>
+<text text-anchor="middle" x="149.8072" y="-523.6823" font-family="Calibri" font-size="12.00" fill="#000000">Phonemenon</text>
 </g>
 <!-- n_role_explosion -->
 <g id="node2" class="node">
 <title>n_role_explosion</title>
 <g id="a_node2"><a xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/848363630" xlink:title="Role Explosion">
-<ellipse fill="#5599ff" stroke="#000000" cx="215.8072" cy="-297.9304" rx="90.3088" ry="20.861"></ellipse>
-<text text-anchor="middle" x="215.8072" y="-292.5304" font-family="Calibri" font-size="18.00" fill="#000000">Role Explosion</text>
+<ellipse fill="#5599ff" stroke="#000000" cx="215.8072" cy="-447.5304" rx="90.3088" ry="20.861"></ellipse>
+<text text-anchor="middle" x="215.8072" y="-442.1304" font-family="Calibri" font-size="18.00" fill="#000000">Role Explosion</text>
 </a>
 </g>
 </g>
 <!-- n_phenomenon&#45;&gt;n_role_explosion -->
 <g id="edge1" class="edge">
 <title>n_phenomenon-&gt;n_role_explosion</title>
-<path fill="none" stroke="#000000" d="M170.7016,-352.4343C179.7258,-341.5297 190.1522,-328.9309 198.7059,-318.5949"></path>
-<polygon fill="#000000" stroke="#000000" points="167.8074,-350.4418 164.1282,-360.3773 173.2003,-354.9047 167.8074,-350.4418"></polygon>
-<text text-anchor="middle" x="207.3321" y="-331.0607" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+<path fill="none" stroke="#000000" d="M170.7016,-502.0343C179.7258,-491.1297 190.1522,-478.5309 198.7059,-468.1949"></path>
+<polygon fill="#000000" stroke="#000000" points="167.8074,-500.0418 164.1282,-509.9773 173.2003,-504.5047 167.8074,-500.0418"></polygon>
+<text text-anchor="middle" x="207.3321" y="-480.6607" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
 </g>
 <!-- n_uncontrolled -->
 <g id="node4" class="node">
 <title>n_uncontrolled</title>
-<ellipse fill="#d6e7ff" stroke="#000000" cx="215.8072" cy="-226.2" rx="91.5201" ry="18"></ellipse>
-<text text-anchor="middle" x="215.8072" y="-222.6" font-family="Calibri" font-size="12.00" fill="#000000">Uncontrolled role increase</text>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="215.8072" cy="-375.8" rx="91.5201" ry="18"></ellipse>
+<text text-anchor="middle" x="215.8072" y="-372.2" font-family="Calibri" font-size="12.00" fill="#000000">Uncontrolled role increase</text>
 </g>
 <!-- n_role_explosion&#45;&gt;n_uncontrolled -->
 <g id="edge3" class="edge">
 <title>n_role_explosion-&gt;n_uncontrolled</title>
-<path fill="none" stroke="#000000" d="M215.8072,-276.7969C215.8072,-269.8309 215.8072,-261.9676 215.8072,-254.5528"></path>
-<polygon fill="#000000" stroke="#000000" points="219.3073,-254.5094 215.8072,-244.5094 212.3073,-254.5095 219.3073,-254.5094"></polygon>
-<text text-anchor="middle" x="268.8595" y="-256.4" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;characterized by &nbsp;</text>
+<path fill="none" stroke="#000000" d="M215.8072,-426.3969C215.8072,-419.4309 215.8072,-411.5676 215.8072,-404.1528"></path>
+<polygon fill="#000000" stroke="#000000" points="219.3073,-404.1094 215.8072,-394.1094 212.3073,-404.1095 219.3073,-404.1094"></polygon>
+<text text-anchor="middle" x="268.8595" y="-406" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;characterized by &nbsp;</text>
 </g>
 <!-- n_rbac -->
 <g id="node3" class="node">
 <title>n_rbac</title>
-<ellipse fill="#ffffff" stroke="#000000" cx="281.8072" cy="-377.6823" rx="63.276" ry="26.0431"></ellipse>
-<text text-anchor="middle" x="281.8072" y="-381.2823" font-family="Calibri" font-size="12.00" fill="#000000">Role-Based</text>
-<text text-anchor="middle" x="281.8072" y="-366.8823" font-family="Calibri" font-size="12.00" fill="#000000">Access Control</text>
+<ellipse fill="#ffffff" stroke="#000000" cx="281.8072" cy="-527.2823" rx="63.276" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="281.8072" y="-530.8823" font-family="Calibri" font-size="12.00" fill="#000000">Role-Based</text>
+<text text-anchor="middle" x="281.8072" y="-516.4823" font-family="Calibri" font-size="12.00" fill="#000000">Access Control</text>
 </g>
 <!-- n_rbac&#45;&gt;n_role_explosion -->
 <g id="edge2" class="edge">
 <title>n_rbac-&gt;n_role_explosion</title>
-<path fill="none" stroke="#000000" d="M254.7004,-344.9274C247.3587,-336.056 239.6148,-326.6985 232.9864,-318.689"></path>
-<polygon fill="#000000" stroke="#000000" points="252.2141,-347.4129 261.2862,-352.8854 257.607,-342.9499 252.2141,-347.4129"></polygon>
-<text text-anchor="middle" x="285.0453" y="-331.0607" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;related to &nbsp;</text>
+<path fill="none" stroke="#000000" d="M254.7004,-494.5274C247.3587,-485.656 239.6148,-476.2985 232.9864,-468.289"></path>
+<polygon fill="#000000" stroke="#000000" points="252.2141,-497.0129 261.2862,-502.4854 257.607,-492.5499 252.2141,-497.0129"></polygon>
+<text text-anchor="middle" x="285.0453" y="-480.6607" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;related to &nbsp;</text>
 </g>
 <!-- n_causes -->
 <g id="node5" class="node">
 <title>n_causes</title>
-<polygon fill="#d6e7ff" stroke="#000000" points="0,-27.7 0,-174.9 139.6144,-174.9 139.6144,-27.7 0,-27.7"></polygon>
-<text text-anchor="middle" x="69.8072" y="-160.1" font-family="Calibri" font-size="12.00" fill="#000000">Insufficient competencies</text>
-<polyline fill="none" stroke="#000000" points="0,-152.5 139.6144,-152.5 "></polyline>
-<text text-anchor="middle" x="69.8072" y="-137.7" font-family="Calibri" font-size="12.00" fill="#000000">Immature role</text>
-<text text-anchor="middle" x="69.8072" y="-123.3" font-family="Calibri" font-size="12.00" fill="#000000">engineering process</text>
-<polyline fill="none" stroke="#000000" points="0,-115.7 139.6144,-115.7 "></polyline>
-<text text-anchor="middle" x="69.8072" y="-100.9" font-family="Calibri" font-size="12.00" fill="#000000">Requiring all</text>
-<text text-anchor="middle" x="69.8072" y="-86.5" font-family="Calibri" font-size="12.00" fill="#000000">access permissions</text>
-<text text-anchor="middle" x="69.8072" y="-72.1" font-family="Calibri" font-size="12.00" fill="#000000">be inherited from roles</text>
-<polyline fill="none" stroke="#000000" points="0,-64.5 139.6144,-64.5 "></polyline>
-<text text-anchor="middle" x="69.8072" y="-49.7" font-family="Calibri" font-size="12.00" fill="#000000">Wrong expectations</text>
-<text text-anchor="middle" x="69.8072" y="-35.3" font-family="Calibri" font-size="12.00" fill="#000000">from RBAC</text>
+<polygon fill="#d6e7ff" stroke="#000000" points="0,-94.1 0,-241.3 139.6144,-241.3 139.6144,-94.1 0,-94.1"></polygon>
+<text text-anchor="middle" x="69.8072" y="-226.5" font-family="Calibri" font-size="12.00" fill="#000000">Insufficient competencies</text>
+<polyline fill="none" stroke="#000000" points="0,-218.9 139.6144,-218.9 "></polyline>
+<text text-anchor="middle" x="69.8072" y="-204.1" font-family="Calibri" font-size="12.00" fill="#000000">Immature role</text>
+<text text-anchor="middle" x="69.8072" y="-189.7" font-family="Calibri" font-size="12.00" fill="#000000">engineering process</text>
+<polyline fill="none" stroke="#000000" points="0,-182.1 139.6144,-182.1 "></polyline>
+<text text-anchor="middle" x="69.8072" y="-167.3" font-family="Calibri" font-size="12.00" fill="#000000">Requiring all</text>
+<text text-anchor="middle" x="69.8072" y="-152.9" font-family="Calibri" font-size="12.00" fill="#000000">access permissions</text>
+<text text-anchor="middle" x="69.8072" y="-138.5" font-family="Calibri" font-size="12.00" fill="#000000">be inherited from roles</text>
+<polyline fill="none" stroke="#000000" points="0,-130.9 139.6144,-130.9 "></polyline>
+<text text-anchor="middle" x="69.8072" y="-116.1" font-family="Calibri" font-size="12.00" fill="#000000">Wrong expectations</text>
+<text text-anchor="middle" x="69.8072" y="-101.7" font-family="Calibri" font-size="12.00" fill="#000000">from RBAC</text>
 </g>
 <!-- n_uncontrolled&#45;&gt;n_causes -->
 <g id="edge4" class="edge">
 <title>n_uncontrolled-&gt;n_causes</title>
-<path fill="none" stroke="#000000" d="M176.6216,-209.7647C171.2741,-206.8855 166.004,-203.6825 161.2742,-200.2 153.8747,-194.752 146.5921,-188.6467 139.5647,-182.2142"></path>
-<polygon fill="#000000" stroke="#000000" points="141.7219,-179.4376 132.046,-175.1215 136.9185,-184.5295 141.7219,-179.4376"></polygon>
-<text text-anchor="middle" x="187.0737" y="-187.6" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;causes &nbsp;</text>
+<path fill="none" stroke="#000000" d="M174.2557,-359.6857C169.5583,-356.827 165.0953,-353.5433 161.2742,-349.8 133.4378,-322.5308 112.6227,-285.017 97.94,-251.1222"></path>
+<polygon fill="#000000" stroke="#000000" points="101.0665,-249.5282 93.9606,-241.6697 94.6149,-252.2443 101.0665,-249.5282"></polygon>
+<text text-anchor="middle" x="187.0737" y="-328.8" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;causes &nbsp;</text>
 </g>
 <!-- n_consequences -->
 <g id="node6" class="node">
 <title>n_consequences</title>
-<polygon fill="#d6e7ff" stroke="#000000" points="157.9844,-67.7 157.9844,-134.9 273.63,-134.9 273.63,-67.7 157.9844,-67.7"></polygon>
-<text text-anchor="middle" x="215.8072" y="-120.1" font-family="Calibri" font-size="12.00" fill="#000000">Cost and complexity</text>
-<polyline fill="none" stroke="#000000" points="157.9844,-112.5 273.63,-112.5 "></polyline>
-<text text-anchor="middle" x="215.8072" y="-97.7" font-family="Calibri" font-size="12.00" fill="#000000">Reduced usability</text>
-<polyline fill="none" stroke="#000000" points="157.9844,-90.1 273.63,-90.1 "></polyline>
-<text text-anchor="middle" x="215.8072" y="-75.3" font-family="Calibri" font-size="12.00" fill="#000000">Reduced auditability</text>
+<polygon fill="#d6e7ff" stroke="#000000" points="157.9844,-134.1 157.9844,-201.3 273.63,-201.3 273.63,-134.1 157.9844,-134.1"></polygon>
+<text text-anchor="middle" x="215.8072" y="-186.5" font-family="Calibri" font-size="12.00" fill="#000000">Cost and complexity</text>
+<polyline fill="none" stroke="#000000" points="157.9844,-178.9 273.63,-178.9 "></polyline>
+<text text-anchor="middle" x="215.8072" y="-164.1" font-family="Calibri" font-size="12.00" fill="#000000">Reduced usability</text>
+<polyline fill="none" stroke="#000000" points="157.9844,-156.5 273.63,-156.5 "></polyline>
+<text text-anchor="middle" x="215.8072" y="-141.7" font-family="Calibri" font-size="12.00" fill="#000000">Reduced auditability</text>
 </g>
 <!-- n_uncontrolled&#45;&gt;n_consequences -->
 <g id="edge5" class="edge">
 <title>n_uncontrolled-&gt;n_consequences</title>
-<path fill="none" stroke="#000000" d="M215.8072,-208.0385C215.8072,-191.6421 215.8072,-166.8538 215.8072,-145.2913"></path>
-<polygon fill="#000000" stroke="#000000" points="219.3073,-145.0161 215.8072,-135.0162 212.3073,-145.0162 219.3073,-145.0161"></polygon>
-<text text-anchor="middle" x="261.2883" y="-187.6" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;consequences &nbsp;</text>
+<path fill="none" stroke="#000000" d="M215.8072,-357.6965C215.8072,-325.4042 215.8072,-257.0124 215.8072,-211.7078"></path>
+<polygon fill="#000000" stroke="#000000" points="219.3073,-211.569 215.8072,-201.569 212.3073,-211.569 219.3073,-211.569"></polygon>
+<text text-anchor="middle" x="261.2883" y="-328.8" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;consequences &nbsp;</text>
 </g>
 <!-- n_solutions -->
 <g id="node7" class="node">
 <title>n_solutions</title>
-<polygon fill="#d6e7ff" stroke="#000000" points="291.9824,-30.9 291.9824,-171.7 403.632,-171.7 403.632,-30.9 291.9824,-30.9"></polygon>
-<text text-anchor="middle" x="347.8072" y="-156.9" font-family="Calibri" font-size="12.00" fill="#000000">Mature role</text>
-<text text-anchor="middle" x="347.8072" y="-142.5" font-family="Calibri" font-size="12.00" fill="#000000">engineering process</text>
-<polyline fill="none" stroke="#000000" points="291.9824,-134.9 403.632,-134.9 "></polyline>
-<text text-anchor="middle" x="347.8072" y="-120.1" font-family="Calibri" font-size="12.00" fill="#000000">Training</text>
-<polyline fill="none" stroke="#000000" points="291.9824,-112.5 403.632,-112.5 "></polyline>
-<text text-anchor="middle" x="347.8072" y="-97.7" font-family="Calibri" font-size="12.00" fill="#000000">Realistic</text>
-<text text-anchor="middle" x="347.8072" y="-83.3" font-family="Calibri" font-size="12.00" fill="#000000">RBAC expectations</text>
-<polyline fill="none" stroke="#000000" points="291.9824,-75.7 403.632,-75.7 "></polyline>
-<text text-anchor="middle" x="347.8072" y="-60.9" font-family="Calibri" font-size="12.00" fill="#000000">ABAC</text>
-<polyline fill="none" stroke="#000000" points="291.9824,-53.3 403.632,-53.3 "></polyline>
-<text text-anchor="middle" x="347.8072" y="-38.5" font-family="Calibri" font-size="12.00" fill="#000000">PBAC</text>
+<polygon fill="#d6e7ff" stroke="#000000" points="291.9824,-27.7 291.9824,-307.7 403.632,-307.7 403.632,-27.7 291.9824,-27.7"></polygon>
+<text text-anchor="middle" x="347.8072" y="-292.9" font-family="Calibri" font-size="12.00" fill="#000000">Mature role</text>
+<text text-anchor="middle" x="347.8072" y="-278.5" font-family="Calibri" font-size="12.00" fill="#000000">engineering process</text>
+<polyline fill="none" stroke="#000000" points="291.9824,-270.9 403.632,-270.9 "></polyline>
+<text text-anchor="middle" x="347.8072" y="-256.1" font-family="Calibri" font-size="12.00" fill="#000000">Role review</text>
+<text text-anchor="middle" x="347.8072" y="-241.7" font-family="Calibri" font-size="12.00" fill="#000000">process</text>
+<polyline fill="none" stroke="#000000" points="291.9824,-234.1 403.632,-234.1 "></polyline>
+<text text-anchor="middle" x="347.8072" y="-219.3" font-family="Calibri" font-size="12.00" fill="#000000">Training</text>
+<polyline fill="none" stroke="#000000" points="291.9824,-211.7 403.632,-211.7 "></polyline>
+<text text-anchor="middle" x="347.8072" y="-196.9" font-family="Calibri" font-size="12.00" fill="#000000">Realistic</text>
+<text text-anchor="middle" x="347.8072" y="-182.5" font-family="Calibri" font-size="12.00" fill="#000000">RBAC expectations</text>
+<polyline fill="none" stroke="#000000" points="291.9824,-174.9 403.632,-174.9 "></polyline>
+<text text-anchor="middle" x="347.8072" y="-160.1" font-family="Calibri" font-size="12.00" fill="#000000">ABAC</text>
+<polyline fill="none" stroke="#000000" points="291.9824,-152.5 403.632,-152.5 "></polyline>
+<text text-anchor="middle" x="347.8072" y="-137.7" font-family="Calibri" font-size="12.00" fill="#000000">PBAC</text>
+<polyline fill="none" stroke="#000000" points="291.9824,-130.1 403.632,-130.1 "></polyline>
+<text text-anchor="middle" x="347.8072" y="-115.3" font-family="Calibri" font-size="12.00" fill="#000000">Birth rights</text>
+<text text-anchor="middle" x="347.8072" y="-100.9" font-family="Calibri" font-size="12.00" fill="#000000">optimization</text>
+<polyline fill="none" stroke="#000000" points="291.9824,-93.3 403.632,-93.3 "></polyline>
+<text text-anchor="middle" x="347.8072" y="-78.5" font-family="Calibri" font-size="12.00" fill="#000000">Delegation of</text>
+<text text-anchor="middle" x="347.8072" y="-64.1" font-family="Calibri" font-size="12.00" fill="#000000">fine-grained access</text>
+<text text-anchor="middle" x="347.8072" y="-49.7" font-family="Calibri" font-size="12.00" fill="#000000">management to</text>
+<text text-anchor="middle" x="347.8072" y="-35.3" font-family="Calibri" font-size="12.00" fill="#000000">underlying system</text>
 </g>
 <!-- n_uncontrolled&#45;&gt;n_solutions -->
 <g id="edge6" class="edge">
 <title>n_uncontrolled-&gt;n_solutions</title>
-<path fill="none" stroke="#000000" d="M280.1443,-213.1824C293.7381,-209.4001 305.5666,-204.9848 310.8072,-200.2 316.8042,-194.7245 321.8337,-188.1827 326.0508,-181.1076"></path>
-<polygon fill="#000000" stroke="#000000" points="329.3445,-182.3702 330.9699,-171.9008 323.1704,-179.0715 329.3445,-182.3702"></polygon>
-<text text-anchor="middle" x="355.0877" y="-187.6" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;solutions &nbsp;</text>
+<path fill="none" stroke="#000000" d="M281.1726,-363.1897C294.5496,-359.4275 306.0178,-354.9199 310.8072,-349.8 319.7638,-340.2253 326.8091,-329.1012 332.3243,-317.1611"></path>
+<polygon fill="#000000" stroke="#000000" points="335.5764,-318.4569 336.2498,-307.8835 329.1297,-315.7292 335.5764,-318.4569"></polygon>
+<text text-anchor="middle" x="386.2329" y="-337.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;(non-exhaustive) &nbsp;</text>
+<text text-anchor="middle" x="386.2329" y="-320.4" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;solutions &nbsp;</text>
 </g>
 </g>
 </svg>
