@@ -1,0 +1,71 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Tranquility Property (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_system [label="System", fillcolor="#ffffff"];
+	n_system -> n_property [weight=10, label="  of  ", dir="back"];
+	n_property [label="Property", fillcolor="#ffffff"];
+	n_property -> n_tranquility_property [weight=10, label="  is a  ", dir="back"];
+
+	# Concept
+	n_tranquility_property [label="Tranquility", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"];
+
+	# Children Concepts
+	n_levels [label="Levels"];
+	n_tranquility_property -> n_levels [label="  has  "];
+
+	subgraph cluster_strong {
+		color=black;
+		label = "";
+		n_strong_tranquility_property [label="Strong Tranquility", fontsize=16];
+		n_strong_requirements [label="{No Security Clearance Modification|No Security Classification Modification}", shape="record", color="black", fontcolor="black"];
+		n_strong_tranquility_property -> n_strong_requirements [label="  require  "]
+	}
+	n_levels -> n_strong_tranquility_property [label="  comprise  ", lhead="cluster_strong"];
+
+	subgraph cluster_weak {
+		color=black;
+		label = "";
+		n_weak_tranquility_property [label="Weak Tranquility", fontsize=16];
+		n_weak_requirements [label="{Security Clearance Modification|Security Classification Modification}", shape="record", color="black", fontcolor="black"];
+		n_weak_tranquility_property -> n_weak_requirements [label="  require  "]
+		n_weak_procedure [label="Procedure"];
+		n_weak_requirements -> n_weak_procedure [label="  complying with  "]
+		n_weak_policy_requirements [label="{Modification Legitimacy|Transition Security}", shape="record", color="black", fontcolor="black"];
+		n_weak_procedure -> n_weak_policy_requirements [label="  assure  "]
+	}
+	n_levels -> n_weak_tranquility_property [label="  comprise  ", lhead="cluster_weak"];
+	n_strong_tranquility_property -> n_weak_tranquility_property [minlen=3, labelloc=b, xlabel="  has more  \n  constraints  \n  than  ", ltail=cluster_strong, lhead=cluster_weak];
+
+	subgraph cluster_no {
+		color=black;
+		label = "";
+		n_no_tranquility_property [label="No Tranquility", fontsize=16];
+	}
+	n_levels -> n_no_tranquility_property [label="  comprise  ", lhead="cluster_no"];
+	n_weak_tranquility_property -> n_no_tranquility_property [minlen=3, labelloc=b, xlabel="  has more  \n  constraints  \n  than  ", ltail=cluster_weak, lhead=cluster_no];
+
+	n_secure [label="Secure", fillcolor="#aaffaa", fontsize=16];
+	n_strong_requirements -> n_secure [label="  is  ", ltail=cluster_strong];
+	n_weak_policy_requirements -> n_secure [label="  is  ", ltail=cluster_weak];
+
+	n_insecure [label="Insecure", fillcolor="#ffaaaa", fontsize=16];
+	n_no_tranquility_property -> n_insecure [label="  is  ", ltail=cluster_no];
+
+	# Levels
+	{ rank=same; n_system; n_property }
+	{ rank=same; n_secure; n_insecure }
+	{ rank=same; n_strong_tranquility_property; n_weak_tranquility_property; n_no_tranquility_property }
+	{ rank=same; n_strong_requirements; n_weak_requirements }
+
+}

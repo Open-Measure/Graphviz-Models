@@ -1,0 +1,216 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="790pt" height="615pt" viewBox="0 0 790 615" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 611.1939)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-611.1939 786,-611.1939 786,4 -4,4"></polygon>
+<text text-anchor="middle" x="391" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Tranquility Property (Conceptual Diagram) by Open-Measure</text>
+<text text-anchor="middle" x="391" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<g id="clust1" class="cluster">
+<title>cluster_strong</title>
+<polygon fill="none" stroke="#000000" points="8,-253.8666 8,-394.9332 232,-394.9332 232,-253.8666 8,-253.8666"></polygon>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_weak</title>
+<polygon fill="none" stroke="#000000" points="303,-98.4666 303,-394.9332 509,-394.9332 509,-98.4666 303,-98.4666"></polygon>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_no</title>
+<polygon fill="none" stroke="#000000" points="600,-340.4666 600,-394.9332 774,-394.9332 774,-340.4666 600,-340.4666"></polygon>
+</g>
+<!-- n_system -->
+<g id="node1" class="node">
+<title>n_system</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="296" cy="-589.1939" rx="32.5754" ry="18"></ellipse>
+<text text-anchor="middle" x="296" y="-585.5939" font-family="Calibri" font-size="12.00" fill="#000000">System</text>
+</g>
+<!-- n_property -->
+<g id="node2" class="node">
+<title>n_property</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="409" cy="-589.1939" rx="36.7234" ry="18"></ellipse>
+<text text-anchor="middle" x="409" y="-585.5939" font-family="Calibri" font-size="12.00" fill="#000000">Property</text>
+</g>
+<!-- n_system&#45;&gt;n_property -->
+<g id="edge1" class="edge">
+<title>n_system-&gt;n_property</title>
+<path fill="none" stroke="#000000" d="M339.1621,-589.1939C350.0577,-589.1939 361.6551,-589.1939 372.2048,-589.1939"></path>
+<polygon fill="#000000" stroke="#000000" points="338.9881,-585.694 328.988,-589.1939 338.988,-592.694 338.9881,-585.694"></polygon>
+<text text-anchor="middle" x="350.5877" y="-596.3939" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of &nbsp;</text>
+</g>
+<!-- n_tranquility_property -->
+<g id="node3" class="node">
+<title>n_tranquility_property</title>
+<g id="a_node3"><a xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286" xlink:title="Tranquility">
+<ellipse fill="#5599ff" stroke="#000000" cx="409" cy="-517.4636" rx="68.661" ry="20.861"></ellipse>
+<text text-anchor="middle" x="409" y="-512.0636" font-family="Calibri" font-size="18.00" fill="#000000">Tranquility</text>
+</a>
+</g>
+</g>
+<!-- n_property&#45;&gt;n_tranquility_property -->
+<g id="edge2" class="edge">
+<title>n_property-&gt;n_tranquility_property</title>
+<path fill="none" stroke="#000000" d="M409,-561.0048C409,-553.5486 409,-545.628 409,-538.6152"></path>
+<polygon fill="#000000" stroke="#000000" points="405.5001,-561.0933 409,-571.0933 412.5001,-561.0934 405.5001,-561.0933"></polygon>
+<text text-anchor="middle" x="425.5249" y="-550.5939" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_levels -->
+<g id="node4" class="node">
+<title>n_levels</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="409" cy="-445.7332" rx="30.798" ry="18"></ellipse>
+<text text-anchor="middle" x="409" y="-442.1332" font-family="Calibri" font-size="12.00" fill="#000000">Levels</text>
+</g>
+<!-- n_tranquility_property&#45;&gt;n_levels -->
+<g id="edge3" class="edge">
+<title>n_tranquility_property-&gt;n_levels</title>
+<path fill="none" stroke="#000000" d="M409,-496.3301C409,-489.3641 409,-481.5008 409,-474.086"></path>
+<polygon fill="#000000" stroke="#000000" points="412.5001,-474.0426 409,-464.0427 405.5001,-474.0427 412.5001,-474.0426"></polygon>
+<text text-anchor="middle" x="425.3296" y="-475.9332" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;has &nbsp;</text>
+</g>
+<!-- n_strong_tranquility_property -->
+<g id="node5" class="node">
+<title>n_strong_tranquility_property</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="115" cy="-367.6999" rx="95.4328" ry="19.4695"></ellipse>
+<text text-anchor="middle" x="115" y="-362.8999" font-family="Calibri" font-size="16.00" fill="#000000">Strong Tranquility</text>
+</g>
+<!-- n_levels&#45;&gt;n_strong_tranquility_property -->
+<g id="edge5" class="edge">
+<title>n_levels-&gt;n_strong_tranquility_property</title>
+<path fill="none" stroke="#000000" d="M380.81,-438.2511C345.5516,-428.8928 283.0561,-412.3053 227.5192,-397.5647"></path>
+<polygon fill="#000000" stroke="#000000" points="228.1616,-394.1141 217.5983,-394.9315 226.3658,-400.8798 228.1616,-394.1141"></polygon>
+<text text-anchor="middle" x="337.6578" y="-407.1332" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;comprise &nbsp;</text>
+</g>
+<!-- n_weak_tranquility_property -->
+<g id="node7" class="node">
+<title>n_weak_tranquility_property</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="409" cy="-367.6999" rx="91.3522" ry="19.4695"></ellipse>
+<text text-anchor="middle" x="409" y="-362.8999" font-family="Calibri" font-size="16.00" fill="#000000">Weak Tranquility</text>
+</g>
+<!-- n_levels&#45;&gt;n_weak_tranquility_property -->
+<g id="edge9" class="edge">
+<title>n_levels-&gt;n_weak_tranquility_property</title>
+<path fill="none" stroke="#000000" d="M409,-427.6347C409,-418.6125 409,-407.4715 409,-397.2525"></path>
+<polygon fill="#000000" stroke="#000000" points="412.5004,-404.9331 409,-394.9332 405.5004,-404.9334 412.5004,-404.9331"></polygon>
+<text text-anchor="middle" x="441.6578" y="-407.1332" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;comprise &nbsp;</text>
+</g>
+<!-- n_no_tranquility_property -->
+<g id="node11" class="node">
+<title>n_no_tranquility_property</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="687" cy="-367.6999" rx="78.7405" ry="19.4695"></ellipse>
+<text text-anchor="middle" x="687" y="-362.8999" font-family="Calibri" font-size="16.00" fill="#000000">No Tranquility</text>
+</g>
+<!-- n_levels&#45;&gt;n_no_tranquility_property -->
+<g id="edge11" class="edge">
+<title>n_levels-&gt;n_no_tranquility_property</title>
+<path fill="none" stroke="#000000" d="M436.6721,-437.9658C472.2964,-427.9662 536.076,-410.0636 590.3388,-394.8323"></path>
+<polygon fill="#000000" stroke="#000000" points="591.3197,-398.1923 600.0017,-392.1199 589.4279,-391.4527 591.3197,-398.1923"></polygon>
+<text text-anchor="middle" x="588.6578" y="-407.1332" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;comprise &nbsp;</text>
+</g>
+<!-- n_strong_requirements -->
+<g id="node6" class="node">
+<title>n_strong_requirements</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="15.8542,-262.3666 15.8542,-307.1666 224.1458,-307.1666 224.1458,-262.3666 15.8542,-262.3666"></polygon>
+<text text-anchor="middle" x="120" y="-292.3666" font-family="Calibri" font-size="12.00" fill="#000000">No Security Clearance Modification</text>
+<polyline fill="none" stroke="#000000" points="15.8542,-284.7666 224.1458,-284.7666 "></polyline>
+<text text-anchor="middle" x="120" y="-269.9666" font-family="Calibri" font-size="12.00" fill="#000000">No Security Classification Modification</text>
+</g>
+<!-- n_strong_tranquility_property&#45;&gt;n_strong_requirements -->
+<g id="edge4" class="edge">
+<title>n_strong_tranquility_property-&gt;n_strong_requirements</title>
+<path fill="none" stroke="#000000" d="M116.1597,-348.4649C116.7136,-339.2776 117.3921,-328.0233 118.0239,-317.544"></path>
+<polygon fill="#000000" stroke="#000000" points="121.5255,-317.621 118.6337,-307.4285 114.5382,-317.1997 121.5255,-317.621"></polygon>
+<text text-anchor="middle" x="145.8205" y="-319.8666" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;require &nbsp;</text>
+</g>
+<!-- n_strong_tranquility_property&#45;&gt;n_weak_tranquility_property -->
+<g id="edge10" class="edge">
+<title>n_strong_tranquility_property-&gt;n_weak_tranquility_property</title>
+<path fill="none" stroke="#000000" d="M231.9995,-367.6999C252.2881,-367.6999 272.5767,-367.6999 292.8654,-367.6999"></path>
+<polygon fill="#000000" stroke="#000000" points="293.0025,-371.2 303.0025,-367.6999 293.0025,-364.2 293.0025,-371.2"></polygon>
+<text text-anchor="middle" x="267.6631" y="-355.0999" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;has more &nbsp;</text>
+<text text-anchor="middle" x="267.6631" y="-338.2999" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;constraints &nbsp;</text>
+<text text-anchor="middle" x="267.6631" y="-321.4999" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;than &nbsp;</text>
+</g>
+<!-- n_secure -->
+<g id="node12" class="node">
+<title>n_secure</title>
+<ellipse fill="#aaffaa" stroke="#000000" cx="223" cy="-46.4333" rx="42.1855" ry="19.4695"></ellipse>
+<text text-anchor="middle" x="223" y="-41.6333" font-family="Calibri" font-size="16.00" fill="#000000">Secure</text>
+</g>
+<!-- n_strong_requirements&#45;&gt;n_secure -->
+<g id="edge13" class="edge">
+<title>n_strong_requirements-&gt;n_secure</title>
+<path fill="none" stroke="#000000" d="M133.3528,-253.8695C153.4772,-207.3032 191.2904,-119.8065 210.7472,-74.7853"></path>
+<polygon fill="#000000" stroke="#000000" points="213.9631,-76.1665 214.7174,-65.5985 207.5375,-73.3895 213.9631,-76.1665"></polygon>
+<text text-anchor="middle" x="184.6676" y="-164.4666" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+<!-- n_weak_requirements -->
+<g id="node8" class="node">
+<title>n_weak_requirements</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="310.6856,-262.3666 310.6856,-307.1666 501.3144,-307.1666 501.3144,-262.3666 310.6856,-262.3666"></polygon>
+<text text-anchor="middle" x="406" y="-292.3666" font-family="Calibri" font-size="12.00" fill="#000000">Security Clearance Modification</text>
+<polyline fill="none" stroke="#000000" points="310.6856,-284.7666 501.3144,-284.7666 "></polyline>
+<text text-anchor="middle" x="406" y="-269.9666" font-family="Calibri" font-size="12.00" fill="#000000">Security Classification Modification</text>
+</g>
+<!-- n_weak_tranquility_property&#45;&gt;n_weak_requirements -->
+<g id="edge6" class="edge">
+<title>n_weak_tranquility_property-&gt;n_weak_requirements</title>
+<path fill="none" stroke="#000000" d="M408.3042,-348.4649C407.9719,-339.2776 407.5648,-328.0233 407.1857,-317.544"></path>
+<polygon fill="#000000" stroke="#000000" points="410.6791,-317.2954 406.8198,-307.4285 403.6836,-317.5485 410.6791,-317.2954"></polygon>
+<text text-anchor="middle" x="433.8205" y="-319.8666" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;require &nbsp;</text>
+</g>
+<!-- n_weak_tranquility_property&#45;&gt;n_no_tranquility_property -->
+<g id="edge12" class="edge">
+<title>n_weak_tranquility_property-&gt;n_no_tranquility_property</title>
+<path fill="none" stroke="#000000" d="M508.9962,-367.6999C538.6232,-367.6999 568.2503,-367.6999 597.8774,-367.6999"></path>
+<polygon fill="#000000" stroke="#000000" points="590.0002,-371.2004 600,-367.6999 589.9998,-364.2004 590.0002,-371.2004"></polygon>
+<text text-anchor="middle" x="554.4783" y="-355.0999" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;has more &nbsp;</text>
+<text text-anchor="middle" x="554.4783" y="-338.2999" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;constraints &nbsp;</text>
+<text text-anchor="middle" x="554.4783" y="-321.4999" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;than &nbsp;</text>
+</g>
+<!-- n_weak_procedure -->
+<g id="node9" class="node">
+<title>n_weak_procedure</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="396" cy="-203.0666" rx="41.0732" ry="18"></ellipse>
+<text text-anchor="middle" x="396" y="-199.4666" font-family="Calibri" font-size="12.00" fill="#000000">Procedure</text>
+</g>
+<!-- n_weak_requirements&#45;&gt;n_weak_procedure -->
+<g id="edge7" class="edge">
+<title>n_weak_requirements-&gt;n_weak_procedure</title>
+<path fill="none" stroke="#000000" d="M403.2144,-262.0086C402.0392,-252.4069 400.6594,-241.134 399.423,-231.0322"></path>
+<polygon fill="#000000" stroke="#000000" points="402.89,-230.5488 398.2009,-221.0481 395.9419,-231.3993 402.89,-230.5488"></polygon>
+<text text-anchor="middle" x="452.1371" y="-233.2666" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;complying with &nbsp;</text>
+</g>
+<!-- n_weak_policy_requirements -->
+<g id="node10" class="node">
+<title>n_weak_policy_requirements</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="315.8476,-106.9666 315.8476,-151.7666 452.1524,-151.7666 452.1524,-106.9666 315.8476,-106.9666"></polygon>
+<text text-anchor="middle" x="384" y="-136.9666" font-family="Calibri" font-size="12.00" fill="#000000">Modification Legitimacy</text>
+<polyline fill="none" stroke="#000000" points="315.8476,-129.3666 452.1524,-129.3666 "></polyline>
+<text text-anchor="middle" x="384" y="-114.5666" font-family="Calibri" font-size="12.00" fill="#000000">Transition Security</text>
+</g>
+<!-- n_weak_procedure&#45;&gt;n_weak_policy_requirements -->
+<g id="edge8" class="edge">
+<title>n_weak_procedure-&gt;n_weak_policy_requirements</title>
+<path fill="none" stroke="#000000" d="M393.0337,-184.8486C391.9045,-177.9132 390.5807,-169.7828 389.3,-161.9174"></path>
+<polygon fill="#000000" stroke="#000000" points="392.7229,-161.1604 387.6613,-151.8529 385.8139,-162.2854 392.7229,-161.1604"></polygon>
+<text text-anchor="middle" x="415.4895" y="-164.4666" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;assure &nbsp;</text>
+</g>
+<!-- n_weak_policy_requirements&#45;&gt;n_secure -->
+<g id="edge14" class="edge">
+<title>n_weak_policy_requirements-&gt;n_secure</title>
+<path fill="none" stroke="#000000" d="M324.0189,-98.4695C302.7198,-87.498 279.3673,-75.4689 260.4852,-65.7424"></path>
+<polygon fill="#000000" stroke="#000000" points="261.871,-62.5192 251.3783,-61.0514 258.6654,-68.7422 261.871,-62.5192"></polygon>
+<text text-anchor="middle" x="319.6676" y="-77.8666" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+<!-- n_insecure -->
+<g id="node13" class="node">
+<title>n_insecure</title>
+<ellipse fill="#ffaaaa" stroke="#000000" cx="687" cy="-46.4333" rx="49.7532" ry="19.4695"></ellipse>
+<text text-anchor="middle" x="687" y="-41.6333" font-family="Calibri" font-size="16.00" fill="#000000">Insecure</text>
+</g>
+<!-- n_no_tranquility_property&#45;&gt;n_insecure -->
+<g id="edge15" class="edge">
+<title>n_no_tranquility_property-&gt;n_insecure</title>
+<path fill="none" stroke="#000000" d="M687,-340.471C687,-324.2867 687,-303.3549 687,-284.7666 687,-284.7666 687,-284.7666 687,-129.3666 687,-111.7019 687,-91.9207 687,-76.1089"></path>
+<polygon fill="#000000" stroke="#000000" points="690.5001,-75.8712 687,-65.8712 683.5001,-75.8713 690.5001,-75.8712"></polygon>
+<text text-anchor="middle" x="698.6676" y="-198.8666" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+</g>
+</svg>
