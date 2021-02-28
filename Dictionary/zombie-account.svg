@@ -1,0 +1,213 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="724pt" height="592pt" viewBox="0 0 724 592" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 588.4508)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-588.4508 719.6593,-588.4508 719.6593,4 -4,4"></polygon>
+<text text-anchor="middle" x="357.8296" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Zombie Account (Conceptual Diagram) by Open-Measure</text>
+<text text-anchor="middle" x="357.8296" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<!-- n_digital_identity -->
+<g id="node1" class="node">
+<title>n_digital_identity</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="364.6564" cy="-558.4293" rx="63.2912" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="364.6564" y="-562.0293" font-family="Calibri" font-size="12.00" fill="#000000">Fake</text>
+<text text-anchor="middle" x="364.6564" y="-547.6293" font-family="Calibri" font-size="12.00" fill="#000000">Digital Identity</text>
+</g>
+<!-- n_zombie_account -->
+<g id="node2" class="node">
+<title>n_zombie_account</title>
+<g id="a_node2"><a xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/782893195" xlink:title="Zombie Account">
+<ellipse fill="#5599ff" stroke="#000000" cx="364.6564" cy="-463.4039" rx="97.409" ry="20.861"></ellipse>
+<text text-anchor="middle" x="364.6564" y="-458.0039" font-family="Calibri" font-size="18.00" fill="#000000">Zombie Account</text>
+</a>
+</g>
+</g>
+<!-- n_digital_identity&#45;&gt;n_zombie_account -->
+<g id="edge1" class="edge">
+<title>n_digital_identity-&gt;n_zombie_account</title>
+<path fill="none" stroke="#000000" d="M364.6564,-521.9028C364.6564,-509.2193 364.6564,-495.4308 364.6564,-484.4277"></path>
+<polygon fill="#000000" stroke="#000000" points="361.1565,-522.2116 364.6564,-532.2116 368.1565,-522.2116 361.1565,-522.2116"></polygon>
+<text text-anchor="middle" x="381.1813" y="-511.8077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_system -->
+<g id="node7" class="node">
+<title>n_system</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="633.6564" cy="-463.4039" rx="82.0058" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="633.6564" y="-474.2039" font-family="Calibri" font-size="12.00" fill="#000000">System with</text>
+<text text-anchor="middle" x="633.6564" y="-459.8039" font-family="Calibri" font-size="12.00" fill="#000000">open subscription</text>
+<text text-anchor="middle" x="633.6564" y="-445.4039" font-family="Calibri" font-size="12.00" fill="#000000">e.g. Social Networks</text>
+</g>
+<!-- n_zombie_account&#45;&gt;n_system -->
+<g id="edge7" class="edge">
+<title>n_zombie_account-&gt;n_system</title>
+<path fill="none" stroke="#000000" d="M462.1519,-463.4039C488.0358,-463.4039 515.9023,-463.4039 541.4921,-463.4039"></path>
+<polygon fill="#000000" stroke="#000000" points="541.5524,-466.904 551.5524,-463.4039 541.5524,-459.904 541.5524,-466.904"></polygon>
+<text text-anchor="middle" x="506.7571" y="-487.4039" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;proliferate &nbsp;</text>
+<text text-anchor="middle" x="506.7571" y="-470.6039" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;on &nbsp;</text>
+</g>
+<!-- n_actions -->
+<g id="node8" class="node">
+<title>n_actions</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="345.01,-260.3 345.01,-377.1 490.3028,-377.1 490.3028,-260.3 345.01,-260.3"></polygon>
+<text text-anchor="middle" x="417.6564" y="-362.3" font-family="Calibri" font-size="12.00" fill="#000000">Social engineering</text>
+<polyline fill="none" stroke="#000000" points="345.01,-354.7 490.3028,-354.7 "></polyline>
+<text text-anchor="middle" x="417.6564" y="-339.9" font-family="Calibri" font-size="12.00" fill="#000000">Masquerading praise</text>
+<text text-anchor="middle" x="417.6564" y="-325.5" font-family="Calibri" font-size="12.00" fill="#000000">or criticism</text>
+<text text-anchor="middle" x="417.6564" y="-311.1" font-family="Calibri" font-size="12.00" fill="#000000">(e.g. likes, comments, etc.)</text>
+<text text-anchor="middle" x="417.6564" y="-296.7" font-family="Calibri" font-size="12.00" fill="#000000">to promote or suppress</text>
+<text text-anchor="middle" x="417.6564" y="-282.3" font-family="Calibri" font-size="12.00" fill="#000000">deals, products,</text>
+<text text-anchor="middle" x="417.6564" y="-267.9" font-family="Calibri" font-size="12.00" fill="#000000">services, brands or ideas</text>
+</g>
+<!-- n_zombie_account&#45;&gt;n_actions -->
+<g id="edge8" class="edge">
+<title>n_zombie_account-&gt;n_actions</title>
+<path fill="none" stroke="#000000" d="M372.3631,-442.3627C377.7661,-427.6109 385.3166,-406.9961 392.7059,-386.8214"></path>
+<polygon fill="#000000" stroke="#000000" points="396.0426,-387.888 396.1954,-377.2942 389.4696,-385.4805 396.0426,-387.888"></polygon>
+<text text-anchor="middle" x="420.4839" y="-398.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;actions &nbsp;</text>
+</g>
+<!-- n_countermeasures -->
+<g id="node9" class="node">
+<title>n_countermeasures</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="508.186,-262.7 508.186,-374.7 687.1268,-374.7 687.1268,-262.7 508.186,-262.7"></polygon>
+<text text-anchor="middle" x="597.6564" y="-359.9" font-family="Calibri" font-size="12.00" fill="#000000">Acceptable use policy</text>
+<polyline fill="none" stroke="#000000" points="508.186,-352.3 687.1268,-352.3 "></polyline>
+<text text-anchor="middle" x="597.6564" y="-337.5" font-family="Calibri" font-size="12.00" fill="#000000">Account behavior data analytics</text>
+<polyline fill="none" stroke="#000000" points="508.186,-329.9 687.1268,-329.9 "></polyline>
+<text text-anchor="middle" x="597.6564" y="-315.1" font-family="Calibri" font-size="12.00" fill="#000000">Captchas</text>
+<polyline fill="none" stroke="#000000" points="508.186,-307.5 687.1268,-307.5 "></polyline>
+<text text-anchor="middle" x="597.6564" y="-292.7" font-family="Calibri" font-size="12.00" fill="#000000">Identity certification / verification</text>
+<polyline fill="none" stroke="#000000" points="508.186,-285.1 687.1268,-285.1 "></polyline>
+<text text-anchor="middle" x="597.6564" y="-270.3" font-family="Calibri" font-size="12.00" fill="#000000">Social Honeypot</text>
+</g>
+<!-- n_zombie_account&#45;&gt;n_countermeasures -->
+<g id="edge13" class="edge">
+<title>n_zombie_account-&gt;n_countermeasures</title>
+<path fill="none" stroke="#000000" d="M405.1031,-444.2492C419.9749,-436.8441 436.8033,-428.0325 451.6564,-419.2 463.8409,-411.9543 486.1669,-396.906 509.7559,-380.6101"></path>
+<polygon fill="#000000" stroke="#000000" points="511.9098,-383.3758 518.1378,-374.8048 507.9241,-377.6213 511.9098,-383.3758"></polygon>
+<text text-anchor="middle" x="556.6887" y="-398.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;countermeasures &nbsp;</text>
+</g>
+<!-- n_unauthorized_entity -->
+<g id="node3" class="node">
+<title>n_unauthorized_entity</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="154.6564" cy="-558.4293" rx="57.4863" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="154.6564" y="-562.0293" font-family="Calibri" font-size="12.00" fill="#000000">Unauthorized</text>
+<text text-anchor="middle" x="154.6564" y="-547.6293" font-family="Calibri" font-size="12.00" fill="#000000">Entity</text>
+</g>
+<!-- n_zombie_manager -->
+<g id="node4" class="node">
+<title>n_zombie_manager</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="154.6564" cy="-463.4039" rx="41.4323" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="154.6564" y="-474.2039" font-family="Calibri" font-size="12.00" fill="#000000">Zombie</text>
+<text text-anchor="middle" x="154.6564" y="-459.8039" font-family="Calibri" font-size="12.00" fill="#000000">Account</text>
+<text text-anchor="middle" x="154.6564" y="-445.4039" font-family="Calibri" font-size="12.00" fill="#000000">Manager</text>
+</g>
+<!-- n_unauthorized_entity&#45;&gt;n_zombie_manager -->
+<g id="edge2" class="edge">
+<title>n_unauthorized_entity-&gt;n_zombie_manager</title>
+<path fill="none" stroke="#000000" d="M154.6564,-522.1942C154.6564,-514.8746 154.6564,-507.176 154.6564,-499.8491"></path>
+<polygon fill="#000000" stroke="#000000" points="151.1565,-522.2116 154.6564,-532.2116 158.1565,-522.2116 151.1565,-522.2116"></polygon>
+<text text-anchor="middle" x="166.324" y="-511.8077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+<!-- n_zombie_manager&#45;&gt;n_zombie_account -->
+<!-- n_control_methods -->
+<g id="node5" class="node">
+<title>n_control_methods</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="182.6766,-296.3 182.6766,-341.1 326.6362,-341.1 326.6362,-296.3 182.6766,-296.3"></polygon>
+<text text-anchor="middle" x="254.6564" y="-326.3" font-family="Calibri" font-size="12.00" fill="#000000">Automatically by software</text>
+<polyline fill="none" stroke="#000000" points="182.6766,-318.7 326.6362,-318.7 "></polyline>
+<text text-anchor="middle" x="254.6564" y="-303.9" font-family="Calibri" font-size="12.00" fill="#000000">Manually by people</text>
+</g>
+<!-- n_zombie_manager&#45;&gt;n_control_methods -->
+<g id="edge4" class="edge">
+<title>n_zombie_manager-&gt;n_control_methods</title>
+<path fill="none" stroke="#000000" d="M176.1089,-432.3613C192.976,-407.954 216.3612,-374.1147 233.2232,-349.7146"></path>
+<polygon fill="#000000" stroke="#000000" points="236.3104,-351.4037 239.1163,-341.1871 230.5517,-347.424 236.3104,-351.4037"></polygon>
+<text text-anchor="middle" x="238.3766" y="-406.6" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;use &nbsp;</text>
+<text text-anchor="middle" x="238.3766" y="-389.8" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;methods &nbsp;</text>
+</g>
+<!-- n_motivations -->
+<g id="node6" class="node">
+<title>n_motivations</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="0,-285.1 0,-352.3 119.3128,-352.3 119.3128,-285.1 0,-285.1"></polygon>
+<text text-anchor="middle" x="59.6564" y="-337.5" font-family="Calibri" font-size="12.00" fill="#000000">Financial</text>
+<polyline fill="none" stroke="#000000" points="0,-329.9 119.3128,-329.9 "></polyline>
+<text text-anchor="middle" x="59.6564" y="-315.1" font-family="Calibri" font-size="12.00" fill="#000000">Political / Ideological</text>
+<polyline fill="none" stroke="#000000" points="0,-307.5 119.3128,-307.5 "></polyline>
+<text text-anchor="middle" x="59.6564" y="-292.7" font-family="Calibri" font-size="12.00" fill="#000000">etc.</text>
+</g>
+<!-- n_zombie_manager&#45;&gt;n_motivations -->
+<g id="edge5" class="edge">
+<title>n_zombie_manager-&gt;n_motivations</title>
+<path fill="none" stroke="#000000" d="M114.0664,-454.9865C94.3645,-448.6461 72.4332,-437.7379 60.5442,-419.2 49.9736,-402.7178 48.4997,-381.3742 50.1786,-362.5983"></path>
+<polygon fill="#000000" stroke="#000000" points="53.6765,-362.8255 51.3979,-352.4786 46.7267,-361.9881 53.6765,-362.8255"></polygon>
+<text text-anchor="middle" x="100.7125" y="-398.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;motivations &nbsp;</text>
+</g>
+<!-- n_detection -->
+<g id="node11" class="node">
+<title>n_detection</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="265.662,-96.5 265.662,-141.3 333.6508,-141.3 333.6508,-96.5 265.662,-96.5"></polygon>
+<text text-anchor="middle" x="299.6564" y="-126.5" font-family="Calibri" font-size="12.00" fill="#000000">Prevention</text>
+<polyline fill="none" stroke="#000000" points="265.662,-118.9 333.6508,-118.9 "></polyline>
+<text text-anchor="middle" x="299.6564" y="-104.1" font-family="Calibri" font-size="12.00" fill="#000000">Detection</text>
+</g>
+<!-- n_zombie_manager&#45;&gt;n_detection -->
+<g id="edge11" class="edge">
+<title>n_zombie_manager-&gt;n_detection</title>
+<path fill="none" stroke="#000000" d="M151.3946,-427.1474C149.0788,-385.0687 149.8091,-314.4675 173.6564,-259.8 193.3496,-214.6554 233.2607,-174.0148 262.9139,-148.1142"></path>
+<polygon fill="#000000" stroke="#000000" points="265.2801,-150.6958 270.596,-141.5311 260.7252,-145.3805 265.2801,-150.6958"></polygon>
+<text text-anchor="middle" x="206.4326" y="-162.5311" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;tend to continuously &nbsp;</text>
+<text text-anchor="middle" x="206.4326" y="-145.7311" font-family="Calibri" font-size="14.00" fill="#000000"> adapt to avoid &nbsp;</text>
+</g>
+<!-- n_control_methods&#45;&gt;n_zombie_account -->
+<g id="edge6" class="edge">
+<title>n_control_methods-&gt;n_zombie_account</title>
+<path fill="none" stroke="#000000" d="M264.2624,-341.3759C274.0055,-362.8011 290.4925,-395.1523 310.6094,-419.2 315.75,-425.3451 321.8388,-431.2636 328.0435,-436.6629"></path>
+<polygon fill="#000000" stroke="#000000" points="325.9767,-439.4963 335.9022,-443.2023 330.4541,-434.1155 325.9767,-439.4963"></polygon>
+<text text-anchor="middle" x="344.6799" y="-398.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;to control &nbsp;</text>
+</g>
+<!-- n_control_methods&#45;&gt;n_detection -->
+<!-- n_system&#45;&gt;n_countermeasures -->
+<g id="edge9" class="edge">
+<title>n_system-&gt;n_countermeasures</title>
+<path fill="none" stroke="#000000" d="M624.6649,-427.2622C621.4668,-414.4073 617.7575,-399.4976 614.1314,-384.9221"></path>
+<polygon fill="#000000" stroke="#000000" points="617.4524,-383.7733 611.6416,-374.9141 610.6594,-385.4633 617.4524,-383.7733"></polygon>
+<text text-anchor="middle" x="653.1743" y="-398.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;weak on &nbsp;</text>
+</g>
+<!-- n_consequences -->
+<g id="node10" class="node">
+<title>n_consequences</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="333.9964,-159.3 333.9964,-226.5 423.3164,-226.5 423.3164,-159.3 333.9964,-159.3"></polygon>
+<text text-anchor="middle" x="378.6564" y="-211.7" font-family="Calibri" font-size="12.00" fill="#000000">Disinformation</text>
+<polyline fill="none" stroke="#000000" points="333.9964,-204.1 423.3164,-204.1 "></polyline>
+<text text-anchor="middle" x="378.6564" y="-189.3" font-family="Calibri" font-size="12.00" fill="#000000">Fraud</text>
+<polyline fill="none" stroke="#000000" points="333.9964,-181.7 423.3164,-181.7 "></polyline>
+<text text-anchor="middle" x="378.6564" y="-166.9" font-family="Calibri" font-size="12.00" fill="#000000">Larger attack</text>
+</g>
+<!-- n_actions&#45;&gt;n_consequences -->
+<g id="edge10" class="edge">
+<title>n_actions-&gt;n_consequences</title>
+<path fill="none" stroke="#000000" d="M399.5265,-260.2194C397.0089,-252.0987 394.4608,-243.8792 392.051,-236.1061"></path>
+<polygon fill="#000000" stroke="#000000" points="395.3895,-235.0549 389.0853,-226.5398 388.7034,-237.1277 395.3895,-235.0549"></polygon>
+<text text-anchor="middle" x="442.1375" y="-239.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;consequences &nbsp;</text>
+</g>
+<!-- n_countermeasures&#45;&gt;n_detection -->
+<g id="edge14" class="edge">
+<title>n_countermeasures-&gt;n_detection</title>
+<path fill="none" stroke="#000000" d="M552.0225,-262.4113C521.4856,-228.0742 478.5882,-185.748 432.6564,-158.8 405.185,-142.6826 370.644,-132.5739 343.6478,-126.5647"></path>
+<polygon fill="#000000" stroke="#000000" points="344.2092,-123.1061 333.7011,-124.4583 342.759,-129.9542 344.2092,-123.1061"></polygon>
+<text text-anchor="middle" x="535.9236" y="-188.7" font-family="Calibri" font-size="14.00" fill="#000000">enable</text>
+</g>
+<!-- n_consequences&#45;&gt;n_detection -->
+<!-- n_difficult -->
+<g id="node12" class="node">
+<title>n_difficult</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="299.6564" cy="-45.2" rx="75.6133" ry="18"></ellipse>
+<text text-anchor="middle" x="299.6564" y="-41.6" font-family="Calibri" font-size="12.00" fill="#000000">Cat-and-mouse game</text>
+</g>
+<!-- n_detection&#45;&gt;n_difficult -->
+<g id="edge12" class="edge">
+<title>n_detection-&gt;n_difficult</title>
+<path fill="none" stroke="#000000" d="M299.6564,-96.3871C299.6564,-89.2516 299.6564,-81.2663 299.6564,-73.7643"></path>
+<polygon fill="#000000" stroke="#000000" points="303.1565,-73.6193 299.6564,-63.6194 296.1565,-73.6194 303.1565,-73.6193"></polygon>
+<text text-anchor="middle" x="311.324" y="-75.4" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+</g>
+</svg>

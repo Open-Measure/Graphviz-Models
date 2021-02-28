@@ -1,0 +1,140 @@
+<svg width="413pt" height="433pt" viewBox="0 0 413 433" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 429.4)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-429.4 408.6622,-429.4 408.6622,4 -4,4"></polygon>
+<text text-anchor="middle" x="202.3311" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">A Taxonomy of Digital Identity Authenticity by Open-Measure</text>
+<text text-anchor="middle" x="202.3311" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<g id="clust3" class="cluster">
+<title>cluster_legend</title>
+<polygon fill="none" stroke="#000000" points="149.6622,-35.2 149.6622,-113 396.6622,-113 396.6622,-35.2 149.6622,-35.2"></polygon>
+<text text-anchor="middle" x="273.1622" y="-96.4" font-family="Calibri" font-size="14.00" fill="#000000">Legend</text>
+</g>
+<!-- n_digital_identity -->
+<g id="node1" class="node">
+<title>n_digital_identity</title>
+<g id="a_node1"><a xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/782893195" xlink:title="Digital\nIdentity">
+<polygon fill="#5599ff" stroke="#000000" points="83.6677,-373.7 83.6677,-424.9 155.6567,-424.9 155.6567,-373.7 83.6677,-373.7"></polygon>
+<text text-anchor="middle" x="119.6622" y="-404.7" font-family="Calibri" font-size="18.00" fill="#000000">Digital</text>
+<text text-anchor="middle" x="119.6622" y="-383.1" font-family="Calibri" font-size="18.00" fill="#000000">Identity</text>
+</a>
+</g>
+</g>
+<!-- n_level_2 -->
+<!-- n_digital_identity&#45;&gt;n_level_2 -->
+<g id="edge1" class="edge">
+<title>n_digital_identity-&gt;n_level_2</title>
+<path fill="none" stroke="#000000" d="M119.6622,-373.6348C119.6622,-356.7112 119.6622,-337.4454 119.6622,-336.2578"></path>
+</g>
+<!-- n_authentic -->
+<g id="node3" class="node">
+<title>n_authentic</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="68.115,-252.3 68.115,-298.7 147.2094,-298.7 147.2094,-252.3 68.115,-252.3"></polygon>
+<text text-anchor="middle" x="107.6622" y="-280.3" font-family="Calibri" font-size="16.00" fill="#000000">Authentic</text>
+<text text-anchor="middle" x="107.6622" y="-261.1" font-family="Calibri" font-size="16.00" fill="#000000">Identity</text>
+</g>
+<!-- n_level_2&#45;&gt;n_authentic -->
+<g id="edge2" class="edge">
+<title>n_level_2-&gt;n_authentic:n</title>
+<path fill="none" stroke="#000000" d="M119.6278,-336.1418C118.9239,-334.9452 107.6622,-315.5344 107.6622,-298.5"></path>
+</g>
+<!-- n_fake -->
+<g id="node4" class="node">
+<title>n_fake</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="164.7782,-252.3 164.7782,-298.7 230.5462,-298.7 230.5462,-252.3 164.7782,-252.3"></polygon>
+<text text-anchor="middle" x="197.6622" y="-280.3" font-family="Calibri" font-size="16.00" fill="#000000">Fake</text>
+<text text-anchor="middle" x="197.6622" y="-261.1" font-family="Calibri" font-size="16.00" fill="#000000">Identity</text>
+</g>
+<!-- n_level_2&#45;&gt;n_fake -->
+<g id="edge3" class="edge">
+<title>n_level_2-&gt;n_fake:n</title>
+<path fill="none" stroke="#000000" d="M119.7187,-336.1866C122.0807,-335.6233 197.6622,-317.451 197.6622,-298.5"></path>
+</g>
+<!-- n_level_3_fake -->
+<!-- n_fake&#45;&gt;n_level_3_fake -->
+<g id="edge4" class="edge">
+<title>n_fake-&gt;n_level_3_fake</title>
+<path fill="none" stroke="#000000" d="M197.6622,-252.2054C197.6622,-235.6226 197.6622,-216.0649 197.6622,-214.8587"></path>
+</g>
+<!-- n_honeypot -->
+<g id="node6" class="node">
+<title>n_honeypot</title>
+<polygon fill="#aaffaa" stroke="#000000" points="0,-140.5 0,-177.3 63.3244,-177.3 63.3244,-140.5 0,-140.5"></polygon>
+<text text-anchor="middle" x="31.6622" y="-162.5" font-family="Calibri" font-size="12.00" fill="#000000">Social</text>
+<text text-anchor="middle" x="31.6622" y="-148.1" font-family="Calibri" font-size="12.00" fill="#000000">Honeypot</text>
+</g>
+<!-- n_level_3_fake&#45;&gt;n_honeypot -->
+<g id="edge5" class="edge">
+<title>n_level_3_fake-&gt;n_honeypot:n</title>
+<path fill="none" stroke="#000000" d="M197.5419,-214.7998C192.5152,-214.7888 31.6622,-214.1469 31.6622,-176.9"></path>
+</g>
+<!-- n_zombie_account -->
+<g id="node7" class="node">
+<title>n_zombie_account</title>
+<polygon fill="#ffaaaa" stroke="#000000" points="81.3366,-140.5 81.3366,-177.3 137.9878,-177.3 137.9878,-140.5 81.3366,-140.5"></polygon>
+<text text-anchor="middle" x="109.6622" y="-162.5" font-family="Calibri" font-size="12.00" fill="#000000">Zombie</text>
+<text text-anchor="middle" x="109.6622" y="-148.1" font-family="Calibri" font-size="12.00" fill="#000000">Account</text>
+</g>
+<!-- n_level_3_fake&#45;&gt;n_zombie_account -->
+<g id="edge6" class="edge">
+<title>n_level_3_fake-&gt;n_zombie_account:n</title>
+<path fill="none" stroke="#000000" d="M197.5984,-214.7879C194.9337,-214.2799 109.6622,-197.8594 109.6622,-176.9"></path>
+</g>
+<!-- n_compromised -->
+<g id="node8" class="node">
+<title>n_compromised</title>
+<polygon fill="#ffaaaa" stroke="#000000" points="155.6644,-140.5 155.6644,-177.3 239.66,-177.3 239.66,-140.5 155.6644,-140.5"></polygon>
+<text text-anchor="middle" x="197.6622" y="-162.5" font-family="Calibri" font-size="12.00" fill="#000000">Compromised</text>
+<text text-anchor="middle" x="197.6622" y="-148.1" font-family="Calibri" font-size="12.00" fill="#000000">Account</text>
+</g>
+<!-- n_level_3_fake&#45;&gt;n_compromised -->
+<g id="edge7" class="edge">
+<title>n_level_3_fake-&gt;n_compromised:n</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M197.6622,-214.7391C197.6622,-213.4881 197.6622,-193.2181 197.6622,-176.9"></path>
+</g>
+<!-- n_test -->
+<g id="node9" class="node">
+<title>n_test</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="257.3366,-140.5 257.3366,-177.3 313.9878,-177.3 313.9878,-140.5 257.3366,-140.5"></polygon>
+<text text-anchor="middle" x="285.6622" y="-162.5" font-family="Calibri" font-size="12.00" fill="#000000">Test</text>
+<text text-anchor="middle" x="285.6622" y="-148.1" font-family="Calibri" font-size="12.00" fill="#000000">Account</text>
+</g>
+<!-- n_level_3_fake&#45;&gt;n_test -->
+<g id="edge8" class="edge">
+<title>n_level_3_fake-&gt;n_test:n</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M197.726,-214.7879C200.3907,-214.2799 285.6622,-197.8594 285.6622,-176.9"></path>
+</g>
+<!-- n_research -->
+<g id="node10" class="node">
+<title>n_research</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="331.6764,-140.5 331.6764,-177.3 391.648,-177.3 391.648,-140.5 331.6764,-140.5"></polygon>
+<text text-anchor="middle" x="361.6622" y="-162.5" font-family="Calibri" font-size="12.00" fill="#000000">Research</text>
+<text text-anchor="middle" x="361.6622" y="-148.1" font-family="Calibri" font-size="12.00" fill="#000000">Account</text>
+</g>
+<!-- n_level_3_fake&#45;&gt;n_research -->
+<g id="edge9" class="edge">
+<title>n_level_3_fake-&gt;n_research:n</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M197.7811,-214.7995C202.7472,-214.7755 361.6622,-213.7205 361.6622,-176.9"></path>
+</g>
+<!-- n_defense -->
+<g id="node11" class="node">
+<title>n_defense</title>
+<polygon fill="#aaffaa" stroke="#000000" points="334.6622,-43.7 334.6622,-79.7 388.6622,-79.7 388.6622,-43.7 334.6622,-43.7"></polygon>
+<text text-anchor="middle" x="361.5392" y="-58.7" font-family="Calibri" font-size="10.00" fill="#000000">Defense</text>
+</g>
+<!-- n_research&#45;&gt;n_defense -->
+<!-- n_attack -->
+<g id="node12" class="node">
+<title>n_attack</title>
+<polygon fill="#ffaaaa" stroke="#000000" points="262.6622,-43.7 262.6622,-79.7 316.6622,-79.7 316.6622,-43.7 262.6622,-43.7"></polygon>
+<text text-anchor="middle" x="289.4897" y="-58.7" font-family="Calibri" font-size="10.00" fill="#000000">Attack</text>
+</g>
+<!-- n_dash_tail -->
+<!-- n_dash_head -->
+<!-- n_dash_tail&#45;&gt;n_dash_head -->
+<g id="edge11" class="edge">
+<title>n_dash_tail-&gt;n_dash_head</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M157.7253,-61.7C160.3185,-61.7 242.0477,-61.7 244.6011,-61.7"></path>
+<text text-anchor="middle" x="201.1622" y="-67.7" font-family="Calibri" font-size="10.00" fill="#000000">Conditional Link</text>
+</g>
+</g>
+</svg>

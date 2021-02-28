@@ -1,0 +1,42 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Intensional Definition (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Superordinate Concepts
+	n_sample_2 -> n_superordinate_concept [weight=10, label="  ...  ", dir="back"];
+	n_sample_2 [label="...", fillcolor="#ffffff"];
+	n_superordinate_concept -> n_concept [weight=10, label="  is a  ", dir="back"];
+	n_superordinate_concept [label="Superordinate\nConcept", fillcolor="#ffffff"];
+	n_sample_1 -> n_concept [weight=10, label="  ...  ", dir="back"];
+	n_sample_1 [label="...", fillcolor="#ffffff"];
+
+	# Concept
+	n_concept [label="  Concept  ", fontsize=18, fillcolor="#5599ff"];
+	n_concept -> n_delimiting_characteristic [weight=10, label="  has  "];
+	n_concept -> n_another_delimiting_characteristic [weight=10, label="  has  "];
+	n_concept -> n_sample_5 [weight=10, label="  ...  "];
+
+	# Delimiting Characteristics
+	subgraph cluster_delimiting_characteristics {
+		label="Necessary and Sufficient Conditions linked to the Concept";
+		color=black;
+		fontsize=12;
+		labelloc="b";
+	n_delimiting_characteristic [label="Some\nDelimiting\nCharacteristic"];
+	n_another_delimiting_characteristic [label="Another\nDelimiting\nCharacteristic"];
+	n_another_delimiting_characteristic -> n_sample_3 [weight=10, label="  ...  "];
+	n_sample_3 [label="..."];
+	n_another_delimiting_characteristic -> n_sample_4 [weight=10, label="  ...  "];
+	n_sample_4 [label="..."];
+	n_sample_5 [label="..."];
+	}
+}

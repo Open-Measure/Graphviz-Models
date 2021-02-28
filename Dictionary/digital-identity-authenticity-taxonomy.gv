@@ -1,0 +1,67 @@
+digraph G {
+	# rankdir="TB";
+	# ranksep="0";
+	splines="spline";
+	# newrank=true;
+	# packmode="clust";
+	# compound=true;
+	fontname="Calibri";
+	# nodesep=.5
+	label="A Taxonomy of Digital Identity Authenticity by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="record", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", dir="none"];
+
+	# STYLES
+	# Green: fillcolor="#aaffaa"
+	# Red: fillcolor="#ffaaaa"
+	# White Node: n_digital_identity [label="Fake\nDigital Identity", fillcolor="#ffffff"];
+	# Subgraph: subgraph cluster_authentic { label="Authentic"; fontsize=18; }
+	# Invisible edge: n_honeypot -> n_zombie_account [style="invis"];
+	# Rank: {rank=same; n_digital_identity; n_system;}
+
+	# Root Concept
+	n_digital_identity [label="Digital\nIdentity", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/782893195"];
+
+	# Level 2 Interface
+	n_digital_identity -> n_level_2
+	n_level_2 [shape="point", style="invis", width="0"]
+
+	# Level 2
+	n_level_2 -> n_authentic:n;
+	n_level_2 -> n_fake:n;
+	n_authentic [label="Authentic\nIdentity", fontsize=16];
+	n_fake [label="Fake\nIdentity", fontsize=16];
+	{	rank=same; n_authentic; n_fake }
+
+	# Level 3 Interface
+	n_fake -> n_level_3_fake
+	n_level_3_fake [shape="point", style="invis", width="0"]
+
+	# Level 3
+	n_level_3_fake -> n_honeypot:n;
+	n_level_3_fake -> n_zombie_account:n;
+	n_level_3_fake -> n_compromised:n [style="dashed"];
+	n_level_3_fake -> n_test:n [style="dashed"];
+	n_level_3_fake -> n_research:n [style="dashed"];
+	n_honeypot [label="Social\nHoneypot", fillcolor="#aaffaa"];
+	n_zombie_account [label="Zombie\nAccount", fillcolor="#ffaaaa"];
+	n_compromised [label="Compromised\nAccount", fillcolor="#ffaaaa"];
+	n_test [label="Test\nAccount"];
+	n_research [label="Research\nAccount"];
+	{	rank=same; n_honeypot; n_zombie_account; n_compromised; n_test; n_research }
+
+	# Legend
+	n_research -> n_defense [style="invis"];
+	subgraph cluster_legend {
+		label="Legend";
+		fontsize=14;
+		n_defense [label="Defense", fillcolor="#aaffaa", fontsize=10];
+		n_attack [label="Attack", fillcolor="#ffaaaa", fontsize=10];
+		n_dash_tail [shape="point", style="invis", width="0"]
+		n_dash_head [shape="point", style="invis", width="0"]
+		n_dash_tail -> n_dash_head [label="Conditional Link", style="dashed", fontsize=10];
+		{ rank=same; n_defense; n_attack; n_dash_tail; n_dash_head}
+	}
+
+}

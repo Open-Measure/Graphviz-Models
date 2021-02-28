@@ -1,0 +1,128 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="363pt" height="451pt" viewBox="0 0 363 451" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 447.1115)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-447.1115 359,-447.1115 359,4 -4,4"></polygon>
+<text text-anchor="middle" x="177.5" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Intensional Definition (Conceptual Diagram) by Open-Measure</text>
+<text text-anchor="middle" x="177.5" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<g id="clust1" class="cluster">
+<title>cluster_delimiting_characteristics</title>
+<polygon fill="none" stroke="#000000" points="8,-35.2 8,-214.8077 347,-214.8077 347,-35.2 8,-35.2"></polygon>
+<text text-anchor="middle" x="177.5" y="-42.8" font-family="Calibri" font-size="12.00" fill="#000000">Necessary and Sufficient Conditions linked to the Concept</text>
+</g>
+<!-- n_sample_2 -->
+<g id="node1" class="node">
+<title>n_sample_2</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="157" cy="-425.1115" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="157" y="-421.5115" font-family="Calibri" font-size="12.00" fill="#000000">...</text>
+</g>
+<!-- n_superordinate_concept -->
+<g id="node2" class="node">
+<title>n_superordinate_concept</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="157" cy="-348.29" rx="58.8188" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="157" y="-351.89" font-family="Calibri" font-size="12.00" fill="#000000">Superordinate</text>
+<text text-anchor="middle" x="157" y="-337.49" font-family="Calibri" font-size="12.00" fill="#000000">Concept</text>
+</g>
+<!-- n_sample_2&#45;&gt;n_superordinate_concept -->
+<g id="edge1" class="edge">
+<title>n_sample_2-&gt;n_superordinate_concept</title>
+<path fill="none" stroke="#000000" d="M157,-396.7465C157,-389.4681 157,-381.6722 157,-374.5077"></path>
+<polygon fill="#000000" stroke="#000000" points="153.5001,-396.9059 157,-406.9059 160.5001,-396.9059 153.5001,-396.9059"></polygon>
+<text text-anchor="middle" x="169.25" y="-386.5115" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;... &nbsp;</text>
+</g>
+<!-- n_concept -->
+<g id="node3" class="node">
+<title>n_concept</title>
+<ellipse fill="#5599ff" stroke="#000000" cx="209" cy="-268.5381" rx="66.4174" ry="20.861"></ellipse>
+<text text-anchor="middle" x="209" y="-263.1381" font-family="Calibri" font-size="18.00" fill="#000000"> &nbsp;Concept &nbsp;</text>
+</g>
+<!-- n_superordinate_concept&#45;&gt;n_concept -->
+<g id="edge2" class="edge">
+<title>n_superordinate_concept-&gt;n_concept</title>
+<path fill="none" stroke="#000000" d="M178.9773,-314.5836C184.629,-305.9157 190.5405,-296.8492 195.6087,-289.0762"></path>
+<polygon fill="#000000" stroke="#000000" points="175.9831,-312.7676 173.4531,-323.056 181.8468,-316.5909 175.9831,-312.7676"></polygon>
+<text text-anchor="middle" x="205.5249" y="-301.6685" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_delimiting_characteristic -->
+<g id="node5" class="node">
+<title>n_delimiting_characteristic</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="74" cy="-170.6039" rx="58.3599" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="74" y="-181.4039" font-family="Calibri" font-size="12.00" fill="#000000">Some</text>
+<text text-anchor="middle" x="74" y="-167.0039" font-family="Calibri" font-size="12.00" fill="#000000">Delimiting</text>
+<text text-anchor="middle" x="74" y="-152.6039" font-family="Calibri" font-size="12.00" fill="#000000">Characteristic</text>
+</g>
+<!-- n_concept&#45;&gt;n_delimiting_characteristic -->
+<g id="edge4" class="edge">
+<title>n_concept-&gt;n_delimiting_characteristic</title>
+<path fill="none" stroke="#000000" d="M182.3283,-249.1894C164.7012,-236.402 141.1238,-219.2981 120.4664,-204.3124"></path>
+<polygon fill="#000000" stroke="#000000" points="122.2672,-201.2948 112.1175,-198.2558 118.1568,-206.9609 122.2672,-201.2948"></polygon>
+<text text-anchor="middle" x="185.3296" y="-227.0077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;has &nbsp;</text>
+</g>
+<!-- n_another_delimiting_characteristic -->
+<g id="node6" class="node">
+<title>n_another_delimiting_characteristic</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="209" cy="-170.6039" rx="58.3599" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="209" y="-181.4039" font-family="Calibri" font-size="12.00" fill="#000000">Another</text>
+<text text-anchor="middle" x="209" y="-167.0039" font-family="Calibri" font-size="12.00" fill="#000000">Delimiting</text>
+<text text-anchor="middle" x="209" y="-152.6039" font-family="Calibri" font-size="12.00" fill="#000000">Characteristic</text>
+</g>
+<!-- n_concept&#45;&gt;n_another_delimiting_characteristic -->
+<g id="edge5" class="edge">
+<title>n_concept-&gt;n_another_delimiting_characteristic</title>
+<path fill="none" stroke="#000000" d="M209,-247.2878C209,-238.3352 209,-227.5394 209,-216.9112"></path>
+<polygon fill="#000000" stroke="#000000" points="212.5001,-216.8383 209,-206.8383 205.5001,-216.8384 212.5001,-216.8383"></polygon>
+<text text-anchor="middle" x="225.3296" y="-227.0077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;has &nbsp;</text>
+</g>
+<!-- n_sample_5 -->
+<g id="node7" class="node">
+<title>n_sample_5</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="312" cy="-170.6039" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="312" y="-167.0039" font-family="Calibri" font-size="12.00" fill="#000000">...</text>
+</g>
+<!-- n_concept&#45;&gt;n_sample_5 -->
+<g id="edge6" class="edge">
+<title>n_concept-&gt;n_sample_5</title>
+<path fill="none" stroke="#000000" d="M234.1502,-249.0215C238.1291,-245.8913 242.1871,-242.6734 246,-239.6077 259.4819,-228.7677 263.8124,-227.0849 276,-214.8077 282.0794,-208.6836 288.1935,-201.6037 293.6135,-194.9293"></path>
+<polygon fill="#000000" stroke="#000000" points="296.5905,-196.8076 300.0528,-186.7945 291.1019,-192.463 296.5905,-196.8076"></polygon>
+<text text-anchor="middle" x="279.25" y="-227.0077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;... &nbsp;</text>
+</g>
+<!-- n_sample_1 -->
+<g id="node4" class="node">
+<title>n_sample_1</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="261" cy="-348.29" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="261" y="-344.69" font-family="Calibri" font-size="12.00" fill="#000000">...</text>
+</g>
+<!-- n_sample_1&#45;&gt;n_concept -->
+<g id="edge3" class="edge">
+<title>n_sample_1-&gt;n_concept</title>
+<path fill="none" stroke="#000000" d="M244.5813,-323.1088C237.4847,-312.2248 229.281,-299.6428 222.5404,-289.3049"></path>
+<polygon fill="#000000" stroke="#000000" points="241.8319,-325.3003 250.2256,-331.7653 247.6956,-321.477 241.8319,-325.3003"></polygon>
+<text text-anchor="middle" x="250.25" y="-301.6685" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;... &nbsp;</text>
+</g>
+<!-- n_sample_3 -->
+<g id="node8" class="node">
+<title>n_sample_3</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="176" cy="-83.6" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="176" y="-80" font-family="Calibri" font-size="12.00" fill="#000000">...</text>
+</g>
+<!-- n_another_delimiting_characteristic&#45;&gt;n_sample_3 -->
+<g id="edge7" class="edge">
+<title>n_another_delimiting_characteristic-&gt;n_sample_3</title>
+<path fill="none" stroke="#000000" d="M193.1074,-135.5211C191.8445,-132.4535 190.6243,-129.3825 189.5,-126.4 187.705,-121.6383 185.9471,-116.5205 184.3244,-111.5381"></path>
+<polygon fill="#000000" stroke="#000000" points="187.5557,-110.1466 181.2145,-101.659 180.8787,-112.2485 187.5557,-110.1466"></polygon>
+<text text-anchor="middle" x="201.25" y="-113.8" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;... &nbsp;</text>
+</g>
+<!-- n_sample_4 -->
+<g id="node9" class="node">
+<title>n_sample_4</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="248" cy="-83.6" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="248" y="-80" font-family="Calibri" font-size="12.00" fill="#000000">...</text>
+</g>
+<!-- n_another_delimiting_characteristic&#45;&gt;n_sample_4 -->
+<g id="edge8" class="edge">
+<title>n_another_delimiting_characteristic-&gt;n_sample_4</title>
+<path fill="none" stroke="#000000" d="M224.6381,-135.7174C228.4347,-127.2476 232.4348,-118.324 236.031,-110.3012"></path>
+<polygon fill="#000000" stroke="#000000" points="239.28,-111.6097 240.1766,-101.0529 232.8924,-108.7464 239.28,-111.6097"></polygon>
+<text text-anchor="middle" x="247.25" y="-113.8" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;... &nbsp;</text>
+</g>
+</g>
+</svg>

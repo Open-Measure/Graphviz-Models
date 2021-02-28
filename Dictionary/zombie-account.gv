@@ -1,0 +1,58 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Zombie Account (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Superordinate Concepts
+	n_digital_identity [label="Fake\nDigital Identity", fillcolor="#ffffff"];
+	n_digital_identity -> n_zombie_account [weight=10, label="  is a  ", dir="back"];
+	n_unauthorized_entity [label="Unauthorized\nEntity", fillcolor="#ffffff"];
+	n_unauthorized_entity -> n_zombie_manager [label="  is  ", dir="back"];
+
+	# Concept
+	n_zombie_account [label="Zombie Account", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/782893195"];
+
+	# Delimiting Characteristics
+	n_zombie_manager [label="Zombie\nAccount\nManager"];
+	n_zombie_manager -> n_zombie_account [label="  control  ", style="invis"];
+	n_zombie_manager -> n_control_methods [label="  use  \n  methods  "];
+	n_zombie_manager -> n_motivations [label="  motivations  "];
+	n_control_methods -> n_zombie_account [label="  to control  "];
+	n_control_methods [label="{Automatically by software|Manually by people}", shape="record", color="black", fontcolor="black"];
+	n_motivations [label="{Financial|Political / Ideological|etc.}", shape="record", color="black", fontcolor="black"];
+	n_zombie_account -> n_system [label="  proliferate  \n  on  "];
+	n_system [label="System with\nopen subscription\ne.g. Social Networks"];
+	n_zombie_account -> n_actions [label="  actions  "];
+	n_actions [label="{Social engineering|Masquerading praise\nor criticism\n(e.g. likes, comments, etc.)\nto promote or suppress\ndeals, products,\nservices, brands or ideas}", shape="record", color="black", fontcolor="black"];
+	n_system -> n_countermeasures [label="  weak on  "]
+	n_actions -> n_consequences [label="  consequences  "];
+	n_consequences [label="{Disinformation|Fraud|Larger attack}", shape="record", color="black", fontcolor="black"];
+
+	n_detection [label="{Prevention|Detection}", shape="record", color="black", fontcolor="black"];
+	n_zombie_manager -> n_detection [headlabel="  tend to continuously  \n adapt to avoid  "];
+	n_detection -> n_difficult [label="  is  "];
+	n_difficult [label="Cat-and-mouse game"];
+
+	n_zombie_account -> n_countermeasures [label="  countermeasures  "];
+	n_countermeasures [label="{Acceptable use policy|Account behavior data analytics|Captchas|Identity certification / verification|Social Honeypot}", shape="record", color="black", fontcolor="black"];
+	n_countermeasures -> n_detection [label="enable"]
+
+	# Invisible edges
+	n_control_methods -> n_detection [style="invis"];
+	n_consequences -> n_detection [style="invis"];
+
+	# Ranks
+	{rank=same; n_zombie_account; n_system;}
+	{rank=same; n_zombie_account; n_zombie_manager;}
+	#{rank=same; n_detection; n_difficult;}
+
+
+}
