@@ -1,0 +1,192 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="445pt" height="645pt" viewBox="0 0 445 645" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 640.9625)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-640.9625 440.8606,-640.9625 440.8606,4 -4,4"></polygon>
+<text text-anchor="middle" x="218.4303" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Information Security Domain (Conceptual Diagram) by Open-Measure</text>
+<text text-anchor="middle" x="218.4303" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<g id="clust1" class="cluster">
+<title>cluster_composition</title>
+<polygon fill="none" stroke="#000000" points="180.8606,-35.2 180.8606,-432.4077 428.8606,-432.4077 428.8606,-35.2 180.8606,-35.2"></polygon>
+</g>
+<!-- n_system -->
+<g id="node1" class="node">
+<title>n_system</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="182.8606" cy="-618.9625" rx="32.5754" ry="18"></ellipse>
+<text text-anchor="middle" x="182.8606" y="-615.3625" font-family="Calibri" font-size="12.00" fill="#000000">System</text>
+</g>
+<!-- n_domain -->
+<g id="node2" class="node">
+<title>n_domain</title>
+<g id="a_node2"><a xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/438698009" xlink:title="Information\nSecurity\nDomain">
+<ellipse fill="#5599ff" stroke="#000000" cx="182.8606" cy="-516.6851" rx="72.2123" ry="51.4548"></ellipse>
+<text text-anchor="middle" x="182.8606" y="-532.8851" font-family="Calibri" font-size="18.00" fill="#000000">Information</text>
+<text text-anchor="middle" x="182.8606" y="-511.2851" font-family="Calibri" font-size="18.00" fill="#000000">Security</text>
+<text text-anchor="middle" x="182.8606" y="-489.6851" font-family="Calibri" font-size="18.00" fill="#000000">Domain</text>
+</a>
+</g>
+</g>
+<!-- n_system&#45;&gt;n_domain -->
+<g id="edge1" class="edge">
+<title>n_system-&gt;n_domain</title>
+<path fill="none" stroke="#000000" d="M182.8606,-590.5612C182.8606,-583.7044 182.8606,-576.1628 182.8606,-568.5986"></path>
+<polygon fill="#000000" stroke="#000000" points="179.3607,-590.6773 182.8606,-600.6773 186.3607,-590.6774 179.3607,-590.6773"></polygon>
+<text text-anchor="middle" x="199.3855" y="-580.3625" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_bounded -->
+<g id="node3" class="node">
+<title>n_bounded</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="38.8606" cy="-406.4077" rx="37.7879" ry="18"></ellipse>
+<text text-anchor="middle" x="38.8606" y="-402.8077" font-family="Calibri" font-size="12.00" fill="#000000">Bounded</text>
+</g>
+<!-- n_domain&#45;&gt;n_bounded -->
+<g id="edge2" class="edge">
+<title>n_domain-&gt;n_bounded</title>
+<path fill="none" stroke="#000000" d="M133.304,-478.7339C111.1511,-461.7689 85.8487,-442.3919 67.0126,-427.9669"></path>
+<polygon fill="#000000" stroke="#000000" points="68.9151,-425.0155 58.8477,-421.7142 64.659,-430.573 68.9151,-425.0155"></polygon>
+<text text-anchor="middle" x="114.5282" y="-444.6077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+<!-- n_coherent -->
+<g id="node4" class="node">
+<title>n_coherent</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="132.8606" cy="-406.4077" rx="38.127" ry="18"></ellipse>
+<text text-anchor="middle" x="132.8606" y="-402.8077" font-family="Calibri" font-size="12.00" fill="#000000">Coherent</text>
+</g>
+<!-- n_domain&#45;&gt;n_coherent -->
+<g id="edge3" class="edge">
+<title>n_domain-&gt;n_coherent</title>
+<path fill="none" stroke="#000000" d="M160.6387,-467.6736C155.3022,-455.9037 149.7947,-443.7566 145.1051,-433.4135"></path>
+<polygon fill="#000000" stroke="#000000" points="148.2089,-431.7832 140.8918,-424.1209 141.8336,-434.6738 148.2089,-431.7832"></polygon>
+<text text-anchor="middle" x="167.5282" y="-444.6077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+<!-- n_authorities -->
+<g id="node5" class="node">
+<title>n_authorities</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="233.8606" cy="-406.4077" rx="44.9066" ry="18"></ellipse>
+<text text-anchor="middle" x="233.8606" y="-402.8077" font-family="Calibri" font-size="12.00" fill="#000000">Authorities</text>
+</g>
+<!-- n_domain&#45;&gt;n_authorities -->
+<g id="edge4" class="edge">
+<title>n_domain-&gt;n_authorities</title>
+<path fill="none" stroke="#000000" d="M209.7532,-458.5353C215.5574,-445.9848 221.2652,-433.6428 225.6688,-424.1209"></path>
+<polygon fill="#000000" stroke="#000000" points="206.5478,-457.1281 205.527,-467.6736 212.9013,-460.0664 206.5478,-457.1281"></polygon>
+<text text-anchor="middle" x="243.2982" y="-444.6077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;govern &nbsp;</text>
+</g>
+<!-- n_policies -->
+<g id="node6" class="node">
+<title>n_policies</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="257.8606" cy="-337.6077" rx="34.4739" ry="18"></ellipse>
+<text text-anchor="middle" x="257.8606" y="-334.0077" font-family="Calibri" font-size="12.00" fill="#000000">Policies</text>
+</g>
+<!-- n_domain&#45;&gt;n_policies -->
+<g id="edge5" class="edge">
+<title>n_domain-&gt;n_policies</title>
+<path fill="none" stroke="#000000" d="M242.2851,-487.0888C259.0421,-475.4918 275.1314,-460.4351 284.0734,-441.8278"></path>
+<polygon fill="#000000" stroke="#000000" points="287.3778,-442.9916 287.8606,-432.4077 280.883,-440.3804 287.3778,-442.9916"></polygon>
+<text text-anchor="middle" x="335.2428" y="-410.6077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;composed &nbsp;</text>
+<text text-anchor="middle" x="335.2428" y="-393.8077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of &nbsp;</text>
+</g>
+<!-- n_authorities&#45;&gt;n_policies -->
+<g id="edge8" class="edge">
+<title>n_authorities-&gt;n_policies</title>
+<path fill="none" stroke="#000000" d="M240.1663,-388.3313C242.6662,-381.165 245.5953,-372.7683 248.3429,-364.892"></path>
+<polygon fill="#000000" stroke="#000000" points="251.6909,-365.9203 251.68,-355.3254 245.0815,-363.6146 251.6909,-365.9203"></polygon>
+<text text-anchor="middle" x="268.8578" y="-367.8077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;issue &nbsp;</text>
+</g>
+<!-- n_authorizations -->
+<g id="node9" class="node">
+<title>n_authorizations</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="257.8606" cy="-268.8077" rx="55.5399" ry="18"></ellipse>
+<text text-anchor="middle" x="257.8606" y="-265.2077" font-family="Calibri" font-size="12.00" fill="#000000">Authorizations</text>
+</g>
+<!-- n_policies&#45;&gt;n_authorizations -->
+<g id="edge9" class="edge">
+<title>n_policies-&gt;n_authorizations</title>
+<path fill="none" stroke="#000000" d="M257.8606,-319.5313C257.8606,-312.7121 257.8606,-304.7788 257.8606,-297.2399"></path>
+<polygon fill="#000000" stroke="#000000" points="261.3607,-297.0022 257.8606,-287.0023 254.3607,-297.0023 261.3607,-297.0022"></polygon>
+<text text-anchor="middle" x="290.5107" y="-299.0077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;prescribe &nbsp;</text>
+</g>
+<!-- n_coi -->
+<g id="node7" class="node">
+<title>n_coi</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="51.8606" cy="-165.0039" rx="51.7216" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="51.8606" y="-175.8039" font-family="Calibri" font-size="12.00" fill="#000000">Community</text>
+<text text-anchor="middle" x="51.8606" y="-161.4039" font-family="Calibri" font-size="12.00" fill="#000000">of</text>
+<text text-anchor="middle" x="51.8606" y="-147.0039" font-family="Calibri" font-size="12.00" fill="#000000">Interest</text>
+</g>
+<!-- n_coi&#45;&gt;n_authorities -->
+<g id="edge6" class="edge">
+<title>n_coi-&gt;n_authorities</title>
+<path fill="none" stroke="#000000" d="M76.0406,-197.076C112.5869,-245.5509 181.1653,-336.513 214.5779,-380.8312"></path>
+<polygon fill="#000000" stroke="#000000" points="211.9568,-383.1686 220.7716,-389.0466 217.5463,-378.9546 211.9568,-383.1686"></polygon>
+<text text-anchor="middle" x="196.0787" y="-299.0077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;constitute &nbsp;</text>
+</g>
+<!-- n_entities -->
+<g id="node8" class="node">
+<title>n_entities</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="222.8606" cy="-165.0039" rx="33.773" ry="18"></ellipse>
+<text text-anchor="middle" x="222.8606" y="-161.4039" font-family="Calibri" font-size="12.00" fill="#000000">Entities</text>
+</g>
+<!-- n_coi&#45;&gt;n_entities -->
+<g id="edge7" class="edge">
+<title>n_coi-&gt;n_entities</title>
+<path fill="none" stroke="#000000" d="M104.0954,-165.0039C128.0293,-165.0039 156.0834,-165.0039 178.9143,-165.0039"></path>
+<polygon fill="#000000" stroke="#000000" points="179.0031,-168.504 189.0031,-165.0039 179.0031,-161.504 179.0031,-168.504"></polygon>
+<text text-anchor="middle" x="146.4728" y="-172.2039" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;constitute &nbsp;</text>
+</g>
+<!-- n_identities -->
+<g id="node10" class="node">
+<title>n_identities</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="227.8606" cy="-61.2" rx="38.9814" ry="18"></ellipse>
+<text text-anchor="middle" x="227.8606" y="-57.6" font-family="Calibri" font-size="12.00" fill="#000000">Identities</text>
+</g>
+<!-- n_entities&#45;&gt;n_identities -->
+<g id="edge11" class="edge">
+<title>n_entities-&gt;n_identities</title>
+<path fill="none" stroke="#000000" d="M223.7316,-146.9226C224.494,-131.093 225.6146,-107.8292 226.4961,-89.5296"></path>
+<polygon fill="#000000" stroke="#000000" points="229.9976,-89.5792 226.9829,-79.4223 223.0057,-89.2423 229.9976,-89.5792"></polygon>
+<text text-anchor="middle" x="254.2435" y="-108.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;proxied &nbsp;</text>
+<text text-anchor="middle" x="254.2435" y="-91.4" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;by &nbsp;</text>
+</g>
+<!-- n_operations -->
+<g id="node11" class="node">
+<title>n_operations</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="376.8606" cy="-165.0039" rx="43.6909" ry="18"></ellipse>
+<text text-anchor="middle" x="376.8606" y="-161.4039" font-family="Calibri" font-size="12.00" fill="#000000">Operations</text>
+</g>
+<!-- n_entities&#45;&gt;n_operations -->
+<g id="edge12" class="edge">
+<title>n_entities-&gt;n_operations</title>
+<path fill="none" stroke="#000000" d="M256.6566,-165.0039C275.9946,-165.0039 300.7079,-165.0039 322.6916,-165.0039"></path>
+<polygon fill="#000000" stroke="#000000" points="322.8987,-168.504 332.8987,-165.0039 322.8986,-161.504 322.8987,-168.504"></polygon>
+<text text-anchor="middle" x="294.7561" y="-172.2039" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;perform &nbsp;</text>
+</g>
+<!-- n_authorizations&#45;&gt;n_entities -->
+<g id="edge10" class="edge">
+<title>n_authorizations-&gt;n_entities</title>
+<path fill="none" stroke="#000000" d="M251.7641,-250.7265C246.3438,-234.6509 238.3384,-210.9084 232.1262,-192.484"></path>
+<polygon fill="#000000" stroke="#000000" points="235.3989,-191.2355 228.8873,-182.8779 228.7658,-193.4721 235.3989,-191.2355"></polygon>
+<text text-anchor="middle" x="260.3059" y="-221.8077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;to &nbsp;</text>
+</g>
+<!-- n_authorizations&#45;&gt;n_operations -->
+<g id="edge13" class="edge">
+<title>n_authorizations-&gt;n_operations</title>
+<path fill="none" stroke="#000000" d="M277.2449,-251.8988C297.0706,-234.6048 328.0191,-207.6084 350.1575,-188.297"></path>
+<polygon fill="#000000" stroke="#000000" points="352.6432,-190.7733 357.8783,-181.5622 348.0417,-185.4982 352.6432,-190.7733"></polygon>
+<text text-anchor="middle" x="353.4041" y="-230.2077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;to &nbsp;</text>
+<text text-anchor="middle" x="353.4041" y="-213.4077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;perform &nbsp;</text>
+</g>
+<!-- n_resources -->
+<g id="node12" class="node">
+<title>n_resources</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="376.8606" cy="-61.2" rx="41.9301" ry="18"></ellipse>
+<text text-anchor="middle" x="376.8606" y="-57.6" font-family="Calibri" font-size="12.00" fill="#000000">Resources</text>
+</g>
+<!-- n_operations&#45;&gt;n_resources -->
+<g id="edge14" class="edge">
+<title>n_operations-&gt;n_resources</title>
+<path fill="none" stroke="#000000" d="M376.8606,-146.9226C376.8606,-131.093 376.8606,-107.8292 376.8606,-89.5296"></path>
+<polygon fill="#000000" stroke="#000000" points="380.3607,-89.4223 376.8606,-79.4223 373.3607,-89.4224 380.3607,-89.4223"></polygon>
+<text text-anchor="middle" x="390.8606" y="-99.8" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;on &nbsp;</text>
+</g>
+</g>
+</svg>

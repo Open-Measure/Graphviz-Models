@@ -1,0 +1,48 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	#newrank=true;
+	#packmode="clust";
+	#compound=true;
+	fontname="Calibri";
+	label="Identity Guardian (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_ims [label="Identity\nManagement\nSystem", fillcolor="#ffffff"];
+	n_ims -> n_role [weight=10, label="  played in  ", dir="back"];
+	n_role [label="Person Role", fillcolor="#ffffff"];
+	n_role -> n_guardian [weight=10, label="  is  ", dir="back"];
+
+	# Concept
+	n_guardian [label="Identity\nGuardian", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1323597918"];
+
+	# Distinctive Characteristics
+	n_subject -> n_identity [weight=10, label="  representing  ", dir="back"];
+	n_person [label="Person"]
+	n_person -> n_guardian [weight=10, label="  played \n  by  ", dir="back"];
+	n_identity [label="Identity"]
+	n_guardian -> n_identity [weight=10, label="  linked  \n  to  "];
+	n_subject [label="Subject"]
+	n_legal_authority [label="Legal\nAuthority"]
+	n_person -> n_legal_authority [weight=10, label="has"];
+	n_legal_authority -> n_subject [weight=10, label="  act on  \n  behalf  \n  of  "];
+	n_requirements [label="{Functional Requirement|Legal Requirement}", shape="record"];
+	n_guardian -> n_requirements [weight=10, label="  may require  \n  usage of  ", dir="back"];
+	n_populations [label="{Minor|Adul under Legal Guardianship|Person granting Power of Attorney|etc.}", shape="record"]
+	n_requirements -> n_populations [weight=10, label="  linked  \n  to  "];
+	n_guardian -> n_subject [weight=10, label="  if  \n  unecessary  \n merged  \n  with  ", style="dashed"];
+	n_subject -> n_populations [weight=10, label="  member  \n  of  "];
+
+	# Invisible Links
+	n_subject -> n_requirements [style=invis];
+	#n_identity -> n_requirements [style=invis];
+
+	# Levels
+	{ rank=same; n_identity; n_legal_authority; n_subject; }
+	{ rank=same; n_person; n_guardian; }
+	{ rank=same; n_identity; n_requirements; }
+}

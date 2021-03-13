@@ -1,0 +1,59 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Information Security Domain (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Superordinate Concepts
+	n_system [label="System", fillcolor="#ffffff"];
+	n_system -> n_domain [weight=10, label="  is a  ", dir="back"];
+
+	# Concept
+	n_domain [label="Information\nSecurity\nDomain", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/438698009"];
+
+	# Delimiting Characteristics
+	n_bounded [label="Bounded"];
+	n_domain -> n_bounded [label="  is  "];
+	n_coherent [label="Coherent"];
+	n_domain -> n_coherent [label="  is  "];
+	n_domain -> n_authorities [label="  govern  ", dir="back"];
+	n_domain -> n_policies [label="  composed  \n  of  ", lhead="cluster_composition"];
+	n_coi [label="Community\nof\nInterest"];
+	n_coi -> n_authorities [label="  constitute  "];
+	n_coi -> n_entities [label="  constitute  "];
+	subgraph cluster_composition {
+		color=black;
+		label = "";
+	n_authorities [label="Authorities"];
+	n_policies [label="Policies"];
+	n_authorities -> n_policies [label="  issue  "];
+	n_authorizations [label="Authorizations"];
+	n_policies -> n_authorizations [label="  prescribe  "];
+	n_authorizations -> n_entities [label="  to  "];
+	n_entities [label="Entities"];
+	n_entities -> n_identities [label="  proxied  \n  by  "];
+	n_identities [label="Identities"];
+	n_operations [label="Operations"];
+	n_entities -> n_operations [label="  perform  "];
+	n_authorizations -> n_operations [label="  to  \n  perform  "];
+	n_operations -> n_resources [label="  on  "];
+	n_resources [label="Resources"];
+	}
+	#n_control_methods [label="{Automatically by software|Manually by people}", shape="record", color="black", fontcolor="black"];
+
+
+	# Invisible edges
+	#n_authorities -> n_coi [style="invis"];
+
+	# Ranks
+	{rank=same; n_entities; n_operations;}
+	{rank=same; n_entities; n_coi;}
+
+}

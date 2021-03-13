@@ -1,0 +1,165 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="548pt" height="557pt" viewBox="0 0 548 557" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 553.0585)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-553.0585 544.4643,-553.0585 544.4643,4 -4,4"></polygon>
+<text text-anchor="middle" x="270.2322" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Identity Guardian (Conceptual Diagram) by Open-Measure</text>
+<text text-anchor="middle" x="270.2322" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<!-- n_ims -->
+<g id="node1" class="node">
+<title>n_ims</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="301.3087" cy="-512.8547" rx="55.7191" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="301.3087" y="-523.6547" font-family="Calibri" font-size="12.00" fill="#000000">Identity</text>
+<text text-anchor="middle" x="301.3087" y="-509.2547" font-family="Calibri" font-size="12.00" fill="#000000">Management</text>
+<text text-anchor="middle" x="301.3087" y="-494.8547" font-family="Calibri" font-size="12.00" fill="#000000">System</text>
+</g>
+<!-- n_role -->
+<g id="node2" class="node">
+<title>n_role</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="301.3087" cy="-425.8508" rx="47.4409" ry="18"></ellipse>
+<text text-anchor="middle" x="301.3087" y="-422.2508" font-family="Calibri" font-size="12.00" fill="#000000">Person Role</text>
+</g>
+<!-- n_ims&#45;&gt;n_role -->
+<g id="edge1" class="edge">
+<title>n_ims-&gt;n_role</title>
+<path fill="none" stroke="#000000" d="M301.3087,-466.418C301.3087,-458.4811 301.3087,-450.6751 301.3087,-444.0632"></path>
+<polygon fill="#000000" stroke="#000000" points="297.8088,-466.4613 301.3087,-476.4613 304.8088,-466.4613 297.8088,-466.4613"></polygon>
+<text text-anchor="middle" x="334.1639" y="-456.0508" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;played in &nbsp;</text>
+</g>
+<!-- n_guardian -->
+<g id="node3" class="node">
+<title>n_guardian</title>
+<g id="a_node3"><a xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1323597918" xlink:title="Identity\nGuardian">
+<ellipse fill="#5599ff" stroke="#000000" cx="301.3087" cy="-338.8469" rx="58.8364" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="301.3087" y="-344.2469" font-family="Calibri" font-size="18.00" fill="#000000">Identity</text>
+<text text-anchor="middle" x="301.3087" y="-322.6469" font-family="Calibri" font-size="18.00" fill="#000000">Guardian</text>
+</a>
+</g>
+</g>
+<!-- n_role&#45;&gt;n_guardian -->
+<g id="edge2" class="edge">
+<title>n_role-&gt;n_guardian</title>
+<path fill="none" stroke="#000000" d="M301.3087,-397.5722C301.3087,-390.4213 301.3087,-382.6423 301.3087,-375.1557"></path>
+<polygon fill="#000000" stroke="#000000" points="297.8088,-397.8235 301.3087,-407.8235 304.8088,-397.8236 297.8088,-397.8235"></polygon>
+<text text-anchor="middle" x="312.9763" y="-387.2508" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+<!-- n_subject -->
+<g id="node4" class="node">
+<title>n_subject</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="188.3087" cy="-193.4215" rx="33.4184" ry="18"></ellipse>
+<text text-anchor="middle" x="188.3087" y="-189.8215" font-family="Calibri" font-size="12.00" fill="#000000">Subject</text>
+</g>
+<!-- n_guardian&#45;&gt;n_subject -->
+<g id="edge10" class="edge">
+<title>n_guardian-&gt;n_subject</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M259.2819,-313.43C251.9376,-307.8269 244.7789,-301.4958 238.9005,-294.6431 220.1286,-272.7594 206.2529,-242.7007 197.829,-221.032"></path>
+<polygon fill="#000000" stroke="#000000" points="201.0206,-219.5741 194.2391,-211.4339 194.4642,-222.0264 201.0206,-219.5741"></polygon>
+<text text-anchor="middle" x="276.0128" y="-282.0431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;if &nbsp;</text>
+<text text-anchor="middle" x="276.0128" y="-265.2431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;unecessary &nbsp;</text>
+<text text-anchor="middle" x="276.0128" y="-248.4431" font-family="Calibri" font-size="14.00" fill="#000000"> merged &nbsp;</text>
+<text text-anchor="middle" x="276.0128" y="-231.6431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;with &nbsp;</text>
+</g>
+<!-- n_identity -->
+<g id="node5" class="node">
+<title>n_identity</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="356.3087" cy="-193.4215" rx="34.1187" ry="18"></ellipse>
+<text text-anchor="middle" x="356.3087" y="-189.8215" font-family="Calibri" font-size="12.00" fill="#000000">Identity</text>
+</g>
+<!-- n_guardian&#45;&gt;n_identity -->
+<g id="edge5" class="edge">
+<title>n_guardian-&gt;n_identity</title>
+<path fill="none" stroke="#000000" d="M314.7632,-303.2719C324.3483,-277.9279 337.0453,-244.3558 345.8689,-221.0253"></path>
+<polygon fill="#000000" stroke="#000000" points="349.2452,-221.9921 349.5091,-211.4005 342.6978,-219.5158 349.2452,-221.9921"></polygon>
+<text text-anchor="middle" x="366.8066" y="-265.2431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;linked &nbsp;</text>
+<text text-anchor="middle" x="366.8066" y="-248.4431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;to &nbsp;</text>
+</g>
+<!-- n_requirements -->
+<g id="node8" class="node">
+<title>n_requirements</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="408.1531,-171.0215 408.1531,-215.8215 540.4643,-215.8215 540.4643,-171.0215 408.1531,-171.0215"></polygon>
+<text text-anchor="middle" x="474.3087" y="-201.0215" font-family="Calibri" font-size="12.00" fill="#000000">Functional Requirement</text>
+<polyline fill="none" stroke="#000000" points="408.1531,-193.4215 540.4643,-193.4215 "></polyline>
+<text text-anchor="middle" x="474.3087" y="-178.6215" font-family="Calibri" font-size="12.00" fill="#000000">Legal Requirement</text>
+</g>
+<!-- n_guardian&#45;&gt;n_requirements -->
+<g id="edge8" class="edge">
+<title>n_guardian-&gt;n_requirements</title>
+<path fill="none" stroke="#000000" d="M361.2054,-315.8498C373.1174,-309.887 385.0896,-302.803 395.3087,-294.6431 423.1803,-272.3876 447.0718,-238.4118 461.071,-216.0597"></path>
+<polygon fill="#000000" stroke="#000000" points="359.6465,-312.7156 352.1379,-320.1903 362.669,-319.0295 359.6465,-312.7156"></polygon>
+<text text-anchor="middle" x="492.9318" y="-265.2431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;may require &nbsp;</text>
+<text text-anchor="middle" x="492.9318" y="-248.4431" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;usage of &nbsp;</text>
+</g>
+<!-- n_subject&#45;&gt;n_identity -->
+<g id="edge3" class="edge">
+<title>n_subject-&gt;n_identity</title>
+<path fill="none" stroke="#000000" d="M232.2513,-193.4215C260.3481,-193.4215 296.252,-193.4215 322.1976,-193.4215"></path>
+<polygon fill="#000000" stroke="#000000" points="231.9023,-189.9216 221.9023,-193.4215 231.9022,-196.9216 231.9023,-189.9216"></polygon>
+<text text-anchor="middle" x="271.8834" y="-200.6215" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;representing &nbsp;</text>
+</g>
+<!-- n_subject&#45;&gt;n_requirements -->
+<!-- n_populations -->
+<g id="node9" class="node">
+<title>n_populations</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="238.3315,-27.7 238.3315,-117.3 422.2859,-117.3 422.2859,-27.7 238.3315,-27.7"></polygon>
+<text text-anchor="middle" x="330.3087" y="-102.5" font-family="Calibri" font-size="12.00" fill="#000000">Minor</text>
+<polyline fill="none" stroke="#000000" points="238.3315,-94.9 422.2859,-94.9 "></polyline>
+<text text-anchor="middle" x="330.3087" y="-80.1" font-family="Calibri" font-size="12.00" fill="#000000">Adul under Legal Guardianship</text>
+<polyline fill="none" stroke="#000000" points="238.3315,-72.5 422.2859,-72.5 "></polyline>
+<text text-anchor="middle" x="330.3087" y="-57.7" font-family="Calibri" font-size="12.00" fill="#000000">Person granting Power of Attorney</text>
+<polyline fill="none" stroke="#000000" points="238.3315,-50.1 422.2859,-50.1 "></polyline>
+<text text-anchor="middle" x="330.3087" y="-35.3" font-family="Calibri" font-size="12.00" fill="#000000">etc.</text>
+</g>
+<!-- n_subject&#45;&gt;n_populations -->
+<g id="edge11" class="edge">
+<title>n_subject-&gt;n_populations</title>
+<path fill="none" stroke="#000000" d="M206.2931,-178.1067C222.3851,-164.4035 246.9185,-143.5117 269.9293,-123.9167"></path>
+<polygon fill="#000000" stroke="#000000" points="272.3158,-126.4816 277.6602,-117.3334 267.7774,-121.1521 272.3158,-126.4816"></polygon>
+<text text-anchor="middle" x="293.2442" y="-146.8" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;member &nbsp;</text>
+<text text-anchor="middle" x="293.2442" y="-130" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of &nbsp;</text>
+</g>
+<!-- n_person -->
+<g id="node6" class="node">
+<title>n_person</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="103.3087" cy="-338.8469" rx="31.1574" ry="18"></ellipse>
+<text text-anchor="middle" x="103.3087" y="-335.2469" font-family="Calibri" font-size="12.00" fill="#000000">Person</text>
+</g>
+<!-- n_person&#45;&gt;n_guardian -->
+<g id="edge4" class="edge">
+<title>n_person-&gt;n_guardian</title>
+<path fill="none" stroke="#000000" d="M145.0362,-338.8469C173.3561,-338.8469 211.2062,-338.8469 242.5627,-338.8469"></path>
+<polygon fill="#000000" stroke="#000000" points="144.6824,-335.347 134.6824,-338.8469 144.6824,-342.347 144.6824,-335.347"></polygon>
+<text text-anchor="middle" x="188.5141" y="-362.8469" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;played </text>
+<text text-anchor="middle" x="188.5141" y="-346.0469" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;by &nbsp;</text>
+</g>
+<!-- n_legal_authority -->
+<g id="node7" class="node">
+<title>n_legal_authority</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="44.3087" cy="-193.4215" rx="44.1183" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="44.3087" y="-197.0215" font-family="Calibri" font-size="12.00" fill="#000000">Legal</text>
+<text text-anchor="middle" x="44.3087" y="-182.6215" font-family="Calibri" font-size="12.00" fill="#000000">Authority</text>
+</g>
+<!-- n_person&#45;&gt;n_legal_authority -->
+<g id="edge6" class="edge">
+<title>n_person-&gt;n_legal_authority</title>
+<path fill="none" stroke="#000000" d="M96.1919,-321.3052C86.8848,-298.3645 70.3665,-257.6498 58.4652,-228.3149"></path>
+<polygon fill="#000000" stroke="#000000" points="61.6259,-226.7956 54.6232,-218.845 55.1394,-229.4272 61.6259,-226.7956"></polygon>
+<text text-anchor="middle" x="93.6383" y="-256.8431" font-family="Calibri" font-size="14.00" fill="#000000">has</text>
+</g>
+<!-- n_legal_authority&#45;&gt;n_subject -->
+<g id="edge7" class="edge">
+<title>n_legal_authority-&gt;n_subject</title>
+<path fill="none" stroke="#000000" d="M88.6885,-193.4215C106.5111,-193.4215 126.9952,-193.4215 144.7361,-193.4215"></path>
+<polygon fill="#000000" stroke="#000000" points="144.8239,-196.9216 154.8239,-193.4215 144.8238,-189.9216 144.8239,-196.9216"></polygon>
+<text text-anchor="middle" x="121.8588" y="-234.2215" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;act on &nbsp;</text>
+<text text-anchor="middle" x="121.8588" y="-217.4215" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;behalf &nbsp;</text>
+<text text-anchor="middle" x="121.8588" y="-200.6215" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of &nbsp;</text>
+</g>
+<!-- n_requirements&#45;&gt;n_populations -->
+<g id="edge9" class="edge">
+<title>n_requirements-&gt;n_populations</title>
+<path fill="none" stroke="#000000" d="M447.5609,-170.9605C431.764,-157.6954 411.0799,-140.3262 391.4893,-123.8753"></path>
+<polygon fill="#000000" stroke="#000000" points="393.6684,-121.1348 383.7595,-117.3844 389.1669,-126.4955 393.6684,-121.1348"></polygon>
+<text text-anchor="middle" x="455.8066" y="-146.8" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;linked &nbsp;</text>
+<text text-anchor="middle" x="455.8066" y="-130" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;to &nbsp;</text>
+</g>
+</g>
+</svg>

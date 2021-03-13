@@ -13,7 +13,7 @@ digraph G {
 
 	# Parent Concept
 	n_identity_theft [label="Identity Theft", fillcolor="#ffffff"];
-	n_identity_theft -> n_account_takeover [weight=10, label="  type  \n  of  "];
+	n_identity_theft -> n_account_takeover [weight=10, label="  is a  ", dir="back"];
 
 	# Concept
 	n_account_takeover [label="Account Takeover", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"];
