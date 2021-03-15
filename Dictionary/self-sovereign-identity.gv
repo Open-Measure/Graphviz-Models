@@ -1,0 +1,87 @@
+digraph G {
+	rankdir="TB";
+	ranksep=0.25;
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true; # If true, allow edges between clusters.
+	fontname="Calibri";
+	label="Self-Sovereign Identity / SSI (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_ims [label="Identity\nManagement\nSystem\n(IdMS)", fillcolor="#ffffff"];
+	n_ims -> n_service_centric_ims [weight=10, label="  is a  ", dir="back"];
+	n_ims -> n_user_centric_ims [weight=10, label="  is a  ", dir="back"];
+	n_user_centric_ims [label="User-Centric\nIdMS", fillcolor="#ffffff"];
+	n_service_centric_ims [label="Service-Centric\nIdMS", fillcolor="#ffffff"];
+	n_user_centric_ims -> n_ssi [weight=10, label="  is a  ", dir="back"];
+	n_service_centric_ims -> n_traditional_model [weight=10, label="  has  "];
+
+	# Concept
+	n_ssi [label="Self-Sovereign\nIdentity", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/446955653"];
+
+	# Distinctive Characteristics
+	n_ssi -> n_ssi_model [weight=10, label="  has  "];
+	n_ssi_model [label="Architectural\nModel"]
+	n_ssi_model -> n_blockchain [weight=10, label="  depends  \n  on  "];
+	n_traditional_model [label="Architectural\nModel"]
+	n_traditional_model -> n_central_authority [weight=10, label="  depends  \n  on  "];
+
+	n_service_provider [label="Service\nProvider"]
+	n_service_provider -> n_ssi_model  [weight=10, label="  loosely  \n  coupled  \n  with  ", dir="back"];
+	n_traditional_model -> n_service_provider [weight=10, label="  tightly  \n  coupled  \n  with  "];
+
+	n_blockchain [label="Blockchain\nGeneral\nLedger"]
+	n_central_authority [label="Central\nRegistration\nAuthority"]
+	n_central_authority -> n_blockchain [weight=10, label="  substitutes  ", dir="back"];
+	n_central_authority -> n_weakness [weight=10, label="  is  "];
+	n_weakness [label="Potential\nWeakness"]
+
+	n_motivations -> n_ssi [label="  motivated  \n  by  ", dir="back"];
+	n_motivations [label="{Data Privacy|Security|Socio-Economical Inclusion|etc.}", shape="record"]
+
+	n_ssi -> n_third_parties [taillabel="enables", lhead=cluster_ssi_capabilities];
+	subgraph cluster_ssi_capabilities {
+		color=black;
+		nodesep=0.1;
+		fontsize=14;
+		label = "Capabilities";
+		n_autonomy [label="Autonomous\nManagement"];
+		n_autonomy -> n_identity [weight=10, label="  of  "];
+		n_authentication [label="Authentication"];
+		n_autonomy -> n_entity [weight=10, label="  by  "];
+		n_authentication -> n_entity [weight=10, label="  of  "];
+		n_entity [label="Entity"];
+		n_identity [label="Identity"];
+		n_identity -> n_attributes [weight=10, label="  with  "];
+		n_attributes [label="Attributes"];
+		n_entity -> n_identity [weight=10, label="  owns  "];
+		n_verifiable_claims [label="Verifiable\nClaims"];
+		n_verifiable_claims -> n_identity [weight=10, label="  on  "];
+		n_third_parties [label="3rd\nParties"];
+		n_verifiable_claims -> n_third_parties [weight=10, label="  to  "];
+	}
+
+	# Invisible Links
+	#n_motivations -> n_ssi_model [style=invis];
+	n_ims -> n_motivations [style=invis];
+	#n_ims -> n_role [style=invis];
+
+	# Levels
+	{ rank=same; n_user_centric_ims; n_service_centric_ims; }
+	{ rank=same; n_ssi_model; n_service_provider; n_traditional_model; }
+	{ rank=same; n_blockchain; n_central_authority; }
+	#{ rank=same; n_motivations; n_ssi; }
+
+	# Snippets
+	# n_person [label="Person"]
+	# n_subject -> n_requirements [style=invis];
+	# n_populations [label="{Minor|Adul under Legal Guardianship|Person granting Power of Attorney|etc.}", shape="record"]
+	# subgraph cluster_strong {
+	#		color=black;
+	#		label = "";
+	# n_strong_tranquility_property -> n_weak_tranquility_property [minlen=3, labelloc=b, xlabel="  has more  \n  constraints  \n  than  ", ltail=cluster_strong, lhead=cluster_weak];
+}

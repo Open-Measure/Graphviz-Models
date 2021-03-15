@@ -13,7 +13,7 @@ digraph G {
 
 	# Parent Concept
 	n_ims [label="Identity\nManagement\nSystem", fillcolor="#ffffff"];
-	n_ims -> n_role [weight=10, label="  played in  ", dir="back"];
+	n_role -> n_ims [weight=10, label="  played in  "];
 	n_role [label="Person Role", fillcolor="#ffffff"];
 	n_role -> n_guardian [weight=10, label="  is  ", dir="back"];
 
@@ -39,10 +39,11 @@ digraph G {
 
 	# Invisible Links
 	n_subject -> n_requirements [style=invis];
-	#n_identity -> n_requirements [style=invis];
+	#n_ims -> n_role [style=invis];
 
 	# Levels
 	{ rank=same; n_identity; n_legal_authority; n_subject; }
 	{ rank=same; n_person; n_guardian; }
 	{ rank=same; n_identity; n_requirements; }
+	{ rank=same; n_ims; n_role; }
 }
