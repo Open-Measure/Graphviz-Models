@@ -1,0 +1,77 @@
+digraph G {
+	rankdir="TB";
+	ranksep=0.25;
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true; # If true, allow edges between clusters.
+	fontname="Calibri";
+	label="Oprhan Account (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_identity [label="Digital\nIdentity", fillcolor="#ffffff"];
+	n_identity -> n_orphan_account [weight=10, label="  is a  ", dir="back"];
+	n_security_risk [label="Security\nRisk", fillcolor="#ffffff"];
+	n_security_risk -> n_orphan_account [weight=10, label="  is a  ", dir="back"];
+	n_compliance_risk [label="Compliance\nRisk", fillcolor="#ffffff"];
+	n_compliance_risk -> n_orphan_account [weight=10, label="  is a  ", dir="back", style="dashed"];
+	n_op_risk [label="Operational\nRisk", fillcolor="#ffffff"];
+	n_op_risk -> n_security_risk [weight=10, label="  is a  ", dir="back"];
+	n_op_risk -> n_compliance_risk [weight=10, label="  is a  ", dir="back"];
+
+	# Concept
+	n_orphan_account [label="Orphan\nAccount", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1062207530"];
+
+	# Distinctive Characteristics
+	n_ownership [label="Ownership"]
+	n_ownership -> n_ownership_no [headlabel="x", labeldistance=0, fontsize="50", fontname="Verdana", fontcolor="#ff0000", arrowhead="none"];
+	n_ownership_no [label="", shape="none", fillcolor="invis", width=0]
+	n_ownership_no -> n_orphan_account [weight=10, label=""];
+	n_entity [label="Entity"]
+	n_entity -> n_ownership [weight=10, label="  has  "];
+	n_inactive [label="{Active|Legitimate}", shape="record"];
+	n_inactive -> n_ownership [weight=10, label="  is  ", dir="back"];
+
+	n_orphan_account -> n_domains [label="  applies to  ", lhead="cluster_domains"];
+	subgraph cluster_domains {
+		label="Domains";
+		fontsize="14";
+		n_domains [label="{Workforce IAM|Identity Federation|Customer IAM|Objects IAM|PAM / TAM}", shape="record"];
+	}
+	n_orphan_account -> n_causes [label="  caused by  ", lhead="cluster_causes"];
+	subgraph cluster_causes {
+		label="Possible Causes";
+		fontsize="14";
+		n_causes [label="{Failed Onboarding|Loss of Entity Legitimacy|End of Entity Lifecycle|Unmanaged\nNon-nominative\nAccounts|Accounts Creation\nduring Dev,\nTesting or Maintenance|etc.}", shape="record"];
+	}
+	n_orphan_account -> n_consequences [label="  causes  ", lhead="cluster_consequences"];
+	subgraph cluster_consequences {
+		label="Potential Consequences";
+		fontsize="14";
+		n_consequences [label="{Account Takeover|Increased Difficulty of\nUnauthorized Accounts Detection|Unauthorized Use\nby Previous Owner|Lack of Accountability\nover Non-nominative Accounts|etc.}", shape="record"]
+	}
+	n_orphan_account -> n_countermeasures [label="  mitigated by  ", lhead="cluster_countermeasues"];
+	subgraph cluster_countermeasues {
+		label="Sample Countermeasures";
+		fontsize="14";
+		n_countermeasures [label="{Accounts Creation\nMonitoring|Inactive Identities\nDeactivation|PAM Process|Provisioning Automation|3rd Parties\nRecertification|Reconciliation Controls|etc.}", shape="record"]
+	}
+	# Invisible Links
+	n_identity -> n_security_risk [style=invis];
+
+	# Levels
+	{ rank=same; n_entity; n_ownership; n_ownership_no; n_orphan_account}
+	{ rank=same; n_causes; n_consequences}
+
+	# Snippets
+	# n_person [label="Person"]
+	# n_subject -> n_requirements [style=invis];
+	# n_populations [label="{Minor|Adul under Legal Guardianship|Person granting Power of Attorney|etc.}", shape="record"]
+	# subgraph cluster_strong {
+	#		color=black;
+	#		label = "";
+	# n_strong_tranquility_property -> n_weak_tranquility_property [minlen=3, labelloc=b, xlabel="  has more  \n  constraints  \n  than  ", ltail=cluster_strong, lhead=cluster_weak];
+}

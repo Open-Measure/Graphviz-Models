@@ -1,0 +1,253 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="694pt" height="565pt" viewBox="0 0 694 565" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 560.8939)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-560.8939 689.9556,-560.8939 689.9556,4 -4,4"></polygon>
+<text text-anchor="middle" x="342.9778" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Oprhan Account (Conceptual Diagram) by Open-Measure</text>
+<text text-anchor="middle" x="342.9778" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<g id="clust1" class="cluster">
+<title>cluster_domains</title>
+<polygon fill="none" stroke="#000000" points="17.9556,-79.2 17.9556,-233 141.9556,-233 141.9556,-79.2 17.9556,-79.2"></polygon>
+<text text-anchor="middle" x="79.9556" y="-216.4" font-family="Calibri" font-size="14.00" fill="#000000">Domains</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_causes</title>
+<polygon fill="none" stroke="#000000" points="149.9556,-39.2 149.9556,-273 307.9556,-273 307.9556,-39.2 149.9556,-39.2"></polygon>
+<text text-anchor="middle" x="228.9556" y="-256.4" font-family="Calibri" font-size="14.00" fill="#000000">Possible Causes</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_consequences</title>
+<polygon fill="none" stroke="#000000" points="315.9556,-57.6 315.9556,-254.6 511.9556,-254.6 511.9556,-57.6 315.9556,-57.6"></polygon>
+<text text-anchor="middle" x="413.9556" y="-238" font-family="Calibri" font-size="14.00" fill="#000000">Potential Consequences</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_countermeasues</title>
+<polygon fill="none" stroke="#000000" points="519.9556,-35.2 519.9556,-277 677.9556,-277 677.9556,-35.2 519.9556,-35.2"></polygon>
+<text text-anchor="middle" x="598.9556" y="-260.4" font-family="Calibri" font-size="14.00" fill="#000000">Sample Countermeasures</text>
+</g>
+<!-- n_identity -->
+<g id="node1" class="node">
+<title>n_identity</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="230.9556" cy="-530.8723" rx="37.9155" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="230.9556" y="-534.4723" font-family="Calibri" font-size="12.00" fill="#000000">Digital</text>
+<text text-anchor="middle" x="230.9556" y="-520.0723" font-family="Calibri" font-size="12.00" fill="#000000">Identity</text>
+</g>
+<!-- n_orphan_account -->
+<g id="node2" class="node">
+<title>n_orphan_account</title>
+<g id="a_node2"><a xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1062207530" xlink:title="Orphan\nAccount">
+<ellipse fill="#5599ff" stroke="#000000" cx="321.9556" cy="-347.0039" rx="54.3617" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="321.9556" y="-352.4039" font-family="Calibri" font-size="18.00" fill="#000000">Orphan</text>
+<text text-anchor="middle" x="321.9556" y="-330.8039" font-family="Calibri" font-size="18.00" fill="#000000">Account</text>
+</a>
+</g>
+</g>
+<!-- n_identity&#45;&gt;n_orphan_account -->
+<g id="edge1" class="edge">
+<title>n_identity-&gt;n_orphan_account</title>
+<path fill="none" stroke="#000000" d="M227.0246,-494.6326C226.1108,-471.5173 227.9806,-441.5839 239.9058,-418.0077 249.3438,-399.3487 266.0229,-383.5216 281.8894,-371.5785"></path>
+<polygon fill="#000000" stroke="#000000" points="223.5369,-494.9472 227.6142,-504.726 230.525,-494.5389 223.5369,-494.9472"></polygon>
+<text text-anchor="middle" x="255.4805" y="-439.8293" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_security_risk -->
+<g id="node3" class="node">
+<title>n_security_risk</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="321.9556" cy="-444.0293" rx="39.6803" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="321.9556" y="-447.6293" font-family="Calibri" font-size="12.00" fill="#000000">Security</text>
+<text text-anchor="middle" x="321.9556" y="-433.2293" font-family="Calibri" font-size="12.00" fill="#000000">Risk</text>
+</g>
+<!-- n_identity&#45;&gt;n_security_risk -->
+<!-- n_domains -->
+<g id="node10" class="node">
+<title>n_domains</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="26.1348,-87.7 26.1348,-199.7 133.7764,-199.7 133.7764,-87.7 26.1348,-87.7"></polygon>
+<text text-anchor="middle" x="79.9556" y="-184.9" font-family="Calibri" font-size="12.00" fill="#000000">Workforce IAM</text>
+<polyline fill="none" stroke="#000000" points="26.1348,-177.3 133.7764,-177.3 "></polyline>
+<text text-anchor="middle" x="79.9556" y="-162.5" font-family="Calibri" font-size="12.00" fill="#000000">Identity Federation</text>
+<polyline fill="none" stroke="#000000" points="26.1348,-154.9 133.7764,-154.9 "></polyline>
+<text text-anchor="middle" x="79.9556" y="-140.1" font-family="Calibri" font-size="12.00" fill="#000000">Customer IAM</text>
+<polyline fill="none" stroke="#000000" points="26.1348,-132.5 133.7764,-132.5 "></polyline>
+<text text-anchor="middle" x="79.9556" y="-117.7" font-family="Calibri" font-size="12.00" fill="#000000">Objects IAM</text>
+<polyline fill="none" stroke="#000000" points="26.1348,-110.1 133.7764,-110.1 "></polyline>
+<text text-anchor="middle" x="79.9556" y="-95.3" font-family="Calibri" font-size="12.00" fill="#000000">PAM / TAM</text>
+</g>
+<!-- n_orphan_account&#45;&gt;n_domains -->
+<g id="edge10" class="edge">
+<title>n_orphan_account-&gt;n_domains</title>
+<path fill="none" stroke="#000000" d="M278.3098,-324.8146C266.7204,-319.6026 254.0567,-314.4972 241.9556,-310.8 219.0864,-303.8129 211.4069,-309.906 188.91,-301.8 168.1709,-294.3274 161.0376,-293.0774 145.9556,-277 136.1812,-266.5805 127.5491,-254.4391 120.022,-241.8067"></path>
+<polygon fill="#000000" stroke="#000000" points="122.9881,-239.9428 114.9871,-232.9977 116.9108,-243.4165 122.9881,-239.9428"></polygon>
+<text text-anchor="middle" x="221.9784" y="-289.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;applies to &nbsp;</text>
+</g>
+<!-- n_causes -->
+<g id="node11" class="node">
+<title>n_causes</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="158.1332,-47.7 158.1332,-239.7 299.778,-239.7 299.778,-47.7 158.1332,-47.7"></polygon>
+<text text-anchor="middle" x="228.9556" y="-224.9" font-family="Calibri" font-size="12.00" fill="#000000">Failed Onboarding</text>
+<polyline fill="none" stroke="#000000" points="158.1332,-217.3 299.778,-217.3 "></polyline>
+<text text-anchor="middle" x="228.9556" y="-202.5" font-family="Calibri" font-size="12.00" fill="#000000">Loss of Entity Legitimacy</text>
+<polyline fill="none" stroke="#000000" points="158.1332,-194.9 299.778,-194.9 "></polyline>
+<text text-anchor="middle" x="228.9556" y="-180.1" font-family="Calibri" font-size="12.00" fill="#000000">End of Entity Lifecycle</text>
+<polyline fill="none" stroke="#000000" points="158.1332,-172.5 299.778,-172.5 "></polyline>
+<text text-anchor="middle" x="228.9556" y="-157.7" font-family="Calibri" font-size="12.00" fill="#000000">Unmanaged</text>
+<text text-anchor="middle" x="228.9556" y="-143.3" font-family="Calibri" font-size="12.00" fill="#000000">Non-nominative</text>
+<text text-anchor="middle" x="228.9556" y="-128.9" font-family="Calibri" font-size="12.00" fill="#000000">Accounts</text>
+<polyline fill="none" stroke="#000000" points="158.1332,-121.3 299.778,-121.3 "></polyline>
+<text text-anchor="middle" x="228.9556" y="-106.5" font-family="Calibri" font-size="12.00" fill="#000000">Accounts Creation</text>
+<text text-anchor="middle" x="228.9556" y="-92.1" font-family="Calibri" font-size="12.00" fill="#000000">during Dev,</text>
+<text text-anchor="middle" x="228.9556" y="-77.7" font-family="Calibri" font-size="12.00" fill="#000000">Testing or Maintenance</text>
+<polyline fill="none" stroke="#000000" points="158.1332,-70.1 299.778,-70.1 "></polyline>
+<text text-anchor="middle" x="228.9556" y="-55.3" font-family="Calibri" font-size="12.00" fill="#000000">etc.</text>
+</g>
+<!-- n_orphan_account&#45;&gt;n_causes -->
+<g id="edge11" class="edge">
+<title>n_orphan_account-&gt;n_causes</title>
+<path fill="none" stroke="#000000" d="M285.453,-320.0574C279.7666,-314.5384 274.4375,-308.3837 270.3672,-301.8 266.5408,-295.6109 263.0655,-289.0752 259.9094,-282.3246"></path>
+<polygon fill="#000000" stroke="#000000" points="263.0351,-280.7382 255.8003,-272.9982 256.6293,-283.5606 263.0351,-280.7382"></polygon>
+<text text-anchor="middle" x="304.7498" y="-289.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;caused by &nbsp;</text>
+</g>
+<!-- n_consequences -->
+<g id="node12" class="node">
+<title>n_consequences</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="324.319,-66.1 324.319,-221.3 503.5922,-221.3 503.5922,-66.1 324.319,-66.1"></polygon>
+<text text-anchor="middle" x="413.9556" y="-206.5" font-family="Calibri" font-size="12.00" fill="#000000">Account Takeover</text>
+<polyline fill="none" stroke="#000000" points="324.319,-198.9 503.5922,-198.9 "></polyline>
+<text text-anchor="middle" x="413.9556" y="-184.1" font-family="Calibri" font-size="12.00" fill="#000000">Increased Difficulty of</text>
+<text text-anchor="middle" x="413.9556" y="-169.7" font-family="Calibri" font-size="12.00" fill="#000000">Unauthorized Accounts Detection</text>
+<polyline fill="none" stroke="#000000" points="324.319,-162.1 503.5922,-162.1 "></polyline>
+<text text-anchor="middle" x="413.9556" y="-147.3" font-family="Calibri" font-size="12.00" fill="#000000">Unauthorized Use</text>
+<text text-anchor="middle" x="413.9556" y="-132.9" font-family="Calibri" font-size="12.00" fill="#000000">by Previous Owner</text>
+<polyline fill="none" stroke="#000000" points="324.319,-125.3 503.5922,-125.3 "></polyline>
+<text text-anchor="middle" x="413.9556" y="-110.5" font-family="Calibri" font-size="12.00" fill="#000000">Lack of Accountability</text>
+<text text-anchor="middle" x="413.9556" y="-96.1" font-family="Calibri" font-size="12.00" fill="#000000">over Non-nominative Accounts</text>
+<polyline fill="none" stroke="#000000" points="324.319,-88.5 503.5922,-88.5 "></polyline>
+<text text-anchor="middle" x="413.9556" y="-73.7" font-family="Calibri" font-size="12.00" fill="#000000">etc.</text>
+</g>
+<!-- n_orphan_account&#45;&gt;n_consequences -->
+<g id="edge12" class="edge">
+<title>n_orphan_account-&gt;n_consequences</title>
+<path fill="none" stroke="#000000" d="M337.7709,-312.0547C344.0366,-298.2088 351.6399,-281.4068 359.5881,-263.8426"></path>
+<polygon fill="#000000" stroke="#000000" points="362.8366,-265.1534 363.7707,-254.5998 356.4592,-262.2674 362.8366,-265.1534"></polygon>
+<text text-anchor="middle" x="374.2221" y="-289.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;causes &nbsp;</text>
+</g>
+<!-- n_countermeasures -->
+<g id="node13" class="node">
+<title>n_countermeasures</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="528.1228,-43.7 528.1228,-243.7 665.7884,-243.7 665.7884,-43.7 528.1228,-43.7"></polygon>
+<text text-anchor="middle" x="596.9556" y="-228.9" font-family="Calibri" font-size="12.00" fill="#000000">Accounts Creation</text>
+<text text-anchor="middle" x="596.9556" y="-214.5" font-family="Calibri" font-size="12.00" fill="#000000">Monitoring</text>
+<polyline fill="none" stroke="#000000" points="528.1228,-206.9 665.7884,-206.9 "></polyline>
+<text text-anchor="middle" x="596.9556" y="-192.1" font-family="Calibri" font-size="12.00" fill="#000000">Inactive Identities</text>
+<text text-anchor="middle" x="596.9556" y="-177.7" font-family="Calibri" font-size="12.00" fill="#000000">Deactivation</text>
+<polyline fill="none" stroke="#000000" points="528.1228,-170.1 665.7884,-170.1 "></polyline>
+<text text-anchor="middle" x="596.9556" y="-155.3" font-family="Calibri" font-size="12.00" fill="#000000">PAM Process</text>
+<polyline fill="none" stroke="#000000" points="528.1228,-147.7 665.7884,-147.7 "></polyline>
+<text text-anchor="middle" x="596.9556" y="-132.9" font-family="Calibri" font-size="12.00" fill="#000000">Provisioning Automation</text>
+<polyline fill="none" stroke="#000000" points="528.1228,-125.3 665.7884,-125.3 "></polyline>
+<text text-anchor="middle" x="596.9556" y="-110.5" font-family="Calibri" font-size="12.00" fill="#000000">3rd Parties</text>
+<text text-anchor="middle" x="596.9556" y="-96.1" font-family="Calibri" font-size="12.00" fill="#000000">Recertification</text>
+<polyline fill="none" stroke="#000000" points="528.1228,-88.5 665.7884,-88.5 "></polyline>
+<text text-anchor="middle" x="596.9556" y="-73.7" font-family="Calibri" font-size="12.00" fill="#000000">Reconciliation Controls</text>
+<polyline fill="none" stroke="#000000" points="528.1228,-66.1 665.7884,-66.1 "></polyline>
+<text text-anchor="middle" x="596.9556" y="-51.3" font-family="Calibri" font-size="12.00" fill="#000000">etc.</text>
+</g>
+<!-- n_orphan_account&#45;&gt;n_countermeasures -->
+<g id="edge13" class="edge">
+<title>n_orphan_account-&gt;n_countermeasures</title>
+<path fill="none" stroke="#000000" d="M374.9299,-337.9569C414.4393,-329.1311 468.3115,-312.5324 511.9356,-279.887"></path>
+<polygon fill="#000000" stroke="#000000" points="514.2431,-282.5255 519.9561,-273.6029 509.9258,-277.0153 514.2431,-282.5255"></polygon>
+<text text-anchor="middle" x="544.1467" y="-289.2" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;mitigated by &nbsp;</text>
+</g>
+<!-- n_security_risk&#45;&gt;n_orphan_account -->
+<g id="edge2" class="edge">
+<title>n_security_risk-&gt;n_orphan_account</title>
+<path fill="none" stroke="#000000" d="M321.9556,-407.7066C321.9556,-399.7875 321.9556,-391.4049 321.9556,-383.4798"></path>
+<polygon fill="#000000" stroke="#000000" points="318.4557,-407.7728 321.9556,-417.7728 325.4557,-407.7728 318.4557,-407.7728"></polygon>
+<text text-anchor="middle" x="338.4805" y="-396.4077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_compliance_risk -->
+<g id="node4" class="node">
+<title>n_compliance_risk</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="431.9556" cy="-444.0293" rx="52.1349" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="431.9556" y="-447.6293" font-family="Calibri" font-size="12.00" fill="#000000">Compliance</text>
+<text text-anchor="middle" x="431.9556" y="-433.2293" font-family="Calibri" font-size="12.00" fill="#000000">Risk</text>
+</g>
+<!-- n_compliance_risk&#45;&gt;n_orphan_account -->
+<g id="edge3" class="edge">
+<title>n_compliance_risk-&gt;n_orphan_account</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M398.3562,-414.393C384.6243,-402.2807 368.7837,-388.3086 355.099,-376.238"></path>
+<polygon fill="#000000" stroke="#000000" points="396.3507,-417.291 406.1655,-421.2811 400.9812,-412.0413 396.3507,-417.291"></polygon>
+<text text-anchor="middle" x="406.4805" y="-396.4077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_op_risk -->
+<g id="node5" class="node">
+<title>n_op_risk</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="357.9556" cy="-530.8723" rx="51.2322" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="357.9556" y="-534.4723" font-family="Calibri" font-size="12.00" fill="#000000">Operational</text>
+<text text-anchor="middle" x="357.9556" y="-520.0723" font-family="Calibri" font-size="12.00" fill="#000000">Risk</text>
+</g>
+<!-- n_op_risk&#45;&gt;n_security_risk -->
+<g id="edge4" class="edge">
+<title>n_op_risk-&gt;n_security_risk</title>
+<path fill="none" stroke="#000000" d="M343.473,-495.9359C339.7992,-487.0737 335.9221,-477.7207 332.4862,-469.4325"></path>
+<polygon fill="#000000" stroke="#000000" points="340.2864,-497.3888 347.3491,-505.2862 346.7528,-494.7082 340.2864,-497.3888"></polygon>
+<text text-anchor="middle" x="359.4805" y="-483.2508" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_op_risk&#45;&gt;n_compliance_risk -->
+<g id="edge5" class="edge">
+<title>n_op_risk-&gt;n_compliance_risk</title>
+<path fill="none" stroke="#000000" d="M385.3054,-498.7758C393.9574,-488.6222 403.3662,-477.5804 411.453,-468.0902"></path>
+<polygon fill="#000000" stroke="#000000" points="382.3905,-496.8002 378.5687,-506.6817 387.7186,-501.3403 382.3905,-496.8002"></polygon>
+<text text-anchor="middle" x="417.4805" y="-483.2508" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_ownership -->
+<g id="node6" class="node">
+<title>n_ownership</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="151.9556" cy="-347.0039" rx="43.6925" ry="18"></ellipse>
+<text text-anchor="middle" x="151.9556" y="-343.4039" font-family="Calibri" font-size="12.00" fill="#000000">Ownership</text>
+</g>
+<!-- n_ownership_no -->
+<g id="node7" class="node">
+<title>n_ownership_no</title>
+<polygon fill="transparent" stroke="transparent" points="232.4556,-365.0039 231.4556,-365.0039 231.4556,-329.0039 232.4556,-329.0039 232.4556,-365.0039"></polygon>
+</g>
+<!-- n_ownership&#45;&gt;n_ownership_no -->
+<g id="edge6" class="edge">
+<title>n_ownership-&gt;n_ownership_no</title>
+<path fill="none" stroke="#000000" d="M196.0181,-347.0039C207.8101,-347.0039 219.6021,-347.0039 231.394,-347.0039"></path>
+<text text-anchor="middle" x="231.394" y="-332.0039" font-family="Verdana" font-size="50.00" fill="#ff0000">x</text>
+</g>
+<!-- n_ownership_no&#45;&gt;n_orphan_account -->
+<g id="edge7" class="edge">
+<title>n_ownership_no-&gt;n_orphan_account</title>
+<path fill="none" stroke="#000000" d="M232.6587,-347.0039C240.7523,-347.0039 248.8459,-347.0039 256.9396,-347.0039"></path>
+<polygon fill="#000000" stroke="#000000" points="257.1915,-350.504 267.1915,-347.0039 257.1914,-343.504 257.1915,-350.504"></polygon>
+</g>
+<!-- n_entity -->
+<g id="node8" class="node">
+<title>n_entity</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="28.9556" cy="-347.0039" rx="28.9112" ry="18"></ellipse>
+<text text-anchor="middle" x="28.9556" y="-343.4039" font-family="Calibri" font-size="12.00" fill="#000000">Entity</text>
+</g>
+<!-- n_entity&#45;&gt;n_ownership -->
+<g id="edge8" class="edge">
+<title>n_entity-&gt;n_ownership</title>
+<path fill="none" stroke="#000000" d="M58.1049,-347.0039C69.993,-347.0039 84.1358,-347.0039 97.7894,-347.0039"></path>
+<polygon fill="#000000" stroke="#000000" points="98.0897,-350.504 108.0896,-347.0039 98.0896,-343.504 98.0897,-350.504"></polygon>
+<text text-anchor="middle" x="83.0104" y="-354.2039" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;has &nbsp;</text>
+</g>
+<!-- n_inactive -->
+<g id="node9" class="node">
+<title>n_inactive</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="117.963,-421.6293 117.963,-466.4293 185.9482,-466.4293 185.9482,-421.6293 117.963,-421.6293"></polygon>
+<text text-anchor="middle" x="151.9556" y="-451.6293" font-family="Calibri" font-size="12.00" fill="#000000">Active</text>
+<polyline fill="none" stroke="#000000" points="117.963,-444.0293 185.9482,-444.0293 "></polyline>
+<text text-anchor="middle" x="151.9556" y="-429.2293" font-family="Calibri" font-size="12.00" fill="#000000">Legitimate</text>
+</g>
+<!-- n_inactive&#45;&gt;n_ownership -->
+<g id="edge9" class="edge">
+<title>n_inactive-&gt;n_ownership</title>
+<path fill="none" stroke="#000000" d="M151.9556,-411.3309C151.9556,-395.9255 151.9556,-378.1312 151.9556,-365.1682"></path>
+<polygon fill="#000000" stroke="#000000" points="148.4557,-411.5258 151.9556,-421.5258 155.4557,-411.5258 148.4557,-411.5258"></polygon>
+<text text-anchor="middle" x="163.6232" y="-396.4077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+</g>
+</svg>
