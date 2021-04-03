@@ -1,0 +1,73 @@
+digraph G {
+	rankdir="TB";
+	ranksep=0.25;
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true; # If true, allow edges between clusters.
+	fontname="Calibri";
+	label="Trust (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_probability [label="Probability\nAssessment", fillcolor="#ffffff"];
+	n_probability -> n_trust [weight=10, label="  is a  ", dir="back"];
+
+	# Concept
+	n_trust [label="Trust", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1037926452"];
+	n_trust -> n_trusting_entity [weight=10, label="  involves  "];
+	n_trust -> n_trusted_entity [label="  involves  "];
+
+	# Distinctive Characteristics
+	n_trusting_entity [label="Trusting\nEntity", fontsize=14];
+	n_trusting_entity -> n_assessment [label="  make  "];
+	n_trusting_entity -> n_beneficial [label="  to  ", dir="back"];
+	n_assessment [label="Assessment"];
+	n_probability_2 [label="Probability"];
+	n_assessment -> n_probability_2 [label="  of  "];
+	n_probability_2 -> n_beneficial [label="  of  ", lhead="cluster_situation"];
+	#n_trust -> n_key_determinants [label="  determined  \n  by  ", lhead="cluster_key_determinants"];
+	n_key_characteristics -> n_trust [label="    has  ", dir="back", ltail="cluster_key_characteristics"];
+
+	subgraph cluster_situation {
+		label="Prediction";
+		fontsize="14";
+		n_beneficial [label="Benefical\nor\nNon-detrimental"];
+		n_beneficial -> n_future_actions [label="  will be  ", dir="back"];
+		n_trusted_entity [label="Trusted\nEntity", fontsize=14];
+		n_future_actions -> n_trusted_entity [label="  of  "];
+		n_future_actions [label="Future\nActions"];
+	}
+
+	subgraph cluster_key_characteristics {
+		label="Key Characteristics";
+		fontsize="14";
+		n_key_characteristics [label="{Asymmetric|Dynamic|Intersubjective}|{Intransitive|(Non-)Distributive|Subjective}", shape="record"]
+	}
+
+	subgraph cluster_key_determinants {
+		label="Key Variables";
+		fontsize="14";
+		n_key_determinants [label="{Controls|Faith|Information}|{Past Experience|Reputation|Transparency}", shape="record"]
+	}
+
+	n_trusting_entity -> n_key_determinants [label="  based  \n  on  ", lhead="cluster_key_determinants"]
+
+	# Invisible Links
+	#n_key_characteristics -> n_key_determinants [style=invis];
+
+	# Levels
+	{ rank=same; n_probability_2; n_trusted_entity; n_future_actions; n_beneficial;}
+	#{ rank=same; n_key_characteristics; n_key_determinants;}
+
+	# Snippets
+	# n_person [label="Person"]
+	# n_subject -> n_requirements [style=invis];
+	# n_populations [label="{Minor|Adul under Legal Guardianship|Person granting Power of Attorney|etc.}", shape="record"]
+	# subgraph cluster_strong {
+	#		color=black;
+	#		label = "";
+	# n_strong_tranquility_property -> n_weak_tranquility_property [minlen=3, labelloc=b, xlabel="  has more  \n  constraints  \n  than  ", ltail=cluster_strong, lhead=cluster_weak];
+}
