@@ -34,11 +34,11 @@ digraph G {
 	n_authorization_system -> n_inside_implementation [label="  is not  "];
 	n_inside_implementation -> n_application [label="  of  "];
 	n_inside_implementation [label="  Implemented  \n  Inside  ", fillcolor="#ffaaaa"];
-	n_xacml [label="  XACML  "];
-	n_authorization_externalization -> n_xacml [label="  supported  \n  by  "];
+	n_xacml [label="{3rd Party Authorization System|Custom Implementation|OPA|XACML}", shape="record"];
+	n_authorization_externalization -> n_xacml [label="  enabled  \n  by  "];
 	n_motivations -> n_outside_implementation [style="invis"]
 	# Levels
-	{ rank=same; n_authorization_externalization; n_xacml; n_key_drivers };
+	{ rank=same; n_authorization_externalization; n_key_drivers };
 	{ rank=same; n_motivations; n_authorization_system; n_application };
 	{ rank=same; n_motivations; n_authorization_system; n_application };
 	# { rank=same; n_motivations; n_authorization_system };
