@@ -1,0 +1,242 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="711pt" height="555pt" viewBox="0 0 711 555" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 551.2685)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-551.2685 706.6439,-551.2685 706.6439,4 -4,4"></polygon>
+<text text-anchor="middle" x="351.3219" y="-16" font-family="Calibri" font-size="8.00" fill="#000000">Login ID (Conceptual Diagram) by Open-Measure</text>
+<text text-anchor="middle" x="351.3219" y="-6.4" font-family="Calibri" font-size="8.00" fill="#000000">Licensed under Creative Commons Attribution 4.0 International License</text>
+<g id="clust1" class="cluster">
+<title>cluster_freedom</title>
+<polygon fill="none" stroke="#000000" points="548.6439,-452.6685 548.6439,-539.2685 648.6439,-539.2685 648.6439,-452.6685 548.6439,-452.6685"></polygon>
+<text text-anchor="middle" x="598.6439" y="-522.6685" font-family="Calibri" font-size="14.00" fill="#000000">Method</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_defined_by</title>
+<polygon fill="none" stroke="#000000" points="594.6439,-155.8077 594.6439,-287.2077 694.6439,-287.2077 694.6439,-155.8077 594.6439,-155.8077"></polygon>
+<text text-anchor="middle" x="644.6439" y="-270.6077" font-family="Calibri" font-size="14.00" fill="#000000">Editor</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_mutability</title>
+<polygon fill="none" stroke="#000000" points="456.6439,-452.6685 456.6439,-539.2685 540.6439,-539.2685 540.6439,-452.6685 456.6439,-452.6685"></polygon>
+<text text-anchor="middle" x="498.6439" y="-522.6685" font-family="Calibri" font-size="14.00" fill="#000000">Mutability</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_id_attributes</title>
+<polygon fill="none" stroke="#000000" points="266.6439,-144.6077 266.6439,-298.4077 402.6439,-298.4077 402.6439,-144.6077 266.6439,-144.6077"></polygon>
+<text text-anchor="middle" x="334.6439" y="-281.8077" font-family="Calibri" font-size="14.00" fill="#000000">Identity Attributes</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_naming_convention</title>
+<polygon fill="none" stroke="#000000" points="410.6439,-133.4077 410.6439,-309.6077 586.6439,-309.6077 586.6439,-133.4077 410.6439,-133.4077"></polygon>
+<text text-anchor="middle" x="498.6439" y="-293.0077" font-family="Calibri" font-size="14.00" fill="#000000">Naming Conventions</text>
+</g>
+<!-- n_unique_id -->
+<g id="node1" class="node">
+<title>n_unique_id</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="57.6439" cy="-483.5685" rx="42.7616" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="57.6439" y="-487.1685" font-family="Calibri" font-size="12.00" fill="#000000">Unique</text>
+<text text-anchor="middle" x="57.6439" y="-472.7685" font-family="Calibri" font-size="12.00" fill="#000000">Identifier</text>
+</g>
+<!-- n_identity_attribute -->
+<g id="node2" class="node">
+<title>n_identity_attribute</title>
+<ellipse fill="#ffffff" stroke="#000000" cx="215.6439" cy="-483.5685" rx="41.8963" ry="26.0431"></ellipse>
+<text text-anchor="middle" x="215.6439" y="-487.1685" font-family="Calibri" font-size="12.00" fill="#000000">Identity</text>
+<text text-anchor="middle" x="215.6439" y="-472.7685" font-family="Calibri" font-size="12.00" fill="#000000">Attribute</text>
+</g>
+<!-- n_unique_id&#45;&gt;n_identity_attribute -->
+<g id="edge1" class="edge">
+<title>n_unique_id-&gt;n_identity_attribute</title>
+<path fill="none" stroke="#000000" d="M110.9251,-483.5685C131.3619,-483.5685 154.3762,-483.5685 173.614,-483.5685"></path>
+<polygon fill="#000000" stroke="#000000" points="110.8181,-480.0686 100.8181,-483.5685 110.818,-487.0686 110.8181,-480.0686"></polygon>
+<text text-anchor="middle" x="137.1101" y="-490.7685" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of class &nbsp;</text>
+</g>
+<!-- n_login_id -->
+<g id="node3" class="node">
+<title>n_login_id</title>
+<g id="a_node3"><a xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1428685307" xlink:title="Login ID">
+<ellipse fill="#5599ff" stroke="#000000" cx="215.6439" cy="-397.9381" rx="58.1516" ry="20.861"></ellipse>
+<text text-anchor="middle" x="215.6439" y="-392.5381" font-family="Calibri" font-size="18.00" fill="#000000">Login ID</text>
+</a>
+</g>
+</g>
+<!-- n_identity_attribute&#45;&gt;n_login_id -->
+<g id="edge2" class="edge">
+<title>n_identity_attribute-&gt;n_login_id</title>
+<path fill="none" stroke="#000000" d="M215.6439,-447.2478C215.6439,-437.6325 215.6439,-427.5697 215.6439,-419.0605"></path>
+<polygon fill="#000000" stroke="#000000" points="212.144,-447.4112 215.6439,-457.4112 219.144,-447.4113 212.144,-447.4112"></polygon>
+<text text-anchor="middle" x="232.1688" y="-432.0685" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is a &nbsp;</text>
+</g>
+<!-- n_claim -->
+<g id="node4" class="node">
+<title>n_claim</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="96.6439" cy="-209.1077" rx="34.7864" ry="18"></ellipse>
+<text text-anchor="middle" x="96.6439" y="-204.9077" font-family="Calibri" font-size="14.00" fill="#000000">Claim</text>
+</g>
+<!-- n_login_id&#45;&gt;n_claim -->
+<g id="edge3" class="edge">
+<title>n_login_id-&gt;n_claim</title>
+<path fill="none" stroke="#000000" d="M156.9772,-383.301C143.0836,-378.7508 130.9055,-373.4821 126.1445,-368.0077 91.1603,-327.7818 91.8556,-259.7374 94.5394,-227.3257"></path>
+<polygon fill="#000000" stroke="#000000" points="156.2125,-386.7277 166.7998,-386.33 158.2753,-380.0386 156.2125,-386.7277"></polygon>
+<text text-anchor="middle" x="169.3936" y="-338.6077" font-family="Calibri" font-size="14.00" fill="#000000">references &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+</g>
+<!-- n_identity -->
+<g id="node5" class="node">
+<title>n_identity</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="215.6439" cy="-209.1077" rx="41.149" ry="18"></ellipse>
+<text text-anchor="middle" x="215.6439" y="-204.9077" font-family="Calibri" font-size="14.00" fill="#000000">Identity</text>
+</g>
+<!-- n_login_id&#45;&gt;n_identity -->
+<g id="edge4" class="edge">
+<title>n_login_id-&gt;n_identity</title>
+<path fill="none" stroke="#000000" d="M215.6439,-376.6439C215.6439,-342.5824 215.6439,-275.8062 215.6439,-237.6476"></path>
+<polygon fill="#000000" stroke="#000000" points="219.144,-237.243 215.6439,-227.243 212.144,-237.2431 219.144,-237.243"></polygon>
+<text text-anchor="middle" x="248.6923" y="-347.0077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;uniquely &nbsp;</text>
+<text text-anchor="middle" x="248.6923" y="-330.2077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;identifies &nbsp;</text>
+</g>
+<!-- n_value -->
+<g id="node8" class="node">
+<title>n_value</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="498.6439" cy="-397.9381" rx="34.1871" ry="18"></ellipse>
+<text text-anchor="middle" x="498.6439" y="-393.7381" font-family="Calibri" font-size="14.00" fill="#000000">Value</text>
+</g>
+<!-- n_login_id&#45;&gt;n_value -->
+<g id="edge8" class="edge">
+<title>n_login_id-&gt;n_value</title>
+<path fill="none" stroke="#000000" d="M284.3067,-397.9381C341.3332,-397.9381 420.0596,-397.9381 464.5053,-397.9381"></path>
+<polygon fill="#000000" stroke="#000000" points="284.2817,-394.4382 274.2817,-397.9381 284.2816,-401.4382 284.2817,-394.4382"></polygon>
+<text text-anchor="middle" x="369.2599" y="-405.1381" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of &nbsp;</text>
+</g>
+<!-- n_distinct_from -->
+<g id="node12" class="node">
+<title>n_distinct_from</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="274.3269,-153.1077 274.3269,-265.1077 394.9609,-265.1077 394.9609,-153.1077 274.3269,-153.1077"></polygon>
+<text text-anchor="middle" x="334.6439" y="-250.3077" font-family="Calibri" font-size="12.00" fill="#000000">System IDs</text>
+<polyline fill="none" stroke="#000000" points="274.3269,-242.7077 394.9609,-242.7077 "></polyline>
+<text text-anchor="middle" x="334.6439" y="-227.9077" font-family="Calibri" font-size="12.00" fill="#000000">Profile Display Name</text>
+<polyline fill="none" stroke="#000000" points="274.3269,-220.3077 394.9609,-220.3077 "></polyline>
+<text text-anchor="middle" x="334.6439" y="-205.5077" font-family="Calibri" font-size="12.00" fill="#000000">Entity Name</text>
+<polyline fill="none" stroke="#000000" points="274.3269,-197.9077 394.9609,-197.9077 "></polyline>
+<text text-anchor="middle" x="334.6439" y="-183.1077" font-family="Calibri" font-size="12.00" fill="#000000">Email</text>
+<polyline fill="none" stroke="#000000" points="274.3269,-175.5077 394.9609,-175.5077 "></polyline>
+<text text-anchor="middle" x="334.6439" y="-160.7077" font-family="Calibri" font-size="12.00" fill="#000000">...</text>
+</g>
+<!-- n_login_id&#45;&gt;n_distinct_from -->
+<g id="edge12" class="edge">
+<title>n_login_id-&gt;n_distinct_from</title>
+<path fill="none" stroke="#000000" d="M261.9181,-384.914C270.7228,-380.6936 279.1886,-375.1786 285.6439,-368.0077 300.8137,-351.1563 311.2875,-329.6883 318.5189,-308.0226"></path>
+<polygon fill="#000000" stroke="#000000" points="321.8821,-308.9942 321.5209,-298.4055 315.2001,-306.9083 321.8821,-308.9942"></polygon>
+<text text-anchor="middle" x="342.2547" y="-355.4077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;often &nbsp;</text>
+<text text-anchor="middle" x="342.2547" y="-338.6077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;distinct &nbsp;</text>
+<text text-anchor="middle" x="342.2547" y="-321.8077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;from &nbsp;</text>
+</g>
+<!-- n_claim&#45;&gt;n_identity -->
+<g id="edge6" class="edge">
+<title>n_claim-&gt;n_identity</title>
+<path fill="none" stroke="#000000" d="M131.3835,-209.1077C141.6782,-209.1077 153.1764,-209.1077 164.2885,-209.1077"></path>
+<polygon fill="#000000" stroke="#000000" points="164.3392,-212.6078 174.3392,-209.1077 164.3391,-205.6078 164.3392,-212.6078"></polygon>
+<text text-anchor="middle" x="152.9281" y="-216.3077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;of &nbsp;</text>
+</g>
+<!-- n_domain -->
+<g id="node7" class="node">
+<title>n_domain</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="215.6439" cy="-63.4039" rx="51.6844" ry="36.4089"></ellipse>
+<text text-anchor="middle" x="215.6439" y="-74.2039" font-family="Calibri" font-size="12.00" fill="#000000">Information</text>
+<text text-anchor="middle" x="215.6439" y="-59.8039" font-family="Calibri" font-size="12.00" fill="#000000">Security</text>
+<text text-anchor="middle" x="215.6439" y="-45.4039" font-family="Calibri" font-size="12.00" fill="#000000">Domain</text>
+</g>
+<!-- n_identity&#45;&gt;n_domain -->
+<g id="edge7" class="edge">
+<title>n_identity-&gt;n_domain</title>
+<path fill="none" stroke="#000000" d="M215.6439,-190.9488C215.6439,-170.7908 215.6439,-137.4673 215.6439,-109.9369"></path>
+<polygon fill="#000000" stroke="#000000" points="219.144,-109.7088 215.6439,-99.7088 212.144,-109.7088 219.144,-109.7088"></polygon>
+<text text-anchor="middle" x="228.0892" y="-112.8077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;in &nbsp;</text>
+</g>
+<!-- n_entity -->
+<g id="node6" class="node">
+<title>n_entity</title>
+<ellipse fill="#d6e7ff" stroke="#000000" cx="34.6439" cy="-397.9381" rx="34.7883" ry="18"></ellipse>
+<text text-anchor="middle" x="34.6439" y="-393.7381" font-family="Calibri" font-size="14.00" fill="#000000">Entity</text>
+</g>
+<!-- n_entity&#45;&gt;n_claim -->
+<g id="edge5" class="edge">
+<title>n_entity-&gt;n_claim</title>
+<path fill="none" stroke="#000000" d="M32.417,-379.7207C30.9832,-363.2058 30.2962,-338.3492 35.8795,-317.6077 44.1779,-286.7794 63.1643,-255.3636 77.7222,-234.3254"></path>
+<polygon fill="#000000" stroke="#000000" points="80.7139,-236.1574 83.6461,-225.9764 75.0049,-232.1067 80.7139,-236.1574"></polygon>
+<text text-anchor="middle" x="61.5261" y="-338.6077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;makes &nbsp;</text>
+</g>
+<!-- n_defined_by -->
+<g id="node10" class="node">
+<title>n_defined_by</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="602.9839,-164.3077 602.9839,-253.9077 686.3039,-253.9077 686.3039,-164.3077 602.9839,-164.3077"></polygon>
+<text text-anchor="middle" x="644.6439" y="-239.1077" font-family="Calibri" font-size="12.00" fill="#000000">Entity</text>
+<polyline fill="none" stroke="#000000" points="602.9839,-231.5077 686.3039,-231.5077 "></polyline>
+<text text-anchor="middle" x="644.6439" y="-216.7077" font-family="Calibri" font-size="12.00" fill="#000000">Administrator</text>
+<polyline fill="none" stroke="#000000" points="602.9839,-209.1077 686.3039,-209.1077 "></polyline>
+<text text-anchor="middle" x="644.6439" y="-194.3077" font-family="Calibri" font-size="12.00" fill="#000000">Algorithm</text>
+<polyline fill="none" stroke="#000000" points="602.9839,-186.7077 686.3039,-186.7077 "></polyline>
+<text text-anchor="middle" x="644.6439" y="-171.9077" font-family="Calibri" font-size="12.00" fill="#000000">...</text>
+</g>
+<!-- n_value&#45;&gt;n_defined_by -->
+<g id="edge10" class="edge">
+<title>n_value-&gt;n_defined_by</title>
+<path fill="none" stroke="#000000" d="M525.6178,-386.7009C535.1715,-381.8744 545.5474,-375.5839 553.6439,-368.0077 575.1226,-347.9091 592.9631,-321.5803 606.9894,-296.1508"></path>
+<polygon fill="#000000" stroke="#000000" points="610.1454,-297.6715 611.7913,-287.2053 603.9778,-294.3607 610.1454,-297.6715"></polygon>
+<text text-anchor="middle" x="621.6341" y="-347.0077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;defined &nbsp;</text>
+<text text-anchor="middle" x="621.6341" y="-330.2077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;by &nbsp;</text>
+</g>
+<!-- n_naming_convention -->
+<g id="node13" class="node">
+<title>n_naming_convention</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="418.4855,-141.9077 418.4855,-276.3077 578.8023,-276.3077 578.8023,-141.9077 418.4855,-141.9077"></polygon>
+<text text-anchor="middle" x="498.6439" y="-261.5077" font-family="Calibri" font-size="12.00" fill="#000000">Email</text>
+<polyline fill="none" stroke="#000000" points="418.4855,-253.9077 578.8023,-253.9077 "></polyline>
+<text text-anchor="middle" x="498.6439" y="-239.1077" font-family="Calibri" font-size="12.00" fill="#000000">Email Local Part</text>
+<polyline fill="none" stroke="#000000" points="418.4855,-231.5077 578.8023,-231.5077 "></polyline>
+<text text-anchor="middle" x="498.6439" y="-216.7077" font-family="Calibri" font-size="12.00" fill="#000000">Combinations of Entity Name</text>
+<polyline fill="none" stroke="#000000" points="418.4855,-209.1077 578.8023,-209.1077 "></polyline>
+<text text-anchor="middle" x="498.6439" y="-194.3077" font-family="Calibri" font-size="12.00" fill="#000000">Pseudo-random</text>
+<polyline fill="none" stroke="#000000" points="418.4855,-186.7077 578.8023,-186.7077 "></polyline>
+<text text-anchor="middle" x="498.6439" y="-171.9077" font-family="Calibri" font-size="12.00" fill="#000000">Surrogate Key</text>
+<polyline fill="none" stroke="#000000" points="418.4855,-164.3077 578.8023,-164.3077 "></polyline>
+<text text-anchor="middle" x="498.6439" y="-149.5077" font-family="Calibri" font-size="12.00" fill="#000000">...</text>
+</g>
+<!-- n_value&#45;&gt;n_naming_convention -->
+<g id="edge13" class="edge">
+<title>n_value-&gt;n_naming_convention</title>
+<path fill="none" stroke="#000000" d="M498.6439,-379.8322C498.6439,-365.148 498.6439,-343.1083 498.6439,-319.7011"></path>
+<polygon fill="#000000" stroke="#000000" points="502.144,-319.6032 498.6439,-309.6032 495.144,-319.6032 502.144,-319.6032"></polygon>
+<text text-anchor="middle" x="523.9181" y="-347.0077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;may &nbsp;</text>
+<text text-anchor="middle" x="523.9181" y="-330.2077" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;follow &nbsp;</text>
+</g>
+<!-- n_freedom -->
+<g id="node9" class="node">
+<title>n_freedom</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="556.3179,-461.1685 556.3179,-505.9685 640.9699,-505.9685 640.9699,-461.1685 556.3179,-461.1685"></polygon>
+<text text-anchor="middle" x="598.6439" y="-491.1685" font-family="Calibri" font-size="12.00" fill="#000000">Manually</text>
+<polyline fill="none" stroke="#000000" points="556.3179,-483.5685 640.9699,-483.5685 "></polyline>
+<text text-anchor="middle" x="598.6439" y="-468.7685" font-family="Calibri" font-size="12.00" fill="#000000">Automatically</text>
+</g>
+<!-- n_freedom&#45;&gt;n_value -->
+<g id="edge9" class="edge">
+<title>n_freedom-&gt;n_value</title>
+<path fill="none" stroke="#000000" d="M554.7377,-445.9715C541.2805,-434.448 527.2256,-422.4127 516.5507,-413.2718"></path>
+<polygon fill="#000000" stroke="#000000" points="552.6897,-448.8256 562.562,-452.6714 557.2427,-443.5086 552.6897,-448.8256"></polygon>
+<text text-anchor="middle" x="571.8364" y="-432.0685" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is set &nbsp;</text>
+</g>
+<!-- n_mutability -->
+<g id="node11" class="node">
+<title>n_mutability</title>
+<polygon fill="#d6e7ff" stroke="#000000" points="464.6501,-461.1685 464.6501,-505.9685 532.6377,-505.9685 532.6377,-461.1685 464.6501,-461.1685"></polygon>
+<text text-anchor="middle" x="498.6439" y="-491.1685" font-family="Calibri" font-size="12.00" fill="#000000">Immutable</text>
+<polyline fill="none" stroke="#000000" points="464.6501,-483.5685 532.6377,-483.5685 "></polyline>
+<text text-anchor="middle" x="498.6439" y="-468.7685" font-family="Calibri" font-size="12.00" fill="#000000">Mutable</text>
+</g>
+<!-- n_mutability&#45;&gt;n_value -->
+<g id="edge11" class="edge">
+<title>n_mutability-&gt;n_value</title>
+<path fill="none" stroke="#000000" d="M498.6439,-451.0174C498.6439,-439.1367 498.6439,-426.1355 498.6439,-415.9739"></path>
+<polygon fill="#000000" stroke="#000000" points="495.1445,-442.6682 498.6439,-452.6685 502.1445,-442.6687 495.1445,-442.6682"></polygon>
+<text text-anchor="middle" x="510.3115" y="-432.0685" font-family="Calibri" font-size="14.00" fill="#000000"> &nbsp;is &nbsp;</text>
+</g>
+</g>
+</svg>

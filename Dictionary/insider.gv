@@ -1,0 +1,74 @@
+digraph G {
+	rankdir="TB";
+	ranksep=0.25;
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true; # If true, allow edges between clusters.
+	fontname="Calibri";
+	label="Insider (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_entity [label="Entity", fillcolor="#ffffff"];
+	n_entity -> n_person [weight=10, label="  is an  ", dir="back"];
+	n_person [label="Person", fillcolor="#ffffff"];
+	n_person -> n_insider [weight=10, label="  is (often) a  ", dir="back", style="dashed"];
+	n_entity -> n_insider [weight=10, label="  is an  ", dir="back"];
+
+	# Concept
+	n_insider [label="Insider", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1451884782"];
+	n_insider -> n_outsider [label="  is not  ", dir="both"];
+	n_outsider [label="Outsider", fontsize=14, fillcolor="#5599ff"];
+
+	# Distinctive Characteristics
+	n_insider -> n_organization [weight="2", label="  linked  \n  to  ", lhead="cluster_extended"];
+
+	n_privileges -> n_insider [label="  may have  ", ltail="cluster_privileges", dir="back"];
+	subgraph cluster_privileges {
+		label="Privilege Level";
+		fontsize="14";
+		n_privileges [shape="record", label="{Unprivileged|Privileged}"];
+	};
+
+	subgraph cluster_extended {
+		label="Extended Organization";
+		fontsize="14";
+		n_organization [label="Organization", fontsize=14];
+		n_entities [shape="record", label="{Employees|Former Employees|Contractors|Board Members}|{Auditors|Vendors|Suppliers|etc.}"];
+	};
+
+	n_threat -> n_insider [label="  poses  ", dir="back"];
+	n_threat [label="Insider\nThreat", fontsize=14];
+	n_threat -> n_organization [label="  may  \n  damage  "];
+
+	n_insider -> n_knowledge [label="  has  "];
+	n_knowledge -> n_organization [label="  of  ", lhead="cluster_extended"];
+	n_knowledge [label="Knowledge", fontsize=14];
+	n_insider -> n_trust [label="  has  "];
+	n_trust -> n_organization [label="  of  ", lhead="cluster_extended"];
+	n_trust [label="Trust", fontsize=14];
+	n_insider -> n_capabilities [label="  may have  ", style="dashed"];
+	n_capabilities [label="Capabilities", fontsize=14];
+	n_capabilities -> n_organization [label="  related to  ", lhead="cluster_extended"];
+
+	# Invisible Links
+	n_organization -> n_entities [style=invis];
+
+	# Levels
+	{ rank=same; n_outsider; n_insider; }
+	{ rank=same; n_insider; n_threat; }
+	#{ rank=same; n_knowledge; n_person;}
+	#{ rank=same; n_freedom; n_mutability; n_distinct#_from;}
+
+	# Snippets
+	# n_person [label="Person"]
+	# n_knowledge -> n_requirements [style=invis];
+	# n_populations [label="{Minor|Adul under Legal Guardianship|Person granting Power of Attorney|etc.}", shape="record"]
+	# subgraph cluster_strong {
+	#		color=black;
+	#		label = "";
+	# n_strong_tranquility_property -> n_weak_tranquility_property [minlen=3, labelloc=b, xlabel="  has more  \n  constraints  \n  than  ", ltail=cluster_strong, lhead=cluster_weak];
+}

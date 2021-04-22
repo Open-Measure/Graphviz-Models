@@ -1,0 +1,91 @@
+digraph G {
+	rankdir="TB";
+	ranksep=0.25;
+	splines="curve";
+	newrank=true;
+	packmode="clust";
+	compound=true; # If true, allow edges between clusters.
+	fontname="Calibri";
+	label="Login ID (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_unique_id [label="Unique\nIdentifier", fillcolor="#ffffff"];
+	n_unique_id -> n_identity_attribute [weight=10, label="  of class  ", dir="back"];
+	n_identity_attribute [label="Identity\nAttribute", fillcolor="#ffffff"];
+	n_identity_attribute -> n_login_id [weight=10, label="  is a  ", dir="back"];
+
+	# Concept
+	n_login_id [label="Login ID", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1428685307"];
+	n_login_id -> n_claim [label="references        ", dir="back"];
+	n_login_id -> n_identity [weight=10, label="  uniquely  \n  identifies  "];
+
+	# Distinctive Characteristics
+	n_entity [label="Entity", fontsize=14];
+	n_claim [label="Claim", fontsize=14];
+	n_identity [label="Identity", fontsize=14];
+	n_entity -> n_claim [label="  makes  "];
+	n_claim -> n_identity [label="  of  "];
+	n_domain [label="Information\nSecurity\nDomain"];
+	n_identity -> n_domain [label="  in  "];
+
+	n_value [label="Value", fontsize=14];
+	n_login_id -> n_value [label="  of  ", dir="back"];
+	#n_point [label="", shape="none", style="invis", width="0", height="0"];
+	#n_login_id -> n_point [arrowhead="none"];
+
+	n_freedom -> n_value [label="  is set  ", ltail="cluster_freedom", dir="back"];
+	subgraph cluster_freedom {
+		label="Method";
+		fontsize="14";
+		n_freedom [shape="record", label="{Manually|Automatically}"];
+	}
+
+	n_value -> n_defined_by [label="  defined  \n  by  ", lhead="cluster_defined_by"];
+	subgraph cluster_defined_by {
+		label="Editor";
+		fontsize="14";
+		n_defined_by [shape="record", label="{Entity|Administrator|Algorithm|...}"];
+	}
+
+	n_mutability -> n_value [weight=15, label="  is  ", ltail="cluster_mutability", dir="back"];
+	subgraph cluster_mutability {
+		label="Mutability";
+		fontsize="14";
+		n_mutability [shape="record", label="{Immutable|Mutable}"];
+	}
+
+	n_login_id -> n_distinct_from [label="  often  \n  distinct  \n  from  ", lhead="cluster_id_attributes"];
+	subgraph cluster_id_attributes {
+		label="Identity Attributes";
+		fontsize="14";
+		n_distinct_from [shape="record", label="{System IDs|Profile Display Name|Entity Name|Email|...}"];
+	}
+
+	n_value -> n_naming_convention [label="  may  \n  follow  ", lhead="cluster_naming_convention"];
+	subgraph cluster_naming_convention {
+		label="Naming Conventions";
+		fontsize="14";
+		n_naming_convention [shape="record", label="{Email|Email Local Part|Combinations of Entity Name|Pseudo-random|Surrogate Key|...}"];
+	}
+
+	# Invisible Links
+	#n_freedom -> n_mutability -> n_distinct_from [style=invis];
+
+	# Levels
+	{ rank=same; n_claim; n_identity; }
+	{ rank=same; n_login_id; n_entity; n_value; }
+	{ rank=same; n_unique_id; n_identity_attribute;}
+	#{ rank=same; n_freedom; n_mutability; n_distinct#_from;}
+
+	# Snippets
+	# n_person [label="Person"]
+	# n_entity -> n_requirements [style=invis];
+	# n_populations [label="{Minor|Adul under Legal Guardianship|Person granting Power of Attorney|etc.}", shape="record"]
+	# subgraph cluster_strong {
+	#		color=black;
+	#		label = "";
+	# n_strong_tranquility_property -> n_weak_tranquility_property [minlen=3, labelloc=b, xlabel="  has more  \n  constraints  \n  than  ", ltail=cluster_strong, lhead=cluster_weak];
+}
