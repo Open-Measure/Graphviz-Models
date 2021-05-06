@@ -20,11 +20,11 @@ digraph G {
 
 	# Key Characteristics
 	n_account_takeover -> n_perpetrator [label="  committed  \n  by  "];
-	n_perpetrator [label="Perpetrator", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_perpetrator [label="Perpetrator", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
 	n_perpetrator -> n_control [label="  take  "];
 	n_control [label="Control"];
 	n_control -> n_identity [label="  of  "];
-	n_identity [label="Identity", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_identity [label="Identity", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
 	n_victim [label="Victim", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"];
 	n_perpetrator -> n_victim [label="  distinct  ", dir="both"];
 	n_victim -> n_control [label="  loose  "];

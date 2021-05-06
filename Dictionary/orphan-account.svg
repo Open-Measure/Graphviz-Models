@@ -11,10 +11,6 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-526.049 689.086,-526.049 689.086,4 -4,4"/>
 <text text-anchor="middle" x="342.543" y="-15.6" font-family="Calibri" font-size="8.00">Oprhan Account (Conceptual Diagram) by Open&#45;Measure</text>
 <text text-anchor="middle" x="342.543" y="-6.6" font-family="Calibri" font-size="8.00">Licensed under Creative Commons Attribution 4.0 International License</text>
-<g id="clust2" class="cluster"><title>cluster_causes</title>
-<polygon fill="none" stroke="black" points="147.086,-38 147.086,-256 301.086,-256 301.086,-38 147.086,-38"/>
-<text text-anchor="middle" x="224.086" y="-240.8" font-family="Calibri" font-size="14.00">Possible Causes</text>
-</g>
 <g id="clust1" class="cluster"><title>cluster_domains</title>
 <polygon fill="none" stroke="black" points="15.0858,-74.5 15.0858,-219.5 139.086,-219.5 139.086,-74.5 15.0858,-74.5"/>
 <text text-anchor="middle" x="77.0858" y="-204.3" font-family="Calibri" font-size="14.00">Domains</text>
@@ -22,6 +18,10 @@
 <g id="clust3" class="cluster"><title>cluster_consequences</title>
 <polygon fill="none" stroke="black" points="309.086,-55 309.086,-239 505.086,-239 505.086,-55 309.086,-55"/>
 <text text-anchor="middle" x="407.086" y="-223.8" font-family="Calibri" font-size="14.00">Potential Consequences</text>
+</g>
+<g id="clust2" class="cluster"><title>cluster_causes</title>
+<polygon fill="none" stroke="black" points="147.086,-38 147.086,-256 301.086,-256 301.086,-38 147.086,-38"/>
+<text text-anchor="middle" x="224.086" y="-240.8" font-family="Calibri" font-size="14.00">Possible Causes</text>
 </g>
 <g id="clust4" class="cluster"><title>cluster_countermeasues</title>
 <polygon fill="none" stroke="black" points="513.086,-34 513.086,-260 677.086,-260 677.086,-34 513.086,-34"/>

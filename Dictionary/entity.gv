@@ -32,13 +32,13 @@ digraph G {
  	n_entity [label="Entity", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"];
 	n_entity -> n_identity [weight=10, label="  map  ", dir="back"];
 
-	n_identity [label="Identity", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_identity [label="Identity", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
 	n_identity -> n_informational_object [weight=10, label="  is  "];
 	n_identity -> n_operation [weight=10, label="  link  "];
 	n_identity -> n_attribute [weight=10, label="  has  "];
 	n_entity -> n_attribute [weight=10, label="  identify  ", dir="back"];
 
-	n_attribute [label="Attribute", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82903275"];
+	n_attribute [label="Attribute", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82903275"];
 	n_attribute -> n_informational_object [weight=10, label="  is  "];
 
 	n_operation [fillcolor="white", label="Operation"];

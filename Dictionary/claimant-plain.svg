@@ -264,3 +264,742 @@
       <g
          id="a_node5">
         <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"
+           xlink:title="Identity"
+           id="a82">
+          <ellipse
+             fill="#d6e7ff"
+             stroke="#000000"
+             cx="294.93301"
+             cy="-485"
+             rx="32.752701"
+             ry="18"
+             id="ellipse78" />
+          <text
+             text-anchor="middle"
+             x="294.93301"
+             y="-481.89999"
+             font-family="Calibri"
+             font-size="12px"
+             id="text80">Identity</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_entity&#45;&gt;n_identity -->
+    <g
+       id="edge4"
+       class="edge">
+      <title
+         id="title86">n_entity-&gt;n_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 294.933,-525.48 c 0,7.469 0,15.358 0,22.104"
+         id="path88" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="298.433,-525.597 291.433,-525.597 294.933,-535.597 "
+         id="polygon90" />
+      <text
+         text-anchor="middle"
+         x="313.93301"
+         y="-514.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text92"> map  </text>
+    </g>
+    <!-- n_claimed_identity&#45;&gt;n_authenticator -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title95">n_claimed_identity-&gt;n_authenticator</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 157.117,-467.261 c -4.473,6.921 -9.758,15.101 -14.694,22.74"
+         id="path97" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="139.345,-446.207 145.225,-442.408 136.858,-435.908 "
+         id="polygon99" />
+      <text
+         text-anchor="middle"
+         x="167.433"
+         y="-447.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text101"> has  </text>
+    </g>
+    <!-- n_claimed_identity&#45;&gt;n_identity -->
+    <g
+       id="edge19"
+       class="edge">
+      <title
+         id="title104">n_claimed_identity-&gt;n_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="1, 5"
+         d="m 227.464,-485 c 11.596,0 23.192,0 34.788,0"
+         id="path106" />
+    </g>
+    <!-- n_credential -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title109">n_credential</title>
+      <g
+         id="a_node6">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67633343"
+           xlink:title="Credential"
+           id="a115">
+          <ellipse
+             fill="#d6e7ff"
+             stroke="#000000"
+             cx="294.93301"
+             cy="-418"
+             rx="41.490101"
+             ry="18"
+             id="ellipse111" />
+          <text
+             text-anchor="middle"
+             x="294.93301"
+             y="-414.89999"
+             font-family="Calibri"
+             font-size="12px"
+             id="text113">Credential</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_authenticator&#45;&gt;n_credential -->
+    <g
+       id="edge20"
+       class="edge">
+      <title
+         id="title119">n_authenticator-&gt;n_credential</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="1, 5"
+         d="m 177.095,-418 c 25.47,0 50.94,0 76.41,0"
+         id="path121" />
+    </g>
+    <!-- n_authenticator_output -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title124">n_authenticator_output</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="113.933"
+         cy="-178"
+         rx="30.560301"
+         ry="18"
+         id="ellipse126" />
+      <text
+         text-anchor="middle"
+         x="113.933"
+         y="-174.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text128">Output</text>
+    </g>
+    <!-- n_authenticator&#45;&gt;n_authenticator_output -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title131">n_authenticator-&gt;n_authenticator_output</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 108.969,-400.745 c -10.902,12.241 -23.0364,30.062 -23.0364,48.745 0,0 0,0 0,122 0,9.541 3.8116,18.984 8.6222,27.102"
+         id="path133" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="91.7944,-200.729 97.6144,-204.618 100.261,-194.359 "
+         id="polygon135" />
+      <text
+         text-anchor="middle"
+         x="116.433"
+         y="-280.29999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text137"> produce  </text>
+    </g>
+    <!-- n_claimed_identity_attributes -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title140">n_claimed_identity_attributes</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="182.933"
+         cy="-351"
+         rx="40.026299"
+         ry="18"
+         id="ellipse142" />
+      <text
+         text-anchor="middle"
+         x="182.933"
+         y="-347.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text144">Attributes</text>
+    </g>
+    <!-- n_authenticator&#45;&gt;n_claimed_identity_attributes -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title147">n_authenticator-&gt;n_claimed_identity_attributes</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 140.316,-400.598 c 6.598,7.524 14.547,16.588 21.783,24.84"
+         id="path149" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="159.526,-373.383 164.789,-377.998 168.751,-368.172 "
+         id="polygon151" />
+      <text
+         text-anchor="middle"
+         x="170.933"
+         y="-380.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text153"> is  </text>
+    </g>
+    <!-- n_authenticator_secret -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title156">n_authenticator_secret</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="28.9326"
+         cy="-351"
+         rx="28.865299"
+         ry="18"
+         id="ellipse158" />
+      <text
+         text-anchor="middle"
+         x="28.9326"
+         y="-347.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text160">Secret</text>
+    </g>
+    <!-- n_authenticator&#45;&gt;n_authenticator_secret -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title163">n_authenticator-&gt;n_authenticator_secret</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 75.7284,-414.078 c -15.5136,3.429 -31.271,9.954 -41.7958,22.078 -3.0767,3.544 -4.8846,7.976 -5.8773,12.588"
+         id="path165" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="24.5574,-379.611 31.5201,-378.89 27.0082,-369.304 "
+         id="polygon167" />
+      <text
+         text-anchor="middle"
+         x="52.932598"
+         y="-380.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text169"> hold  </text>
+    </g>
+    <!-- n_identity&#45;&gt;n_credential -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title172">n_identity-&gt;n_credential</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 294.933,-466.922 c 0,6.22 0,13.422 0,20.322"
+         id="path174" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="291.433,-446.19 298.433,-446.19 294.933,-436.19 "
+         id="polygon176" />
+      <text
+         text-anchor="middle"
+         x="311.43301"
+         y="-447.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text178"> has  </text>
+    </g>
+    <!-- n_verifier -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title181">n_verifier</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="268.93301"
+         cy="-178"
+         rx="32.752701"
+         ry="18"
+         id="ellipse183" />
+      <text
+         text-anchor="middle"
+         x="268.93301"
+         y="-174.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text185">Verifier</text>
+    </g>
+    <!-- n_credential&#45;&gt;n_verifier -->
+    <g
+       id="edge16"
+       class="edge">
+      <title
+         id="title188">n_credential-&gt;n_verifier</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 345.603,-412.704 c 66.903,7.097 176.33,24.273 176.33,60.704 0,0 0,0 0,122 0,44.415 -151.729,50.624 -220.184,51.166"
+         id="path190" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="345.557,-416.227 344.848,-409.263 335.254,-413.758 "
+         id="polygon192" />
+      <text
+         text-anchor="middle"
+         x="550.93298"
+         y="-280.29999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text194"> validate  </text>
+    </g>
+    <!-- n_identity_attributes -->
+    <g
+       id="node13"
+       class="node">
+      <title
+         id="title197">n_identity_attributes</title>
+      <g
+         id="a_node13">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82903275"
+           xlink:title="Attribute"
+           id="a203">
+          <ellipse
+             fill="#d6e7ff"
+             stroke="#000000"
+             cx="294.93301"
+             cy="-351"
+             rx="36.140202"
+             ry="18"
+             id="ellipse199" />
+          <text
+             text-anchor="middle"
+             x="294.93301"
+             y="-347.89999"
+             font-family="Calibri"
+             font-size="12px"
+             id="text201">Attribute</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_credential&#45;&gt;n_identity_attributes -->
+    <g
+       id="edge13"
+       class="edge">
+      <title
+         id="title207">n_credential-&gt;n_identity_attributes</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 294.933,-399.922 c 0,6.22 0,13.422 0,20.322"
+         id="path209" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="291.433,-379.19 298.433,-379.19 294.933,-369.19 "
+         id="polygon211" />
+      <text
+         text-anchor="middle"
+         x="305.93301"
+         y="-380.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text213"> is  </text>
+    </g>
+    <!-- n_authenticator_output&#45;&gt;n_verifier -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title216">n_authenticator_output-&gt;n_verifier</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 154.986,-178 c 25.363,0 57.47,0 81.134,0"
+         id="path218" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="154.927,-181.5 154.927,-174.5 144.927,-178 "
+         id="polygon220" />
+      <text
+         text-anchor="middle"
+         x="190.509"
+         y="-184.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text222"> verify  </text>
+    </g>
+    <!-- n_authentication_process -->
+    <g
+       id="node16"
+       class="node">
+      <title
+         id="title225">n_authentication_process</title>
+      <g
+         id="a_node16">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/61177884"
+           xlink:title="Authentication Process"
+           id="a231">
+          <ellipse
+             fill="#d6e7ff"
+             stroke="#000000"
+             cx="268.93301"
+             cy="-111"
+             rx="78.590797"
+             ry="18"
+             id="ellipse227" />
+          <text
+             text-anchor="middle"
+             x="268.93301"
+             y="-107.9"
+             font-family="Calibri"
+             font-size="12px"
+             id="text229">Authentication Process</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_verifier&#45;&gt;n_authentication_process -->
+    <g
+       id="edge17"
+       class="edge">
+      <title
+         id="title235">n_verifier-&gt;n_authentication_process</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 268.933,-159.922 c 0,6.22 0,13.422 0,20.322"
+         id="path237" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="265.433,-139.19 272.433,-139.19 268.933,-129.19 "
+         id="polygon239" />
+      <text
+         text-anchor="middle"
+         x="297.43301"
+         y="-140.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text241"> execute  </text>
+    </g>
+    <!-- n_unverified -->
+    <g
+       id="node11"
+       class="node">
+      <title
+         id="title244">n_unverified</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="268.93301"
+         cy="-231"
+         rx="41.490101"
+         ry="18"
+         id="ellipse246" />
+      <text
+         text-anchor="middle"
+         x="268.93301"
+         y="-227.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text248">Unverified</text>
+    </g>
+    <!-- n_claimed_identity_attributes&#45;&gt;n_unverified -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title251">n_claimed_identity_attributes-&gt;n_unverified</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 180.087,-332.777 c -2.045,18.343 -2.342,47.353 11.846,66.777 7.617,10.429 19.152,17.709 30.991,22.772"
+         id="path253" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="221.824,-239.902 224.308,-246.446 232.415,-239.625 "
+         id="polygon255" />
+      <text
+         text-anchor="middle"
+         x="202.933"
+         y="-280.29999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text257"> is  </text>
+    </g>
+    <!-- n_unvalidated -->
+    <g
+       id="node12"
+       class="node">
+      <title
+         id="title260">n_unvalidated</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="268.93301"
+         cy="-284"
+         rx="46.338699"
+         ry="18"
+         id="ellipse262" />
+      <text
+         text-anchor="middle"
+         x="268.93301"
+         y="-280.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text264">Unvalidated</text>
+    </g>
+    <!-- n_claimed_identity_attributes&#45;&gt;n_unvalidated -->
+    <g
+       id="edge12"
+       class="edge">
+      <title
+         id="title267">n_claimed_identity_attributes-&gt;n_unvalidated</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 202.447,-335.25 c 11.194,8.46 25.451,19.236 37.89,28.637"
+         id="path269" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="238.51,-303.607 242.73,-309.191 248.598,-300.369 "
+         id="polygon271" />
+      <text
+         text-anchor="middle"
+         x="244.933"
+         y="-313.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text273"> is  </text>
+    </g>
+    <!-- n_claimed_identity_attributes&#45;&gt;n_identity_attributes -->
+    <g
+       id="edge21"
+       class="edge">
+      <title
+         id="title276">n_claimed_identity_attributes-&gt;n_identity_attributes</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="1, 5"
+         d="m 223.183,-351 c 11.771,0 23.543,0 35.314,0"
+         id="path278" />
+    </g>
+    <!-- n_unverified&#45;&gt;n_verifier -->
+    <!-- n_verified -->
+    <g
+       id="node14"
+       class="node">
+      <title
+         id="title281">n_verified</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="388.93301"
+         cy="-231"
+         rx="33.715199"
+         ry="18"
+         id="ellipse283" />
+      <text
+         text-anchor="middle"
+         x="388.93301"
+         y="-227.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text285">Verified</text>
+    </g>
+    <!-- n_unverified&#45;&gt;n_verified -->
+    <g
+       id="edge23"
+       class="edge">
+      <title
+         id="title288">n_unverified-&gt;n_verified</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="1, 5"
+         d="m 310.183,-231 c 14.868,0 29.736,0 44.604,0"
+         id="path290" />
+    </g>
+    <!-- n_unvalidated&#45;&gt;n_unverified -->
+    <!-- n_validated -->
+    <g
+       id="node15"
+       class="node">
+      <title
+         id="title293">n_validated</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="388.93301"
+         cy="-284"
+         rx="38.565201"
+         ry="18"
+         id="ellipse295" />
+      <text
+         text-anchor="middle"
+         x="388.93301"
+         y="-280.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text297">Validated</text>
+    </g>
+    <!-- n_unvalidated&#45;&gt;n_validated -->
+    <g
+       id="edge22"
+       class="edge">
+      <title
+         id="title300">n_unvalidated-&gt;n_validated</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="1, 5"
+         d="m 315.339,-284 c 11.595,0 23.19,0 34.784,0"
+         id="path302" />
+    </g>
+    <!-- n_identity_attributes&#45;&gt;n_verified -->
+    <g
+       id="edge14"
+       class="edge">
+      <title
+         id="title305">n_identity_attributes-&gt;n_verified</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 331.146,-349.15 c 33.788,2.976 82.397,13.334 105.787,47.15 9.101,13.159 7.349,21.788 0,36 -3.451,6.673 -8.882,12.318 -14.87,16.976"
+         id="path307" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="419.955,-251.823 423.912,-246.049 413.685,-243.282 "
+         id="polygon309" />
+      <text
+         text-anchor="middle"
+         x="453.93301"
+         y="-280.29999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text311"> is  </text>
+    </g>
+    <!-- n_identity_attributes&#45;&gt;n_validated -->
+    <g
+       id="edge15"
+       class="edge">
+      <title
+         id="title314">n_identity_attributes-&gt;n_validated</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 315.329,-335.896 c 12.968,8.967 29.964,20.72 44.357,30.672"
+         id="path316" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="358.035,-302.11 362.017,-307.867 368.251,-299.301 "
+         id="polygon318" />
+      <text
+         text-anchor="middle"
+         x="360.93301"
+         y="-313.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text320"> is  </text>
+    </g>
+    <!-- n_validated&#45;&gt;n_verified -->
+    <!-- n_confidence -->
+    <g
+       id="node17"
+       class="node">
+      <title
+         id="title323">n_confidence</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="268.93301"
+         cy="-44"
+         rx="43.914299"
+         ry="18"
+         id="ellipse325" />
+      <text
+         text-anchor="middle"
+         x="268.93301"
+         y="-40.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text327">Confidence</text>
+    </g>
+    <!-- n_authentication_process&#45;&gt;n_confidence -->
+    <g
+       id="edge18"
+       class="edge">
+      <title
+         id="title330">n_authentication_process-&gt;n_confidence</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 268.933,-92.922 c 0,6.2204 0,13.4221 0,20.3221"
+         id="path332" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="265.433,-72.1896 272.433,-72.1896 268.933,-62.1896 "
+         id="polygon334" />
+      <text
+         text-anchor="middle"
+         x="300.93301"
+         y="-73.800003"
+         font-family="Calibri"
+         font-size="14px"
+         id="text336"> establish  </text>
+    </g>
+  </g>
+</svg>

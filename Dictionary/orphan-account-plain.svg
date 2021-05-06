@@ -65,58 +65,58 @@
        font-size="8px"
        id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
     <g
-       id="clust2"
-       class="cluster">
-      <title
-         id="title10">cluster_causes</title>
-      <polygon
-         fill="none"
-         stroke="#000000"
-         points="301.086,-256 301.086,-38 147.086,-38 147.086,-256 "
-         id="polygon12" />
-      <text
-         text-anchor="middle"
-         x="224.086"
-         y="-240.8"
-         font-family="Calibri"
-         font-size="14px"
-         id="text14">Possible Causes</text>
-    </g>
-    <g
        id="clust1"
        class="cluster">
       <title
-         id="title17">cluster_domains</title>
+         id="title10">cluster_domains</title>
       <polygon
          fill="none"
          stroke="#000000"
          points="139.086,-219.5 139.086,-74.5 15.0858,-74.5 15.0858,-219.5 "
-         id="polygon19" />
+         id="polygon12" />
       <text
          text-anchor="middle"
          x="77.0858"
          y="-204.3"
          font-family="Calibri"
          font-size="14px"
-         id="text21">Domains</text>
+         id="text14">Domains</text>
     </g>
     <g
        id="clust3"
        class="cluster">
       <title
-         id="title24">cluster_consequences</title>
+         id="title17">cluster_consequences</title>
       <polygon
          fill="none"
          stroke="#000000"
          points="505.086,-239 505.086,-55 309.086,-55 309.086,-239 "
-         id="polygon26" />
+         id="polygon19" />
       <text
          text-anchor="middle"
          x="407.086"
          y="-223.8"
          font-family="Calibri"
          font-size="14px"
-         id="text28">Potential Consequences</text>
+         id="text21">Potential Consequences</text>
+    </g>
+    <g
+       id="clust2"
+       class="cluster">
+      <title
+         id="title24">cluster_causes</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="301.086,-256 301.086,-38 147.086,-38 147.086,-256 "
+         id="polygon26" />
+      <text
+         text-anchor="middle"
+         x="224.086"
+         y="-240.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text28">Possible Causes</text>
     </g>
     <g
        id="clust4"

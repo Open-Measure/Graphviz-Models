@@ -37,7 +37,7 @@ CD %DIC_Path%
 
 SET DPI=300
 
-FOR %%F IN (%DIC_Path%\claimant.gv) DO (
+FOR %%F IN (%DIC_Path%\*.gv) DO (
 	ECHO. 
 	ECHO *********************
     ECHO * %%~nF

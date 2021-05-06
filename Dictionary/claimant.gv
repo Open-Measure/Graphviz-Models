@@ -1,10 +1,10 @@
 digraph G {
 	rankdir="TB";
 	ranksep="0";
-	splines="curve";
-	newrank=true;
-	packmode="clust";
-	compound=true;
+	#splines="curve";
+	#newrank=true;
+	#packmode="clust";
+	#compound=true;
 	fontname="Calibri";
 	label="Claimant (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
 	fontsize=8;
@@ -23,7 +23,7 @@ digraph G {
 	n_claimed_identity -> n_authenticator [weight=10, label="  has  "];
 	#n_claimed_identity -> n_verifier [weight=10, label="  verify  ", dir="back"];
 
-	n_identity [label="Identity", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_identity [label="Identity", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
 	n_identity -> n_credential [weight=10, label="  has  "];
 
 	n_authenticator_output -> n_verifier [weight=10, label="  verify  ", dir="back"];
@@ -44,7 +44,7 @@ digraph G {
 	n_credential [label="Credential", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67633343"];
 	n_credential -> n_identity_attributes [weight=10, label="  is  "];
 
-	n_identity_attributes [label="Attribute", URL="URL=https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82903275"];
+	n_identity_attributes [label="Attribute", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82903275"];
 	n_identity_attributes -> n_verified [weight=2, label="  is  "];
 	n_identity_attributes -> n_validated [weight=2, label="  is  "];
 
@@ -76,7 +76,6 @@ digraph G {
 	n_validated -> n_verified [weight=10, label="" style="invis" dir="none"];
 	n_unvalidated -> n_unverified [weight=10, label="" style="invis" dir="none"];
 	n_unverified -> n_verifier [weight=10, label="" style="invis" dir="none"];
-
 
 	{rank=same; n_entity; n_claimant;}
 	{rank=same; n_identity; n_claimed_identity;}

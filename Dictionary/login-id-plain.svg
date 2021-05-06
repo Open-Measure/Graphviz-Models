@@ -83,40 +83,40 @@
          id="text14">Method</text>
     </g>
     <g
-       id="clust2"
-       class="cluster">
-      <title
-         id="title17">cluster_defined_by</title>
-      <polygon
-         fill="none"
-         stroke="#000000"
-         points="690.497,-269.468 690.497,-145.468 590.497,-145.468 590.497,-269.468 "
-         id="polygon19" />
-      <text
-         text-anchor="middle"
-         x="640.49701"
-         y="-254.26801"
-         font-family="Calibri"
-         font-size="14px"
-         id="text21">Editor</text>
-    </g>
-    <g
        id="clust3"
        class="cluster">
       <title
-         id="title24">cluster_mutability</title>
+         id="title17">cluster_mutability</title>
       <polygon
          fill="none"
          stroke="#000000"
          points="537.497,-506.066 537.497,-424.066 453.497,-424.066 453.497,-506.066 "
-         id="polygon26" />
+         id="polygon19" />
       <text
          text-anchor="middle"
          x="495.49701"
          y="-490.866"
          font-family="Calibri"
          font-size="14px"
-         id="text28">Mutability</text>
+         id="text21">Mutability</text>
+    </g>
+    <g
+       id="clust2"
+       class="cluster">
+      <title
+         id="title24">cluster_defined_by</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="690.497,-269.468 690.497,-145.468 590.497,-145.468 590.497,-269.468 "
+         id="polygon26" />
+      <text
+         text-anchor="middle"
+         x="640.49701"
+         y="-254.26801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text28">Editor</text>
     </g>
     <g
        id="clust4"

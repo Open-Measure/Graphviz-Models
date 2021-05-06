@@ -735,3 +735,340 @@
       <g
          id="a_node12">
         <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"
+           xlink:title="Identity"
+           id="a245">
+          <ellipse
+             fill="#d6e7ff"
+             stroke="#000000"
+             cx="243.088"
+             cy="-257.08301"
+             rx="32.752701"
+             ry="18"
+             id="ellipse241" />
+          <text
+             text-anchor="middle"
+             x="243.088"
+             y="-253.983"
+             font-family="Calibri"
+             font-size="12px"
+             id="text243">Identity</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_entity&#45;&gt;n_identity -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title249">n_entity-&gt;n_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 243.088,-295.529 c 0,6.839 0,13.908 0,20.037"
+         id="path251" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="246.589,-295.919 239.589,-295.919 243.088,-305.919 "
+         id="polygon253" />
+      <text
+         text-anchor="middle"
+         x="262.08801"
+         y="-286.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text255"> map  </text>
+    </g>
+    <!-- n_operation -->
+    <g
+       id="node14"
+       class="node">
+      <title
+         id="title258">n_operation</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="311.08801"
+         cy="-190.08299"
+         rx="40.026299"
+         ry="18"
+         id="ellipse260" />
+      <text
+         text-anchor="middle"
+         x="311.08801"
+         y="-186.983"
+         font-family="Calibri"
+         font-size="12px"
+         id="text262">Operation</text>
+    </g>
+    <!-- n_entity&#45;&gt;n_operation -->
+    <g
+       id="edge19"
+       class="edge">
+      <title
+         id="title265">n_entity-&gt;n_operation</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 271.378,-311.102 c 5.182,3.616 10.089,7.952 13.71,13.019 16.796,23.495 22.823,56.523 24.942,79.65"
+         id="path267" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="306.553,-217.986 313.535,-218.494 310.77,-208.267 "
+         id="polygon269" />
+      <text
+         text-anchor="middle"
+         x="334.08801"
+         y="-253.383"
+         font-family="Calibri"
+         font-size="14px"
+         id="text271"> initiate  </text>
+    </g>
+    <!-- n_attribute -->
+    <g
+       id="node15"
+       class="node">
+      <title
+         id="title274">n_attribute</title>
+      <g
+         id="a_node15">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/82903275"
+           xlink:title="Attribute"
+           id="a280">
+          <ellipse
+             fill="#d6e7ff"
+             stroke="#000000"
+             cx="159.088"
+             cy="-190.08299"
+             rx="36.140202"
+             ry="18"
+             id="ellipse276" />
+          <text
+             text-anchor="middle"
+             x="159.088"
+             y="-186.983"
+             font-family="Calibri"
+             font-size="12px"
+             id="text278">Attribute</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_entity&#45;&gt;n_attribute -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title284">n_entity-&gt;n_attribute</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 196.032,-312.817 c -19.278,7.512 -39.673,19.365 -50.944,37.734 -12.68,20.666 -3.368,49.328 4.963,67.259"
+         id="path286" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="197.422,-309.597 195.063,-316.188 205.657,-316.263 "
+         id="polygon288" />
+      <text
+         text-anchor="middle"
+         x="173.088"
+         y="-253.383"
+         font-family="Calibri"
+         font-size="14px"
+         id="text290"> identify  </text>
+    </g>
+    <!-- n_identity&#45;&gt;n_informational_object -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title293">n_identity-&gt;n_informational_object</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 241.544,-239.097 c -2.014,22.154 -5.562,61.188 -7.96,87.568"
+         id="path295" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="230.085,-151.7 237.056,-151.066 232.665,-141.424 "
+         id="polygon297" />
+      <text
+         text-anchor="middle"
+         x="250.088"
+         y="-186.383"
+         font-family="Calibri"
+         font-size="14px"
+         id="text299"> is  </text>
+    </g>
+    <!-- n_identity&#45;&gt;n_operation -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title302">n_identity-&gt;n_operation</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 249.784,-239.097 c 3.659,7.708 8.787,16.529 15.304,23.014 2.819,2.805 6.018,5.381 9.385,7.725"
+         id="path304" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="272.727,-205.323 276.424,-211.267 283.066,-203.012 "
+         id="polygon306" />
+      <text
+         text-anchor="middle"
+         x="281.58801"
+         y="-219.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text308"> link  </text>
+    </g>
+    <!-- n_identity&#45;&gt;n_attribute -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title311">n_identity-&gt;n_attribute</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 216.391,-246.569 c -13.05,5.003 -27.056,11.008 -32.303,15.486 -4.708,4.018 -8.816,9.152 -12.267,14.391"
+         id="path313" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="168.729,-218.341 174.751,-214.772 166.643,-207.954 "
+         id="polygon315" />
+      <text
+         text-anchor="middle"
+         x="200.588"
+         y="-219.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text317"> has  </text>
+    </g>
+    <!-- n_data -->
+    <g
+       id="node16"
+       class="node">
+      <title
+         id="title320">n_data</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="231.088"
+         cy="-50.041599"
+         rx="27"
+         ry="18"
+         id="ellipse322" />
+      <text
+         text-anchor="middle"
+         x="231.088"
+         y="-46.941601"
+         font-family="Calibri"
+         font-size="12px"
+         id="text324">Data</text>
+    </g>
+    <!-- n_informational_object&#45;&gt;n_data -->
+    <g
+       id="edge22"
+       class="edge">
+      <title
+         id="title327">n_informational_object-&gt;n_data</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 231.088,-104.886 c 0,8.028 0,17.7757 0,26.7594"
+         id="path329" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="227.589,-78.0805 234.589,-78.0804 231.088,-68.0805 "
+         id="polygon331" />
+      <text
+         text-anchor="middle"
+         x="250.088"
+         y="-85.883301"
+         font-family="Calibri"
+         font-size="14px"
+         id="text333"> hold  </text>
+    </g>
+    <!-- n_informational_object&#45;&gt;n_information_system -->
+    <g
+       id="edge23"
+       class="edge">
+      <title
+         id="title336">n_informational_object-&gt;n_information_system</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 252.226,-109.944 c 6.737,3.986 14.176,8.512 20.862,12.8607 9.864,6.4143 20.35,13.6503 29.956,20.4535"
+         id="path338" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="301.049,-73.7541 305.115,-79.452 311.222,-70.7942 "
+         id="polygon340" />
+      <text
+         text-anchor="middle"
+         x="318.08801"
+         y="-85.883301"
+         font-family="Calibri"
+         font-size="14px"
+         id="text342"> inside  </text>
+    </g>
+    <!-- n_operation&#45;&gt;n_informational_object -->
+    <g
+       id="edge20"
+       class="edge">
+      <title
+         id="title345">n_operation-&gt;n_informational_object</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 292.534,-174.008 c -10.876,8.837 -24.755,20.114 -36.57,29.713"
+         id="path347" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="253.731,-146.99 258.145,-141.557 248.177,-137.968 "
+         id="polygon349" />
+      <text
+         text-anchor="middle"
+         x="293.08801"
+         y="-152.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text351"> on  </text>
+    </g>
+    <!-- n_attribute&#45;&gt;n_informational_object -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title354">n_attribute-&gt;n_informational_object</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 171.984,-173.099 c 6.539,7.658 14.834,16.726 23.104,24.016 2.455,2.163 5.101,4.305 7.804,6.372"
+         id="path356" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="200.894,-139.836 205.008,-145.499 211.041,-136.79 "
+         id="polygon358" />
+      <text
+         text-anchor="middle"
+         x="206.088"
+         y="-152.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text360"> is  </text>
+    </g>
+  </g>
+</svg>
