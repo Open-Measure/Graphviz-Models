@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10205.774pt"
+   height="10095.807pt"
+   viewBox="0 0 2449.0943 2423.3269"
+   version="1.1"
+   id="svg340"
+   sodipodi:docname="claimant.svg">
+  <metadata
+     id="metadata346">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs344" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview342" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(4.16667,0,0,4.16667,16.591234,2406.6603)">
+    <title
+       id="title2">G</title>
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="583.933,-577.598 583.933,4 -4,4 -4,-577.598 "
+       id="polygon4" />
+    <text
+       text-anchor="middle"
+       x="289.966"
+       y="-15.6"
+       font-family="Calibri"
+       font-size="8px"
+       id="text6">Claimant (Conceptual Diagram) by Open-Measure</text>
+    <text
+       text-anchor="middle"
+       x="289.966"
+       y="-6.5999999"
+       font-family="Calibri"
+       font-size="8px"
+       id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
+    <!-- n_claimant -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title10">n_claimant</title>
+      <g
+         id="a_node1">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/848363630"
+           xlink:title="Claimant"
+           id="a16">
+          <ellipse
+             fill="#5599ff"
+             stroke="#000000"
+             cx="148.933"
+             cy="-553.79901"
+             rx="58.880299"
+             ry="19.6"
+             id="ellipse12" />
+          <text
+             text-anchor="middle"
+             x="148.933"
+             y="-549.39899"
+             font-family="Calibri"
+             font-size="18px"
+             id="text14">Claimant</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_entity -->
+    <g
+       id="node2"
+       class="node">
+      <title
+         id="title20">n_entity</title>
+      <g
+         id="a_node2">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"
+           xlink:title="Entity"
+           id="a26">
+          <ellipse
+             fill="#d6e7ff"
+             stroke="#000000"
+             cx="294.93301"
+             cy="-553.79901"
+             rx="27.1719"
+             ry="18"
+             id="ellipse22" />
+          <text
+             text-anchor="middle"
+             x="294.93301"
+             y="-550.69897"
+             font-family="Calibri"
+             font-size="12px"
+             id="text24">Entity</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_claimant&#45;&gt;n_entity -->
+    <g
+       id="edge1"
+       class="edge">
+      <title
+         id="title30">n_claimant-&gt;n_entity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 207.896,-553.799 c 16.847,0 34.731,0 49.877,0"
+         id="path32" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="257.775,-550.299 257.775,-557.299 267.775,-553.799 "
+         id="polygon34" />
+      <text
+         text-anchor="middle"
+         x="237.735"
+         y="-560.599"
+         font-family="Calibri"
+         font-size="14px"
+         id="text36"> claim  </text>
+    </g>
+    <!-- n_claimed_identity -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title39">n_claimed_identity</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="167.933"
+         cy="-485"
+         rx="59.192902"
+         ry="18"
+         id="ellipse41" />
+      <text
+         text-anchor="middle"
+         x="167.933"
+         y="-481.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text43">Claimed Identity</text>
+    </g>
+    <!-- n_claimant&#45;&gt;n_claimed_identity -->
+    <g
+       id="edge2"
+       class="edge">
+      <title
+         id="title46">n_claimant-&gt;n_claimed_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 154.326,-533.836 c 1.858,6.531 3.975,13.973 5.976,21.011"
+         id="path48" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="157.007,-511.62 163.739,-513.535 163.109,-502.959 "
+         id="polygon50" />
+      <text
+         text-anchor="middle"
+         x="184.933"
+         y="-514.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text52"> assert  </text>
+    </g>
+    <!-- n_authenticator -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title55">n_authenticator</title>
+      <g
+         id="a_node4">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/848724060"
+           xlink:title="Authenticator"
+           id="a61">
+          <ellipse
+             fill="#d6e7ff"
+             stroke="#000000"
+             cx="125.933"
+             cy="-418"
+             rx="51.187599"
+             ry="18"
+             id="ellipse57" />
+          <text
+             text-anchor="middle"
+             x="125.933"
+             y="-414.89999"
+             font-family="Calibri"
+             font-size="12px"
+             id="text59">Authenticator</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_claimant&#45;&gt;n_authenticator -->
+    <g
+       id="edge3"
+       class="edge">
+      <title
+         id="title65">n_claimant-&gt;n_authenticator</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 102.097,-541.687 c -20.3277,7.399 -42.188,19.429 -54.1644,38.687 -8.4496,13.587 -7.8049,22.033 0,36 7.4993,13.42 20.4603,23.551 33.6876,30.961"
+         id="path67" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="80.2632,-432.801 83.4671,-439.025 90.7562,-431.336 "
+         id="polygon69" />
+      <text
+         text-anchor="middle"
+         x="73.932602"
+         y="-488.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text71"> posess  </text>
+      <text
+         text-anchor="middle"
+         x="73.932602"
+         y="-473.79999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text73"> &amp; use  </text>
+    </g>
+    <!-- n_identity -->
+    <g
+       id="node5"
+       class="node">
+      <title
+         id="title76">n_identity</title>
+      <g
+         id="a_node5">
+        <a

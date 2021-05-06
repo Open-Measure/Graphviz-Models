@@ -11,13 +11,13 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-553.74 465.796,-553.74 465.796,4 -4,4"/>
 <text text-anchor="middle" x="230.898" y="-15.6" font-family="Calibri" font-size="8.00">Insider (Conceptual Diagram) by Open&#45;Measure</text>
 <text text-anchor="middle" x="230.898" y="-6.6" font-family="Calibri" font-size="8.00">Licensed under Creative Commons Attribution 4.0 International License</text>
-<g id="clust2" class="cluster"><title>cluster_extended</title>
-<polygon fill="none" stroke="black" points="185.25,-34 185.25,-213 369.25,-213 369.25,-34 185.25,-34"/>
-<text text-anchor="middle" x="277.25" y="-197.8" font-family="Calibri" font-size="14.00">Extended Organization</text>
-</g>
 <g id="clust1" class="cluster"><title>cluster_privileges</title>
 <polygon fill="none" stroke="black" points="314.25,-399.74 314.25,-481.74 412.25,-481.74 412.25,-399.74 314.25,-399.74"/>
 <text text-anchor="middle" x="363.25" y="-466.54" font-family="Calibri" font-size="14.00">Privilege Level</text>
+</g>
+<g id="clust2" class="cluster"><title>cluster_extended</title>
+<polygon fill="none" stroke="black" points="185.25,-34 185.25,-213 369.25,-213 369.25,-34 185.25,-34"/>
+<text text-anchor="middle" x="277.25" y="-197.8" font-family="Calibri" font-size="14.00">Extended Organization</text>
 </g>
 <!-- n_entity -->
 <g id="node1" class="node"><title>n_entity</title>

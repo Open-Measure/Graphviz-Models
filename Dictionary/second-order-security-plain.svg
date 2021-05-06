@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="6040.314pt"
+   height="6179.1719pt"
+   viewBox="0 0 1449.6754 1483.3346"
+   version="1.1"
+   id="svg214"
+   sodipodi:docname="second-order-security.svg">
+  <metadata
+     id="metadata220">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs218" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview216" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(4.16667,0,0,4.16667,16.62757,1466.6678)">
+    <title
+       id="title2">G</title>
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="344,-352 344,4 -4,4 -4,-352 "
+       id="polygon4" />
+    <text
+       text-anchor="middle"
+       x="170"
+       y="-15.6"
+       font-family="Calibri"
+       font-size="8px"
+       id="text6">Second Order Security (Conceptual Diagram) by Open-Measure</text>
+    <text
+       text-anchor="middle"
+       x="170"
+       y="-6.5999999"
+       font-family="Calibri"
+       font-size="8px"
+       id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
+    <g
+       id="clust2"
+       class="cluster">
+      <title
+         id="title10">cluster_1</title>
+      <polygon
+         fill="none"
+         stroke="#0000ff"
+         points="172,-271 172,-70 90,-70 90,-271 "
+         id="polygon12" />
+      <text
+         text-anchor="middle"
+         x="131"
+         y="-260.60001"
+         font-family="Calibri"
+         font-size="8px"
+         id="text14">2nd Order Security</text>
+    </g>
+    <g
+       id="clust1"
+       class="cluster">
+      <title
+         id="title17">cluster_0</title>
+      <polygon
+         fill="#d3d3d3"
+         stroke="#d3d3d3"
+         points="332,-340 332,-70 180,-70 180,-340 "
+         id="polygon19" />
+      <text
+         text-anchor="middle"
+         x="256"
+         y="-329.60001"
+         font-family="Calibri"
+         font-size="8px"
+         id="text21">1st Order Security</text>
+    </g>
+    <!-- Controls -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title24">Controls</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="256"
+         cy="-297"
+         rx="35.177101"
+         ry="18"
+         id="ellipse26" />
+      <text
+         text-anchor="middle"
+         x="256"
+         y="-293.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text28">Controls</text>
+    </g>
+    <!-- Direct Threats -->
+    <g
+       id="node2"
+       class="node">
+      <title
+         id="title31">Direct Threats</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="256"
+         cy="-228"
+         rx="52.881001"
+         ry="18"
+         id="ellipse33" />
+      <text
+         text-anchor="middle"
+         x="256"
+         y="-224.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text35">Direct Threats</text>
+    </g>
+    <!-- Controls&#45;&gt;Direct Threats -->
+    <g
+       id="edge1"
+       class="edge">
+      <title
+         id="title38">Controls-&gt;Direct Threats</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 256,-278.746 c 0,6.747 0,14.653 0,22.152"
+         id="path40" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="252.5,-256.429 259.5,-256.429 256,-246.429 "
+         id="polygon42" />
+    </g>
+    <!-- Information System -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title45">Information System</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="256"
+         cy="-184"
+         rx="67.929802"
+         ry="18"
+         id="ellipse47" />
+      <text
+         text-anchor="middle"
+         x="256"
+         y="-180.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text49">Information System</text>
+    </g>
+    <!-- Direct Threats&#45;&gt;Information System -->
+    <g
+       id="edge2"
+       class="edge">
+      <title
+         id="title52">Direct Threats-&gt;Information System</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 256,-209.917 c 0,0.159 0,0.318 0,0.478"
+         id="path54" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="252.5,-212.204 259.5,-212.204 256,-202.204 "
+         id="polygon56" />
+    </g>
+    <!-- a2 -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title59">a2</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="235"
+         cy="-140"
+         rx="27"
+         ry="18"
+         id="ellipse61" />
+      <text
+         text-anchor="middle"
+         x="235"
+         y="-136.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text63">a2</text>
+    </g>
+    <!-- Information System&#45;&gt;a2 -->
+    <g
+       id="edge3"
+       class="edge">
+      <title
+         id="title66">Information System-&gt;a2</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 247.458,-165.917 c -0.044,0.088 -0.088,0.176 -0.132,0.264"
+         id="path68" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="244.536,-167.898 250.797,-164.768 243.194,-157.389 "
+         id="polygon70" />
+    </g>
+    <!-- a3 -->
+    <g
+       id="node5"
+       class="node">
+      <title
+         id="title73">a3</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="215"
+         cy="-96"
+         rx="27"
+         ry="18"
+         id="ellipse75" />
+      <text
+         text-anchor="middle"
+         x="215"
+         y="-92.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text77">a3</text>
+    </g>
+    <!-- a2&#45;&gt;a3 -->
+    <g
+       id="edge4"
+       class="edge">
+      <title
+         id="title80">a2-&gt;a3</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 227.095,-122.4 c -0.043,0.091 -0.087,0.183 -0.131,0.275"
+         id="path82" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="223.987,-124.012 230.307,-121.003 222.847,-113.479 "
+         id="polygon84" />
+    </g>
+    <!-- a0 -->
+    <g
+       id="node11"
+       class="node">
+      <title
+         id="title87">a0</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="71"
+         cy="-44"
+         rx="27"
+         ry="18"
+         id="ellipse89" />
+      <text
+         text-anchor="middle"
+         x="71"
+         y="-40.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text91">a0</text>
+    </g>
+    <!-- a3&#45;&gt;a0 -->
+    <g
+       id="edge12"
+       class="edge">
+      <title
+         id="title94">a3-&gt;a0</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 197.503,-81.8385 C 191.031,-77.5066 183.45,-73.0292 176,-70 c -16.391,6.6646 -21.761,4.0142 -39,8 -10.289,2.3788 -21.426,5.1652 -31.569,7.7859"
+         id="path96" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="104.479,-57.5829 106.248,-50.81 95.688,-51.6699 "
+         id="polygon98" />
+    </g>
+    <!-- end -->
+    <g
+       id="node13"
+       class="node">
+      <title
+         id="title101">end</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="173"
+         cy="-44"
+         rx="27"
+         ry="18"
+         id="ellipse103" />
+      <text
+         text-anchor="middle"
+         x="173"
+         y="-40.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text105">end</text>
+    </g>
+    <!-- a3&#45;&gt;end -->
+    <g
+       id="edge13"
+       class="edge">
+      <title
+         id="title108">a3-&gt;end</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 202.399,-79.9984 c -3.24,3.8564 -6.798,8.0927 -10.287,12.2457"
+         id="path110" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="189.344,-69.8993 194.704,-65.3969 185.592,-59.9911 "
+         id="polygon112" />
+    </g>
+    <!-- b0 -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title115">b0</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="126"
+         cy="-228"
+         rx="27"
+         ry="18"
+         id="ellipse117" />
+      <text
+         text-anchor="middle"
+         x="126"
+         y="-224.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text119">b0</text>
+    </g>
+    <!-- b1 -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title122">b1</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="126"
+         cy="-184"
+         rx="27"
+         ry="18"
+         id="ellipse124" />
+      <text
+         text-anchor="middle"
+         x="126"
+         y="-180.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text126">b1</text>
+    </g>
+    <!-- b0&#45;&gt;b1 -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title129">b0-&gt;b1</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 126,-209.917 c 0,0.159 0,0.318 0,0.478"
+         id="path131" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="122.5,-212.204 129.5,-212.204 126,-202.204 "
+         id="polygon133" />
+    </g>
+    <!-- b2 -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title136">b2</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="132"
+         cy="-140"
+         rx="27"
+         ry="18"
+         id="ellipse138" />
+      <text
+         text-anchor="middle"
+         x="132"
+         y="-136.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text140">b2</text>
+    </g>
+    <!-- b1&#45;&gt;b2 -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title143">b1-&gt;b2</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 128.44,-165.917 c 0.024,0.165 0.048,0.33 0.071,0.495"
+         id="path145" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="124.702,-167.336 131.632,-168.326 129.581,-157.932 "
+         id="polygon147" />
+    </g>
+    <!-- b2&#45;&gt;a3 -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title150">b2-&gt;a3</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 152.944,-128.402 c 9.732,4.925 21.481,10.87 32.126,16.257"
+         id="path152" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="183.559,-108.987 186.72,-115.233 194.062,-107.595 "
+         id="polygon154" />
+    </g>
+    <!-- b3 -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title157">b3</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="132"
+         cy="-96"
+         rx="27"
+         ry="18"
+         id="ellipse159" />
+      <text
+         text-anchor="middle"
+         x="132"
+         y="-92.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text161">b3</text>
+    </g>
+    <!-- b2&#45;&gt;b3 -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title164">b2-&gt;b3</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 132,-121.917 c 0,0.159 0,0.318 0,0.478"
+         id="path166" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="128.5,-124.204 135.5,-124.204 132,-114.204 "
+         id="polygon168" />
+    </g>
+    <!-- b3&#45;&gt;end -->
+    <g
+       id="edge14"
+       class="edge">
+      <title
+         id="title171">b3-&gt;end</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 144.524,-79.7267 c 3.02,3.6832 6.314,7.7001 9.555,11.6525"
+         id="path173" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="151.505,-65.6932 156.918,-70.1318 160.553,-60.1798 "
+         id="polygon175" />
+    </g>
+    <!-- start -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title178">start</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="63"
+         cy="-297"
+         rx="27"
+         ry="18"
+         id="ellipse180" />
+      <text
+         text-anchor="middle"
+         x="63"
+         y="-293.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text182">start</text>
+    </g>
+    <!-- start&#45;&gt;b0 -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title185">start-&gt;b0</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 76.6701,-281.462 c 8.2239,8.746 18.8656,20.063 28.1589,29.946"
+         id="path187" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="102.52,-248.861 107.62,-253.656 111.92,-243.974 "
+         id="polygon189" />
+    </g>
+    <!-- start&#45;&gt;a0 -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title192">start-&gt;a0</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 48.3882,-281.681 C 29.7773,-261.839 0,-223.999 0,-185 c 0,0 0,0 0,46 0,30.737 24.4712,57.7824 44.6805,74.8766"
+         id="path194" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="42.7351,-61.1958 47.1304,-66.6439 52.7157,-57.6409 "
+         id="polygon196" />
+    </g>
+    <!-- a1 -->
+    <g
+       id="node12"
+       class="node">
+      <title
+         id="title199">a1</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="55"
+         cy="-140"
+         rx="27"
+         ry="18"
+         id="ellipse201" />
+      <text
+         text-anchor="middle"
+         x="55"
+         y="-136.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text203">a1</text>
+    </g>
+    <!-- a1&#45;&gt;b3 -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title206">a1-&gt;b3</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 75.3377,-127.833 c 3.5528,1.947 7.2143,3.951 10.6623,5.833 5.3153,2.902 10.9796,5.986 16.451,8.962"
+         id="path208" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="100.925,-109.884 104.267,-116.034 111.382,-108.184 "
+         id="polygon210" />
+    </g>
+  </g>
+</svg>

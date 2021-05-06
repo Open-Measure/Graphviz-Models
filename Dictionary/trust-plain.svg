@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9650.0078pt"
+   height="10378.211pt"
+   viewBox="0 0 2316.0852 2490.6456"
+   version="1.1"
+   id="svg258"
+   sodipodi:docname="trust.svg">
+  <metadata
+     id="metadata264">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs262" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview260" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(4.16667,0,0,4.16667,16.66668,2474.1679)">
+    <title
+       id="title2">G</title>
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="551.86,-593.806 551.86,4 -4,4 -4,-593.806 "
+       id="polygon4" />
+    <text
+       text-anchor="middle"
+       x="273.92999"
+       y="-15.6"
+       font-family="Calibri"
+       font-size="8px"
+       id="text6">Trust (Conceptual Diagram) by Open-Measure</text>
+    <text
+       text-anchor="middle"
+       x="273.92999"
+       y="-6.5999999"
+       font-family="Calibri"
+       font-size="8px"
+       id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
+    <g
+       id="clust1"
+       class="cluster">
+      <title
+         id="title10">cluster_situation</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="539.86,-139.468 539.86,-34 117.86,-34 117.86,-139.468 "
+         id="polygon12" />
+      <text
+         text-anchor="middle"
+         x="328.85999"
+         y="-124.268"
+         font-family="Calibri"
+         font-size="14px"
+         id="text14">Prediction</text>
+    </g>
+    <g
+       id="clust2"
+       class="cluster">
+      <title
+         id="title17">cluster_key_characteristics</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="502.86,-581.806 502.86,-478.806 292.86,-478.806 292.86,-581.806 "
+         id="polygon19" />
+      <text
+         text-anchor="middle"
+         x="397.85999"
+         y="-566.60602"
+         font-family="Calibri"
+         font-size="14px"
+         id="text21">Key Characteristics</text>
+    </g>
+    <g
+       id="clust3"
+       class="cluster">
+      <title
+         id="title24">cluster_key_determinants</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="412.86,-273.468 412.86,-170.468 228.86,-170.468 228.86,-273.468 "
+         id="polygon26" />
+      <text
+         text-anchor="middle"
+         x="320.85999"
+         y="-258.26801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text28">Key Variables</text>
+    </g>
+    <!-- n_probability -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title31">n_probability</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="229.86"
+         cy="-518.80603"
+         rx="53.066002"
+         ry="24.0833"
+         id="ellipse33" />
+      <text
+         text-anchor="middle"
+         x="229.86"
+         y="-522.20599"
+         font-family="Calibri"
+         font-size="12px"
+         id="text35">Probability</text>
+      <text
+         text-anchor="middle"
+         x="229.86"
+         y="-509.20599"
+         font-family="Calibri"
+         font-size="12px"
+         id="text37">Assessment</text>
+    </g>
+    <!-- n_trust -->
+    <g
+       id="node2"
+       class="node">
+      <title
+         id="title40">n_trust</title>
+      <g
+         id="a_node2">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1037926452"
+           xlink:title="Trust"
+           id="a46">
+          <ellipse
+             fill="#5599ff"
+             stroke="#000000"
+             cx="229.86"
+             cy="-427.00699"
+             rx="38.368401"
+             ry="19.6"
+             id="ellipse42" />
+          <text
+             text-anchor="middle"
+             x="229.86"
+             y="-422.60699"
+             font-family="Calibri"
+             font-size="18px"
+             id="text44">Trust</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_probability&#45;&gt;n_trust -->
+    <g
+       id="edge1"
+       class="edge">
+      <title
+         id="title50">n_probability-&gt;n_trust</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 229.86,-484.422 c 0,12.698 0,26.714 0,37.599"
+         id="path52" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="233.36,-484.681 226.36,-484.681 229.86,-494.681 "
+         id="polygon54" />
+      <text
+         text-anchor="middle"
+         x="245.36"
+         y="-459.60599"
+         font-family="Calibri"
+         font-size="14px"
+         id="text56"> is a  </text>
+    </g>
+    <!-- n_trusting_entity -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title59">n_trusting_entity</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="229.86"
+         cy="-347.33801"
+         rx="45.011002"
+         ry="26.7407"
+         id="ellipse61" />
+      <text
+         text-anchor="middle"
+         x="229.86"
+         y="-351.138"
+         font-family="Calibri"
+         font-size="14px"
+         id="text63">Trusting</text>
+      <text
+         text-anchor="middle"
+         x="229.86"
+         y="-336.138"
+         font-family="Calibri"
+         font-size="14px"
+         id="text65">Entity</text>
+    </g>
+    <!-- n_trust&#45;&gt;n_trusting_entity -->
+    <g
+       id="edge2"
+       class="edge">
+      <title
+         id="title68">n_trust-&gt;n_trusting_entity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 229.86,-407.206 c 0,6.868 0,14.887 0,22.755"
+         id="path70" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="226.36,-384.302 233.36,-384.302 229.86,-374.302 "
+         id="polygon72" />
+      <text
+         text-anchor="middle"
+         x="259.85999"
+         y="-387.008"
+         font-family="Calibri"
+         font-size="14px"
+         id="text74"> involves  </text>
+    </g>
+    <!-- n_trusted_entity -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title77">n_trusted_entity</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="488.85999"
+         cy="-75.234001"
+         rx="43.267399"
+         ry="26.7407"
+         id="ellipse79" />
+      <text
+         text-anchor="middle"
+         x="488.85999"
+         y="-79.033997"
+         font-family="Calibri"
+         font-size="14px"
+         id="text81">Trusted</text>
+      <text
+         text-anchor="middle"
+         x="488.85999"
+         y="-64.033997"
+         font-family="Calibri"
+         font-size="14px"
+         id="text83">Entity</text>
+    </g>
+    <!-- n_trust&#45;&gt;n_trusted_entity -->
+    <g
+       id="edge3"
+       class="edge">
+      <title
+         id="title86">n_trust-&gt;n_trusted_entity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 261.063,-415.252 c 10.855,4.452 22.806,10.193 32.797,17.044 64.212,44.033 81.366,58.948 123,124.74 32.704,51.681 53.467,120.34 63.893,161.523"
+         id="path88" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="477.39,-110.966 484.187,-112.641 483.182,-102.094 "
+         id="polygon90" />
+      <text
+         text-anchor="middle"
+         x="440.85999"
+         y="-292.76801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text92"> involves  </text>
+    </g>
+    <!-- n_assessment -->
+    <g
+       id="node5"
+       class="node">
+      <title
+         id="title95">n_assessment</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="94.859901"
+         cy="-210.468"
+         rx="46.338699"
+         ry="18"
+         id="ellipse97" />
+      <text
+         text-anchor="middle"
+         x="94.859901"
+         y="-207.368"
+         font-family="Calibri"
+         font-size="12px"
+         id="text99">Assessment</text>
+    </g>
+    <!-- n_trusting_entity&#45;&gt;n_assessment -->
+    <g
+       id="edge4"
+       class="edge">
+      <title
+         id="title102">n_trusting_entity-&gt;n_assessment</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 186.921,-338.374 c -17.653,5.138 -37.17,13.477 -51.061,26.906 -20.265,19.589 -30.864,50.619 -36.1638,72.919"
+         id="path104" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="96.2572,-239.205 103.098,-237.722 97.5596,-228.691 "
+         id="polygon106" />
+      <text
+         text-anchor="middle"
+         x="157.86"
+         y="-292.76801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text108"> make  </text>
+    </g>
+    <!-- n_beneficial -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title111">n_beneficial</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="193.86"
+         cy="-75.234001"
+         rx="67.764702"
+         ry="33.4697"
+         id="ellipse113" />
+      <text
+         text-anchor="middle"
+         x="193.86"
+         y="-85.134003"
+         font-family="Calibri"
+         font-size="12px"
+         id="text115">Benefical</text>
+      <text
+         text-anchor="middle"
+         x="193.86"
+         y="-72.134003"
+         font-family="Calibri"
+         font-size="12px"
+         id="text117">or</text>
+      <text
+         text-anchor="middle"
+         x="193.86"
+         y="-59.133999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text119">Non-detrimental</text>
+    </g>
+    <!-- n_trusting_entity&#45;&gt;n_beneficial -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title122">n_trusting_entity-&gt;n_beneficial</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 212.859,-312.255 c -5.161,11.967 -10.202,25.696 -12.999,38.787 -12.168,56.953 -10.821,125.241 -8.543,164.695"
+         id="path124" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="216.075,-310.872 209.691,-313.743 216.984,-321.428 "
+         id="polygon126" />
+      <text
+         text-anchor="middle"
+         x="212.36"
+         y="-206.76801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text128"> to  </text>
+    </g>
+    <!-- n_key_determinants -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title131">n_key_determinants</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="404.36,-241.968 404.36,-178.968 237.36,-178.968 237.36,-241.968 "
+         id="polygon133" />
+      <text
+         text-anchor="middle"
+         x="273.85999"
+         y="-228.368"
+         font-family="Calibri"
+         font-size="12px"
+         id="text135">Controls</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="237.36,-220.968 310.36,-220.968 "
+         id="polyline137" />
+      <text
+         text-anchor="middle"
+         x="273.85999"
+         y="-207.368"
+         font-family="Calibri"
+         font-size="12px"
+         id="text139">Faith</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="237.36,-199.968 310.36,-199.968 "
+         id="polyline141" />
+      <text
+         text-anchor="middle"
+         x="273.85999"
+         y="-186.368"
+         font-family="Calibri"
+         font-size="12px"
+         id="text143">Information</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="310.36,-178.968 310.36,-241.968 "
+         id="polyline145" />
+      <text
+         text-anchor="middle"
+         x="357.35999"
+         y="-228.368"
+         font-family="Calibri"
+         font-size="12px"
+         id="text147">Past Experience</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="310.36,-220.968 404.36,-220.968 "
+         id="polyline149" />
+      <text
+         text-anchor="middle"
+         x="357.35999"
+         y="-207.368"
+         font-family="Calibri"
+         font-size="12px"
+         id="text151">Reputation</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="310.36,-199.968 404.36,-199.968 "
+         id="polyline153" />
+      <text
+         text-anchor="middle"
+         x="357.35999"
+         y="-186.368"
+         font-family="Calibri"
+         font-size="12px"
+         id="text155">Transparency</text>
+    </g>
+    <!-- n_trusting_entity&#45;&gt;n_key_determinants -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title158">n_trusting_entity-&gt;n_key_determinants</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 246.129,-322.226 c 7.711,11.429 17.366,25.737 27.148,40.236"
+         id="path160" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="270.544,-279.783 276.347,-283.698 279.038,-273.451 "
+         id="polygon162" />
+      <text
+         text-anchor="middle"
+         x="295.35999"
+         y="-300.26801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text164"> based  </text>
+      <text
+         text-anchor="middle"
+         x="295.35999"
+         y="-285.26801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text166"> on  </text>
+    </g>
+    <!-- n_probability_2 -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title169">n_probability_2</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="41.859901"
+         cy="-75.234001"
+         rx="41.720299"
+         ry="18"
+         id="ellipse171" />
+      <text
+         text-anchor="middle"
+         x="41.859901"
+         y="-72.134003"
+         font-family="Calibri"
+         font-size="12px"
+         id="text173">Probability</text>
+    </g>
+    <!-- n_assessment&#45;&gt;n_probability_2 -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title176">n_assessment-&gt;n_probability_2</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 88.1474,-192.594 c -8.9905,22.601 -25.0407,62.949 -35.6768,89.686"
+         id="path178" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="49.1295,-103.978 55.6338,-101.39 48.6853,-93.392 "
+         id="polygon180" />
+      <text
+         text-anchor="middle"
+         x="87.359901"
+         y="-151.26801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text182"> of  </text>
+    </g>
+    <!-- n_future_actions -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title185">n_future_actions</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="365.85999"
+         cy="-75.234001"
+         rx="37.4533"
+         ry="24.0833"
+         id="ellipse187" />
+      <text
+         text-anchor="middle"
+         x="365.85999"
+         y="-78.634003"
+         font-family="Calibri"
+         font-size="12px"
+         id="text189">Future</text>
+      <text
+         text-anchor="middle"
+         x="365.85999"
+         y="-65.634003"
+         font-family="Calibri"
+         font-size="12px"
+         id="text191">Actions</text>
+    </g>
+    <!-- n_beneficial&#45;&gt;n_future_actions -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title194">n_beneficial-&gt;n_future_actions</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 271.967,-75.234 c 19.505,0 39.555,0 56.094,0"
+         id="path196" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="271.839,-78.7341 271.839,-71.7341 261.839,-75.234 "
+         id="polygon198" />
+      <text
+         text-anchor="middle"
+         x="295.06299"
+         y="-82.033997"
+         font-family="Calibri"
+         font-size="14px"
+         id="text200"> will be  </text>
+    </g>
+    <!-- n_probability_2&#45;&gt;n_beneficial -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title203">n_probability_2-&gt;n_beneficial</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 83.797,-75.234 c 9.9571,0 20.898,0 31.899,0"
+         id="path205" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="107.86,-71.7345 107.86,-78.7345 117.86,-75.234 "
+         id="polygon207" />
+      <text
+         text-anchor="middle"
+         x="104.849"
+         y="-82.033997"
+         font-family="Calibri"
+         font-size="14px"
+         id="text209"> of  </text>
+    </g>
+    <!-- n_key_characteristics -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title212">n_key_characteristics</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="494.36,-550.306 494.36,-487.306 301.36,-487.306 301.36,-550.306 "
+         id="polygon214" />
+      <text
+         text-anchor="middle"
+         x="345.85999"
+         y="-536.70599"
+         font-family="Calibri"
+         font-size="12px"
+         id="text216">Asymmetric</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="301.36,-529.306 390.36,-529.306 "
+         id="polyline218" />
+      <text
+         text-anchor="middle"
+         x="345.85999"
+         y="-515.70599"
+         font-family="Calibri"
+         font-size="12px"
+         id="text220">Dynamic</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="301.36,-508.306 390.36,-508.306 "
+         id="polyline222" />
+      <text
+         text-anchor="middle"
+         x="345.85999"
+         y="-494.70599"
+         font-family="Calibri"
+         font-size="12px"
+         id="text224">Intersubjective</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="390.36,-487.306 390.36,-550.306 "
+         id="polyline226" />
+      <text
+         text-anchor="middle"
+         x="442.35999"
+         y="-536.70599"
+         font-family="Calibri"
+         font-size="12px"
+         id="text228">Intransitive</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="390.36,-529.306 494.36,-529.306 "
+         id="polyline230" />
+      <text
+         text-anchor="middle"
+         x="442.35999"
+         y="-515.70599"
+         font-family="Calibri"
+         font-size="12px"
+         id="text232">(Non-)Distributive</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="390.36,-508.306 494.36,-508.306 "
+         id="polyline234" />
+      <text
+         text-anchor="middle"
+         x="442.35999"
+         y="-494.70599"
+         font-family="Calibri"
+         font-size="12px"
+         id="text236">Subjective</text>
+    </g>
+    <!-- n_key_characteristics&#45;&gt;n_trust -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title239">n_key_characteristics-&gt;n_trust</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 316.205,-474.16 c -22.046,11.784 -44.307,23.683 -60.704,32.447"
+         id="path241" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="318.119,-471.215 314.82,-477.388 325.289,-479.016 "
+         id="polygon243" />
+      <text
+         text-anchor="middle"
+         x="327.35999"
+         y="-459.60599"
+         font-family="Calibri"
+         font-size="14px"
+         id="text245">   has  </text>
+    </g>
+    <!-- n_future_actions&#45;&gt;n_trusted_entity -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title248">n_future_actions-&gt;n_trusted_entity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 403.432,-75.234 c 10.066,0 21.144,0 31.892,0"
+         id="path250" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="435.484,-71.7341 435.484,-78.7341 445.484,-75.234 "
+         id="polygon252" />
+      <text
+         text-anchor="middle"
+         x="424.53101"
+         y="-82.033997"
+         font-family="Calibri"
+         font-size="14px"
+         id="text254"> of  </text>
+    </g>
+  </g>
+</svg>

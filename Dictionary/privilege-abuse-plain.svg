@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9349.2393pt"
+   height="8699.9893pt"
+   viewBox="0 0 2243.7758 2088.1224"
+   version="1.1"
+   id="svg235"
+   sodipodi:docname="privilege-abuse.svg">
+  <metadata
+     id="metadata241">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs239" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview237" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(4.16667,0,0,4.16667,16.645559,2071.4558)">
+    <title
+       id="title2">G</title>
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="534.548,-497.149 534.548,4 -4,4 -4,-497.149 "
+       id="polygon4" />
+    <text
+       text-anchor="middle"
+       x="265.27399"
+       y="-15.6"
+       font-family="Calibri"
+       font-size="8px"
+       id="text6">Privilege Abuse (Conceptual Diagram) by Open-Measure</text>
+    <text
+       text-anchor="middle"
+       x="265.27399"
+       y="-6.5999999"
+       font-family="Calibri"
+       font-size="8px"
+       id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
+    <!-- n_threat -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title10">n_threat</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="29.548201"
+         cy="-473.35001"
+         rx="29.596399"
+         ry="18"
+         id="ellipse12" />
+      <text
+         text-anchor="middle"
+         x="29.548201"
+         y="-470.25"
+         font-family="Calibri"
+         font-size="12px"
+         id="text14">Threat</text>
+    </g>
+    <!-- n_insider_threat -->
+    <g
+       id="node2"
+       class="node">
+      <title
+         id="title17">n_insider_threat</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="183.548"
+         cy="-473.35001"
+         rx="51.919498"
+         ry="18"
+         id="ellipse19" />
+      <text
+         text-anchor="middle"
+         x="183.548"
+         y="-470.25"
+         font-family="Calibri"
+         font-size="12px"
+         id="text21">Insider Threat</text>
+    </g>
+    <!-- n_threat&#45;&gt;n_insider_threat -->
+    <g
+       id="edge1"
+       class="edge">
+      <title
+         id="title24">n_threat-&gt;n_insider_threat</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 69.3638,-473.35 c 19.0361,0 42.0622,0 62.4362,0"
+         id="path26" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="69.2409,-476.85 69.241,-469.85 59.2409,-473.35 "
+         id="polygon28" />
+      <text
+         text-anchor="middle"
+         x="95.467598"
+         y="-480.14999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text30"> of class  </text>
+    </g>
+    <!-- n_privilege_abuse -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title33">n_privilege_abuse</title>
+      <g
+         id="a_node3">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"
+           xlink:title="Privilege Abuse"
+           id="a39">
+          <ellipse
+             fill="#5599ff"
+             stroke="#000000"
+             cx="398.548"
+             cy="-473.35001"
+             rx="91.434097"
+             ry="19.6"
+             id="ellipse35" />
+          <text
+             text-anchor="middle"
+             x="398.548"
+             y="-468.95001"
+             font-family="Calibri"
+             font-size="18px"
+             id="text37">Privilege Abuse</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_insider_threat&#45;&gt;n_privilege_abuse -->
+    <g
+       id="edge2"
+       class="edge">
+      <title
+         id="title43">n_insider_threat-&gt;n_privilege_abuse</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 245.471,-473.35 c 19.296,0 40.995,0 61.858,0"
+         id="path45" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="245.32,-476.85 245.32,-469.85 235.32,-473.35 "
+         id="polygon47" />
+      <text
+         text-anchor="middle"
+         x="271.29401"
+         y="-480.14999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text49"> of class  </text>
+    </g>
+    <!-- n_abusive_usage -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title52">n_abusive_usage</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="324.548"
+         cy="-383.51001"
+         rx="38.782101"
+         ry="24.0833"
+         id="ellipse54" />
+      <text
+         text-anchor="middle"
+         x="324.548"
+         y="-386.91"
+         font-family="Calibri"
+         font-size="12px"
+         id="text56">Abusive</text>
+      <text
+         text-anchor="middle"
+         x="324.548"
+         y="-373.91"
+         font-family="Calibri"
+         font-size="12px"
+         id="text58">Usage</text>
+    </g>
+    <!-- n_privilege_abuse&#45;&gt;n_abusive_usage -->
+    <g
+       id="edge4"
+       class="edge">
+      <title
+         id="title61">n_privilege_abuse-&gt;n_abusive_usage</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 354.361,-455.824 c -4.392,2.931 -8.458,6.335 -11.813,10.273 -6.7,7.865 -10.907,18.129 -13.549,27.99"
+         id="path63" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="325.527,-418.069 332.36,-416.55 326.775,-407.548 "
+         id="polygon65" />
+      <text
+         text-anchor="middle"
+         x="377.548"
+         y="-434.35101"
+         font-family="Calibri"
+         font-size="14px"
+         id="text67"> consisting  </text>
+      <text
+         text-anchor="middle"
+         x="377.548"
+         y="-419.35101"
+         font-family="Calibri"
+         font-size="14px"
+         id="text69"> in  </text>
+    </g>
+    <!-- n_subclasses -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title72">n_subclasses</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="527.548,-404.51 527.548,-362.51 381.548,-362.51 381.548,-404.51 "
+         id="polygon74" />
+      <text
+         text-anchor="middle"
+         x="454.548"
+         y="-390.91"
+         font-family="Calibri"
+         font-size="12px"
+         id="text76">Excessive Privilege Abuse</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="381.548,-383.51 527.548,-383.51 "
+         id="polyline78" />
+      <text
+         text-anchor="middle"
+         x="454.548"
+         y="-369.91"
+         font-family="Calibri"
+         font-size="12px"
+         id="text80">Legitimate Privilege Abuse</text>
+    </g>
+    <!-- n_privilege_abuse&#45;&gt;n_subclasses -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title83">n_privilege_abuse-&gt;n_subclasses</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 411.22,-453.663 c 1.803,2.712 3.624,5.476 5.328,8.112 6.765,10.458 14.028,22.036 20.375,32.273"
+         id="path85" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="433.995,-411.358 439.95,-415.037 442.228,-404.69 "
+         id="polygon87" />
+      <text
+         text-anchor="middle"
+         x="471.548"
+         y="-434.35101"
+         font-family="Calibri"
+         font-size="14px"
+         id="text89"> has  </text>
+      <text
+         text-anchor="middle"
+         x="471.548"
+         y="-419.35101"
+         font-family="Calibri"
+         font-size="14px"
+         id="text91"> subclasses  </text>
+    </g>
+    <!-- n_motivations -->
+    <g
+       id="node5"
+       class="node">
+      <title
+         id="title94">n_motivations</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="180.048,-311.734 180.048,-248.734 79.0482,-248.734 79.0482,-311.734 "
+         id="polygon96" />
+      <text
+         text-anchor="middle"
+         x="129.548"
+         y="-298.134"
+         font-family="Calibri"
+         font-size="12px"
+         id="text98">Fun and Curiosity</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="79.0482,-290.734 180.048,-290.734 "
+         id="polyline100" />
+      <text
+         text-anchor="middle"
+         x="129.548"
+         y="-277.134"
+         font-family="Calibri"
+         font-size="12px"
+         id="text102">Financial Gain</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="79.0482,-269.734 180.048,-269.734 "
+         id="polyline104" />
+      <text
+         text-anchor="middle"
+         x="129.548"
+         y="-256.134"
+         font-family="Calibri"
+         font-size="12px"
+         id="text106">etc...</text>
+    </g>
+    <!-- n_abusive_usage&#45;&gt;n_motivations -->
+    <g
+       id="edge3"
+       class="edge">
+      <title
+         id="title109">n_abusive_usage-&gt;n_motivations</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 286.872,-377.532 c -24.326,4.355 -56.036,12.23 -81.324,26.064 -15.271,8.354 -29.87,20.445 -42.117,32.248"
+         id="path111" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="160.741,-321.48 165.68,-316.52 156.124,-311.944 "
+         id="polygon113" />
+      <text
+         text-anchor="middle"
+         x="241.048"
+         y="-340.26801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text115"> motivated  </text>
+      <text
+         text-anchor="middle"
+         x="241.048"
+         y="-325.26801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text117"> by  </text>
+    </g>
+    <!-- n_effective_access_permissions -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title120">n_effective_access_permissions</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="251.548"
+         cy="-280.23401"
+         rx="53.066002"
+         ry="33.4697"
+         id="ellipse122" />
+      <text
+         text-anchor="middle"
+         x="251.548"
+         y="-290.134"
+         font-family="Calibri"
+         font-size="12px"
+         id="text124">Effective</text>
+      <text
+         text-anchor="middle"
+         x="251.548"
+         y="-277.134"
+         font-family="Calibri"
+         font-size="12px"
+         id="text126">Access</text>
+      <text
+         text-anchor="middle"
+         x="251.548"
+         y="-264.134"
+         font-family="Calibri"
+         font-size="12px"
+         id="text128">Permissions</text>
+    </g>
+    <!-- n_abusive_usage&#45;&gt;n_effective_access_permissions -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title131">n_abusive_usage-&gt;n_effective_access_permissions</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 309.067,-361.032 c -8.817,12.232 -20.115,27.906 -30.361,42.121"
+         id="path133" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="275.83,-320.907 281.509,-316.814 272.822,-310.748 "
+         id="polygon135" />
+      <text
+         text-anchor="middle"
+         x="313.048"
+         y="-332.76801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text137"> of  </text>
+    </g>
+    <!-- n_intentional -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title140">n_intentional</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="365.548"
+         cy="-280.23401"
+         rx="42.451"
+         ry="18"
+         id="ellipse142" />
+      <text
+         text-anchor="middle"
+         x="365.548"
+         y="-277.134"
+         font-family="Calibri"
+         font-size="12px"
+         id="text144">Intentional</text>
+    </g>
+    <!-- n_abusive_usage&#45;&gt;n_intentional -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title147">n_abusive_usage-&gt;n_intentional</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 333.647,-360.033 c 6.252,15.442 14.578,36.009 21.157,52.258"
+         id="path149" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="351.643,-306.255 358.131,-308.882 358.639,-298.3 "
+         id="polygon151" />
+      <text
+         text-anchor="middle"
+         x="359.548"
+         y="-332.76801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text153"> is  </text>
+    </g>
+    <!-- n_countermeasures -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title156">n_countermeasures</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="525.548,-215.5 525.548,-26.5 361.548,-26.5 361.548,-215.5 "
+         id="polygon158" />
+      <text
+         text-anchor="middle"
+         x="443.548"
+         y="-201.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text160">Vetting</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="361.548,-194.5 525.548,-194.5 "
+         id="polyline162" />
+      <text
+         text-anchor="middle"
+         x="443.548"
+         y="-180.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text164">Least Privilege</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="361.548,-173.5 525.548,-173.5 "
+         id="polyline166" />
+      <text
+         text-anchor="middle"
+         x="443.548"
+         y="-159.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text168">Audit Logs</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="361.548,-152.5 525.548,-152.5 "
+         id="polyline170" />
+      <text
+         text-anchor="middle"
+         x="443.548"
+         y="-138.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text172">Session Recording</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="361.548,-131.5 525.548,-131.5 "
+         id="polyline174" />
+      <text
+         text-anchor="middle"
+         x="443.548"
+         y="-117.9"
+         font-family="Calibri"
+         font-size="12px"
+         id="text176">Awareness Training</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="361.548,-110.5 525.548,-110.5 "
+         id="polyline178" />
+      <text
+         text-anchor="middle"
+         x="443.548"
+         y="-96.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text180">Honeypots</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="361.548,-89.5 525.548,-89.5 "
+         id="polyline182" />
+      <text
+         text-anchor="middle"
+         x="443.548"
+         y="-75.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text184">Deterrent Discipline</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="361.548,-68.5 525.548,-68.5 "
+         id="polyline186" />
+      <text
+         text-anchor="middle"
+         x="443.548"
+         y="-54.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text188">User Behavior Analytics (UBA)</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="361.548,-47.5 525.548,-47.5 "
+         id="polyline190" />
+      <text
+         text-anchor="middle"
+         x="443.548"
+         y="-33.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text192">etc.</text>
+    </g>
+    <!-- n_abusive_usage&#45;&gt;n_countermeasures -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title195">n_abusive_usage-&gt;n_countermeasures</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 355.126,-368.533 c 21.281,11.512 48.134,30.014 61.422,55.065 14.134,26.644 21.673,58.169 25.505,87.867"
+         id="path197" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="438.583,-225.138 445.536,-225.946 443.214,-215.609 "
+         id="polygon199" />
+      <text
+         text-anchor="middle"
+         x="484.548"
+         y="-284.034"
+         font-family="Calibri"
+         font-size="14px"
+         id="text201"> may be  </text>
+      <text
+         text-anchor="middle"
+         x="484.548"
+         y="-269.034"
+         font-family="Calibri"
+         font-size="14px"
+         id="text203"> countered  by  </text>
+    </g>
+    <!-- n_identity_class -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title206">n_identity_class</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="305.048,-163 305.048,-79 198.048,-79 198.048,-163 "
+         id="polygon208" />
+      <text
+         text-anchor="middle"
+         x="251.548"
+         y="-149.39999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text210">Workforce Identity</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="198.048,-142 305.048,-142 "
+         id="polyline212" />
+      <text
+         text-anchor="middle"
+         x="251.548"
+         y="-128.39999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text214">Federated Identity</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="198.048,-121 305.048,-121 "
+         id="polyline216" />
+      <text
+         text-anchor="middle"
+         x="251.548"
+         y="-107.4"
+         font-family="Calibri"
+         font-size="12px"
+         id="text218">Customer Identity</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="198.048,-100 305.048,-100 "
+         id="polyline220" />
+      <text
+         text-anchor="middle"
+         x="251.548"
+         y="-86.400002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text222">Privileged Identity</text>
+    </g>
+    <!-- n_effective_access_permissions&#45;&gt;n_identity_class -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title225">n_effective_access_permissions-&gt;n_identity_class</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 251.548,-246.655 c 0,21.172 0,49.222 0,73.352"
+         id="path227" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="248.048,-173.233 255.048,-173.233 251.548,-163.233 "
+         id="polygon229" />
+      <text
+         text-anchor="middle"
+         x="264.048"
+         y="-227.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text231"> of  </text>
+    </g>
+  </g>
+</svg>

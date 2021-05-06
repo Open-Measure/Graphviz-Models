@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="13033.555pt"
+   height="11125.026pt"
+   viewBox="0 0 3127.6366 2670.4647"
+   version="1.1"
+   id="svg387"
+   sodipodi:docname="self-sovereign-identity.svg">
+  <metadata
+     id="metadata393">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs391" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview389" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(4.16667,0,0,4.16667,16.552225,2653.798)">
+    <title
+       id="title2">G</title>
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="746.861,-636.911 746.861,4 -4,4 -4,-636.911 "
+       id="polygon4" />
+    <text
+       text-anchor="middle"
+       x="371.431"
+       y="-15.6"
+       font-family="Calibri"
+       font-size="8px"
+       id="text6">Self-Sovereign Identity / SSI (Conceptual Diagram) by Open-Measure</text>
+    <text
+       text-anchor="middle"
+       x="371.431"
+       y="-6.5999999"
+       font-family="Calibri"
+       font-size="8px"
+       id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
+    <g
+       id="clust1"
+       class="cluster">
+      <title
+         id="title10">cluster_ssi_capabilities</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="734.861,-516.058 734.861,-114.317 478.861,-114.317 478.861,-516.058 "
+         id="polygon12" />
+      <text
+         text-anchor="middle"
+         x="606.86102"
+         y="-500.858"
+         font-family="Calibri"
+         font-size="14px"
+         id="text14">Capabilities</text>
+    </g>
+    <!-- n_ims -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title17">n_ims</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="235.86099"
+         cy="-590.48499"
+         rx="57.0522"
+         ry="42.352901"
+         id="ellipse19" />
+      <text
+         text-anchor="middle"
+         x="235.86099"
+         y="-606.88501"
+         font-family="Calibri"
+         font-size="12px"
+         id="text21">Identity</text>
+      <text
+         text-anchor="middle"
+         x="235.86099"
+         y="-593.88501"
+         font-family="Calibri"
+         font-size="12px"
+         id="text23">Management</text>
+      <text
+         text-anchor="middle"
+         x="235.86099"
+         y="-580.88501"
+         font-family="Calibri"
+         font-size="12px"
+         id="text25">System</text>
+      <text
+         text-anchor="middle"
+         x="235.86099"
+         y="-567.88501"
+         font-family="Calibri"
+         font-size="12px"
+         id="text27">(IdMS)</text>
+    </g>
+    <!-- n_service_centric_ims -->
+    <g
+       id="node2"
+       class="node">
+      <title
+         id="title30">n_service_centric_ims</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="89.861397"
+         cy="-461.017"
+         rx="62.865101"
+         ry="24.0833"
+         id="ellipse32" />
+      <text
+         text-anchor="middle"
+         x="89.861397"
+         y="-464.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text34">Service-Centric</text>
+      <text
+         text-anchor="middle"
+         x="89.861397"
+         y="-451.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text36">IdMS</text>
+    </g>
+    <!-- n_ims&#45;&gt;n_service_centric_ims -->
+    <g
+       id="edge1"
+       class="edge">
+      <title
+         id="title39">n_ims-&gt;n_service_centric_ims</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 191.726,-550.951 c -25.344,22.126 -56.219,49.083 -77.29,67.479"
+         id="path41" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="194.165,-548.435 189.561,-553.708 199.396,-557.648 "
+         id="polygon43" />
+      <text
+         text-anchor="middle"
+         x="192.36099"
+         y="-527.85797"
+         font-family="Calibri"
+         font-size="14px"
+         id="text45"> is a  </text>
+    </g>
+    <!-- n_user_centric_ims -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title48">n_user_centric_ims</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="235.86099"
+         cy="-461.017"
+         rx="54.394501"
+         ry="24.0833"
+         id="ellipse50" />
+      <text
+         text-anchor="middle"
+         x="235.86099"
+         y="-464.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text52">User-Centric</text>
+      <text
+         text-anchor="middle"
+         x="235.86099"
+         y="-451.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text54">IdMS</text>
+    </g>
+    <!-- n_ims&#45;&gt;n_user_centric_ims -->
+    <g
+       id="edge2"
+       class="edge">
+      <title
+         id="title57">n_ims-&gt;n_user_centric_ims</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 235.861,-537.539 c 0,18.17 0,37.664 0,52.295"
+         id="path59" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="239.362,-537.747 232.362,-537.747 235.861,-547.747 "
+         id="polygon61" />
+      <text
+         text-anchor="middle"
+         x="251.36099"
+         y="-527.85797"
+         font-family="Calibri"
+         font-size="14px"
+         id="text63"> is a  </text>
+    </g>
+    <!-- n_motivations -->
+    <g
+       id="node11"
+       class="node">
+      <title
+         id="title66">n_motivations</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="455.861,-503.017 455.861,-419.017 307.861,-419.017 307.861,-503.017 "
+         id="polygon68" />
+      <text
+         text-anchor="middle"
+         x="381.86099"
+         y="-489.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text70">Data Privacy</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="307.861,-482.017 455.861,-482.017 "
+         id="polyline72" />
+      <text
+         text-anchor="middle"
+         x="381.86099"
+         y="-468.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text74">Security</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="307.861,-461.017 455.861,-461.017 "
+         id="polyline76" />
+      <text
+         text-anchor="middle"
+         x="381.86099"
+         y="-447.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text78">Socio-Economical Inclusion</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="307.861,-440.017 455.861,-440.017 "
+         id="polyline80" />
+      <text
+         text-anchor="middle"
+         x="381.86099"
+         y="-426.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text82">etc.</text>
+    </g>
+    <!-- n_ims&#45;&gt;n_motivations -->
+    <!-- n_traditional_model -->
+    <g
+       id="node5"
+       class="node">
+      <title
+         id="title85">n_traditional_model</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="55.861401"
+         cy="-245.593"
+         rx="55.723202"
+         ry="24.0833"
+         id="ellipse87" />
+      <text
+         text-anchor="middle"
+         x="55.861401"
+         y="-248.993"
+         font-family="Calibri"
+         font-size="12px"
+         id="text89">Architectural</text>
+      <text
+         text-anchor="middle"
+         x="55.861401"
+         y="-235.993"
+         font-family="Calibri"
+         font-size="12px"
+         id="text91">Model</text>
+    </g>
+    <!-- n_service_centric_ims&#45;&gt;n_traditional_model -->
+    <g
+       id="edge4"
+       class="edge">
+      <title
+         id="title94">n_service_centric_ims-&gt;n_traditional_model</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 86.1581,-436.77 c -6.042,37.926 -18.0417,113.25 -24.9887,156.858"
+         id="path96" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="57.6771,-280.237 64.5899,-279.135 59.5602,-269.811 "
+         id="polygon98" />
+      <text
+         text-anchor="middle"
+         x="92.361397"
+         y="-332.87601"
+         font-family="Calibri"
+         font-size="14px"
+         id="text100"> has  </text>
+    </g>
+    <!-- n_ssi -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title103">n_ssi</title>
+      <g
+         id="a_node4">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/446955653"
+           xlink:title="Self-Sovereign\nIdentity"
+           id="a111">
+          <ellipse
+             fill="#5599ff"
+             stroke="#000000"
+             cx="381.86099"
+             cy="-336.57599"
+             rx="86.034698"
+             ry="33.882401"
+             id="ellipse105" />
+          <text
+             text-anchor="middle"
+             x="381.86099"
+             y="-342.17599"
+             font-family="Calibri"
+             font-size="18px"
+             id="text107">Self-Sovereign</text>
+          <text
+             text-anchor="middle"
+             x="381.86099"
+             y="-322.17599"
+             font-family="Calibri"
+             font-size="18px"
+             id="text109">Identity</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_user_centric_ims&#45;&gt;n_ssi -->
+    <g
+       id="edge3"
+       class="edge">
+      <title
+         id="title115">n_user_centric_ims-&gt;n_ssi</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 268.105,-432.976 c 23.085,19.36 54.171,45.43 78.014,65.425"
+         id="path117" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="270.21,-435.779 265.712,-430.415 260.299,-439.523 "
+         id="polygon119" />
+      <text
+         text-anchor="middle"
+         x="346.36099"
+         y="-390.81699"
+         font-family="Calibri"
+         font-size="14px"
+         id="text121"> is a  </text>
+    </g>
+    <!-- n_ssi_model -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title124">n_ssi_model</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="397.86099"
+         cy="-245.593"
+         rx="55.723202"
+         ry="24.0833"
+         id="ellipse126" />
+      <text
+         text-anchor="middle"
+         x="397.86099"
+         y="-248.993"
+         font-family="Calibri"
+         font-size="12px"
+         id="text128">Architectural</text>
+      <text
+         text-anchor="middle"
+         x="397.86099"
+         y="-235.993"
+         font-family="Calibri"
+         font-size="12px"
+         id="text130">Model</text>
+    </g>
+    <!-- n_ssi&#45;&gt;n_ssi_model -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title133">n_ssi-&gt;n_ssi_model</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 387.774,-302.695 c 1.358,7.556 2.803,15.593 4.163,23.152"
+         id="path135" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="388.506,-278.844 395.396,-280.083 393.721,-269.621 "
+         id="polygon137" />
+      <text
+         text-anchor="middle"
+         x="408.36099"
+         y="-282.435"
+         font-family="Calibri"
+         font-size="14px"
+         id="text139"> has  </text>
+    </g>
+    <!-- n_third_parties -->
+    <g
+       id="node12"
+       class="node">
+      <title
+         id="title142">n_third_parties</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="522.86102"
+         cy="-245.593"
+         rx="35.2113"
+         ry="24.0833"
+         id="ellipse144" />
+      <text
+         text-anchor="middle"
+         x="522.86102"
+         y="-248.993"
+         font-family="Calibri"
+         font-size="12px"
+         id="text146">3rd</text>
+      <text
+         text-anchor="middle"
+         x="522.86102"
+         y="-235.993"
+         font-family="Calibri"
+         font-size="12px"
+         id="text148">Parties</text>
+    </g>
+    <!-- n_ssi&#45;&gt;n_third_parties -->
+    <g
+       id="edge13"
+       class="edge">
+      <title
+         id="title151">n_ssi-&gt;n_third_parties</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 426.475,-307.421 c 13.982,8.824 29.543,18.644 44.011,27.775"
+         id="path153" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="469.004,-276.443 472.74,-282.362 479.329,-274.066 "
+         id="polygon155" />
+      <text
+         text-anchor="middle"
+         x="448.97501"
+         y="-296.22101"
+         font-family="Calibri"
+         font-size="14px"
+         id="text157">enables</text>
+    </g>
+    <!-- n_central_authority -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title160">n_central_authority</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="146.86099"
+         cy="-140.317"
+         rx="53.9813"
+         ry="33.4697"
+         id="ellipse162" />
+      <text
+         text-anchor="middle"
+         x="146.86099"
+         y="-150.217"
+         font-family="Calibri"
+         font-size="12px"
+         id="text164">Central</text>
+      <text
+         text-anchor="middle"
+         x="146.86099"
+         y="-137.217"
+         font-family="Calibri"
+         font-size="12px"
+         id="text166">Registration</text>
+      <text
+         text-anchor="middle"
+         x="146.86099"
+         y="-124.217"
+         font-family="Calibri"
+         font-size="12px"
+         id="text168">Authority</text>
+    </g>
+    <!-- n_traditional_model&#45;&gt;n_central_authority -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title171">n_traditional_model-&gt;n_central_authority</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 75.1602,-222.691 c 11.5513,13.11 26.5198,30.098 39.7908,45.159"
+         id="path173" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="112.472,-175.052 117.724,-179.679 121.709,-169.863 "
+         id="polygon175" />
+      <text
+         text-anchor="middle"
+         x="140.86099"
+         y="-201.351"
+         font-family="Calibri"
+         font-size="14px"
+         id="text177"> depends  </text>
+      <text
+         text-anchor="middle"
+         x="140.86099"
+         y="-186.351"
+         font-family="Calibri"
+         font-size="14px"
+         id="text179"> on  </text>
+    </g>
+    <!-- n_service_provider -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title182">n_service_provider</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="226.86099"
+         cy="-245.593"
+         rx="39.696201"
+         ry="24.0833"
+         id="ellipse184" />
+      <text
+         text-anchor="middle"
+         x="226.86099"
+         y="-248.993"
+         font-family="Calibri"
+         font-size="12px"
+         id="text186">Service</text>
+      <text
+         text-anchor="middle"
+         x="226.86099"
+         y="-235.993"
+         font-family="Calibri"
+         font-size="12px"
+         id="text188">Provider</text>
+    </g>
+    <!-- n_traditional_model&#45;&gt;n_service_provider -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title191">n_traditional_model-&gt;n_service_provider</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 111.853,-245.593 c 20.998,0 44.703,0 65.112,0"
+         id="path193" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="176.999,-242.093 176.999,-249.093 186.999,-245.593 "
+         id="polygon195" />
+      <text
+         text-anchor="middle"
+         x="149.493"
+         y="-282.39301"
+         font-family="Calibri"
+         font-size="14px"
+         id="text197"> tightly  </text>
+      <text
+         text-anchor="middle"
+         x="149.493"
+         y="-267.39301"
+         font-family="Calibri"
+         font-size="14px"
+         id="text199"> coupled  </text>
+      <text
+         text-anchor="middle"
+         x="149.493"
+         y="-252.39301"
+         font-family="Calibri"
+         font-size="14px"
+         id="text201"> with  </text>
+    </g>
+    <!-- n_blockchain -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title204">n_blockchain</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="351.86099"
+         cy="-140.317"
+         rx="48.5816"
+         ry="33.4697"
+         id="ellipse206" />
+      <text
+         text-anchor="middle"
+         x="351.86099"
+         y="-150.217"
+         font-family="Calibri"
+         font-size="12px"
+         id="text208">Blockchain</text>
+      <text
+         text-anchor="middle"
+         x="351.86099"
+         y="-137.217"
+         font-family="Calibri"
+         font-size="12px"
+         id="text210">General</text>
+      <text
+         text-anchor="middle"
+         x="351.86099"
+         y="-124.217"
+         font-family="Calibri"
+         font-size="12px"
+         id="text212">Ledger</text>
+    </g>
+    <!-- n_ssi_model&#45;&gt;n_blockchain -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title215">n_ssi_model-&gt;n_blockchain</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 387.767,-221.929 c -5.244,11.772 -11.81,26.513 -17.888,40.16"
+         id="path217" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="366.643,-183.105 373.037,-180.257 365.771,-172.546 "
+         id="polygon219" />
+      <text
+         text-anchor="middle"
+         x="414.86099"
+         y="-201.351"
+         font-family="Calibri"
+         font-size="14px"
+         id="text221"> depends  </text>
+      <text
+         text-anchor="middle"
+         x="414.86099"
+         y="-186.351"
+         font-family="Calibri"
+         font-size="14px"
+         id="text223"> on  </text>
+    </g>
+    <!-- n_central_authority&#45;&gt;n_blockchain -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title226">n_central_authority-&gt;n_blockchain</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 210.994,-140.317 c 29.686,0 64.39,0 91.924,0"
+         id="path228" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="210.723,-143.817 210.723,-136.817 200.723,-140.317 "
+         id="polygon230" />
+      <text
+         text-anchor="middle"
+         x="251.836"
+         y="-147.117"
+         font-family="Calibri"
+         font-size="14px"
+         id="text232"> substitutes  </text>
+    </g>
+    <!-- n_weakness -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title235">n_weakness</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="146.86099"
+         cy="-50.041599"
+         rx="47.252602"
+         ry="24.0833"
+         id="ellipse237" />
+      <text
+         text-anchor="middle"
+         x="146.86099"
+         y="-53.441601"
+         font-family="Calibri"
+         font-size="12px"
+         id="text239">Potential</text>
+      <text
+         text-anchor="middle"
+         x="146.86099"
+         y="-40.441601"
+         font-family="Calibri"
+         font-size="12px"
+         id="text241">Weakness</text>
+    </g>
+    <!-- n_central_authority&#45;&gt;n_weakness -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title244">n_central_authority-&gt;n_weakness</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 146.861,-106.948 c 0,7.358 0,15.1867 0,22.5835"
+         id="path246" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="143.362,-84.2892 150.362,-84.2891 146.861,-74.2891 "
+         id="polygon248" />
+      <text
+         text-anchor="middle"
+         x="157.86099"
+         y="-86.883301"
+         font-family="Calibri"
+         font-size="14px"
+         id="text250"> is  </text>
+    </g>
+    <!-- n_service_provider&#45;&gt;n_ssi_model -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title253">n_service_provider-&gt;n_ssi_model</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 276.577,-245.593 c 20.46,0 44.255,0 65.322,0"
+         id="path255" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="276.522,-249.093 276.522,-242.093 266.522,-245.593 "
+         id="polygon257" />
+      <text
+         text-anchor="middle"
+         x="304.23001"
+         y="-282.39301"
+         font-family="Calibri"
+         font-size="14px"
+         id="text259"> loosely  </text>
+      <text
+         text-anchor="middle"
+         x="304.23001"
+         y="-267.39301"
+         font-family="Calibri"
+         font-size="14px"
+         id="text261"> coupled  </text>
+      <text
+         text-anchor="middle"
+         x="304.23001"
+         y="-252.39301"
+         font-family="Calibri"
+         font-size="14px"
+         id="text263"> with  </text>
+    </g>
+    <!-- n_motivations&#45;&gt;n_ssi -->
+    <g
+       id="edge12"
+       class="edge">
+      <title
+         id="title266">n_motivations-&gt;n_ssi</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 381.861,-408.749 c 0,12.881 0,26.366 0,38.091"
+         id="path268" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="385.362,-408.905 378.362,-408.905 381.861,-418.905 "
+         id="polygon270" />
+      <text
+         text-anchor="middle"
+         x="417.36099"
+         y="-398.31699"
+         font-family="Calibri"
+         font-size="14px"
+         id="text272"> motivated  </text>
+      <text
+         text-anchor="middle"
+         x="417.36099"
+         y="-383.31699"
+         font-family="Calibri"
+         font-size="14px"
+         id="text274"> by  </text>
+    </g>
+    <!-- n_autonomy -->
+    <g
+       id="node13"
+       class="node">
+      <title
+         id="title277">n_autonomy</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="669.86102"
+         cy="-461.017"
+         rx="57.0522"
+         ry="24.0833"
+         id="ellipse279" />
+      <text
+         text-anchor="middle"
+         x="669.86102"
+         y="-464.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text281">Autonomous</text>
+      <text
+         text-anchor="middle"
+         x="669.86102"
+         y="-451.41699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text283">Management</text>
+    </g>
+    <!-- n_identity -->
+    <g
+       id="node14"
+       class="node">
+      <title
+         id="title286">n_identity</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="621.86102"
+         cy="-245.593"
+         rx="32.752701"
+         ry="18"
+         id="ellipse288" />
+      <text
+         text-anchor="middle"
+         x="621.86102"
+         y="-242.493"
+         font-family="Calibri"
+         font-size="12px"
+         id="text290">Identity</text>
+    </g>
+    <!-- n_autonomy&#45;&gt;n_identity -->
+    <g
+       id="edge14"
+       class="edge">
+      <title
+         id="title293">n_autonomy-&gt;n_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 676.858,-437.131 c 9.703,36.457 22.899,108.679 -6.997,158.496 -3.637,6.061 -8.914,11.215 -14.652,15.501"
+         id="path295" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="653.036,-265.894 656.887,-260.048 646.61,-257.47 "
+         id="polygon297" />
+      <text
+         text-anchor="middle"
+         x="700.36102"
+         y="-332.87601"
+         font-family="Calibri"
+         font-size="14px"
+         id="text299"> of  </text>
+    </g>
+    <!-- n_entity -->
+    <g
+       id="node16"
+       class="node">
+      <title
+         id="title302">n_entity</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="621.86102"
+         cy="-336.57599"
+         rx="27.1719"
+         ry="18"
+         id="ellipse304" />
+      <text
+         text-anchor="middle"
+         x="621.86102"
+         y="-333.47601"
+         font-family="Calibri"
+         font-size="12px"
+         id="text306">Entity</text>
+    </g>
+    <!-- n_autonomy&#45;&gt;n_entity -->
+    <g
+       id="edge15"
+       class="edge">
+      <title
+         id="title309">n_autonomy-&gt;n_entity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 660.833,-436.987 c -8.159,20.812 -20.16,51.427 -28.686,73.175"
+         id="path311" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="628.778,-364.808 635.295,-362.253 628.386,-354.22 "
+         id="polygon313" />
+      <text
+         text-anchor="middle"
+         x="662.36102"
+         y="-390.81699"
+         font-family="Calibri"
+         font-size="14px"
+         id="text315"> by  </text>
+    </g>
+    <!-- n_attributes -->
+    <g
+       id="node17"
+       class="node">
+      <title
+         id="title318">n_attributes</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="621.86102"
+         cy="-140.317"
+         rx="40.026299"
+         ry="18"
+         id="ellipse320" />
+      <text
+         text-anchor="middle"
+         x="621.86102"
+         y="-137.217"
+         font-family="Calibri"
+         font-size="12px"
+         id="text322">Attributes</text>
+    </g>
+    <!-- n_identity&#45;&gt;n_attributes -->
+    <g
+       id="edge17"
+       class="edge">
+      <title
+         id="title325">n_identity-&gt;n_attributes</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 621.861,-227.539 c 0,16.071 0,40.412 0,59.138"
+         id="path327" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="618.362,-168.397 625.362,-168.396 621.861,-158.396 "
+         id="polygon329" />
+      <text
+         text-anchor="middle"
+         x="640.86102"
+         y="-193.851"
+         font-family="Calibri"
+         font-size="14px"
+         id="text331"> with  </text>
+    </g>
+    <!-- n_authentication -->
+    <g
+       id="node15"
+       class="node">
+      <title
+         id="title334">n_authentication</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="540.86102"
+         cy="-461.017"
+         rx="54.343899"
+         ry="18"
+         id="ellipse336" />
+      <text
+         text-anchor="middle"
+         x="540.86102"
+         y="-457.91699"
+         font-family="Calibri"
+         font-size="12px"
+         id="text338">Authentication</text>
+    </g>
+    <!-- n_authentication&#45;&gt;n_entity -->
+    <g
+       id="edge16"
+       class="edge">
+      <title
+         id="title341">n_authentication-&gt;n_entity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 551.954,-443.249 c 13.908,21.024 37.854,57.221 53.786,81.303"
+         id="path343" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="602.979,-359.775 608.817,-363.638 611.415,-353.366 "
+         id="polygon345" />
+      <text
+         text-anchor="middle"
+         x="606.36102"
+         y="-390.81699"
+         font-family="Calibri"
+         font-size="14px"
+         id="text347"> of  </text>
+    </g>
+    <!-- n_entity&#45;&gt;n_identity -->
+    <g
+       id="edge18"
+       class="edge">
+      <title
+         id="title350">n_entity-&gt;n_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 621.861,-318.419 c 0,12.556 0,29.855 0,44.329"
+         id="path352" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="618.362,-273.697 625.362,-273.697 621.861,-263.697 "
+         id="polygon354" />
+      <text
+         text-anchor="middle"
+         x="643.86102"
+         y="-282.435"
+         font-family="Calibri"
+         font-size="14px"
+         id="text356"> owns  </text>
+    </g>
+    <!-- n_verifiable_claims -->
+    <g
+       id="node18"
+       class="node">
+      <title
+         id="title359">n_verifiable_claims</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="531.86102"
+         cy="-336.57599"
+         rx="45.011002"
+         ry="24.0833"
+         id="ellipse361" />
+      <text
+         text-anchor="middle"
+         x="531.86102"
+         y="-339.97601"
+         font-family="Calibri"
+         font-size="12px"
+         id="text363">Verifiable</text>
+      <text
+         text-anchor="middle"
+         x="531.86102"
+         y="-326.97601"
+         font-family="Calibri"
+         font-size="12px"
+         id="text365">Claims</text>
+    </g>
+    <!-- n_verifiable_claims&#45;&gt;n_third_parties -->
+    <g
+       id="edge20"
+       class="edge">
+      <title
+         id="title368">n_verifiable_claims-&gt;n_third_parties</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 526.763,-312.604 c -1.164,6.133 -2.25,12.777 -2.902,18.969 -0.452,4.296 -0.76,8.824 -0.964,13.305"
+         id="path370" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="519.392,-280.191 526.388,-279.981 522.59,-270.091 "
+         id="polygon372" />
+      <text
+         text-anchor="middle"
+         x="536.36102"
+         y="-282.435"
+         font-family="Calibri"
+         font-size="14px"
+         id="text374"> to  </text>
+    </g>
+    <!-- n_verifiable_claims&#45;&gt;n_identity -->
+    <g
+       id="edge19"
+       class="edge">
+      <title
+         id="title377">n_verifiable_claims-&gt;n_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 552.735,-314.938 c 13.933,13.776 32.247,31.882 46.524,45.998"
+         id="path379" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="597.149,-266.104 602.071,-271.082 606.721,-261.562 "
+         id="polygon381" />
+      <text
+         text-anchor="middle"
+         x="601.86102"
+         y="-282.435"
+         font-family="Calibri"
+         font-size="14px"
+         id="text383"> on  </text>
+    </g>
+  </g>
+</svg>

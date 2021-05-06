@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="7179.1724pt"
+   height="7361.4727pt"
+   viewBox="0 0 1722.918 1766.4202"
+   version="1.1"
+   id="svg159"
+   sodipodi:docname="digital-identity-authenticity-taxonomy.svg">
+  <metadata
+     id="metadata165">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs163" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview161" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(4.16667,0,0,4.16667,16.66668,1749.9716)">
+    <title
+       id="title2">G</title>
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="409.5,-420 409.5,4 -4,4 -4,-420 "
+       id="polygon4" />
+    <text
+       text-anchor="middle"
+       x="202.75"
+       y="-15.6"
+       font-family="Calibri"
+       font-size="8px"
+       id="text6">A Taxonomy of Digital Identity Authenticity by Open-Measure</text>
+    <text
+       text-anchor="middle"
+       x="202.75"
+       y="-6.5999999"
+       font-family="Calibri"
+       font-size="8px"
+       id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
+    <g
+       id="clust3"
+       class="cluster">
+      <title
+         id="title10">cluster_legend</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="397.5,-110 397.5,-34 151.5,-34 151.5,-110 "
+         id="polygon12" />
+      <text
+         text-anchor="middle"
+         x="274.5"
+         y="-94.800003"
+         font-family="Calibri"
+         font-size="14px"
+         id="text14">Legend</text>
+    </g>
+    <!-- n_digital_identity -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title17">n_digital_identity</title>
+      <g
+         id="a_node1">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/782893195"
+           xlink:title="Digital\nIdentity"
+           id="a25">
+          <polygon
+             fill="#5599ff"
+             stroke="#000000"
+             points="172.5,-415.5 172.5,-367.5 98.5,-367.5 98.5,-415.5 "
+             id="polygon19" />
+          <text
+             text-anchor="middle"
+             x="135.5"
+             y="-397.10001"
+             font-family="Calibri"
+             font-size="18px"
+             id="text21">Digital</text>
+          <text
+             text-anchor="middle"
+             x="135.5"
+             y="-377.10001"
+             font-family="Calibri"
+             font-size="18px"
+             id="text23">Identity</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_level_2 -->
+    <!-- n_digital_identity&#45;&gt;n_level_2 -->
+    <g
+       id="edge1"
+       class="edge">
+      <title
+         id="title29">n_digital_identity-&gt;n_level_2</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 135.5,-367.325 c 0,16.184 0,35.102 0,36.268"
+         id="path31" />
+    </g>
+    <!-- n_authentic -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title34">n_authentic</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="146,-292.5 146,-248.5 67,-248.5 67,-292.5 "
+         id="polygon36" />
+      <text
+         text-anchor="middle"
+         x="106.5"
+         y="-275.70001"
+         font-family="Calibri"
+         font-size="16px"
+         id="text38">Authentic</text>
+      <text
+         text-anchor="middle"
+         x="106.5"
+         y="-257.70001"
+         font-family="Calibri"
+         font-size="16px"
+         id="text40">Identity</text>
+    </g>
+    <!-- n_level_2&#45;&gt;n_authentic -->
+    <g
+       id="edge2"
+       class="edge">
+      <title
+         id="title43">n_level_2-&gt;n_authentic:n</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 135.417,-328.955 C 133.716,-328.029 106.5,-312.904 106.5,-293"
+         id="path45" />
+    </g>
+    <!-- n_fake -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title48">n_fake</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="230.5,-292.5 230.5,-248.5 164.5,-248.5 164.5,-292.5 "
+         id="polygon50" />
+      <text
+         text-anchor="middle"
+         x="197.5"
+         y="-275.70001"
+         font-family="Calibri"
+         font-size="16px"
+         id="text52">Fake</text>
+      <text
+         text-anchor="middle"
+         x="197.5"
+         y="-257.70001"
+         font-family="Calibri"
+         font-size="16px"
+         id="text54">Identity</text>
+    </g>
+    <!-- n_level_2&#45;&gt;n_fake -->
+    <g
+       id="edge3"
+       class="edge">
+      <title
+         id="title57">n_level_2-&gt;n_fake:n</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 135.545,-328.997 c 1.877,0.133 61.955,4.631 61.955,35.997"
+         id="path59" />
+    </g>
+    <!-- n_level_3_fake -->
+    <!-- n_fake&#45;&gt;n_level_3_fake -->
+    <g
+       id="edge4"
+       class="edge">
+      <title
+         id="title62">n_fake-&gt;n_level_3_fake</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 197.5,-248.416 c 0,15.898 0,35.169 0,36.358"
+         id="path64" />
+    </g>
+    <!-- n_honeypot -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title67">n_honeypot</title>
+      <polygon
+         fill="#aaffaa"
+         stroke="#000000"
+         points="63,-173.5 63,-137.5 0,-137.5 0,-173.5 "
+         id="polygon69" />
+      <text
+         text-anchor="middle"
+         x="31.5"
+         y="-158.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text71">Social</text>
+      <text
+         text-anchor="middle"
+         x="31.5"
+         y="-145.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text73">Honeypot</text>
+    </g>
+    <!-- n_level_3_fake&#45;&gt;n_honeypot -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title76">n_level_3_fake-&gt;n_honeypot:n</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 197.38,-210.001 C 192.353,-210.045 31.5,-211.157 31.5,-174"
+         id="path78" />
+    </g>
+    <!-- n_zombie_account -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title81">n_zombie_account</title>
+      <polygon
+         fill="#ffaaaa"
+         stroke="#000000"
+         points="137.5,-173.5 137.5,-137.5 81.5,-137.5 81.5,-173.5 "
+         id="polygon83" />
+      <text
+         text-anchor="middle"
+         x="109.5"
+         y="-158.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text85">Zombie</text>
+      <text
+         text-anchor="middle"
+         x="109.5"
+         y="-145.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text87">Account</text>
+    </g>
+    <!-- n_level_3_fake&#45;&gt;n_zombie_account -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title90">n_level_3_fake-&gt;n_zombie_account:n</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 197.436,-210.004 C 194.771,-210.184 109.5,-215.597 109.5,-174"
+         id="path92" />
+    </g>
+    <!-- n_compromised -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title95">n_compromised</title>
+      <polygon
+         fill="#ffaaaa"
+         stroke="#000000"
+         points="239,-173.5 239,-137.5 156,-137.5 156,-173.5 "
+         id="polygon97" />
+      <text
+         text-anchor="middle"
+         x="197.5"
+         y="-158.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text99">Compromised</text>
+      <text
+         text-anchor="middle"
+         x="197.5"
+         y="-145.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text101">Account</text>
+    </g>
+    <!-- n_level_3_fake&#45;&gt;n_compromised -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title104">n_level_3_fake-&gt;n_compromised:n</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="5, 2"
+         d="m 197.5,-209.942 c 0,1.188 0,20.442 0,35.942"
+         id="path106" />
+    </g>
+    <!-- n_test -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title109">n_test</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="313.5,-173.5 313.5,-137.5 257.5,-137.5 257.5,-173.5 "
+         id="polygon111" />
+      <text
+         text-anchor="middle"
+         x="285.5"
+         y="-158.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text113">Test</text>
+      <text
+         text-anchor="middle"
+         x="285.5"
+         y="-145.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text115">Account</text>
+    </g>
+    <!-- n_level_3_fake&#45;&gt;n_test -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title118">n_level_3_fake-&gt;n_test:n</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="5, 2"
+         d="m 197.564,-210.004 c 2.665,-0.18 87.936,-5.593 87.936,36.004"
+         id="path120" />
+    </g>
+    <!-- n_research -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title123">n_research</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="393.5,-173.5 393.5,-137.5 331.5,-137.5 331.5,-173.5 "
+         id="polygon125" />
+      <text
+         text-anchor="middle"
+         x="362.5"
+         y="-158.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text127">Research</text>
+      <text
+         text-anchor="middle"
+         x="362.5"
+         y="-145.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text129">Account</text>
+    </g>
+    <!-- n_level_3_fake&#45;&gt;n_research -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title132">n_level_3_fake-&gt;n_research:n</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="5, 2"
+         d="m 197.62,-210.001 c 4.996,-0.037 164.88,-0.942 164.88,36.001"
+         id="path134" />
+    </g>
+    <!-- n_defense -->
+    <g
+       id="node11"
+       class="node">
+      <title
+         id="title137">n_defense</title>
+      <polygon
+         fill="#aaffaa"
+         stroke="#000000"
+         points="389.5,-78.5 389.5,-42.5 335.5,-42.5 335.5,-78.5 "
+         id="polygon139" />
+      <text
+         text-anchor="middle"
+         x="362.5"
+         y="-58"
+         font-family="Calibri"
+         font-size="10px"
+         id="text141">Defense</text>
+    </g>
+    <!-- n_research&#45;&gt;n_defense -->
+    <!-- n_attack -->
+    <g
+       id="node12"
+       class="node">
+      <title
+         id="title144">n_attack</title>
+      <polygon
+         fill="#ffaaaa"
+         stroke="#000000"
+         points="317.5,-78.5 317.5,-42.5 263.5,-42.5 263.5,-78.5 "
+         id="polygon146" />
+      <text
+         text-anchor="middle"
+         x="290.5"
+         y="-58"
+         font-family="Calibri"
+         font-size="10px"
+         id="text148">Attack</text>
+    </g>
+    <!-- n_dash_tail -->
+    <!-- n_dash_head -->
+    <!-- n_dash_tail&#45;&gt;n_dash_head -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title151">n_dash_tail-&gt;n_dash_head</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="5, 2"
+         d="m 159.562,-60.5 c 2.564,0 83.354,0 85.878,0"
+         id="path153" />
+      <text
+         text-anchor="middle"
+         x="202.5"
+         y="-66.5"
+         font-family="Calibri"
+         font-size="10px"
+         id="text155">Conditional Link</text>
+    </g>
+  </g>
+</svg>

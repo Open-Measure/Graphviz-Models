@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="13974.462pt"
+   height="17562.514pt"
+   viewBox="0 0 3354.0375 4215.3783"
+   version="1.1"
+   id="svg556"
+   sodipodi:docname="_template.svg">
+  <metadata
+     id="metadata562">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs560" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview558" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(4.16667,0,0,4.16667,16.650872,4198.7117)">
+    <title
+       id="title2">G</title>
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="801,-1007.69 801,4 -4,4 -4,-1007.69 "
+       id="polygon4" />
+    <g
+       id="clust1"
+       class="cluster">
+      <title
+         id="title6">cluster_measurement_hidden</title>
+      <polygon
+         fill="none"
+         stroke="none"
+         points="523,-995.693 523,-486.24 153,-486.24 153,-995.693 "
+         id="polygon8" />
+    </g>
+    <g
+       id="clust2"
+       class="cluster">
+      <title
+         id="title11">cluster_symbolic_representation</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="507,-440.24 507,-8 8,-8 8,-440.24 "
+         id="polygon13" />
+      <text
+         text-anchor="middle"
+         x="257.5"
+         y="-425.04001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text15">Symbolic Representation</text>
+    </g>
+    <g
+       id="clust3"
+       class="cluster">
+      <title
+         id="title18">cluster_symbolic_system</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="423,-409.24 423,-108.74 16,-108.74 16,-409.24 "
+         id="polygon20" />
+      <text
+         text-anchor="middle"
+         x="219.5"
+         y="-394.04001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text22">Symbolic Relational System</text>
+    </g>
+    <g
+       id="clust4"
+       class="cluster">
+      <title
+         id="title25">cluster_real_world</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="789,-786.693 789,-100.74 531,-100.74 531,-786.693 "
+         id="polygon27" />
+      <text
+         text-anchor="middle"
+         x="660"
+         y="-771.49298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text29">The Real World</text>
+    </g>
+    <g
+       id="clust5"
+       class="cluster">
+      <title
+         id="title32">cluster_empirical_system</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="781,-409.24 781,-108.74 539,-108.74 539,-409.24 "
+         id="polygon34" />
+      <text
+         text-anchor="middle"
+         x="660"
+         y="-394.04001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text36">Empirical Relational System</text>
+    </g>
+    <!-- n_observer -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title39">n_observer</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="384"
+         cy="-969.69299"
+         rx="46.292301"
+         ry="18"
+         id="ellipse41" />
+      <text
+         text-anchor="middle"
+         x="384"
+         y="-965.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text43">Observer</text>
+    </g>
+    <!-- n_measurement -->
+    <g
+       id="node2"
+       class="node">
+      <title
+         id="title46">n_measurement</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="327"
+         cy="-902.69299"
+         rx="63.889301"
+         ry="18"
+         id="ellipse48" />
+      <text
+         text-anchor="middle"
+         x="327"
+         y="-898.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text50">Measurement</text>
+    </g>
+    <!-- n_observer&#45;&gt;n_measurement -->
+    <g
+       id="edge1"
+       class="edge">
+      <title
+         id="title53">n_observer-&gt;n_measurement</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 369.616,-952.291 c -6.431,7.334 -14.145,16.13 -21.232,24.212"
+         id="path55" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="345.539,-930.143 350.802,-925.528 341.577,-920.317 "
+         id="polygon57" />
+      <text
+         text-anchor="middle"
+         x="385.5"
+         y="-932.49298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text59">perform</text>
+    </g>
+    <!-- n_observation -->
+    <g
+       id="node5"
+       class="node">
+      <title
+         id="title62">n_observation</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="458"
+         cy="-835.69299"
+         rx="57.390499"
+         ry="18"
+         id="ellipse64" />
+      <text
+         text-anchor="middle"
+         x="458"
+         y="-831.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text66">Observation</text>
+    </g>
+    <!-- n_observer&#45;&gt;n_observation -->
+    <g
+       id="edge4"
+       class="edge">
+      <title
+         id="title69">n_observer-&gt;n_observation</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 404.98,-953.503 c 3.294,3 6.453,6.311 9.02,9.81 17.931,24.433 30.011,57.237 36.907,80.055"
+         id="path71" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="447.576,-862.559 454.301,-864.501 453.713,-853.923 "
+         id="polygon73" />
+      <text
+         text-anchor="middle"
+         x="460"
+         y="-898.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text75">make</text>
+    </g>
+    <!-- n_error -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title78">n_error</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="327"
+         cy="-835.69299"
+         rx="30.5947"
+         ry="18"
+         id="ellipse80" />
+      <text
+         text-anchor="middle"
+         x="327"
+         y="-831.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text82">Error</text>
+    </g>
+    <!-- n_measurement&#45;&gt;n_error -->
+    <g
+       id="edge2"
+       class="edge">
+      <title
+         id="title85">n_measurement-&gt;n_error</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 327,-884.615 c 0,6.22 0,13.422 0,20.322"
+         id="path87" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="323.5,-863.883 330.5,-863.883 327,-853.883 "
+         id="polygon89" />
+      <text
+         text-anchor="middle"
+         x="337.5"
+         y="-865.49298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text91">has</text>
+    </g>
+    <!-- n_operation -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title94">n_operation</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="230"
+         cy="-835.69299"
+         rx="48.992599"
+         ry="18"
+         id="ellipse96" />
+      <text
+         text-anchor="middle"
+         x="230"
+         y="-831.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text98">Operation</text>
+    </g>
+    <!-- n_measurement&#45;&gt;n_operation -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title101">n_measurement-&gt;n_operation</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 303.519,-885.959 c -12.694,8.507 -28.538,19.124 -42.263,28.321"
+         id="path103" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="258.956,-860.31 262.853,-854.495 252.597,-851.836 "
+         id="polygon105" />
+      <text
+         text-anchor="middle"
+         x="301.5"
+         y="-865.49298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text107">is an</text>
+    </g>
+    <!-- n_systematic -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title110">n_systematic</title>
+      <polygon
+         fill="none"
+         stroke="#1874cd"
+         points="445.5,-737.693 445.5,-691.693 366.5,-691.693 366.5,-737.693 "
+         id="polygon112" />
+      <text
+         text-anchor="middle"
+         x="406"
+         y="-722.49298"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text114">Random</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="366.5,-714.693 445.5,-714.693 "
+         id="polyline116" />
+      <text
+         text-anchor="middle"
+         x="406"
+         y="-699.49298"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text118">Systematic</text>
+    </g>
+    <!-- n_error&#45;&gt;n_systematic -->
+    <g
+       id="edge3"
+       class="edge">
+      <title
+         id="title121">n_error-&gt;n_systematic</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 323.118,-817.586 c -0.75,7.735 -0.08,16.543 4.882,22.893 8.233,10.535 18.102,0.253 29,8 14.32,10.178 25.805,25.936 34.046,40.023"
+         id="path123" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="393.571,-742.104 391.151,-746.48 391.151,-746.48 391.151,-746.48 393.571,-742.104 387.213,-744.302 395.991,-737.729 395.089,-748.658 "
+         id="polygon125" />
+      <text
+         text-anchor="middle"
+         x="362.5"
+         y="-798.49298"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text127">categorized</text>
+    </g>
+    <!-- n_error&#45;&gt;n_observation -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title130">n_error-&gt;n_observation</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 357.714,-835.693 c 9.943,0 21.393,0 32.921,0"
+         id="path132" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="390.748,-832.194 390.748,-839.194 400.748,-835.693 "
+         id="polygon134" />
+      <text
+         text-anchor="middle"
+         x="379.17599"
+         y="-842.49298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text136">vary</text>
+    </g>
+    <!-- n_manifestation -->
+    <g
+       id="node23"
+       class="node">
+      <title
+         id="title139">n_manifestation</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="710"
+         cy="-337.23999"
+         rx="63.088799"
+         ry="18"
+         id="ellipse141" />
+      <text
+         text-anchor="middle"
+         x="710"
+         y="-333.54001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text143">Manifestation</text>
+    </g>
+    <!-- n_observation&#45;&gt;n_manifestation -->
+    <g
+       id="edge28"
+       class="edge">
+      <title
+         id="title146">n_observation-&gt;n_manifestation</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 498.09,-822.681 c 5.515,3.341 10.461,7.59 13.91,12.988 47.473,74.292 -91.749,123.855 -39,194.5 7.488,10.028 17.629,-0.297 27,8 57.663,51.051 7.15,113.063 69,158.953 24.793,18.395 42.454,-7.761 69,8 29.159,17.312 49.568,51.557 61.032,75.575"
+         id="path148" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="695.927,-363.038 702.296,-365.942 703.261,-355.392 "
+         id="polygon150" />
+      <text
+         text-anchor="middle"
+         x="505.5"
+         y="-648.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text152">is a</text>
+      <text
+         text-anchor="middle"
+         x="505.5"
+         y="-633.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text154">perception</text>
+      <text
+         text-anchor="middle"
+         x="505.5"
+         y="-618.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text156">of</text>
+    </g>
+    <!-- n_rule -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title159">n_rule</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="188"
+         cy="-714.69299"
+         rx="27"
+         ry="18"
+         id="ellipse161" />
+      <text
+         text-anchor="middle"
+         x="188"
+         y="-710.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text163">Rule</text>
+    </g>
+    <!-- n_operation&#45;&gt;n_rule -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title166">n_operation-&gt;n_rule</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 223.982,-817.644 c -6.994,19.818 -18.616,52.746 -26.753,75.803"
+         id="path168" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="193.899,-742.923 200.5,-740.593 193.871,-732.328 "
+         id="polygon170" />
+      <text
+         text-anchor="middle"
+         x="248.5"
+         y="-798.49298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text172">bound by</text>
+    </g>
+    <!-- n_empirical -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title175">n_empirical</title>
+      <polygon
+         fill="none"
+         stroke="#1874cd"
+         points="279.5,-696.693 348.5,-696.693 348.5,-732.693 279.5,-732.693 "
+         id="polygon177" />
+      <text
+         text-anchor="middle"
+         x="314"
+         y="-710.99298"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text179">Empirical</text>
+    </g>
+    <!-- n_rule&#45;&gt;n_empirical -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title182">n_rule-&gt;n_empirical</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 215.03,-714.693 c 15.79,0 36.113,0 54.23,0"
+         id="path184" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="274.338,-714.693 269.338,-714.694 269.338,-714.694 269.338,-714.694 274.338,-714.693 269.338,-710.194 279.338,-714.693 269.338,-719.194 "
+         id="polygon186" />
+      <text
+         text-anchor="middle"
+         x="247.25"
+         y="-721.49298"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text188">must be</text>
+    </g>
+    <!-- n_objective -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title191">n_objective</title>
+      <polygon
+         fill="none"
+         stroke="#1874cd"
+         points="161.5,-951.693 232.5,-951.693 232.5,-987.693 161.5,-987.693 "
+         id="polygon193" />
+      <text
+         text-anchor="middle"
+         x="197"
+         y="-965.99298"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text195">Objective</text>
+    </g>
+    <!-- n_rule&#45;&gt;n_objective -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title198">n_rule-&gt;n_objective</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 184.528,-732.563 c -3.955,-20.151 -10.174,-54.929 -12.528,-85.13 -1.244,-15.952 -1.709,-20.092 0,-36 3.274,-30.477 11.297,-64.728 17.378,-87.863"
+         id="path200" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="190.713,-946.521 189.414,-941.692 189.414,-941.692 189.414,-941.692 190.713,-946.521 193.76,-940.524 192.011,-951.349 185.069,-942.861 "
+         id="polygon202" />
+      <text
+         text-anchor="middle"
+         x="199.5"
+         y="-865.49298"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text204">must be</text>
+    </g>
+    <!-- n_isomorphic -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title207">n_isomorphic</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="220"
+         cy="-531.71698"
+         rx="58.880299"
+         ry="37.4533"
+         id="ellipse209" />
+      <text
+         text-anchor="middle"
+         x="220"
+         y="-543.01703"
+         font-family="Calibri"
+         font-size="14px"
+         id="text211">Isomoprhic</text>
+      <text
+         text-anchor="middle"
+         x="220"
+         y="-528.01703"
+         font-family="Calibri"
+         font-size="14px"
+         id="text213">Mapping</text>
+      <text
+         text-anchor="middle"
+         x="220"
+         y="-513.01703"
+         font-family="Calibri"
+         font-size="14px"
+         id="text215">Function</text>
+    </g>
+    <!-- n_rule&#45;&gt;n_isomorphic -->
+    <g
+       id="edge21"
+       class="edge">
+      <title
+         id="title218">n_rule-&gt;n_isomorphic</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 191.01,-696.668 c 5.135,29.038 15.693,88.753 22.551,127.537"
+         id="path220" />
+    </g>
+    <!-- n_homomorphic -->
+    <g
+       id="node11"
+       class="node">
+      <title
+         id="title223">n_homomorphic</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="367"
+         cy="-531.71698"
+         rx="70.921997"
+         ry="37.4533"
+         id="ellipse225" />
+      <text
+         text-anchor="middle"
+         x="367"
+         y="-543.01703"
+         font-family="Calibri"
+         font-size="14px"
+         id="text227">Homomorphic</text>
+      <text
+         text-anchor="middle"
+         x="367"
+         y="-528.01703"
+         font-family="Calibri"
+         font-size="14px"
+         id="text229">Mapping</text>
+      <text
+         text-anchor="middle"
+         x="367"
+         y="-513.01703"
+         font-family="Calibri"
+         font-size="14px"
+         id="text231">Function</text>
+    </g>
+    <!-- n_rule&#45;&gt;n_homomorphic -->
+    <g
+       id="edge22"
+       class="edge">
+      <title
+         id="title234">n_rule-&gt;n_homomorphic</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 202.346,-699.189 c 28.538,28.853 93.056,94.083 132.323,133.784"
+         id="path236" />
+    </g>
+    <!-- n_symbol_or_number -->
+    <g
+       id="node12"
+       class="node">
+      <title
+         id="title239">n_symbol_or_number</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="334"
+         cy="-337.23999"
+         rx="81.486298"
+         ry="18"
+         id="ellipse241" />
+      <text
+         text-anchor="middle"
+         x="334"
+         y="-333.54001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text243">Symbol or Number</text>
+    </g>
+    <!-- n_rule&#45;&gt;n_symbol_or_number -->
+    <g
+       id="edge12"
+       class="edge">
+      <title
+         id="title246">n_rule-&gt;n_symbol_or_number</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 178.701,-697.663 c -21.434,39.27 -69.322,142.121 -26.701,211.423 23.741,38.602 55.066,18.387 91,46 28.905,22.211 55.886,54.492 72.845,76.761"
+         id="path248" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="313.256,-361.097 318.861,-365.291 322.05,-355.187 "
+         id="polygon250" />
+      <text
+         text-anchor="middle"
+         x="161.5"
+         y="-588.49298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text252">assign</text>
+    </g>
+    <!-- n_rule&#45;&gt;n_manifestation -->
+    <g
+       id="edge20"
+       class="edge">
+      <title
+         id="title255">n_rule-&gt;n_manifestation</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 210.587,-704.642 c 47.335,19.691 158.954,69.956 236.413,135.449 13.155,11.122 81.799,112.847 97,120.953 36.998,19.728 57.624,-12.853 94,8 29.42,16.865 49.771,51.21 61.15,75.372"
+         id="path257" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="696.053,-363.221 702.439,-366.089 703.343,-355.533 "
+         id="polygon259" />
+      <text
+         text-anchor="middle"
+         x="466"
+         y="-595.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text261">determine</text>
+      <text
+         text-anchor="middle"
+         x="466"
+         y="-580.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text263">classify</text>
+    </g>
+    <!-- n_real_world -->
+    <g
+       id="node20"
+       class="node">
+      <title
+         id="title266">n_real_world</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="622"
+         cy="-714.69299"
+         rx="67.688103"
+         ry="18"
+         id="ellipse268" />
+      <text
+         text-anchor="middle"
+         x="622"
+         y="-710.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text270">The Real World</text>
+    </g>
+    <!-- n_empirical&#45;&gt;n_real_world -->
+    <g
+       id="edge25"
+       class="edge">
+      <title
+         id="title273">n_empirical-&gt;n_real_world</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 319.229,-732.848 c 6.029,-17.233 17.774,-42.183 37.771,-53.845 35.129,-20.488 145.027,-14.554 183,0 24.476,9.38 46.448,29.653 61.473,46.303"
+         id="path275" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="604.99,-736.344 601.71,-740.117 601.71,-740.117 601.71,-740.117 604.99,-736.344 598.314,-737.165 608.271,-732.57 605.106,-743.07 "
+         id="polygon277" />
+      <text
+         text-anchor="middle"
+         x="426"
+         y="-798.49298"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text279">based on</text>
+    </g>
+    <!-- n_objective&#45;&gt;n_observer -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title282">n_objective-&gt;n_observer</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 232.613,-969.693 c 26.754,0 63.931,0 94.748,0"
+         id="path284" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="332.543,-969.693 327.543,-969.694 327.543,-969.694 327.543,-969.694 332.543,-969.693 327.543,-965.194 337.543,-969.693 327.544,-974.194 "
+         id="polygon286" />
+      <text
+         text-anchor="middle"
+         x="285.177"
+         y="-976.49298"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text288">independent of</text>
+    </g>
+    <!-- n_real_rel -->
+    <g
+       id="node24"
+       class="node">
+      <title
+         id="title291">n_real_rel</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="588"
+         cy="-337.23999"
+         rx="40.892799"
+         ry="18"
+         id="ellipse293" />
+      <text
+         text-anchor="middle"
+         x="588"
+         y="-333.54001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text295">Relation</text>
+    </g>
+    <!-- n_isomorphic&#45;&gt;n_real_rel -->
+    <g
+       id="edge27"
+       class="edge">
+      <title
+         id="title298">n_isomorphic-&gt;n_real_rel</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 257.92,-503.006 c 9.235,6.026 19.282,12.012 29.08,16.766 58.925,28.591 80.774,18.039 140,46 49.231,23.242 101.683,58.741 132.881,81.142"
+         id="path300" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="557.945,-356.179 562.05,-361.849 568.097,-353.149 "
+         id="polygon302" />
+    </g>
+    <!-- n_homomorphic&#45;&gt;n_manifestation -->
+    <g
+       id="edge26"
+       class="edge">
+      <title
+         id="title305">n_homomorphic-&gt;n_manifestation</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 426.73,-511.301 c 21.305,8.403 44.824,19.466 64.27,33.061 14.948,10.45 11.526,22.174 28,30 23.94,11.373 95.89,-4.977 119,8 33.831,18.996 55.553,61.296 65.559,85.023"
+         id="path307" />
+    </g>
+    <!-- n_symbol_or_number&#45;&gt;n_homomorphic -->
+    <g
+       id="edge30"
+       class="edge">
+      <title
+         id="title310">n_symbol_or_number-&gt;n_homomorphic</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 338.72,-365.767 c 5.777,-33.701 15.583,-90.893 21.995,-128.293"
+         id="path312" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="335.235,-366.154 342.134,-364.971 336.994,-355.706 "
+         id="polygon314" />
+    </g>
+    <!-- n_meaningful -->
+    <g
+       id="node15"
+       class="node">
+      <title
+         id="title317">n_meaningful</title>
+      <polygon
+         fill="none"
+         stroke="#1874cd"
+         points="281,-252.24 363,-252.24 363,-288.24 281,-288.24 "
+         id="polygon319" />
+      <text
+         text-anchor="middle"
+         x="322"
+         y="-266.54001"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text321">Meaningful</text>
+    </g>
+    <!-- n_symbol_or_number&#45;&gt;n_meaningful -->
+    <g
+       id="edge31"
+       class="edge">
+      <title
+         id="title324">n_symbol_or_number-&gt;n_meaningful</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 324.567,-319.119 c -1.058,2.575 -1.969,5.25 -2.567,7.879 -0.91,3.999 -1.4,8.282 -1.616,12.505"
+         id="path326" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="320.357,-293.557 320.383,-298.557 320.383,-298.557 320.383,-298.557 320.357,-293.557 315.883,-298.58 320.331,-288.557 324.883,-298.533 "
+         id="polygon328" />
+      <text
+         text-anchor="middle"
+         x="327"
+         y="-300.04001"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text330">is</text>
+    </g>
+    <!-- n_scale -->
+    <g
+       id="node16"
+       class="node">
+      <title
+         id="title333">n_scale</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="465"
+         cy="-270.23999"
+         rx="29.795"
+         ry="18"
+         id="ellipse335" />
+      <text
+         text-anchor="middle"
+         x="465"
+         y="-266.54001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text337">Scale</text>
+    </g>
+    <!-- n_symbol_or_number&#45;&gt;n_scale -->
+    <g
+       id="edge13"
+       class="edge">
+      <title
+         id="title340">n_symbol_or_number-&gt;n_scale</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 404.785,-328.367 c 22.377,3.868 43.344,9.405 51.215,17.127 3.56,3.492 5.846,8.069 7.288,12.875"
+         id="path342" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="459.869,-297.607 466.742,-298.934 465.201,-288.451 "
+         id="polygon344" />
+      <text
+         text-anchor="middle"
+         x="474.5"
+         y="-300.04001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text346">has</text>
+    </g>
+    <!-- n_sym_rel -->
+    <g
+       id="node13"
+       class="node">
+      <title
+         id="title349">n_sym_rel</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="129"
+         cy="-337.23999"
+         rx="105.082"
+         ry="18"
+         id="ellipse351" />
+      <text
+         text-anchor="middle"
+         x="129"
+         y="-333.54001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text353">Relation, Math Operation</text>
+    </g>
+    <!-- n_sym_rel&#45;&gt;n_isomorphic -->
+    <g
+       id="edge29"
+       class="edge">
+      <title
+         id="title356">n_sym_rel-&gt;n_isomorphic</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 141.536,-364.756 c 16.057,-33.961 43.934,-92.925 61.773,-130.658"
+         id="path358" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="138.258,-366.011 144.587,-363.019 137.148,-355.475 "
+         id="polygon360" />
+    </g>
+    <!-- n_sym_rel_type -->
+    <g
+       id="node14"
+       class="node">
+      <title
+         id="title363">n_sym_rel_type</title>
+      <polygon
+         fill="none"
+         stroke="#1874cd"
+         points="156,-209.24 156,-117.24 102,-117.24 102,-209.24 "
+         id="polygon365" />
+      <text
+         text-anchor="middle"
+         x="129"
+         y="-194.03999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text367">=, ≠</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="102,-186.24 156,-186.24 "
+         id="polyline369" />
+      <text
+         text-anchor="middle"
+         x="129"
+         y="-171.03999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text371">&gt;, &lt;</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="102,-163.24 156,-163.24 "
+         id="polyline373" />
+      <text
+         text-anchor="middle"
+         x="129"
+         y="-148.03999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text375">+, -</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="102,-140.24 156,-140.24 "
+         id="polyline377" />
+      <text
+         text-anchor="middle"
+         x="129"
+         y="-125.04"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text379">×, ÷</text>
+    </g>
+    <!-- n_sym_rel&#45;&gt;n_sym_rel_type -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title382">n_sym_rel-&gt;n_sym_rel_type</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 129,-319.119 c 0,22.947 0,64.777 0,99.186"
+         id="path384" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="129,-214.522 129,-219.522 129,-219.522 129,-219.522 129,-214.522 124.5,-219.522 129,-209.522 133.5,-219.522 "
+         id="polygon386" />
+      <text
+         text-anchor="middle"
+         x="150.5"
+         y="-266.54001"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text388">such as</text>
+    </g>
+    <!-- n_sym_rel&#45;&gt;n_scale -->
+    <g
+       id="edge33"
+       class="edge">
+      <title
+         id="title391">n_sym_rel-&gt;n_scale</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 203.769,-324.555 c 13.379,1.91 27.204,3.768 40.231,5.315 39.438,4.683 52.103,-6.693 89,8 9.995,3.98 9.038,10.937 19,15 31.04,12.66 42.634,-0.73 75,8 2.154,0.581 4.342,1.269 6.523,2.03"
+         id="path393" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="432.337,-282.915 434.899,-289.43 442.924,-282.513 "
+         id="polygon395" />
+      <text
+         text-anchor="middle"
+         x="402"
+         y="-300.04001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text397">is consistent with</text>
+    </g>
+    <!-- n_scale_type -->
+    <g
+       id="node17"
+       class="node">
+      <title
+         id="title400">n_scale_type</title>
+      <polygon
+         fill="none"
+         stroke="#1874cd"
+         points="499,-220.74 499,-105.74 431,-105.74 431,-220.74 "
+         id="polygon402" />
+      <text
+         text-anchor="middle"
+         x="465"
+         y="-205.53999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text404">Nominal</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="431,-197.74 499,-197.74 "
+         id="polyline406" />
+      <text
+         text-anchor="middle"
+         x="465"
+         y="-182.53999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text408">Ordinal</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="431,-174.74 499,-174.74 "
+         id="polyline410" />
+      <text
+         text-anchor="middle"
+         x="465"
+         y="-159.53999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text412">Interval</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="431,-151.74 499,-151.74 "
+         id="polyline414" />
+      <text
+         text-anchor="middle"
+         x="465"
+         y="-136.53999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text416">Ratio</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="431,-128.74 499,-128.74 "
+         id="polyline418" />
+      <text
+         text-anchor="middle"
+         x="465"
+         y="-113.54"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text420">Absolute</text>
+    </g>
+    <!-- n_scale&#45;&gt;n_scale_type -->
+    <g
+       id="edge14"
+       class="edge">
+      <title
+         id="title423">n_scale-&gt;n_scale_type</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 465,-251.902 c 0,5.995 0,13.12 0,20.681"
+         id="path425" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="465,-226.09 465,-231.09 465,-231.09 465,-231.09 465,-226.09 460.5,-231.09 465,-221.09 469.5,-231.09 "
+         id="polygon427" />
+      <text
+         text-anchor="middle"
+         x="482"
+         y="-233.03999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text429">typed</text>
+    </g>
+    <!-- n_scale_transformations -->
+    <g
+       id="node18"
+       class="node">
+      <title
+         id="title432">n_scale_transformations</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="313"
+         cy="-42.870098"
+         rx="79.806198"
+         ry="26.7407"
+         id="ellipse434" />
+      <text
+         text-anchor="middle"
+         x="313"
+         y="-46.670101"
+         font-family="Calibri"
+         font-size="14px"
+         id="text436">Scale</text>
+      <text
+         text-anchor="middle"
+         x="313"
+         y="-31.670099"
+         font-family="Calibri"
+         font-size="14px"
+         id="text438">Transformations</text>
+    </g>
+    <!-- n_scale_type&#45;&gt;n_scale_transformations -->
+    <g
+       id="edge15"
+       class="edge">
+      <title
+         id="title441">n_scale_type-&gt;n_scale_transformations</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 431.863,-105.56 c -1.573,1.683 -3.195,3.297 -4.863,4.82 -14.882,13.5893 -33.612,24.7095 -51.566,33.3968"
+         id="path443" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="370.675,-65.1302 375.209,-67.2384 375.209,-67.2384 375.209,-67.2384 370.675,-65.1302 373.311,-71.3188 366.141,-63.022 377.106,-63.1579 "
+         id="polygon445" />
+      <text
+         text-anchor="middle"
+         x="434"
+         y="-81.5401"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text447">admit</text>
+    </g>
+    <!-- n_statistics -->
+    <g
+       id="node19"
+       class="node">
+      <title
+         id="title450">n_statistics</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="455"
+         cy="-42.870098"
+         rx="44.393002"
+         ry="18"
+         id="ellipse452" />
+      <text
+         text-anchor="middle"
+         x="455"
+         y="-39.170101"
+         font-family="Calibri"
+         font-size="14px"
+         id="text454">Statistics</text>
+    </g>
+    <!-- n_scale_type&#45;&gt;n_statistics -->
+    <g
+       id="edge16"
+       class="edge">
+      <title
+         id="title457">n_scale_type-&gt;n_statistics</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 460.205,-105.482 c -1.019,12.0661 -2.05,24.2669 -2.922,34.592"
+         id="path459" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="456.859,-65.8758 457.28,-70.8581 457.28,-70.8581 457.28,-70.8581 456.859,-65.8758 452.796,-71.2369 456.438,-60.8936 461.764,-70.4792 "
+         id="polygon461" />
+      <text
+         text-anchor="middle"
+         x="479.5"
+         y="-81.5401"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text463">permit</text>
+    </g>
+    <!-- n_object_or_event -->
+    <g
+       id="node21"
+       class="node">
+      <title
+         id="title466">n_object_or_event</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="676"
+         cy="-637.69299"
+         rx="68.787903"
+         ry="18"
+         id="ellipse468" />
+      <text
+         text-anchor="middle"
+         x="676"
+         y="-633.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text470">Object or Event</text>
+    </g>
+    <!-- n_real_world&#45;&gt;n_object_or_event -->
+    <g
+       id="edge17"
+       class="edge">
+      <title
+         id="title473">n_real_world-&gt;n_object_or_event</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 634.253,-696.675 c 6.974,9.685 15.84,22 23.607,32.786"
+         id="path475" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="655.112,-661.715 660.792,-665.805 663.795,-655.645 "
+         id="polygon477" />
+      <text
+         text-anchor="middle"
+         x="677.5"
+         y="-671.99298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text479">contains</text>
+    </g>
+    <!-- n_property -->
+    <g
+       id="node22"
+       class="node">
+      <title
+         id="title482">n_property</title>
+      <ellipse
+         fill="none"
+         stroke="#000000"
+         cx="710"
+         cy="-531.71698"
+         rx="44.393002"
+         ry="18"
+         id="ellipse484" />
+      <text
+         text-anchor="middle"
+         x="710"
+         y="-528.01703"
+         font-family="Calibri"
+         font-size="14px"
+         id="text486">Property</text>
+    </g>
+    <!-- n_object_or_event&#45;&gt;n_property -->
+    <g
+       id="edge18"
+       class="edge">
+      <title
+         id="title489">n_object_or_event-&gt;n_property</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 681.614,-619.524 c 5.34,16.33 13.454,41.144 19.641,60.065"
+         id="path491" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="697.943,-558.329 704.596,-560.504 704.377,-549.912 "
+         id="polygon493" />
+      <text
+         text-anchor="middle"
+         x="705.5"
+         y="-588.49298"
+         font-family="Calibri"
+         font-size="14px"
+         id="text495">has</text>
+    </g>
+    <!-- n_object_or_event&#45;&gt;n_real_rel -->
+    <g
+       id="edge24"
+       class="edge">
+      <title
+         id="title498">n_object_or_event-&gt;n_real_rel</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 663.803,-619.74 c -8.941,13.187 -20.711,32.258 -27.803,50.547 -27.368,70.574 -40.239,159.634 -45.279,203.695"
+         id="path500" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="587.214,-365.626 594.172,-364.863 589.604,-355.304 "
+         id="polygon502" />
+      <text
+         text-anchor="middle"
+         x="646.5"
+         y="-528.01703"
+         font-family="Calibri"
+         font-size="14px"
+         id="text504">has</text>
+    </g>
+    <!-- n_property&#45;&gt;n_manifestation -->
+    <g
+       id="edge23"
+       class="edge">
+      <title
+         id="title507">n_property-&gt;n_manifestation</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 710,-513.636 c 0,33.458 0,107.872 0,148.183"
+         id="path509" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="706.5,-365.283 713.5,-365.283 710,-355.283 "
+         id="polygon511" />
+      <text
+         text-anchor="middle"
+         x="720.5"
+         y="-459.54001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text513">has</text>
+    </g>
+    <!-- n_manifestation&#45;&gt;n_symbol_or_number -->
+    <g
+       id="edge32"
+       class="edge">
+      <title
+         id="title516">n_manifestation-&gt;n_symbol_or_number</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 699.423,-364.65 c -11.164,-24.703 -31.35,-59.532 -61.423,-75.59 -61.29,-32.728 -172.712,-17.291 -205.5,-3 -41.222,17.967 -72.955,62.632 -88.315,87.876"
+         id="path518" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="696.228,-363.22 702.659,-365.985 703.394,-355.416 "
+         id="polygon520" />
+      <text
+         text-anchor="middle"
+         x="461"
+         y="-467.04001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text522">represent</text>
+      <text
+         text-anchor="middle"
+         x="461"
+         y="-452.04001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text524">describe</text>
+    </g>
+    <!-- n_real_rel_type -->
+    <g
+       id="node25"
+       class="node">
+      <title
+         id="title527">n_real_rel_type</title>
+      <polygon
+         fill="none"
+         stroke="#1874cd"
+         points="763,-209.24 763,-117.24 547,-117.24 547,-209.24 "
+         id="polygon529" />
+      <text
+         text-anchor="middle"
+         x="655"
+         y="-194.03999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text531">Identity</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="547,-186.24 763,-186.24 "
+         id="polyline533" />
+      <text
+         text-anchor="middle"
+         x="655"
+         y="-171.03999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text535">Order</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="547,-163.24 763,-163.24 "
+         id="polyline537" />
+      <text
+         text-anchor="middle"
+         x="655"
+         y="-148.03999"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text539">Equality of Intervals or Differences</text>
+      <polyline
+         fill="none"
+         stroke="#1874cd"
+         points="547,-140.24 763,-140.24 "
+         id="polyline541" />
+      <text
+         text-anchor="middle"
+         x="655"
+         y="-125.04"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text543">Equality of Ratios</text>
+    </g>
+    <!-- n_real_rel&#45;&gt;n_real_rel_type -->
+    <g
+       id="edge19"
+       class="edge">
+      <title
+         id="title546">n_real_rel-&gt;n_real_rel_type</title>
+      <path
+         fill="none"
+         stroke="#1874cd"
+         d="m 594.546,-319.435 c 9,23.103 25.617,65.762 39.155,100.517"
+         id="path548" />
+      <polygon
+         fill="#1874cd"
+         stroke="#1874cd"
+         points="635.614,-214.007 633.799,-218.666 633.799,-218.666 633.799,-218.666 635.614,-214.007 629.606,-217.032 637.429,-209.348 637.992,-220.299 "
+         id="polygon550" />
+      <text
+         text-anchor="middle"
+         x="637"
+         y="-266.54001"
+         font-family="Calibri"
+         font-size="14px"
+         fill="#1874cd"
+         id="text552">typed</text>
+    </g>
+  </g>
+</svg>

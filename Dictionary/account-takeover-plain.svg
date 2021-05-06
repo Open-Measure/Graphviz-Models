@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="7452.4688pt"
+   height="6137.4702pt"
+   viewBox="0 0 1788.5925 1473.3262"
+   version="1.1"
+   id="svg180"
+   sodipodi:docname="account-takeover.svg">
+  <metadata
+     id="metadata186">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs184" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview182" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(4.16667,0,0,4.16667,16.618106,1456.6595)">
+    <title
+       id="title2">G</title>
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="425.359,-349.598 425.359,4 -4,4 -4,-349.598 "
+       id="polygon4" />
+    <text
+       text-anchor="middle"
+       x="210.679"
+       y="-15.6"
+       font-family="Calibri"
+       font-size="8px"
+       id="text6">Account Takeover (Conceptual Diagram) by Open-Measure</text>
+    <text
+       text-anchor="middle"
+       x="210.679"
+       y="-6.5999999"
+       font-family="Calibri"
+       font-size="8px"
+       id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
+    <!-- n_identity_theft -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title10">n_identity_theft</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="316"
+         cy="-327.59799"
+         rx="50.456299"
+         ry="18"
+         id="ellipse12" />
+      <text
+         text-anchor="middle"
+         x="316"
+         y="-324.49799"
+         font-family="Calibri"
+         font-size="12px"
+         id="text14">Identity Theft</text>
+    </g>
+    <!-- n_account_takeover -->
+    <g
+       id="node2"
+       class="node">
+      <title
+         id="title17">n_account_takeover</title>
+      <g
+         id="a_node2">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"
+           xlink:title="Account Takeover"
+           id="a23">
+          <ellipse
+             fill="#5599ff"
+             stroke="#000000"
+             cx="316"
+             cy="-258.79901"
+             rx="105.218"
+             ry="19.6"
+             id="ellipse19" />
+          <text
+             text-anchor="middle"
+             x="316"
+             y="-254.399"
+             font-family="Calibri"
+             font-size="18px"
+             id="text21">Account Takeover</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_identity_theft&#45;&gt;n_account_takeover -->
+    <g
+       id="edge1"
+       class="edge">
+      <title
+         id="title27">n_identity_theft-&gt;n_account_takeover</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 316,-299.215 c 0,6.763 0,13.866 0,20.151"
+         id="path29" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="319.5,-299.396 312.5,-299.396 316,-309.396 "
+         id="polygon31" />
+      <text
+         text-anchor="middle"
+         x="331.5"
+         y="-290.39801"
+         font-family="Calibri"
+         font-size="14px"
+         id="text33"> is a  </text>
+    </g>
+    <!-- n_perpetrator -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title36">n_perpetrator</title>
+      <g
+         id="a_node3">
+        <a

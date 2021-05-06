@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9501.3359pt"
+   height="7887.5757pt"
+   viewBox="0 0 2280.1957 1893.4765"
+   version="1.1"
+   id="svg220"
+   sodipodi:docname="identity-guardian.svg">
+  <metadata
+     id="metadata226">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs224" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview222" />
+  <g
+     id="graph0"
+     class="graph"
+     transform="matrix(4.16667,0,0,4.16667,16.585414,1876.8098)">
+    <title
+       id="title2">G</title>
+    <polygon
+       fill="#ffffff"
+       stroke="none"
+       points="543.409,-450.434 543.409,4 -4,4 -4,-450.434 "
+       id="polygon4" />
+    <text
+       text-anchor="middle"
+       x="269.70499"
+       y="-15.6"
+       font-family="Calibri"
+       font-size="8px"
+       id="text6">Identity Guardian (Conceptual Diagram) by Open-Measure</text>
+    <text
+       text-anchor="middle"
+       x="269.70499"
+       y="-6.5999999"
+       font-family="Calibri"
+       font-size="8px"
+       id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
+    <!-- n_ims -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title10">n_ims</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="482.134"
+         cy="-413.20001"
+         rx="57.0522"
+         ry="33.4697"
+         id="ellipse12" />
+      <text
+         text-anchor="middle"
+         x="482.134"
+         y="-423.10001"
+         font-family="Calibri"
+         font-size="12px"
+         id="text14">Identity</text>
+      <text
+         text-anchor="middle"
+         x="482.134"
+         y="-410.10001"
+         font-family="Calibri"
+         font-size="12px"
+         id="text16">Management</text>
+      <text
+         text-anchor="middle"
+         x="482.134"
+         y="-397.10001"
+         font-family="Calibri"
+         font-size="12px"
+         id="text18">System</text>
+    </g>
+    <!-- n_role -->
+    <g
+       id="node2"
+       class="node">
+      <title
+         id="title21">n_role</title>
+      <ellipse
+         fill="#ffffff"
+         stroke="#000000"
+         cx="298.134"
+         cy="-413.20001"
+         rx="45.606899"
+         ry="18"
+         id="ellipse23" />
+      <text
+         text-anchor="middle"
+         x="298.134"
+         y="-410.10001"
+         font-family="Calibri"
+         font-size="12px"
+         id="text25">Person Role</text>
+    </g>
+    <!-- n_role&#45;&gt;n_ims -->
+    <g
+       id="edge1"
+       class="edge">
+      <title
+         id="title28">n_role-&gt;n_ims</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 344.09,-413.2 c 21.233,0 46.876,0 70.269,0"
+         id="path30" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="414.574,-409.7 414.574,-416.7 424.574,-413.2 "
+         id="polygon32" />
+      <text
+         text-anchor="middle"
+         x="384.272"
+         y="-420"
+         font-family="Calibri"
+         font-size="14px"
+         id="text34"> played in  </text>
+    </g>
+    <!-- n_guardian -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title37">n_guardian</title>
+      <g
+         id="a_node3">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1323597918"
+           xlink:title="Identity\nGuardian"
+           id="a45">
+          <ellipse
+             fill="#5599ff"
+             stroke="#000000"
+             cx="298.134"
+             cy="-315.02399"
+             rx="60.623001"
+             ry="33.882401"
+             id="ellipse39" />
+          <text
+             text-anchor="middle"
+             x="298.134"
+             y="-320.62399"
+             font-family="Calibri"
+             font-size="18px"
+             id="text41">Identity</text>
+          <text
+             text-anchor="middle"
+             x="298.134"
+             y="-300.62399"
+             font-family="Calibri"
+             font-size="18px"
+             id="text43">Guardian</text>
+        </a>
+      </g>
+    </g>
+    <!-- n_role&#45;&gt;n_guardian -->
+    <g
+       id="edge2"
+       class="edge">
+      <title
+         id="title49">n_role-&gt;n_guardian</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 298.134,-384.961 c 0,11.181 0,24.228 0,35.944"
+         id="path51" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="301.634,-385.005 294.634,-385.005 298.134,-395.005 "
+         id="polygon53" />
+      <text
+         text-anchor="middle"
+         x="309.134"
+         y="-360.76599"
+         font-family="Calibri"
+         font-size="14px"
+         id="text55"> is  </text>
+    </g>
+    <!-- n_subject -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title58">n_subject</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="185.134"
+         cy="-181.04201"
+         rx="32.021099"
+         ry="18"
+         id="ellipse60" />
+      <text
+         text-anchor="middle"
+         x="185.134"
+         y="-177.942"
+         font-family="Calibri"
+         font-size="12px"
+         id="text62">Subject</text>
+    </g>
+    <!-- n_guardian&#45;&gt;n_subject -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title65">n_guardian-&gt;n_subject</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-dasharray="5, 2"
+         d="m 254.762,-291.211 c -7.773,5.289 -15.376,11.375 -21.628,18.128 -17.471,18.868 -30.468,45.294 -38.501,64.817"
+         id="path67" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="191.298,-209.349 197.811,-206.782 190.888,-198.762 "
+         id="polygon69" />
+      <text
+         text-anchor="middle"
+         x="272.134"
+         y="-261.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text71"> if  </text>
+      <text
+         text-anchor="middle"
+         x="272.134"
+         y="-246.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text73"> unecessary  </text>
+      <text
+         text-anchor="middle"
+         x="272.134"
+         y="-231.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text75">merged  </text>
+      <text
+         text-anchor="middle"
+         x="272.134"
+         y="-216.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text77"> with  </text>
+    </g>
+    <!-- n_identity -->
+    <g
+       id="node5"
+       class="node">
+      <title
+         id="title80">n_identity</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="353.134"
+         cy="-181.04201"
+         rx="32.752701"
+         ry="18"
+         id="ellipse82" />
+      <text
+         text-anchor="middle"
+         x="353.134"
+         y="-177.942"
+         font-family="Calibri"
+         font-size="12px"
+         id="text84">Identity</text>
+    </g>
+    <!-- n_guardian&#45;&gt;n_identity -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title87">n_guardian-&gt;n_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 311.588,-281.738 c 9.444,22.663 21.91,52.576 30.714,73.705"
+         id="path89" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="339.106,-206.604 345.567,-209.297 346.183,-198.72 "
+         id="polygon91" />
+      <text
+         text-anchor="middle"
+         x="362.634"
+         y="-246.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text93"> linked  </text>
+      <text
+         text-anchor="middle"
+         x="362.634"
+         y="-231.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text95"> to  </text>
+    </g>
+    <!-- n_requirements -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title98">n_requirements</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="536.134,-202.042 536.134,-160.042 404.134,-160.042 404.134,-202.042 "
+         id="polygon100" />
+      <text
+         text-anchor="middle"
+         x="470.134"
+         y="-188.442"
+         font-family="Calibri"
+         font-size="12px"
+         id="text102">Functional Requirement</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="404.134,-181.042 536.134,-181.042 "
+         id="polyline104" />
+      <text
+         text-anchor="middle"
+         x="470.134"
+         y="-167.442"
+         font-family="Calibri"
+         font-size="12px"
+         id="text106">Legal Requirement</text>
+    </g>
+    <!-- n_guardian&#45;&gt;n_requirements -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title109">n_guardian-&gt;n_requirements</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 358.253,-291.787 c 11.083,5.332 22.199,11.581 31.881,18.704 27.287,20.075 51.894,50.908 66.399,71.028"
+         id="path111" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="359.531,-295.052 356.607,-288.692 348.984,-296.049 "
+         id="polygon113" />
+      <text
+         text-anchor="middle"
+         x="488.134"
+         y="-246.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text115"> may require  </text>
+      <text
+         text-anchor="middle"
+         x="488.134"
+         y="-231.883"
+         font-family="Calibri"
+         font-size="14px"
+         id="text117"> usage of  </text>
+    </g>
+    <!-- n_subject&#45;&gt;n_identity -->
+    <g
+       id="edge3"
+       class="edge">
+      <title
+         id="title120">n_subject-&gt;n_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 227.688,-181.042 c 28.742,0 66.123,0 92.58,0"
+         id="path122" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="227.526,-184.542 227.526,-177.542 217.526,-181.042 "
+         id="polygon124" />
+      <text
+         text-anchor="middle"
+         x="268.82599"
+         y="-187.842"
+         font-family="Calibri"
+         font-size="14px"
+         id="text126"> representing  </text>
+    </g>
+    <!-- n_subject&#45;&gt;n_requirements -->
+    <!-- n_populations -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title129">n_populations</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="443.634,-110.5 443.634,-26.5 260.634,-26.5 260.634,-110.5 "
+         id="polygon131" />
+      <text
+         text-anchor="middle"
+         x="352.134"
+         y="-96.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text133">Minor</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="260.634,-89.5 443.634,-89.5 "
+         id="polyline135" />
+      <text
+         text-anchor="middle"
+         x="352.134"
+         y="-75.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text137">Adul under Legal Guardianship</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="260.634,-68.5 443.634,-68.5 "
+         id="polyline139" />
+      <text
+         text-anchor="middle"
+         x="352.134"
+         y="-54.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text141">Person granting Power of Attorney</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="260.634,-47.5 443.634,-47.5 "
+         id="polyline143" />
+      <text
+         text-anchor="middle"
+         x="352.134"
+         y="-33.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text145">etc.</text>
+    </g>
+    <!-- n_subject&#45;&gt;n_populations -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title148">n_subject-&gt;n_populations</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 205.278,-166.708 c 18.947,12.542 48.452,32.072 76.06,50.346"
+         id="path150" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="279.56,-113.341 283.424,-119.178 289.831,-110.74 "
+         id="polygon152" />
+      <text
+         text-anchor="middle"
+         x="304.634"
+         y="-137.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text154"> member  </text>
+      <text
+         text-anchor="middle"
+         x="304.634"
+         y="-122.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text156"> of  </text>
+    </g>
+    <!-- n_person -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title159">n_person</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="98.133499"
+         cy="-315.02399"
+         rx="30.560301"
+         ry="18"
+         id="ellipse161" />
+      <text
+         text-anchor="middle"
+         x="98.133499"
+         y="-311.92401"
+         font-family="Calibri"
+         font-size="12px"
+         id="text163">Person</text>
+    </g>
+    <!-- n_person&#45;&gt;n_guardian -->
+    <g
+       id="edge4"
+       class="edge">
+      <title
+         id="title166">n_person-&gt;n_guardian</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 139.243,-315.024 c 28.194,0 66.092,0 97.804,0"
+         id="path168" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="138.945,-318.524 138.945,-311.524 128.945,-315.024 "
+         id="polygon170" />
+      <text
+         text-anchor="middle"
+         x="183.118"
+         y="-336.82401"
+         font-family="Calibri"
+         font-size="14px"
+         id="text172"> played</text>
+      <text
+         text-anchor="middle"
+         x="183.118"
+         y="-321.82401"
+         font-family="Calibri"
+         font-size="14px"
+         id="text174"> by  </text>
+    </g>
+    <!-- n_legal_authority -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title177">n_legal_authority</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="43.133499"
+         cy="-181.04201"
+         rx="43.267399"
+         ry="24.0833"
+         id="ellipse179" />
+      <text
+         text-anchor="middle"
+         x="43.133499"
+         y="-184.442"
+         font-family="Calibri"
+         font-size="12px"
+         id="text181">Legal</text>
+      <text
+         text-anchor="middle"
+         x="43.133499"
+         y="-171.442"
+         font-family="Calibri"
+         font-size="12px"
+         id="text183">Authority</text>
+    </g>
+    <!-- n_person&#45;&gt;n_legal_authority -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title186">n_person-&gt;n_legal_authority</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 91.1677,-297.309 c -8.6633,20.79 -23.6436,56.738 -34.5766,82.973"
+         id="path188" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="53.2366,-215.385 59.698,-212.692 52.6206,-204.808 "
+         id="polygon190" />
+      <text
+         text-anchor="middle"
+         x="91.633499"
+         y="-239.383"
+         font-family="Calibri"
+         font-size="14px"
+         id="text192">has</text>
+    </g>
+    <!-- n_legal_authority&#45;&gt;n_subject -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title195">n_legal_authority-&gt;n_subject</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 86.5098,-181.042 c 17.8632,0 38.4902,0 56.2482,0"
+         id="path197" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="142.839,-177.542 142.839,-184.542 152.839,-181.042 "
+         id="polygon199" />
+      <text
+         text-anchor="middle"
+         x="119.695"
+         y="-217.842"
+         font-family="Calibri"
+         font-size="14px"
+         id="text201"> act on  </text>
+      <text
+         text-anchor="middle"
+         x="119.695"
+         y="-202.842"
+         font-family="Calibri"
+         font-size="14px"
+         id="text203"> behalf  </text>
+      <text
+         text-anchor="middle"
+         x="119.695"
+         y="-187.842"
+         font-family="Calibri"
+         font-size="14px"
+         id="text205"> of  </text>
+    </g>
+    <!-- n_requirements&#45;&gt;n_populations -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title208">n_requirements-&gt;n_populations</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 448.765,-160.023 c -12.557,11.763 -29.016,27.182 -44.784,41.953"
+         id="path210" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="401.221,-120.281 406.007,-115.172 396.316,-110.89 "
+         id="polygon212" />
+      <text
+         text-anchor="middle"
+         x="458.634"
+         y="-137.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text214"> linked  </text>
+      <text
+         text-anchor="middle"
+         x="458.634"
+         y="-122.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text216"> to  </text>
+    </g>
+  </g>
+</svg>
