@@ -8,14 +8,14 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="7452.4688pt"
-   height="6137.4702pt"
-   viewBox="0 0 1788.5925 1473.3262"
+   width="7106.6045pt"
+   height="7508.3394pt"
+   viewBox="0 0 1705.2518 1802.0848"
    version="1.1"
-   id="svg180"
+   id="svg239"
    sodipodi:docname="account-takeover.svg">
   <metadata
-     id="metadata186">
+     id="metadata245">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -26,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs184" />
+     id="defs243" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -38,81 +38,99 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview182" />
+     id="namedview241" />
   <g
      id="graph0"
      class="graph"
-     transform="matrix(4.16667,0,0,4.16667,16.618106,1456.6595)">
+     transform="matrix(4.16667,0,0,4.16667,16.617212,1785.4181)">
     <title
        id="title2">G</title>
     <polygon
        fill="#ffffff"
        stroke="none"
-       points="425.359,-349.598 425.359,4 -4,4 -4,-349.598 "
+       points="405.359,-428.5 405.359,4 -4,4 -4,-428.5 "
        id="polygon4" />
     <text
        text-anchor="middle"
-       x="210.679"
+       x="200.679"
        y="-15.6"
        font-family="Calibri"
        font-size="8px"
        id="text6">Account Takeover (Conceptual Diagram) by Open-Measure</text>
     <text
        text-anchor="middle"
-       x="210.679"
+       x="200.679"
        y="-6.5999999"
        font-family="Calibri"
        font-size="8px"
        id="text8">Licensed under Creative Commons Attribution 4.0 International License</text>
+    <g
+       id="clust1"
+       class="cluster">
+      <title
+         id="title10">cluster_motivations</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="386.359,-357.5 386.359,-275.5 220.359,-275.5 220.359,-357.5 "
+         id="polygon12" />
+      <text
+         text-anchor="middle"
+         x="303.35901"
+         y="-342.29999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text14">Motivations</text>
+    </g>
     <!-- n_identity_theft -->
     <g
        id="node1"
        class="node">
       <title
-         id="title10">n_identity_theft</title>
+         id="title17">n_identity_theft</title>
       <ellipse
          fill="#ffffff"
          stroke="#000000"
-         cx="316"
-         cy="-327.59799"
+         cx="105.359"
+         cy="-406.5"
          rx="50.456299"
          ry="18"
-         id="ellipse12" />
+         id="ellipse19" />
       <text
          text-anchor="middle"
-         x="316"
-         y="-324.49799"
+         x="105.359"
+         y="-403.39999"
          font-family="Calibri"
          font-size="12px"
-         id="text14">Identity Theft</text>
+         id="text21">Identity Theft</text>
     </g>
     <!-- n_account_takeover -->
     <g
        id="node2"
        class="node">
       <title
-         id="title17">n_account_takeover</title>
+         id="title24">n_account_takeover</title>
       <g
          id="a_node2">
         <a
            xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"
            xlink:title="Account Takeover"
-           id="a23">
+           id="a30">
           <ellipse
              fill="#5599ff"
              stroke="#000000"
-             cx="316"
-             cy="-258.79901"
+             cx="105.359"
+             cy="-305"
              rx="105.218"
              ry="19.6"
-             id="ellipse19" />
+             id="ellipse26" />
           <text
              text-anchor="middle"
-             x="316"
-             y="-254.399"
+             x="105.359"
+             y="-300.60001"
              font-family="Calibri"
              font-size="18px"
-             id="text21">Account Takeover</text>
+             id="text28">Account Takeover</text>
         </a>
       </g>
     </g>
@@ -121,52 +139,52 @@
        id="edge1"
        class="edge">
       <title
-         id="title27">n_identity_theft-&gt;n_account_takeover</title>
+         id="title34">n_identity_theft-&gt;n_account_takeover</title>
       <path
          fill="none"
          stroke="#000000"
-         d="m 316,-299.215 c 0,6.763 0,13.866 0,20.151"
-         id="path29" />
+         d="m 105.359,-377.794 c 0,16.885 0,38.016 0,52.969"
+         id="path36" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="319.5,-299.396 312.5,-299.396 316,-309.396 "
-         id="polygon31" />
+         points="108.859,-378.168 101.859,-378.168 105.359,-388.168 "
+         id="polygon38" />
       <text
          text-anchor="middle"
-         x="331.5"
-         y="-290.39801"
+         x="120.859"
+         y="-369.29999"
          font-family="Calibri"
          font-size="14px"
-         id="text33"> is a  </text>
+         id="text40"> is a  </text>
     </g>
     <!-- n_perpetrator -->
     <g
        id="node3"
        class="node">
       <title
-         id="title36">n_perpetrator</title>
+         id="title43">n_perpetrator</title>
       <g
          id="a_node3">
         <a
            xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"
            xlink:title="Perpetrator"
-           id="a42">
+           id="a49">
           <ellipse
              fill="#d6e7ff"
              stroke="#000000"
-             cx="95"
-             cy="-175"
+             cx="216.35899"
+             cy="-211.5"
              rx="43.914299"
              ry="18"
-             id="ellipse38" />
+             id="ellipse45" />
           <text
              text-anchor="middle"
-             x="95"
-             y="-171.89999"
+             x="216.35899"
+             y="-208.39999"
              font-family="Calibri"
              font-size="12px"
-             id="text40">Perpetrator</text>
+             id="text47">Perpetrator</text>
         </a>
       </g>
     </g>
@@ -175,303 +193,174 @@
        id="edge2"
        class="edge">
       <title
-         id="title46">n_account_takeover-&gt;n_perpetrator</title>
+         id="title53">n_account_takeover-&gt;n_perpetrator</title>
       <path
          fill="none"
          stroke="#000000"
-         d="m 266.16,-241.251 c -9.698,3.321 -19.767,6.84 -29.16,10.251 -34.677,12.591 -73.743,27.798 -102.109,39.027"
-         id="path48" />
+         d="m 118.082,-285.138 c 10.525,14.495 26.575,34.24 44.277,47.638 4.166,3.153 8.794,6.037 13.539,8.633"
+         id="path55" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="133.332,-195.12 135.915,-188.613 125.329,-188.177 "
-         id="polygon50" />
+         points="174.571,-225.616 177.727,-231.864 185.074,-224.231 "
+         id="polygon57" />
       <text
          text-anchor="middle"
-         x="274.5"
-         y="-219.8"
+         x="199.85899"
+         y="-256.29999"
          font-family="Calibri"
          font-size="14px"
-         id="text52"> committed  </text>
+         id="text59"> committed  </text>
       <text
          text-anchor="middle"
-         x="274.5"
-         y="-204.8"
+         x="199.85899"
+         y="-241.3"
          font-family="Calibri"
          font-size="14px"
-         id="text54"> by  </text>
-    </g>
-    <!-- n_characteristics -->
-    <g
-       id="node8"
-       class="node">
-      <title
-         id="title57">n_characteristics</title>
-      <ellipse
-         fill="#d6e7ff"
-         stroke="#000000"
-         cx="316"
-         cy="-175"
-         rx="28.865299"
-         ry="18"
-         id="ellipse59" />
-      <text
-         text-anchor="middle"
-         x="316"
-         y="-171.89999"
-         font-family="Calibri"
-         font-size="12px"
-         id="text61">Illegal</text>
-    </g>
-    <!-- n_account_takeover&#45;&gt;n_characteristics -->
-    <g
-       id="edge9"
-       class="edge">
-      <title
-         id="title64">n_account_takeover-&gt;n_characteristics</title>
-      <path
-         fill="none"
-         stroke="#000000"
-         d="m 316,-238.827 c 0,10.551 0,23.867 0,35.521"
-         id="path66" />
-      <polygon
-         fill="#000000"
-         stroke="#000000"
-         points="312.5,-203.198 319.5,-203.198 316,-193.198 "
-         id="polygon68" />
-      <text
-         text-anchor="middle"
-         x="347"
-         y="-219.8"
-         font-family="Calibri"
-         font-size="14px"
-         id="text70">is  </text>
-      <text
-         text-anchor="middle"
-         x="347"
-         y="-204.8"
-         font-family="Calibri"
-         font-size="14px"
-         id="text72"> generally</text>
+         id="text61"> by  </text>
     </g>
     <!-- n_control -->
     <g
        id="node4"
        class="node">
       <title
-         id="title75">n_control</title>
+         id="title64">n_control</title>
       <ellipse
          fill="#d6e7ff"
          stroke="#000000"
-         cx="166"
-         cy="-68.5"
+         cx="239.35899"
+         cy="-59.5"
          rx="32.021099"
          ry="18"
-         id="ellipse77" />
+         id="ellipse66" />
       <text
          text-anchor="middle"
-         x="166"
-         y="-65.400002"
+         x="239.35899"
+         y="-56.400002"
          font-family="Calibri"
          font-size="12px"
-         id="text79">Control</text>
+         id="text68">Control</text>
     </g>
     <!-- n_perpetrator&#45;&gt;n_control -->
     <g
        id="edge3"
        class="edge">
       <title
-         id="title82">n_perpetrator-&gt;n_control</title>
+         id="title71">n_perpetrator-&gt;n_control</title>
       <path
          fill="none"
          stroke="#000000"
-         d="m 115.419,-158.896 c 3.431,3.053 6.781,6.406 9.581,9.896 12.956,16.15 23.538,37.042 30.704,53.3559"
-         id="path84" />
+         d="m 196.627,-195.314 c -23.354,19.91 -56.974,55.934 -39.268,86.814 9.671,16.8673 27.819,28.3778 44.589,35.8887"
+         id="path73" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="152.596,-94.0078 159.043,-96.735 159.716,-86.1615 "
-         id="polygon86" />
+         points="201.008,-69.2131 203.674,-75.6856 211.587,-68.6409 "
+         id="polygon75" />
       <text
          text-anchor="middle"
-         x="162.5"
-         y="-130.3"
+         x="187.08701"
+         y="-72.440903"
          font-family="Calibri"
          font-size="14px"
-         id="text88"> take  </text>
+         id="text77">take        </text>
     </g>
-    <!-- n_victim -->
-    <g
-       id="node6"
-       class="node">
-      <title
-         id="title91">n_victim</title>
-      <g
-         id="a_node6">
-        <a
-           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"
-           xlink:title="Victim"
-           id="a97">
-          <ellipse
-             fill="#d6e7ff"
-             stroke="#000000"
-             cx="240"
-             cy="-175"
-             rx="28.865299"
-             ry="18"
-             id="ellipse93" />
-          <text
-             text-anchor="middle"
-             x="240"
-             y="-171.89999"
-             font-family="Calibri"
-             font-size="12px"
-             id="text95">Victim</text>
-        </a>
-      </g>
-    </g>
-    <!-- n_perpetrator&#45;&gt;n_victim -->
-    <g
-       id="edge5"
-       class="edge">
-      <title
-         id="title101">n_perpetrator-&gt;n_victim</title>
-      <path
-         fill="none"
-         stroke="#000000"
-         d="m 148.99,-175 c 17.218,0 35.928,0 51.881,0"
-         id="path103" />
-      <polygon
-         fill="#000000"
-         stroke="#000000"
-         points="148.898,-178.5 148.898,-171.5 138.898,-175 "
-         id="polygon105" />
-      <polygon
-         fill="#000000"
-         stroke="#000000"
-         points="200.913,-171.5 200.913,-178.5 210.913,-175 "
-         id="polygon107" />
-      <text
-         text-anchor="middle"
-         x="174.88699"
-         y="-181.8"
-         font-family="Calibri"
-         font-size="14px"
-         id="text109"> distinct  </text>
-    </g>
-    <!-- n_motivations -->
+    <!-- n_distinct -->
     <g
        id="node7"
        class="node">
       <title
-         id="title112">n_motivations</title>
+         id="title80">n_distinct</title>
       <polygon
-         fill="#d6e7ff"
-         stroke="#000000"
-         points="106,-110.5 106,-26.5 0,-26.5 0,-110.5 "
-         id="polygon114" />
-      <text
-         text-anchor="middle"
-         x="53"
-         y="-96.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text116">Money</text>
-      <polyline
          fill="none"
-         stroke="#000000"
-         points="0,-89.5 106,-89.5 "
-         id="polyline118" />
-      <text
-         text-anchor="middle"
-         x="53"
-         y="-75.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text120">Reputation Harm</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="0,-68.5 106,-68.5 "
-         id="polyline122" />
-      <text
-         text-anchor="middle"
-         x="53"
-         y="-54.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text124">Identity Deception</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="0,-47.5 106,-47.5 "
-         id="polyline126" />
-      <text
-         text-anchor="middle"
-         x="53"
-         y="-33.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text128">...</text>
+         stroke="none"
+         points="295.859,-211 296.859,-211 296.859,-212 295.859,-212 "
+         id="polygon82" />
     </g>
-    <!-- n_perpetrator&#45;&gt;n_motivations -->
+    <!-- n_perpetrator&#45;&gt;n_distinct -->
     <g
-       id="edge8"
+       id="edge5"
        class="edge">
       <title
-         id="title131">n_perpetrator-&gt;n_motivations</title>
+         id="title85">n_perpetrator-&gt;n_distinct</title>
       <path
          fill="none"
          stroke="#000000"
-         d="M 65.6825,-161.324 C 61.015,-157.998 56.8066,-153.926 54,-149 c -4.8181,8.456 -7.058,18.285 -7.7745,28.088"
-         id="path133" />
+         d="m 270.145,-211.5 c 8.549,0 17.098,0 25.648,0"
+         id="path87" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="42.723,-120.842 49.721,-120.677 45.9862,-110.762 "
-         id="polygon135" />
+         points="270.109,-215 270.109,-208 260.109,-211.5 "
+         id="polygon89" />
       <text
          text-anchor="middle"
-         x="89.5"
-         y="-137.8"
-         font-family="Calibri"
-         font-size="14px"
-         id="text137"> motivated  </text>
+         x="295.793"
+         y="-199"
+         font-family="Verdana"
+         font-size="50px"
+         fill="#ff0000"
+         id="text91">x</text>
+    </g>
+    <!-- n_authorization_no -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title94">n_authorization_no</title>
+      <polygon
+         fill="none"
+         stroke="none"
+         points="215.859,-175.5 216.859,-175.5 216.859,-176.5 215.859,-176.5 "
+         id="polygon96" />
+    </g>
+    <!-- n_perpetrator&#45;&gt;n_authorization_no -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title99">n_perpetrator-&gt;n_authorization_no</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 216.359,-193.5 c 0,7.969 0,15.937 0,16.902"
+         id="path101" />
       <text
          text-anchor="middle"
-         x="89.5"
-         y="-122.8"
-         font-family="Calibri"
-         font-size="14px"
-         id="text139"> by  </text>
+         x="216.35899"
+         y="-164.09801"
+         font-family="Verdana"
+         font-size="50px"
+         fill="#ff0000"
+         id="text103">x</text>
     </g>
     <!-- n_identity -->
     <g
        id="node5"
        class="node">
       <title
-         id="title142">n_identity</title>
+         id="title106">n_identity</title>
       <g
          id="a_node5">
         <a
            xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"
            xlink:title="Identity"
-           id="a148">
+           id="a112">
           <ellipse
              fill="#d6e7ff"
              stroke="#000000"
-             cx="273"
-             cy="-68.5"
+             cx="348.35901"
+             cy="-59.5"
              rx="32.752701"
              ry="18"
-             id="ellipse144" />
+             id="ellipse108" />
           <text
              text-anchor="middle"
-             x="273"
-             y="-65.400002"
+             x="348.35901"
+             y="-56.400002"
              font-family="Calibri"
              font-size="12px"
-             id="text146">Identity</text>
+             id="text110">Identity</text>
         </a>
       </g>
     </g>
@@ -480,72 +369,338 @@
        id="edge4"
        class="edge">
       <title
-         id="title152">n_control-&gt;n_identity</title>
+         id="title116">n_control-&gt;n_identity</title>
       <path
          fill="none"
          stroke="#000000"
-         d="m 198.104,-68.5 c 10.076,0 21.364,0 32.06,0"
-         id="path154" />
+         d="m 271.718,-59.5 c 11.232,0 22.463,0 33.694,0"
+         id="path118" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="230.178,-65.0001 230.178,-72.0001 240.178,-68.5 "
-         id="polygon156" />
+         points="305.727,-56.0001 305.727,-63.0001 315.727,-59.5 "
+         id="polygon120" />
       <text
          text-anchor="middle"
-         x="219.192"
-         y="-75.300003"
+         x="301.72699"
+         y="-63.299999"
          font-family="Calibri"
          font-size="14px"
-         id="text158"> of  </text>
+         id="text122"> of   </text>
+    </g>
+    <!-- n_victim -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title125">n_victim</title>
+      <g
+         id="a_node6">
+        <a
+           xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"
+           xlink:title="Victim"
+           id="a131">
+          <ellipse
+             fill="#d6e7ff"
+             stroke="#000000"
+             cx="361.35901"
+             cy="-211.5"
+             rx="28.865299"
+             ry="18"
+             id="ellipse127" />
+          <text
+             text-anchor="middle"
+             x="361.35901"
+             y="-208.39999"
+             font-family="Calibri"
+             font-size="12px"
+             id="text129">Victim</text>
+        </a>
+      </g>
     </g>
     <!-- n_victim&#45;&gt;n_control -->
-    <g
-       id="edge6"
-       class="edge">
-      <title
-         id="title161">n_victim-&gt;n_control</title>
-      <path
-         fill="none"
-         stroke="#000000"
-         d="m 219.068,-162.163 c -5.374,3.721 -10.828,8.178 -15.068,13.163 -7.292,8.573 -18.755,33.554 -27.186,53.2501"
-         id="path163" />
-      <polygon
-         fill="#000000"
-         stroke="#000000"
-         points="173.5,-96.8984 179.949,-94.1762 172.836,-86.3244 "
-         id="polygon165" />
-      <text
-         text-anchor="middle"
-         x="225.5"
-         y="-130.3"
-         font-family="Calibri"
-         font-size="14px"
-         id="text167"> loose  </text>
-    </g>
-    <!-- n_victim&#45;&gt;n_identity -->
     <g
        id="edge7"
        class="edge">
       <title
-         id="title170">n_victim-&gt;n_identity</title>
+         id="title135">n_victim-&gt;n_control</title>
       <path
          fill="none"
          stroke="#000000"
-         d="m 247.677,-157.46 c 1.182,2.796 2.336,5.691 3.323,8.46 6.131,17.209 11.614,37.007 15.573,52.541"
-         id="path172" />
+         d="m 348.762,-195.012 c -21.369,26.273 -64.856,79.741 -90.092,110.7686"
+         id="path137" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="263.248,-95.3284 270.04,-97.0193 269.06,-86.47 "
-         id="polygon174" />
+         points="255.664,-86.0946 261.095,-81.6777 252.07,-76.1281 "
+         id="polygon139" />
       <text
          text-anchor="middle"
-         x="282"
-         y="-130.3"
+         x="284.07001"
+         y="-95.928101"
          font-family="Calibri"
          font-size="14px"
-         id="text176"> owns  </text>
+         id="text141">          loose</text>
+    </g>
+    <!-- n_victim&#45;&gt;n_identity -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title144">n_victim-&gt;n_identity</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 359.868,-193.293 c -2.244,25.883 -6.506,75.066 -9.167,105.7668"
+         id="path146" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="347.209,-87.7711 354.183,-87.1667 349.833,-77.5062 "
+         id="polygon148" />
+      <text
+         text-anchor="middle"
+         x="379.35901"
+         y="-156.3"
+         font-family="Calibri"
+         font-size="14px"
+         id="text150"> owns  </text>
+    </g>
+    <!-- n_authorization -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title153">n_authorization</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="216.35899"
+         cy="-126.5"
+         rx="49.725498"
+         ry="18"
+         id="ellipse155" />
+      <text
+         text-anchor="middle"
+         x="216.35899"
+         y="-123.4"
+         font-family="Calibri"
+         font-size="12px"
+         id="text157">Authorization</text>
+    </g>
+    <!-- n_victim&#45;&gt;n_authorization -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title160">n_victim-&gt;n_authorization</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 335.803,-202.858 c -12.818,4.3 -28.357,10.238 -41.444,17.358 -18.339,9.977 -37.17,23.857 -51.734,35.538"
+         id="path162" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="240.106,-152.424 244.537,-147.004 234.579,-143.386 "
+         id="polygon164" />
+      <text
+         text-anchor="middle"
+         x="257.07901"
+         y="-147.186"
+         font-family="Calibri"
+         font-size="14px"
+         id="text166">       has</text>
+    </g>
+    <!-- n_distinct&#45;&gt;n_victim -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title169">n_distinct-&gt;n_victim</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 296.867,-211.5 c 8.417,0 16.835,0 25.253,0"
+         id="path171" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="322.388,-208 322.388,-215 332.388,-211.5 "
+         id="polygon173" />
+    </g>
+    <!-- n_motivations -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title176">n_motivations</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="377.859,-326 377.859,-284 228.859,-284 228.859,-326 "
+         id="polygon178" />
+      <text
+         text-anchor="middle"
+         x="253.85899"
+         y="-312.39999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text180">Money</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="278.859,-305 278.859,-326 "
+         id="polyline182" />
+      <text
+         text-anchor="middle"
+         x="328.35901"
+         y="-312.39999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text184">Reputation Harm</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="228.859,-305 377.859,-305 "
+         id="polyline186" />
+      <text
+         text-anchor="middle"
+         x="285.85901"
+         y="-291.39999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text188">Identity Deception</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="342.859,-284 342.859,-305 "
+         id="polyline190" />
+      <text
+         text-anchor="middle"
+         x="360.35901"
+         y="-291.39999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text192">...</text>
+    </g>
+    <!-- n_motivations&#45;&gt;n_perpetrator -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title195">n_motivations-&gt;n_perpetrator</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 269.251,-268.128 c -13.044,13.719 -27.272,28.682 -37.682,39.631"
+         id="path197" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="271.99,-265.93 266.917,-270.753 276.345,-275.588 "
+         id="polygon199" />
+      <text
+         text-anchor="middle"
+         x="302.85901"
+         y="-256.29999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text201"> motivated  </text>
+      <text
+         text-anchor="middle"
+         x="302.85901"
+         y="-241.3"
+         font-family="Calibri"
+         font-size="14px"
+         id="text203"> by  </text>
+    </g>
+    <!-- n_authorization&#45;&gt;n_control -->
+    <g
+       id="edge13"
+       class="edge">
+      <title
+         id="title206">n_authorization-&gt;n_control</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 222.402,-108.422 c 2.342,6.62 5.078,14.3515 7.66,21.648"
+         id="path208" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="226.8,-85.4988 233.4,-87.8339 233.436,-77.2391 "
+         id="polygon210" />
+      <text
+         text-anchor="middle"
+         x="240.35899"
+         y="-89.300003"
+         font-family="Calibri"
+         font-size="14px"
+         id="text212">  to</text>
+    </g>
+    <!-- n_authorization_no&#45;&gt;n_authorization -->
+    <g
+       id="edge12"
+       class="edge">
+      <title
+         id="title215">n_authorization_no-&gt;n_authorization</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 216.359,-175.362 c 0,1.229 0,10.505 0,20.569"
+         id="path217" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="212.859,-154.736 219.859,-154.736 216.359,-144.736 "
+         id="polygon219" />
+    </g>
+    <!-- n_characteristics -->
+    <g
+       id="node11"
+       class="node">
+      <title
+         id="title222">n_characteristics</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="202.35899"
+         cy="-406.5"
+         rx="28.865299"
+         ry="18"
+         id="ellipse224" />
+      <text
+         text-anchor="middle"
+         x="202.35899"
+         y="-403.39999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text226">Illegal</text>
+    </g>
+    <!-- n_characteristics&#45;&gt;n_account_takeover -->
+    <g
+       id="edge14"
+       class="edge">
+      <title
+         id="title229">n_characteristics-&gt;n_account_takeover</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 180.684,-383.267 c -17.129,17.571 -40.771,41.822 -56.973,58.442"
+         id="path231" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="183.572,-381.215 178.559,-386.101 188.046,-390.818 "
+         id="polygon233" />
+      <text
+         text-anchor="middle"
+         x="211.85899"
+         y="-369.29999"
+         font-family="Calibri"
+         font-size="14px"
+         id="text235">is generally</text>
     </g>
   </g>
 </svg>
