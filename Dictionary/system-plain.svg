@@ -8,14 +8,14 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="6750.9624pt"
-   height="5591.6021pt"
-   viewBox="0 0 1620.0644 1342.4845"
+   width="12745.575pt"
+   height="12387.492pt"
+   viewBox="0 0 3059.1047 2973.2065"
    version="1.1"
-   id="svg181"
+   id="svg349"
    sodipodi:docname="system.svg">
   <metadata
-     id="metadata187">
+     id="metadata355">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -26,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs185" />
+     id="defs353" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -38,28 +38,28 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview183" />
+     id="namedview351" />
   <g
      id="graph0"
      class="graph"
-     transform="matrix(4.16667,0,0,4.16667,16.574218,1325.8177)">
+     transform="matrix(4.16667,0,0,4.16667,16.66095,2956.5399)">
     <title
        id="title2">G</title>
     <polygon
        fill="#ffffff"
        stroke="none"
-       points="385,-318.196 385,4 -4,4 -4,-318.196 "
+       points="730.196,-709.569 730.196,4 -4,4 -4,-709.569 "
        id="polygon4" />
     <text
        text-anchor="middle"
-       x="190.5"
+       x="363.09799"
        y="-15.6"
        font-family="Calibri"
        font-size="8px"
        id="text6">System - Computer Science (Conceptual Diagram) by Open-Measure</text>
     <text
        text-anchor="middle"
-       x="190.5"
+       x="363.09799"
        y="-6.5999999"
        font-family="Calibri"
        font-size="8px"
@@ -72,475 +72,964 @@
       <polygon
          fill="none"
          stroke="#000000"
-         points="120,-147.5 120,-44.5 8,-44.5 8,-147.5 "
+         points="405.196,-697.569 405.196,-602.569 305.196,-602.569 305.196,-697.569 "
          id="polygon12" />
       <text
          text-anchor="middle"
-         x="64"
-         y="-132.3"
+         x="355.19601"
+         y="-683.96899"
          font-family="Calibri"
-         font-size="14px"
+         font-size="12px"
          id="text14">System Types</text>
-    </g>
-    <g
-       id="clust2"
-       class="cluster">
-      <title
-         id="title17">cluster_it_components</title>
-      <polygon
-         fill="none"
-         stroke="#000000"
-         points="232,-158 232,-34 128,-34 128,-158 "
-         id="polygon19" />
-      <text
-         text-anchor="middle"
-         x="180"
-         y="-142.8"
-         font-family="Calibri"
-         font-size="14px"
-         id="text21">IT Components</text>
     </g>
     <g
        id="clust3"
        class="cluster">
       <title
-         id="title24">cluster_non_it_components</title>
+         id="title17">cluster_components</title>
       <polygon
          fill="none"
          stroke="#000000"
-         points="373,-158 373,-34 240,-34 240,-158 "
+         points="505.196,-200 505.196,-34 307.196,-34 307.196,-200 "
+         id="polygon19" />
+      <text
+         text-anchor="middle"
+         x="406.19601"
+         y="-43.200001"
+         font-family="Calibri"
+         font-size="16px"
+         id="text21">Components</text>
+    </g>
+    <g
+       id="clust4"
+       class="cluster">
+      <title
+         id="title24">cluster_it_components</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="401.196,-192 401.196,-68 315.196,-68 315.196,-192 "
          id="polygon26" />
       <text
          text-anchor="middle"
-         x="306.5"
-         y="-142.8"
+         x="358.19601"
+         y="-176.8"
          font-family="Calibri"
          font-size="14px"
-         id="text28">Non-IT Components</text>
+         id="text28">IT</text>
     </g>
-    <!-- n_set -->
+    <g
+       id="clust5"
+       class="cluster">
+      <title
+         id="title31">cluster_non_it_components</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="497.196,-192 497.196,-68 409.196,-68 409.196,-192 "
+         id="polygon33" />
+      <text
+         text-anchor="middle"
+         x="453.19601"
+         y="-176.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text35">Non-IT</text>
+    </g>
+    <g
+       id="clust2"
+       class="cluster">
+      <title
+         id="title38">cluster_desirable_characteristics</title>
+      <polygon
+         fill="none"
+         stroke="#000000"
+         points="718.196,-526.569 718.196,-328.77 522.196,-328.77 522.196,-526.569 "
+         id="polygon40" />
+      <text
+         text-anchor="middle"
+         x="620.19598"
+         y="-512.96899"
+         font-family="Calibri"
+         font-size="12px"
+         id="text42">Desirable Properties</text>
+    </g>
+    <!-- n_types -->
     <g
        id="node1"
        class="node">
       <title
-         id="title31">n_set</title>
-      <ellipse
-         fill="#ffffff"
+         id="title45">n_types</title>
+      <polygon
+         fill="#d6e7ff"
          stroke="#000000"
-         cx="180"
-         cy="-294.397"
-         rx="28.0702"
-         ry="19.6"
-         id="ellipse33" />
+         points="396.696,-668.069 396.696,-611.069 313.696,-611.069 313.696,-668.069 "
+         id="polygon47" />
       <text
          text-anchor="middle"
-         x="180"
-         y="-289.99701"
+         x="355.19601"
+         y="-656.06897"
          font-family="Calibri"
-         font-size="18px"
-         id="text35">Set</text>
+         font-size="10px"
+         id="text49">System Design</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="313.696,-649.069 396.696,-649.069 "
+         id="polyline51" />
+      <text
+         text-anchor="middle"
+         x="355.19601"
+         y="-637.06897"
+         font-family="Calibri"
+         font-size="10px"
+         id="text53">System Package</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="313.696,-630.069 396.696,-630.069 "
+         id="polyline55" />
+      <text
+         text-anchor="middle"
+         x="355.19601"
+         y="-618.06897"
+         font-family="Calibri"
+         font-size="10px"
+         id="text57">System Instance</text>
     </g>
     <!-- n_system -->
     <g
        id="node2"
        class="node">
       <title
-         id="title38">n_system</title>
+         id="title60">n_system</title>
       <g
          id="a_node2">
         <a
            xlink:href="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/5965562"
            xlink:title="System"
-           id="a44">
+           id="a66">
           <ellipse
              fill="#5599ff"
              stroke="#000000"
-             cx="180"
-             cy="-223.799"
+             cx="355.19601"
+             cy="-479.569"
              rx="48.5816"
              ry="19.6"
-             id="ellipse40" />
+             id="ellipse62" />
           <text
              text-anchor="middle"
-             x="180"
-             y="-219.399"
+             x="355.19601"
+             y="-475.16901"
              font-family="Calibri"
              font-size="18px"
-             id="text42">System</text>
+             id="text64">System</text>
         </a>
       </g>
     </g>
-    <!-- n_set&#45;&gt;n_system -->
+    <!-- n_types&#45;&gt;n_system -->
     <g
        id="edge1"
        class="edge">
       <title
-         id="title48">n_set-&gt;n_system</title>
+         id="title70">n_types-&gt;n_system</title>
       <path
          fill="none"
          stroke="#000000"
-         d="m 180,-263.943 c 0,6.821 0,13.903 0,20.138"
-         id="path50" />
+         d="m 355.196,-600.784 c 0,31.797 0,75.967 0,100.96"
+         id="path72" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="183.5,-264.289 176.5,-264.289 180,-274.289 "
-         id="polygon52" />
+         points="358.696,-592.569 351.696,-592.568 355.196,-602.569 "
+         id="polygon74" />
       <text
          text-anchor="middle"
-         x="195.5"
-         y="-255.39799"
+         x="373.69601"
+         y="-568.36902"
          font-family="Calibri"
          font-size="14px"
-         id="text54"> is a  </text>
-    </g>
-    <!-- n_coherent -->
-    <g
-       id="node4"
-       class="node">
-      <title
-         id="title57">n_coherent</title>
-      <ellipse
-         fill="#d6e7ff"
-         stroke="#000000"
-         cx="305"
-         cy="-223.799"
-         rx="37.6017"
-         ry="18"
-         id="ellipse59" />
+         id="text76"> may  </text>
       <text
          text-anchor="middle"
-         x="305"
-         y="-220.69901"
-         font-family="Calibri"
-         font-size="12px"
-         id="text61">Coherent</text>
-    </g>
-    <!-- n_system&#45;&gt;n_coherent -->
-    <g
-       id="edge4"
-       class="edge">
-      <title
-         id="title64">n_system-&gt;n_coherent</title>
-      <path
-         fill="none"
-         stroke="#000000"
-         d="m 228.828,-223.799 c 9.396,0 18.792,0 28.188,0"
-         id="path66" />
-      <polygon
-         fill="#000000"
-         stroke="#000000"
-         points="257.212,-220.299 257.212,-227.299 267.212,-223.799 "
-         id="polygon68" />
-      <text
-         text-anchor="middle"
-         x="254.71201"
-         y="-227.599"
+         x="373.69601"
+         y="-553.36902"
          font-family="Calibri"
          font-size="14px"
-         id="text70"> is   </text>
+         id="text78"> be  </text>
     </g>
-    <!-- n_types -->
+    <!-- n_boundaries -->
     <g
        id="node5"
        class="node">
       <title
-         id="title73">n_types</title>
-      <polygon
+         id="title81">n_boundaries</title>
+      <ellipse
          fill="#d6e7ff"
          stroke="#000000"
-         points="111.5,-116 111.5,-53 16.5,-53 16.5,-116 "
-         id="polygon75" />
+         cx="355.19601"
+         cy="-264.38501"
+         rx="67.3507"
+         ry="18.2703"
+         id="ellipse83" />
       <text
          text-anchor="middle"
-         x="64"
-         y="-102.4"
+         x="355.19601"
+         y="-260.58499"
          font-family="Calibri"
-         font-size="12px"
-         id="text77">System Design</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="16.5,-95 111.5,-95 "
-         id="polyline79" />
-      <text
-         text-anchor="middle"
-         x="64"
-         y="-81.400002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text81">System Package</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="16.5,-74 111.5,-74 "
-         id="polyline83" />
-      <text
-         text-anchor="middle"
-         x="64"
-         y="-60.400002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text85">System Instance</text>
+         font-size="16px"
+         id="text85">Boundaries</text>
     </g>
-    <!-- n_system&#45;&gt;n_types -->
+    <!-- n_system&#45;&gt;n_boundaries -->
     <g
-       id="edge5"
+       id="edge4"
        class="edge">
       <title
-         id="title88">n_system-&gt;n_types</title>
+         id="title88">n_system-&gt;n_boundaries</title>
       <path
          fill="none"
          stroke="#000000"
-         d="m 137.768,-213.649 c -10.749,3.975 -21.566,9.63 -29.768,17.649 -11.0575,10.81 -19.4109,24.752 -25.6961,39.068"
+         d="m 355.196,-459.65 c 0,37.75 0,122.574 0,166.588"
          id="path90" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="78.9929,-158.082 85.4764,-155.443 78.4646,-147.5 "
+         points="351.696,-293.056 358.696,-293.056 355.196,-283.056 "
          id="polygon92" />
       <text
          text-anchor="middle"
-         x="142"
-         y="-184.8"
+         x="380.19601"
+         y="-379.07001"
          font-family="Calibri"
          font-size="14px"
-         id="text94"> may  </text>
+         id="text94"> defined</text>
       <text
          text-anchor="middle"
-         x="142"
-         y="-169.8"
+         x="380.19601"
+         y="-364.07001"
          font-family="Calibri"
          font-size="14px"
-         id="text96"> designate  </text>
+         id="text96">by</text>
     </g>
-    <!-- n_it_components -->
-    <g
-       id="node6"
-       class="node">
-      <title
-         id="title99">n_it_components</title>
-      <polygon
-         fill="#d6e7ff"
-         stroke="#000000"
-         points="214.5,-126.5 214.5,-42.5 145.5,-42.5 145.5,-126.5 "
-         id="polygon101" />
-      <text
-         text-anchor="middle"
-         x="180"
-         y="-112.9"
-         font-family="Calibri"
-         font-size="12px"
-         id="text103">Hardware</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="145.5,-105.5 214.5,-105.5 "
-         id="polyline105" />
-      <text
-         text-anchor="middle"
-         x="180"
-         y="-91.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text107">Software</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="145.5,-84.5 214.5,-84.5 "
-         id="polyline109" />
-      <text
-         text-anchor="middle"
-         x="180"
-         y="-70.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text111">Data</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="145.5,-63.5 214.5,-63.5 "
-         id="polyline113" />
-      <text
-         text-anchor="middle"
-         x="180"
-         y="-49.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text115">Processing</text>
-    </g>
-    <!-- n_system&#45;&gt;n_it_components -->
-    <g
-       id="edge6"
-       class="edge">
-      <title
-         id="title118">n_system-&gt;n_it_components</title>
-      <path
-         fill="none"
-         stroke="#000000"
-         d="m 180,-203.996 c 0,9.882 0,22.753 0,36.361"
-         id="path120" />
-      <polygon
-         fill="#000000"
-         stroke="#000000"
-         points="176.5,-167.629 183.5,-167.629 180,-157.629 "
-         id="polygon122" />
-      <text
-         text-anchor="middle"
-         x="210.5"
-         y="-177.3"
-         font-family="Calibri"
-         font-size="14px"
-         id="text124"> contains  </text>
-    </g>
-    <!-- n_non_it_components -->
-    <g
-       id="node7"
-       class="node">
-      <title
-         id="title127">n_non_it_components</title>
-      <polygon
-         fill="#d6e7ff"
-         stroke="#000000"
-         points="319.5,-126.5 319.5,-42.5 248.5,-42.5 248.5,-126.5 "
-         id="polygon129" />
-      <text
-         text-anchor="middle"
-         x="284"
-         y="-112.9"
-         font-family="Calibri"
-         font-size="12px"
-         id="text131">Entities</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="248.5,-105.5 319.5,-105.5 "
-         id="polyline133" />
-      <text
-         text-anchor="middle"
-         x="284"
-         y="-91.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text135">Procedures</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="248.5,-84.5 319.5,-84.5 "
-         id="polyline137" />
-      <text
-         text-anchor="middle"
-         x="284"
-         y="-70.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text139">Processes</text>
-      <polyline
-         fill="none"
-         stroke="#000000"
-         points="248.5,-63.5 319.5,-63.5 "
-         id="polyline141" />
-      <text
-         text-anchor="middle"
-         x="284"
-         y="-49.900002"
-         font-family="Calibri"
-         font-size="12px"
-         id="text143">Activities</text>
-    </g>
-    <!-- n_system&#45;&gt;n_non_it_components -->
-    <g
-       id="edge7"
-       class="edge">
-      <title
-         id="title146">n_system-&gt;n_non_it_components</title>
-      <path
-         fill="none"
-         stroke="#000000"
-         d="m 220.052,-212.402 c 9.133,3.917 18.14,9.232 24.948,16.402 7.914,8.335 14.235,18.373 19.279,28.956"
-         id="path148" />
-      <polygon
-         fill="#000000"
-         stroke="#000000"
-         points="261.181,-165.394 267.595,-168.197 268.392,-157.632 "
-         id="polygon150" />
-      <text
-         text-anchor="middle"
-         x="305.5"
-         y="-177.3"
-         font-family="Calibri"
-         font-size="14px"
-         id="text152"> may contain  </text>
-    </g>
-    <!-- n_observer -->
+    <!-- n_set -->
     <g
        id="node3"
        class="node">
       <title
-         id="title155">n_observer</title>
+         id="title99">n_set</title>
       <ellipse
-         fill="#d6e7ff"
+         fill="#ffffff"
          stroke="#000000"
-         cx="297"
-         cy="-294.397"
-         rx="58.880299"
+         cx="267.19601"
+         cy="-639.56897"
+         rx="28.0702"
          ry="19.6"
-         id="ellipse157" />
+         id="ellipse101" />
       <text
          text-anchor="middle"
-         x="297"
-         y="-289.99701"
+         x="267.19601"
+         y="-635.16901"
          font-family="Calibri"
          font-size="18px"
-         id="text159">Observer</text>
+         id="text103">Set</text>
     </g>
-    <!-- n_observer&#45;&gt;n_system -->
+    <!-- n_set&#45;&gt;n_system -->
     <g
        id="edge2"
        class="edge">
       <title
-         id="title162">n_observer-&gt;n_system</title>
+         id="title106">n_set-&gt;n_system</title>
       <path
          fill="none"
          stroke="#000000"
-         d="m 264.746,-277.803 c -6.921,3.544 -14.137,7.392 -20.746,11.205 -10.491,6.053 -21.635,13.103 -31.635,19.669"
-         id="path164" />
+         d="m 280.021,-611.524 c 10.297,21.233 25.423,51.381 40.175,76.955 7.033,12.194 15.622,25.466 22.531,35.801"
+         id="path108" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="210.313,-249.767 214.185,-243.936 203.918,-241.32 "
-         id="polygon166" />
+         points="283.14,-613.113 276.834,-610.076 275.648,-620.604 "
+         id="polygon110" />
       <text
          text-anchor="middle"
-         x="270"
-         y="-255.39799"
+         x="335.69601"
+         y="-560.86902"
          font-family="Calibri"
          font-size="14px"
-         id="text168"> look at  </text>
+         id="text112"> is a  </text>
     </g>
-    <!-- n_observer&#45;&gt;n_coherent -->
+    <!-- n_control -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title115">n_control</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="117.196"
+         cy="-375.26999"
+         rx="43.681801"
+         ry="24.0833"
+         id="ellipse117" />
+      <text
+         text-anchor="middle"
+         x="117.196"
+         y="-378.67001"
+         font-family="Calibri"
+         font-size="12px"
+         id="text119">Boundary</text>
+      <text
+         text-anchor="middle"
+         x="117.196"
+         y="-365.67001"
+         font-family="Calibri"
+         font-size="12px"
+         id="text121">Controls</text>
+    </g>
+    <!-- n_control&#45;&gt;n_boundaries -->
     <g
        id="edge3"
        class="edge">
       <title
-         id="title171">n_observer-&gt;n_coherent</title>
+         id="title124">n_control-&gt;n_boundaries</title>
       <path
          fill="none"
          stroke="#000000"
-         d="m 299.228,-274.289 c 0.805,6.898 1.729,14.824 2.599,22.281"
-         id="path173" />
+         d="m 156.443,-352.964 c 33.448,17.748 83.063,43.115 127.753,62.194 9.631,4.112 20.177,8.133 30.124,11.719"
+         id="path126" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="298.367,-251.459 305.32,-252.27 303.002,-241.932 "
-         id="polygon175" />
+         points="157.926,-356.139 154.632,-349.962 147.455,-357.756 "
+         id="polygon128" />
       <text
          text-anchor="middle"
-         x="334.5"
-         y="-255.39799"
+         x="312.69601"
+         y="-309.57001"
          font-family="Calibri"
          font-size="14px"
-         id="text177"> regard as  </text>
+         id="text130">protected</text>
+      <text
+         text-anchor="middle"
+         x="312.69601"
+         y="-294.57001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text132">by</text>
+    </g>
+    <!-- n_it_components -->
+    <g
+       id="node12"
+       class="node">
+      <title
+         id="title135">n_it_components</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="392.696,-160.5 392.696,-76.5 323.696,-76.5 323.696,-160.5 "
+         id="polygon137" />
+      <text
+         text-anchor="middle"
+         x="358.19601"
+         y="-146.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text139">Hardware</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="323.696,-139.5 392.696,-139.5 "
+         id="polyline141" />
+      <text
+         text-anchor="middle"
+         x="358.19601"
+         y="-125.9"
+         font-family="Calibri"
+         font-size="12px"
+         id="text143">Software</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="323.696,-118.5 392.696,-118.5 "
+         id="polyline145" />
+      <text
+         text-anchor="middle"
+         x="358.19601"
+         y="-104.9"
+         font-family="Calibri"
+         font-size="12px"
+         id="text147">Data</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="323.696,-97.5 392.696,-97.5 "
+         id="polyline149" />
+      <text
+         text-anchor="middle"
+         x="358.19601"
+         y="-83.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text151">Processing</text>
+    </g>
+    <!-- n_boundaries&#45;&gt;n_it_components -->
+    <g
+       id="edge14"
+       class="edge">
+      <title
+         id="title154">n_boundaries-&gt;n_it_components</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 353.638,-245.917 c -0.184,2.651 -0.341,5.355 -0.442,7.917 -0.46,11.683 -0.469,24.013 -0.206,36.129"
+         id="path156" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="349.494,-201.662 356.491,-201.857 353.271,-191.763 "
+         id="polygon158" />
+      <text
+         text-anchor="middle"
+         x="393.19601"
+         y="-226.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text160"> must include</text>
+      <text
+         text-anchor="middle"
+         x="393.19601"
+         y="-211.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text162">may exclude</text>
+    </g>
+    <!-- n_non_it_components -->
+    <g
+       id="node13"
+       class="node">
+      <title
+         id="title165">n_non_it_components</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="488.696,-160.5 488.696,-76.5 417.696,-76.5 417.696,-160.5 "
+         id="polygon167" />
+      <text
+         text-anchor="middle"
+         x="453.19601"
+         y="-146.89999"
+         font-family="Calibri"
+         font-size="12px"
+         id="text169">Entities</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="417.696,-139.5 488.696,-139.5 "
+         id="polyline171" />
+      <text
+         text-anchor="middle"
+         x="453.19601"
+         y="-125.9"
+         font-family="Calibri"
+         font-size="12px"
+         id="text173">Procedures</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="417.696,-118.5 488.696,-118.5 "
+         id="polyline175" />
+      <text
+         text-anchor="middle"
+         x="453.19601"
+         y="-104.9"
+         font-family="Calibri"
+         font-size="12px"
+         id="text177">Processes</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="417.696,-97.5 488.696,-97.5 "
+         id="polyline179" />
+      <text
+         text-anchor="middle"
+         x="453.19601"
+         y="-83.900002"
+         font-family="Calibri"
+         font-size="12px"
+         id="text181">Activities</text>
+    </g>
+    <!-- n_boundaries&#45;&gt;n_non_it_components -->
+    <g
+       id="edge15"
+       class="edge">
+      <title
+         id="title184">n_boundaries-&gt;n_non_it_components</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 410.568,-253.784 c 8.578,3.688 16.582,8.774 22.628,15.784 8.806,10.21 14.44,22.817 17.943,35.959"
+         id="path186" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="447.808,-200.904 454.636,-202.442 453.42,-191.917 "
+         id="polygon188" />
+      <text
+         text-anchor="middle"
+         x="488.19601"
+         y="-226.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text190">may include</text>
+      <text
+         text-anchor="middle"
+         x="488.19601"
+         y="-211.8"
+         font-family="Calibri"
+         font-size="14px"
+         id="text192"> may exclude</text>
+    </g>
+    <!-- n_observer -->
+    <g
+       id="node6"
+       class="node">
+      <title
+         id="title195">n_observer</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="473.19601"
+         cy="-639.56897"
+         rx="58.880299"
+         ry="19.6"
+         id="ellipse197" />
+      <text
+         text-anchor="middle"
+         x="473.19601"
+         y="-635.16901"
+         font-family="Calibri"
+         font-size="18px"
+         id="text199">Observer</text>
+    </g>
+    <!-- n_observer&#45;&gt;n_system -->
+    <g
+       id="edge5"
+       class="edge">
+      <title
+         id="title202">n_observer-&gt;n_system</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 454.892,-620.364 c -7.372,7.69 -15.753,16.91 -22.696,25.795 -19.582,25.063 -21.179,33.658 -39,60 -6.07,8.973 -12.837,18.68 -18.959,27.356"
+         id="path204" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="371.305,-509.129 377.017,-505.082 368.38,-498.946 "
+         id="polygon206" />
+      <text
+         text-anchor="middle"
+         x="450.69601"
+         y="-568.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text208">look    </text>
+      <text
+         text-anchor="middle"
+         x="450.69601"
+         y="-553.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text210">at       </text>
+    </g>
+    <!-- n_coherence -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title213">n_coherence</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="472.19601"
+         cy="-479.569"
+         rx="41.720299"
+         ry="18"
+         id="ellipse215" />
+      <text
+         text-anchor="middle"
+         x="472.19601"
+         y="-476.46899"
+         font-family="Calibri"
+         font-size="12px"
+         id="text217">Coherence</text>
+    </g>
+    <!-- n_observer&#45;&gt;n_coherence -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title220">n_observer-&gt;n_coherence</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 473.075,-619.51 c -0.175,27.753 -0.503,79.448 -0.705,111.357"
+         id="path222" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="468.868,-507.785 475.868,-507.74 472.305,-497.763 "
+         id="polygon224" />
+      <text
+         text-anchor="middle"
+         x="503.69601"
+         y="-568.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text226"> regard it</text>
+      <text
+         text-anchor="middle"
+         x="503.69601"
+         y="-553.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text228"> as having</text>
+    </g>
+    <!-- n_coherence&#45;&gt;n_boundaries -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title231">n_coherence-&gt;n_boundaries</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 466.961,-461.579 c -9.239,28.661 -30.105,87.883 -57.765,132.809 -8.56,13.903 -20.077,27.876 -30.276,39.15"
+         id="path233" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="376.349,-291.995 381.485,-287.238 372.122,-282.279 "
+         id="polygon235" />
+      <text
+         text-anchor="middle"
+         x="459.69601"
+         y="-371.57001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text237"> of</text>
+    </g>
+    <!-- n_desirable_characteristics -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title240">n_desirable_characteristics</title>
+      <polygon
+         fill="#d6e7ff"
+         stroke="#000000"
+         points="710.196,-413.27 710.196,-337.27 530.196,-337.27 530.196,-413.27 "
+         id="polygon242" />
+      <text
+         text-anchor="middle"
+         x="620.19598"
+         y="-401.26999"
+         font-family="Calibri"
+         font-size="10px"
+         id="text244">Ownership / Managerial Control</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="530.196,-394.27 710.196,-394.27 "
+         id="polyline246" />
+      <text
+         text-anchor="middle"
+         x="620.19598"
+         y="-382.26999"
+         font-family="Calibri"
+         font-size="10px"
+         id="text248">Functional Requirements / Goal</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="530.196,-375.27 710.196,-375.27 "
+         id="polyline250" />
+      <text
+         text-anchor="middle"
+         x="620.19598"
+         y="-363.26999"
+         font-family="Calibri"
+         font-size="10px"
+         id="text252">Non-Functional Requirements / Security</text>
+      <polyline
+         fill="none"
+         stroke="#000000"
+         points="530.196,-356.27 710.196,-356.27 "
+         id="polyline254" />
+      <text
+         text-anchor="middle"
+         x="620.19598"
+         y="-344.26999"
+         font-family="Calibri"
+         font-size="10px"
+         id="text256">Operational Constraints</text>
+    </g>
+    <!-- n_coherence&#45;&gt;n_desirable_characteristics -->
+    <g
+       id="edge12"
+       class="edge">
+      <title
+         id="title259">n_coherence-&gt;n_desirable_characteristics</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 493.401,-463.912 c 6.026,4.166 13.028,9.005 20.586,14.23"
+         id="path261" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="512.171,-446.682 516.151,-452.441 522.388,-443.876 "
+         id="polygon263" />
+      <text
+         text-anchor="middle"
+         x="574.19598"
+         y="-440.57001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text265">should</text>
+      <text
+         text-anchor="middle"
+         x="574.19598"
+         y="-425.57001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text267">have</text>
+    </g>
+    <!-- n_effectiveness -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title270">n_effectiveness</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="117.196"
+         cy="-479.569"
+         rx="50.456299"
+         ry="18"
+         id="ellipse272" />
+      <text
+         text-anchor="middle"
+         x="117.196"
+         y="-476.46899"
+         font-family="Calibri"
+         font-size="12px"
+         id="text274">Effectiveness</text>
+    </g>
+    <!-- n_effectiveness&#45;&gt;n_control -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title277">n_effectiveness-&gt;n_control</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 117.196,-461.215 c 0,14.068 0,34.309 0,51.504"
+         id="path279" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="113.696,-409.481 120.696,-409.481 117.196,-399.481 "
+         id="polygon281" />
+      <text
+         text-anchor="middle"
+         x="131.196"
+         y="-433.07001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text283"> of   </text>
+    </g>
+    <!-- n_connected_system -->
+    <g
+       id="node9"
+       class="node">
+      <title
+         id="title286">n_connected_system</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="117.196"
+         cy="-639.56897"
+         rx="50.456299"
+         ry="18"
+         id="ellipse288" />
+      <text
+         text-anchor="middle"
+         x="117.196"
+         y="-636.46899"
+         font-family="Calibri"
+         font-size="12px"
+         id="text290">Other System</text>
+    </g>
+    <!-- n_connected_system&#45;&gt;n_system -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title293">n_connected_system-&gt;n_system</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 158.969,-621.018 c 12.785,6.852 26.124,15.685 36.227,26.449 20.269,21.597 7.446,39.687 29,60 21.827,20.571 52.577,33.796 78.801,42.007"
+         id="path295" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="160.314,-624.26 157.15,-618.016 149.812,-625.657 "
+         id="polygon297" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="302.215,-489.143 304.205,-495.855 312.797,-489.656 "
+         id="polygon299" />
+      <text
+         text-anchor="middle"
+         x="254.696"
+         y="-568.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text301">connected</text>
+      <text
+         text-anchor="middle"
+         x="254.696"
+         y="-553.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text303">with</text>
+    </g>
+    <!-- n_connected_system&#45;&gt;n_control -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title306">n_connected_system-&gt;n_control</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 86.0686,-617.181 c -26.0831,19.982 -61.4558,52.414 -76.8728,90.612 -11.11148,27.531 -13.0822,40.149 0,66.799 15.5087,31.594 49.3659,54.631 75.0659,68.408"
+         id="path308" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="88.2476,-614.439 84.0642,-620.052 94.1736,-623.222 "
+         id="polygon310" />
+      <text
+         text-anchor="middle"
+         x="33.695801"
+         y="-483.36899"
+         font-family="Calibri"
+         font-size="14px"
+         id="text312"> protect</text>
+      <text
+         text-anchor="middle"
+         x="33.695801"
+         y="-468.36899"
+         font-family="Calibri"
+         font-size="14px"
+         id="text314">from</text>
+    </g>
+    <!-- n_connected_system&#45;&gt;n_effectiveness -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title317">n_connected_system-&gt;n_effectiveness</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 117.196,-611.163 c 0,32.625 0,86.114 0,113.406"
+         id="path319" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="120.696,-611.359 113.696,-611.359 117.196,-621.359 "
+         id="polygon321" />
+      <text
+         text-anchor="middle"
+         x="155.696"
+         y="-583.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text323">define</text>
+      <text
+         text-anchor="middle"
+         x="155.696"
+         y="-568.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text325">security</text>
+      <text
+         text-anchor="middle"
+         x="155.696"
+         y="-553.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text327"> dependency</text>
+      <text
+         text-anchor="middle"
+         x="155.696"
+         y="-538.36902"
+         font-family="Calibri"
+         font-size="14px"
+         id="text329">with</text>
+    </g>
+    <!-- n_desirable_coherence -->
+    <g
+       id="node11"
+       class="node">
+      <title
+         id="title332">n_desirable_coherence</title>
+      <ellipse
+         fill="#d6e7ff"
+         stroke="#000000"
+         cx="620.19598"
+         cy="-479.569"
+         rx="34.963799"
+         ry="18"
+         id="ellipse334" />
+      <text
+         text-anchor="middle"
+         x="620.19598"
+         y="-477.069"
+         font-family="Calibri"
+         font-size="10px"
+         id="text336">Coherence</text>
+    </g>
+    <!-- n_desirable_coherence&#45;&gt;n_desirable_characteristics -->
+    <g
+       id="edge13"
+       class="edge">
+      <title
+         id="title339">n_desirable_coherence-&gt;n_desirable_characteristics</title>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 620.196,-461.215 c 0,10.357 0,24.06 0,37.431"
+         id="path341" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="616.696,-423.686 623.696,-423.686 620.196,-413.686 "
+         id="polygon343" />
+      <text
+         text-anchor="middle"
+         x="629.69598"
+         y="-433.07001"
+         font-family="Calibri"
+         font-size="14px"
+         id="text345"> of</text>
     </g>
   </g>
 </svg>

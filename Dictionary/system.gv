@@ -10,6 +10,13 @@ digraph G {
 	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
 	edge[fontname="Calibri", minlen="1"];
 
+	n_types -> n_system [weight=100, dir="back", label="  may  \n  be  ", ltail="cluster_types"];
+	subgraph cluster_types {
+		label="System Types";
+		fontsize="12";
+		n_types [fontsize="10", label="{{System Design}|{System Package}|{System Instance}}", shape="record", color="black", fontcolor="black"];
+	}
+
 	# Parent Concept
 	n_set [label="Set", fontsize=18, fillcolor="#ffffff"];
 	n_set -> n_system [weight=10, label="  is a  ", dir="back"];
@@ -18,41 +25,71 @@ digraph G {
 	n_system [label="System", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/5965562"];
 
 	# Key Characteristics
+
+	n_control [label="Boundary\nControls"];
+	n_control -> n_boundaries [dir="back", label="protected\nby"];
+
+	n_boundaries [label=" Boundaries ", fontsize=16];
+	n_system -> n_boundaries [label="  defined\nby"];
 	n_observer [label="Observer", fontsize=18];
-	n_observer -> n_system [label="  look at  "];
-	n_observer -> n_coherent [label="  regard as  "];
-	n_coherent [label="Coherent"];
-	n_system -> n_coherent [headlabel="  is   "];
+	n_observer -> n_system [weight=100, label="look    \nat       "];
+	n_observer -> n_coherence [label="  regard it\n  as having"];
+	n_coherence [label="Coherence"];
+	#n_coherence -> n_system [dir="back", label="is"];
+	n_coherence -> n_boundaries [label="  of"];
 
-	n_system -> n_types [label="  may  \n  designate  ", lhead="cluster_types"];
-	subgraph cluster_types {
-		label="System Types";
-		fontsize="14";
-		n_types [label="{{System Design}|{System Package}|{System Instance}}", shape="record", color="black", fontcolor="black"];
+
+	n_effectiveness [label="Effectiveness"];
+	n_effectiveness -> n_control [label="  of   "];
+	n_connected_system -> n_control [dir="back", label="  protect\nfrom"];
+	n_connected_system -> n_effectiveness [weight=100, dir="back", label="define\nsecurity\n  dependency\nwith"];
+
+	n_connected_system [label="Other System"];
+	n_connected_system -> n_system [weight=100, dir="both", label="connected\nwith"];
+
+	#n_desirable_characteristics -> n_coherence [label="should\nhave", ltail="cluster_desirable_characteristics"];
+	n_coherence -> n_desirable_characteristics [label="should\nhave", lhead="cluster_desirable_characteristics"];
+	subgraph cluster_desirable_characteristics {
+		label="Desirable Properties";
+		fontsize="12";
+		n_desirable_coherence [fontsize="10", label="Coherence"];
+		n_desirable_characteristics [fontsize="10", label="{{Ownership / Managerial Control}|{Functional Requirements / Goal}|{Non-Functional Requirements / Security}|{Operational Constraints}}", shape="record", color="black", fontcolor="black"];
+		n_desirable_coherence -> n_desirable_characteristics [label="  of"]
 	}
 
-	n_system -> n_it_components [label="  contains  ", lhead="cluster_it_components"];
-	subgraph cluster_it_components {
-		label="IT Components";
-		fontsize="14";
-		n_it_components [label="{{Hardware}|{Software}|{Data}|{Processing}}", shape="record", color="black", fontcolor="black"];
+	n_boundaries -> n_it_components [label="  must include\nmay exclude", lhead="cluster_it_components"];
+	n_boundaries -> n_non_it_components [label="may include\n  may exclude", lhead="cluster_non_it_components"];
+
+	#n_boundaries -> n_it_components [label="includes\nand/or\nexcludes\n ", lhead="cluster_components"];
+	#n_boundaries -> n_it_components [label="  excludes  ", lhead="cluster_components"];
+
+	subgraph cluster_components {
+		label="Components";
+		fontsize="16";
+		labelloc="b";
+
+		subgraph cluster_it_components {
+			label="IT";
+			fontsize="14";
+			labelloc="t";
+			n_it_components [label="{{Hardware}|{Software}|{Data}|{Processing}}", shape="record", color="black", fontcolor="black"];
+		}
+
+		subgraph cluster_non_it_components {
+			label="Non-IT";
+			fontsize="14";
+			labelloc="t";
+			n_non_it_components [label="{{Entities}|{Procedures}|{Processes}|{Activities}}", shape="record", color="black", fontcolor="black"];
+		}
+
 	}
-
-	n_system -> n_non_it_components [label="  may contain  ", lhead="cluster_non_it_components"];
-	subgraph cluster_non_it_components {
-		label="Non-IT Components";
-		fontsize="14";
-		n_non_it_components [label="{{Entities}|{Procedures}|{Processes}|{Activities}}", shape="record", color="black", fontcolor="black"];
-	}
-
-
 
 	# Hyponyms
-	# n_characteristics -> n_system [dir="back"; label=" is generally "];
+	#n_set -> n_boundaries [label="", style="invis"];
 	# n_characteristics [label="Illegal"];
 
 	# Levels
-	{ rank=same; n_system; n_coherent; }
-	#{ rank=same; n_control; n_identity }
+	#{ rank=same; n_control; n_boundaries; }
+	{ rank=same; n_effectiveness; n_system }
 
 }
