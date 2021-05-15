@@ -37,7 +37,7 @@ CD %DIC_Path%
 
 SET DPI=300
 
-FOR %%F IN (%DIC_Path%\account-takeover.gv) DO (
+FOR %%F IN (%DIC_Path%\system.gv) DO (
 	ECHO. 
 	ECHO *********************
     ECHO * %%~nF

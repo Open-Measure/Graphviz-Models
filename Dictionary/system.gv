@@ -1,0 +1,58 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="System - Computer Science (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_set [label="Set", fontsize=18, fillcolor="#ffffff"];
+	n_set -> n_system [weight=10, label="  is a  ", dir="back"];
+
+	# Concept
+	n_system [label="System", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/5965562"];
+
+	# Key Characteristics
+	n_observer [label="Observer", fontsize=18];
+	n_observer -> n_system [label="  look at  "];
+	n_observer -> n_coherent [label="  regard as  "];
+	n_coherent [label="Coherent"];
+	n_system -> n_coherent [headlabel="  is   "];
+
+	n_system -> n_types [label="  may  \n  designate  ", lhead="cluster_types"];
+	subgraph cluster_types {
+		label="System Types";
+		fontsize="14";
+		n_types [label="{{System Design}|{System Package}|{System Instance}}", shape="record", color="black", fontcolor="black"];
+	}
+
+	n_system -> n_it_components [label="  contains  ", lhead="cluster_it_components"];
+	subgraph cluster_it_components {
+		label="IT Components";
+		fontsize="14";
+		n_it_components [label="{{Hardware}|{Software}|{Data}|{Processing}}", shape="record", color="black", fontcolor="black"];
+	}
+
+	n_system -> n_non_it_components [label="  may contain  ", lhead="cluster_non_it_components"];
+	subgraph cluster_non_it_components {
+		label="Non-IT Components";
+		fontsize="14";
+		n_non_it_components [label="{{Entities}|{Procedures}|{Processes}|{Activities}}", shape="record", color="black", fontcolor="black"];
+	}
+
+
+
+	# Hyponyms
+	# n_characteristics -> n_system [dir="back"; label=" is generally "];
+	# n_characteristics [label="Illegal"];
+
+	# Levels
+	{ rank=same; n_system; n_coherent; }
+	#{ rank=same; n_control; n_identity }
+
+}
