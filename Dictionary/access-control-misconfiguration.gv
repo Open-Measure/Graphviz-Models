@@ -1,0 +1,55 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Account-Control Misconfiguration (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_system_misconfiguration [label="System Misconfiguration", fillcolor="#ffffff"];
+	n_system_misconfiguration -> n_access_control_misconfiguration [weight=10, label="  is  ", dir="back"];
+
+	# Concept
+	n_access_control_misconfiguration [label="Account-Control\nMisconfiguration", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1781104660"];
+	n_access_control_misconfiguration -> n_it_system [weight=10, label="  characterized by  ", lhead="cluster_definition"];
+	# Key Characteristics
+	subgraph cluster_definition {
+		label="";
+		fontsize="14";
+		n_it_system [label="IT System"];
+		n_system_owner [label="Owner"];
+		n_it_system -> n_system_owner [label="  has  "];
+		n_system_owner -> n_security_policy [label="  define  "];
+		n_security_policy [label="Security\nPolicy"];
+		n_access_control_configuration [label="Access Control\nConfiguration"];
+		n_it_system -> n_access_control_configuration [label="  has  "];
+		n_access_control_configuration -> n_security_policy [label="  non-compliant  \n  with  "];
+	}
+
+	n_detection [label="Detection"];
+	n_access_control_misconfiguration -> n_detection [label="  of  ", dir="back"];
+	n_hard [label="Hard"];
+	n_detection -> n_hard [label="  is  "];
+	n_unnoticed [label="Unnoticed"];
+	n_unnoticed -> n_long_time [label="  during  "];
+	n_long_time [label="Long Time"];
+	n_access_control_misconfiguration -> n_unnoticed [label="  may stay  "];
+	n_unnoticed -> n_detection [label="  because  "];
+
+n_access_control_misconfiguration -> n_exploitation [label="  of  ", dir="back"];
+	n_threat_agent [label="Threat Agent"];
+	n_exploitation [label="Exploitation"];
+	n_exploitation -> n_threat_agent [label="  by  "];
+	n_trivial [label="Trivial"];
+	n_exploitation -> n_trivial [label="  is  "];
+
+	# Levels
+	#{ rank=same; n_perpetrator; n_distinct; n_victim; }
+	#{ rank=same; n_control; n_identity }
+
+}
