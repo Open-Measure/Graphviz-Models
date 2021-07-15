@@ -15,7 +15,7 @@ digraph G {
 	n_system_misconfiguration -> n_access_control_misconfiguration [weight=10, label="  is  ", dir="back"];
 
 	# Concept
-	n_access_control_misconfiguration [label="Account-Control\nMisconfiguration", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1781104660"];
+	n_access_control_misconfiguration [label="Access-Control\nMisconfiguration", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1781104660"];
 	n_access_control_misconfiguration -> n_it_system [weight=10, label="  characterized by  ", lhead="cluster_definition"];
 	# Key Characteristics
 	subgraph cluster_definition {
