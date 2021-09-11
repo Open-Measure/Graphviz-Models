@@ -1,0 +1,58 @@
+digraph G {
+	rankdir="TB";
+	ranksep="0";
+	newrank=true;
+	packmode="clust";
+	compound=true;
+	fontname="Calibri";
+	label="Workforce Mover Process (Conceptual Diagram) by Open-Measure\nLicensed under Creative Commons Attribution 4.0 International License";
+	fontsize=8;
+	node[shape="ellipse", fontsize=12, fillcolor="#d6e7ff", style="filled", fontname="Calibri"];
+	edge[fontname="Calibri", minlen="1"];
+
+	# Parent Concept
+	n_identity_theft [label="Identity Theft", fillcolor="#ffffff"];
+	n_identity_theft -> n_account_takeover [weight=10, label="  is a  ", dir="back"];
+
+	# Concept
+	n_account_takeover [label="Account Takeover", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1079050286"];
+
+	# Key Characteristics
+	n_account_takeover -> n_perpetrator [label="  committed  \n  by  "];
+	n_perpetrator [label="Perpetrator", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_perpetrator -> n_control [headlabel="take        "];
+	n_control [label="Control"];
+	n_control -> n_identity [headlabel="  of   "];
+	n_identity [label="Identity", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/67600948"];
+	n_victim [label="Victim", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/123830932"];
+
+	#n_perpetrator -> n_victim [label="  distinct  ", dir="both"];
+	n_distinct [label="", shape="none", fillcolor="invis", width=0, height=0]
+	n_perpetrator -> n_distinct [dir="back", weight=1000, headlabel="x", labeldistance=0, fontsize="50", fontname="Verdana", fontcolor="#ff0000"];
+	n_distinct -> n_victim [weight=1000, fontcolor="#ff0000"];
+
+	n_victim -> n_control [headlabel="           loose\n\n"];
+	n_victim -> n_identity [label="  owns  "];
+	n_motivations -> n_perpetrator [dir="back", label="  motivated  \n  by  ", ltail="cluster_motivations"];
+	subgraph cluster_motivations {
+		label="Motivations";
+		fontsize="14";
+		n_motivations [label="{{<money> Money|<reputation_harm> Reputation Harm}|{<identity_deception> Identity Deception|<etc> ...}}", shape="record", color="black", fontcolor="black"];
+	}
+
+	n_victim -> n_authorization [headlabel="        has"];
+	n_authorization [label="Authorization"]
+	n_perpetrator -> n_authorization_no [weight=100, headlabel="x", labeldistance=0, fontsize="50", fontname="Verdana", fontcolor="#ff0000", arrowhead="none"];
+	n_authorization_no [label="", shape="none", fillcolor="invis", width=0, height=0]
+	n_authorization_no -> n_authorization [weight=10, label=""];
+	n_authorization -> n_control [label="   to"];
+
+	# Children Concepts
+	n_characteristics -> n_account_takeover [dir="back"; label=" is generally "];
+	n_characteristics [label="Illegal"];
+
+	# Levels
+	{ rank=same; n_perpetrator; n_distinct; n_victim; }
+	{ rank=same; n_control; n_identity }
+
+}

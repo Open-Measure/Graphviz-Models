@@ -12,44 +12,62 @@ digraph G {
 
 	# Parent Concept
 	n_system_misconfiguration [label="System Misconfiguration", fillcolor="#ffffff"];
-	n_system_misconfiguration -> n_access_control_misconfiguration [weight=10, label="  is  ", dir="back"];
+	n_system_misconfiguration -> n_secutiry_misconfiguration [weight=10, label="  is  ", dir="back"];
+
+	n_secutiry_misconfiguration [label="Security Misconfiguration", fillcolor="#ffffff"];
+	n_secutiry_misconfiguration -> n_access_control_misconfiguration [weight=10, label="  is  ", dir="back"];
 
 	# Concept
 	n_access_control_misconfiguration [label="Access-Control\nMisconfiguration", fontsize=18, fillcolor="#5599ff", URL="https://open-measure.atlassian.net/wiki/spaces/DIC/pages/1781104660"];
-	n_access_control_misconfiguration -> n_it_system [weight=10, label="  characterized by  ", lhead="cluster_definition"];
+
+	n_access_control_misconfiguration -> n_access_control_configuration [weight=10, label="  characterized by  ", lhead="cluster_definition"];
 	# Key Characteristics
 	subgraph cluster_definition {
-		label="";
+		label="Definition";
 		fontsize="14";
+		n_access_control_configuration [label="Access Control\nConfiguration"];
+		n_access_control_configuration -> n_security_policy [label="  non-compliant  \n  with  "];
 		n_it_system [label="IT System"];
 		n_system_owner [label="Owner"];
+		n_access_control_configuration -> n_it_system [label="  has  ", dir="back"];
 		n_it_system -> n_system_owner [label="  has  "];
 		n_system_owner -> n_security_policy [label="  define  "];
 		n_security_policy [label="Security\nPolicy"];
-		n_access_control_configuration [label="Access Control\nConfiguration"];
-		n_it_system -> n_access_control_configuration [label="  has  "];
-		n_access_control_configuration -> n_security_policy [label="  non-compliant  \n  with  "];
+	}
+
+	n_access_control_misconfiguration -> n_causes [weight=10, label="  may have  ", lhead="cluster_causes"];
+	subgraph cluster_causes {
+		label="Causes";
+		fontsize="14";
+		n_causes [label="{Try & Error Problem-Solving|Manual Provisioning Errors|Weak Incident Mgmt|Weak Change Mgmt|Incompetence}", shape="record"];
+	}
+
+	n_access_control_misconfiguration -> n_countermeasures [weight=10, label="  may be mitigated by  ", lhead="cluster_countermeasures"];
+	subgraph cluster_countermeasures {
+		label="Countermeasures";
+		fontsize="14";
+		n_countermeasures [label="{Adequate Error Messages|Reliable Documentation|Awareness Training|PAM|Configuration Scans|Audits|Reconciliation Controls}", shape="record"];
 	}
 
 	n_detection [label="Detection"];
-	n_access_control_misconfiguration -> n_detection [label="  of  ", dir="back"];
+	n_detection -> n_access_control_misconfiguration [label="  of  "];
 	n_hard [label="Hard"];
-	n_detection -> n_hard [label="  is  "];
+	n_hard -> n_detection [label="  is  ", dir="back"];
 	n_unnoticed [label="Unnoticed"];
-	n_unnoticed -> n_long_time [label="  during  "];
+	n_long_time -> n_unnoticed [label="  during  ", dir="back"];
 	n_long_time [label="Long Time"];
-	n_access_control_misconfiguration -> n_unnoticed [label="  may stay  "];
-	n_unnoticed -> n_detection [label="  because  "];
+	n_unnoticed -> n_access_control_misconfiguration [label="  may stay  ", dir="back"];
+	n_detection -> n_unnoticed [label="  because  ", dir="back"];
 
-n_access_control_misconfiguration -> n_exploitation [label="  of  ", dir="back"];
+	n_exploitation -> n_access_control_misconfiguration [label="\nof"];
 	n_threat_agent [label="Threat Agent"];
 	n_exploitation [label="Exploitation"];
-	n_exploitation -> n_threat_agent [label="  by  "];
+	n_threat_agent -> n_exploitation [label="  by  ", dir="back"];
 	n_trivial [label="Trivial"];
 	n_exploitation -> n_trivial [label="  is  "];
 
 	# Levels
-	#{ rank=same; n_perpetrator; n_distinct; n_victim; }
-	#{ rank=same; n_control; n_identity }
+	#{ rank=same; n_access_control_misconfiguration; n_unnoticed; n_long_time; }
+	#{ rank=same; n_access_control_misconfiguration; n_exploitation; }
 
 }
